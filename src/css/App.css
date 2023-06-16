@@ -1,0 +1,39 @@
+body {
+    background-color: var(--graphite100);
+    color: var(--ink);
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: white;
+    background-size: cover;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 1.5rem;
+    font-size: 400%;
+    font-weight: bolder;
+    text-align: left;
+}
+
+h1 nav {
+    display: inline-flex;
+}
+
+nav ul {
+    text-align: right;
+}
+
+header h1,
+nav ul a li {
+    display: inline-flex;
+    color: var(--ink);
+    padding: 7px;
+    transition: flex-basis 500ms linear;
+}
+
+nav ul a li {
+    font-size: larger;
+margin-right: 10px;
+}
