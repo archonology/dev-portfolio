@@ -33,7 +33,7 @@ const Quotes = () => {
                                         <li className="anim4">
                                             <q className="qoute">An amazing teammate, a hard worker, an exceptional listener, and a compassionate soul.</q>
                                             <p className="source">
-                                                -Heidi A.
+                                                - Coworker and client Heidi A.
                                             </p>
                                         </li>
                                     </ul></a>
