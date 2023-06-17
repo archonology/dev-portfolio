@@ -2,9 +2,9 @@ import * as React from "react";
 
 const Footer = () => {
     return (
-        <>
-            <h5>This is the footer</h5>
-        </>
+        <footer>
+            {/* <h5>MeherDevs 2023</h5> */}
+        </footer>
     )
 }
 

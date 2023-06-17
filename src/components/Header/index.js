@@ -6,6 +6,8 @@ const Header = () => {
         <>
             <header>
                 <h1>REED MEHER</h1>
+                <p>Full Stack Web Developer</p>
+                 <hr/>
                 <nav>
                     <ul>
                         <a href='/#/portfolio'><li>Portfolio</li></a>

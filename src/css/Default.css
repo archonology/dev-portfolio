@@ -1,0 +1,303 @@
+body {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: white;
+    background-size: cover;
+    padding: 1.7rem;
+    margin-bottom: .2rem;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: .4rem;
+    font-size: 350%;
+    font-weight: 700;
+}
+
+header p {
+    margin-bottom: 1rem;
+    font-size: 110%;
+    font-weight: 500;
+}
+
+h1 nav {
+    display: inline-flex;
+}
+
+nav ul {
+    margin-top: .5rem;
+}
+
+header h1,
+nav ul a li {
+    display: inline-flex;
+    color: var(--ink);
+    padding: 7px;
+    transition: flex-basis 500ms linear;
+}
+
+nav ul a li {
+    font-size: larger;
+    margin-right: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box-column {
+    flex: 1 0 100%;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+}
+
+.qoute-slider {
+    width: 100%;
+    height: auto;
+}
+
+.slider {
+    height: 320px;
+    max-width: 880px;
+    margin-top: 0;
+    overflow: visible;
+    position: relative;
+}
+
+.mask {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    overflow: hidden;
+    height: 520px;
+}
+
+.slider ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.slider li {
+    max-width: 780px;
+    max-height: 320px;
+    position: absolute;
+    right: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+q {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+.slider .source {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.slider li.anim1 {
+    animation: cycle 25s linear infinite;
+}
+
+.slider li.anim2 {
+    animation: cycle2 25s linear infinite;
+}
+
+.slider li.anim3 {
+    animation: cycle3 25s linear infinite;
+}
+
+.slider li.anim4 {
+    animation: cycle4 25s linear infinite;
+}
+
+@keyframes cycle {
+    0% {
+        left: 0px;
+        z-index: 0;
+        opacity: 0;
+    }
+
+    4% {
+        left: 0px;
+        opacity: 1;
+    }
+
+    16% {
+        left: 0px;
+        opacity: 1;
+        z-index: 0;
+    }
+
+    20% {
+        left: 0px;
+        opacity: 0;
+        z-index: 0;
+    }
+
+    21% {
+        left: 0px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    50% {
+        left: 0px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    92% {
+        left: 0px;
+        opacity: 0;
+        z-index: 0;
+    }
+
+    96% {
+        left: 0px;
+        opacity: 0;
+
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+
+    }
+}
+
+@keyframes cycle2 {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    16% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    20% {
+        left: 0px;
+        opacity: 1;
+    }
+
+    24% {
+        left: 0px;
+        opacity: 1;
+    }
+
+    36% {
+        left: 0px;
+        opacity: 0;
+        z-index: 0;
+    }
+
+    40% {
+        left: 0px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    41% {
+        left: 0px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes cycle3 {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    36% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    40% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    44% {
+        left: 0px;
+        opacity: 1;
+    }
+
+    56% {
+        left: 0px;
+        opacity: 1;
+        z-index: -1;
+    }
+
+    60% {
+        left: 0px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    61% {
+        left: 0px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+
+    }
+}
+
+@keyframes cycle4 {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    76% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    80% {
+        left: 0px;
+        opacity: 1;
+    }
+
+    84% {
+        left: 0px;
+        opacity: 1;
+    }
+
+    96% {
+        left: 0px;
+        opacity: 1;
+        z-index: 0;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+        z-index: 0;
+    }
+}
