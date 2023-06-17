@@ -1,11 +1,12 @@
 body {
-    background-color: var(--paper);
-    color: var(--ink);
+    background-image: linear-gradient(var(--graphite100) 60%, rgb(126, 127, 127));
+    color: var(--ink) 20%;    
     font-family: 'Lato', sans-serif;
+    line-height: 1.2;
 }
 
 header {
-    background-color: white;
+    background-color: var(--paper);
     background-size: cover;
     padding: 1.7rem;
     padding-top: 1.3rem;
@@ -46,6 +47,50 @@ nav ul a li {
     margin-right: 10px;
 }
 
+.container {
+    display: flex;
+    text-align: right;
+    margin: 2rem;
+    margin-bottom: 0;
+    padding: 30px 20px 30px 30px;
+    background-color: var(--paper);
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(211, 211, 211);
+    background-image: url('../images/bwPortraitRM.jpeg');
+    background-size: 70%;
+    background-position-x: 130%;
+    background-position-y: 70%;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+/* .self-portrait {
+    max-width: 120px;
+    border-radius: 30px;
+
+} */
+
+.container-content p {
+    max-width: 130px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 93%;
+    margin-left: -1em;
+}
+
+.container .links {
+    font-size: 105%;
+    font-weight: 600;
+    font-family: 'Cutive Mono', monospace;
+    margin-top: .5rem;
+    max-width: 150px;
+    margin-left: -2em;
+    transition: .5s;
+}
+
+.container a {
+    text-decoration: none;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +108,7 @@ nav ul a li {
     flex-direction: column;
     transition: flex-basis 500ms linear;
     margin-top: 3rem;
-    background-color: white;
+    background-color:var(--paper);
 }
 
 .qoute-slider {
@@ -71,7 +116,7 @@ nav ul a li {
     height: auto;
     margin-top: 3rem;
     position: relative;
-    background-color: white;
+    background-color: var(--paper);
 }
 
 .slider {
@@ -138,8 +183,16 @@ q {
     animation: cycle4 25s linear infinite;
 }
 
+nav ul a:hover li {
+    font-weight: 700;
+}
+
 a:hover {
     color: var(--graphite300);
+}
+
+.container .links:hover {
+    margin-left: -2.5em;
 }
 
 @keyframes cycle {
