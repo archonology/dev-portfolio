@@ -8,6 +8,7 @@ header {
     background-color: white;
     background-size: cover;
     padding: 1.7rem;
+    padding-top: 1.3rem;
     margin-bottom: .2rem;
     text-align: center;
 }
@@ -48,23 +49,33 @@ nav ul a li {
 .row {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+}
+
+.justify-center {
     align-items: center;
 }
 
 .box-column {
     flex: 1 0 100%;
+    flex-direction: column;
     transition: flex-basis 500ms linear;
-    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    background-color: white;
 }
 
 .qoute-slider {
     width: 100%;
     height: auto;
+    margin-top: 3rem;
+    position: relative;
+    background-color: white;
 }
 
 .slider {
-    height: 320px;
+    height: 160px;
     max-width: 880px;
     margin-top: 0;
     overflow: visible;
@@ -76,20 +87,26 @@ nav ul a li {
     flex-direction: column;
     padding: 2rem;
     overflow: hidden;
-    height: 520px;
+    height: 220px;
+}
+
+a {
+    color: var(--ink);
 }
 
 .slider ul {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    /* margin: 0;
+    padding: 0; */
     position: relative;
+    align-content: center;
 }
 
 .slider li {
     max-width: 780px;
     max-height: 320px;
     position: absolute;
-    right: 0px;
+    /* right: 0px; */
     list-style: none;
     text-align: center;
 }
@@ -121,102 +138,83 @@ q {
     animation: cycle4 25s linear infinite;
 }
 
+a:hover {
+    color: var(--graphite300);
+}
+
 @keyframes cycle {
     0% {
-        left: 0px;
-        z-index: 0;
-        opacity: 0;
+        opacity: 1;
     }
 
     4% {
-        left: 0px;
         opacity: 1;
+        z-index: 0;
     }
 
     16% {
-        left: 0px;
-        opacity: 1;
+        opacity: 0;
         z-index: 0;
     }
 
     20% {
-        left: 0px;
         opacity: 0;
-        z-index: 0;
+        z-index: -1;
     }
 
     21% {
-        left: 0px;
+
         opacity: 0;
         z-index: -1;
     }
 
     50% {
-        left: 0px;
         opacity: 0;
         z-index: -1;
     }
 
-    92% {
-        left: 0px;
-        opacity: 0;
-        z-index: 0;
-    }
-
     96% {
-        left: 0px;
         opacity: 0;
-
     }
 
     100% {
-        left: 0px;
-        opacity: 0;
-
+        opacity: 1;
     }
 }
 
 @keyframes cycle2 {
     0% {
-        left: 0px;
         opacity: 0;
     }
 
     16% {
-        left: 0px;
         opacity: 0;
     }
 
     20% {
-        left: 0px;
         opacity: 1;
     }
 
     24% {
-        left: 0px;
         opacity: 1;
     }
 
     36% {
-        left: 0px;
-        opacity: 0;
+        opacity: 1;
         z-index: 0;
     }
 
     40% {
-        left: 0px;
         opacity: 0;
-        z-index: -1;
+        z-index: 0;
     }
 
     41% {
-        left: 0px;
         opacity: 0;
         z-index: -1;
     }
 
     100% {
-        left: 0px;
         opacity: 0;
         z-index: -1;
     }
@@ -224,80 +222,76 @@ q {
 
 @keyframes cycle3 {
     0% {
-        left: 0px;
         opacity: 0;
     }
 
     36% {
-        left: 0px;
         opacity: 0;
     }
 
     40% {
-        left: 0px;
-        opacity: 0;
+        opacity: 1;
     }
 
     44% {
-        left: 0px;
         opacity: 1;
     }
 
     56% {
-        left: 0px;
         opacity: 1;
-        z-index: -1;
+        z-index: 0;
     }
 
     60% {
-        left: 0px;
         opacity: 0;
-        z-index: -1;
+        z-index: 0;
     }
 
     61% {
-        left: 0px;
         opacity: 0;
         z-index: -1;
     }
 
     100% {
-        left: 0px;
         opacity: 0;
-
+        z-index: -1;
     }
 }
 
 @keyframes cycle4 {
     0% {
-        left: 0px;
         opacity: 0;
+    }
+
+    56% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    64% {
+        opacity: 1;
     }
 
     76% {
-        left: 0px;
-        opacity: 0;
+        opacity: 1;
+        z-index: 0;
     }
 
     80% {
-        left: 0px;
         opacity: 1;
+        z-index: 0;
     }
 
-    84% {
-        left: 0px;
-        opacity: 1;
-    }
-
-    96% {
-        left: 0px;
+    81% {
         opacity: 1;
         z-index: 0;
     }
 
     100% {
-        left: 0px;
         opacity: 0;
-        z-index: 0;
+        z-index: -1;
     }
 }
