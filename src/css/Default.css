@@ -1,10 +1,8 @@
 body {
-    background-color: var(--graphite100);
+    background-color: var(--graphite200);
     color: var(--ink) 20%;
     font-family: 'Lato', sans-serif;
     line-height: 1.2;
-    background-size: cover;
-    margin-bottom: 10em;
 }
 
 header {
@@ -77,11 +75,11 @@ nav ul a li {
     display: flex;
     text-align: right;
     margin: 2rem;
-    margin-bottom: 0;
+    margin-bottom: 2em;
     padding: 30px 20px 30px 30px;
     background-color: var(--paper);
     border-radius: 20px;
-    box-shadow: 0 0 15px rgb(211, 211, 211);
+    box-shadow: 0 0 15px var(--graphite500);
     background-image: url('../images/bwPortraitRM.jpeg');
     background-size: 70%;
     background-position-x: 130%;
@@ -106,6 +104,11 @@ nav ul a li {
     margin-left: -1em;
 }
 
+.container-content .about {
+    font-size: 130%;
+    margin-left: 10em;
+}
+
 .container .links,
 .portfolio-container .links,
 .proj2 .p2-links {
@@ -119,7 +122,8 @@ nav ul a li {
 }
 
 footer {
-    height: 300px;
+    height: 120px;
+    background-color: var(--paper);
 }
 
 .container a {
@@ -223,6 +227,12 @@ a:hover {
         margin-left: 5em;
     }
 
+    .container-content .about {
+        max-width: 300px;
+        font-size: 130%;
+        margin-left: 12em;
+    }
+
     .container .links,
     .portfolio-container .links,
     .proj2 .p2-links {
@@ -259,6 +269,12 @@ a:hover {
         font-family: 'Cutive Mono', monospace;
         font-size: 130%;
         margin-left: 5em;
+    }
+
+    .container-content .about {
+        max-width: 270px;
+        font-size: 130%;
+        margin-left: 10em;
     }
 
     .container .links,
@@ -300,6 +316,12 @@ a:hover {
         margin-left: 2em;
     }
 
+    .container-content .about {
+        max-width: 270px;
+        font-size: 130%;
+        margin-left: 3em;
+    }
+
     .container .links,
     .portfolio-container .links,
     .proj2 .p2-links {
@@ -334,7 +356,7 @@ a:hover {
         padding: 2rem;
         width: 300px;
         border-radius: 20px;
-        box-shadow: 0 0 18px var(--graphite100);
+        box-shadow: 0 0 18px rgba(0, 0, 0, 0.368);
     }
 
     .container-content p,
@@ -344,6 +366,11 @@ a:hover {
         font-family: 'Cutive Mono', monospace;
         font-size: 150%;
         margin-left: 3em;
+    }
+
+    .container-content .about {
+        max-width: 250px;
+        font-size: 120%;
     }
 
     .container .links,
@@ -384,11 +411,9 @@ a:hover {
 
     .container-content,
     .cc2 {
-        background-color: var(--paper);
         padding: 2rem;
         width: 300px;
         border-radius: 20px;
-        box-shadow: 0 0 18px var(--graphite100);
     }
 
     .container-content p,
@@ -396,7 +421,11 @@ a:hover {
         max-width: 200px;
         font-family: 'Cutive Mono', monospace;
         font-size: 120%;
-        margin-left: 2em;
+        margin-left: 4em;
+    }
+
+    .about {
+        font-size: 100%;
     }
 
     .container .links,
@@ -407,7 +436,7 @@ a:hover {
         font-family: 'Cutive Mono', monospace;
         margin-top: .5rem;
         max-width: 165px;
-        margin-left: 2em;
+        margin-left: 4em;
     }
 
     /* .container .links:hover {
