@@ -16,6 +16,10 @@ const Header = () => {
                 </nav>
             </header>
 
+            <div className="donate">
+<button className="donate-button">DONATE</button>
+            </div>
+
         </>
     )
 }

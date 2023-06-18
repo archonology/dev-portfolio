@@ -1,8 +1,10 @@
 body {
-    background-image: linear-gradient(var(--graphite100) 60%, rgb(126, 127, 127));
+    background-color: var(--graphite100);
     color: var(--ink) 20%;
     font-family: 'Lato', sans-serif;
     line-height: 1.2;
+    background-size: cover;
+    margin-bottom: 10em;
 }
 
 header {
@@ -53,7 +55,25 @@ nav ul a li {
 
 }
 
-.container {
+.donate {
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+}
+
+.donate-button {
+    width: 105px;
+    height: 45px;
+    background-color: var(--ink);
+    border-radius: 10px;
+    color: var(--paper);
+    border: none;
+    box-shadow: 0 0 17px var(--graphite200);
+    transition: 1s;
+}
+
+.container,
+.portfolio-container {
     display: flex;
     text-align: right;
     margin: 2rem;
@@ -70,14 +90,25 @@ nav ul a li {
     height: 350px;
 }
 
-.container-content p {
+.proj1 {
+    background-image: url('../images/ChildWelfarePortal.jpg');
+}
+
+.proj2 {
+    background-image: url('../images/BakPak2.png');
+}
+
+.container-content p,
+.proj2 p {
     max-width: 130px;
     font-family: 'Cutive Mono', monospace;
     font-size: 93%;
     margin-left: -1em;
 }
 
-.container .links {
+.container .links,
+.portfolio-container .links,
+.proj2 .p2-links {
     font-size: 105%;
     font-weight: 600;
     font-family: 'Cutive Mono', monospace;
@@ -85,6 +116,10 @@ nav ul a li {
     max-width: 150px;
     margin-left: -2em;
     transition: .5s;
+}
+
+footer {
+    height: 300px;
 }
 
 .container a {
@@ -158,11 +193,12 @@ a:hover {
     color: var(--graphite300);
 }
 
-.container .links:hover {
-    margin-left: -2.5em;
+.donate-button:hover {
+    transform: scale(112%);
 }
 
-@media screen and (max-width: 2000px) {
+
+@media screen and (max-width: 3000px) {
     .container {
         background-size: 45%;
         background-position-x: 100%;
@@ -170,26 +206,35 @@ a:hover {
         height: 400px;
     }
 
-    .container-content p {
-        max-width: 320px;
-        font-family: 'Cutive Mono', monospace;
-        font-size: 112%;
-        margin-left: 15em;
+    .portfolio-container {
+        background-size: 70%;
+        background-position-x: 130%;
+        background-position-y: 0%;
+        background-repeat: no-repeat;
+        height: 450px;
     }
 
-    .container .links {
-        font-size: 114%;
+    .container-content p,
+    .portfolio-container p,
+    .proj2 p {
+        max-width: 220px;
+        font-family: 'Cutive Mono', monospace;
+        font-size: 150%;
+        margin-left: 5em;
+    }
+
+    .container .links,
+    .portfolio-container .links,
+    .proj2 .p2-links {
+        font-size: 134%;
         font-weight: 600;
         font-family: 'Cutive Mono', monospace;
         margin-top: .5rem;
-        max-width: 150px;
-        margin-left: 24em;
+        max-width: 350px;
+        margin-left: 10em;
         transition: .5s;
     }
 
-    .container .links:hover {
-        margin-left: 23.7em;
-    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -200,26 +245,35 @@ a:hover {
         height: 400px;
     }
 
-    .container-content p {
-        max-width: 220px;
-        font-family: 'Cutive Mono', monospace;
-        font-size: 108%;
-        margin-left: 16em;
+    .portfolio-container {
+        background-size: 55%;
+        background-position-x: 108%;
+        background-position-y: 70%;
+        height: 400px;
     }
 
-    .container .links {
-        font-size: 110%;
+    .container-content p,
+    .portfolio-container p,
+    .proj2 p {
+        max-width: 280px;
+        font-family: 'Cutive Mono', monospace;
+        font-size: 130%;
+        margin-left: 5em;
+    }
+
+    .container .links,
+    .portfolio-container .links,
+    .proj2 .p2-links {
+        font-size: 130%;
         font-weight: 600;
         font-family: 'Cutive Mono', monospace;
         margin-top: .5rem;
-        max-width: 150px;
-        margin-left: 19em;
+        max-width: 280px;
+        margin-left: 12em;
         transition: .5s;
     }
 
-    .container .links:hover {
-        margin-left: 18.7em;
-    }
+
 }
 
 @media screen and (max-width: 993px) {
@@ -230,56 +284,77 @@ a:hover {
         height: 400px;
     }
 
-    .container-content p {
-        max-width: 220px;
-        font-family: 'Cutive Mono', monospace;
-        font-size: 108%;
-        margin-left: 1em;
+    .portfolio-container {
+        background-size: 70%;
+        background-position-x: 120%;
+        background-position-y: 80%;
+        height: 400px;
     }
 
-    .container .links {
-        font-size: 110%;
+    .container-content p,
+    .portfolio-container p,
+    .proj2 p {
+        max-width: 220px;
+        font-family: 'Cutive Mono', monospace;
+        font-size: 150%;
+        margin-left: 2em;
+    }
+
+    .container .links,
+    .portfolio-container .links,
+    .proj2 .p2-links {
+        font-size: 130%;
         font-weight: 600;
         font-family: 'Cutive Mono', monospace;
         margin-top: .5rem;
         max-width: 220px;
-        margin-left: 1em;
+        margin-left: 6em;
     }
 
-    .container .links:hover {
-        margin-left: .7em;
-    }
 }
 
 @media screen and (max-width: 770px) {
     .container {
-        background-size: 90%;
-        background-position-x: 148%;
+        background-size: 80%;
+        background-position-x: 158%;
         background-position-y: 70%;
-        height: 500px;
+        height: 440px;
     }
 
-    .container-content {
+    .portfolio-container {
+        background-size: 150%;
+        background-position-x: 18%;
+        background-position-y: 20%;
+        height: 440px;
+    }
+
+    .container-content,
+    .cc2 {
         background-color: var(--paper);
         padding: 2rem;
+        width: 300px;
         border-radius: 20px;
         box-shadow: 0 0 18px var(--graphite100);
     }
 
-    .container-content p {
+    .container-content p,
+    .portfolio-container p,
+    .proj2 p {
         max-width: 175px;
         font-family: 'Cutive Mono', monospace;
-        font-size: 108%;
-        margin-left: 1em;
+        font-size: 150%;
+        margin-left: 3em;
     }
 
-    .container .links {
+    .container .links,
+    .portfolio-container .links,
+    .proj2 .p2-links {
         font-size: 110%;
         font-weight: 600;
         font-family: 'Cutive Mono', monospace;
         margin-top: .5rem;
         max-width: 165px;
-        margin-left: 1em;
+        margin-left: 3em;
     }
 }
 
@@ -288,39 +363,56 @@ a:hover {
         background-size: 185%;
         background-position-x: 148%;
         background-position-y: 70%;
-        height: 425px;
+        height: 440px;
         margin: 0;
         margin-top: -1;
         margin-bottom: 0;
         border-radius: 0;
     }
 
-    .container-content {
+    .portfolio-container {
+        background-size: 205%;
+        background-position-x: 18%;
+        background-position-y: 70%;
+        height: 440px;
+        margin: 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border-radius: 0;
+    }
+
+
+    .container-content,
+    .cc2 {
         background-color: var(--paper);
         padding: 2rem;
+        width: 300px;
         border-radius: 20px;
         box-shadow: 0 0 18px var(--graphite100);
     }
 
-    .container-content p {
+    .container-content p,
+    .proj2 p {
         max-width: 200px;
         font-family: 'Cutive Mono', monospace;
-        font-size: 97%;
-        margin-left: 1em;
+        font-size: 120%;
+        margin-left: 2em;
     }
 
-    .container .links {
+    .container .links,
+    .portfolio-container .links,
+    .proj2 .p2-links {
         font-size: 110%;
         font-weight: 600;
         font-family: 'Cutive Mono', monospace;
         margin-top: .5rem;
         max-width: 165px;
-        margin-left: 1em;
+        margin-left: 2em;
     }
 
-    .container .links:hover {
+    /* .container .links:hover {
         margin-left: .7em;
-    }
+    } */
 }
 
 @keyframes cycle {
