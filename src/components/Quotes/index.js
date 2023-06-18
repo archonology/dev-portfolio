@@ -15,19 +15,19 @@ const Quotes = () => {
                                     <ul>
                                         <li className="anim1"><q className="qoute">Does his job with creativity, compassion, and sincere attention to detail.</q>
                                             <p className="source">
-                                                -Coworker Brittany K.
+                                                - Coworker Brittany K.
                                             </p>
                                         </li>
                                         <li className="anim2">
                                             <q className="qoute">Very dependable and great at problem solving.</q>
                                             <p className="source">
-                                                -Coworker Agne S.
+                                                - Coworker Agne S.
                                             </p>
                                         </li>
                                         <li className="anim3">
-                                            <q className="qoute">Reed's excellent communication skills made our efforts more of a smooth process for the whole team</q>
+                                            <q className="qoute"> Excellent communication skills</q>
                                             <p className="source">
-                                                -Alexandra D.
+                                                - Teammate Alexandra D.
                                             </p>
                                         </li>
                                         <li className="anim4">
