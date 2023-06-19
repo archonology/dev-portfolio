@@ -92,6 +92,78 @@ p {
     height: 350px;
 }
 
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    background-color: var(--paper);
+    box-shadow: 0 0 15px var(--graphite500);
+    min-height: 450px;
+}
+
+.proj-columns {
+    flex: 1 0 50%;
+    transition: flex-basis 500ms linear;
+}
+
+.proj-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 300px;
+    padding: 3rem;
+}
+
+.proj-card h3 {
+    text-align: center;
+    margin-bottom: .5em;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 150%;
+}
+
+.proj-card p {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 130%;
+    margin-top: .2em;
+}
+
+.pics {
+    box-shadow: 7px 0 30px var(--graphite500);
+}
+
+.proj-links {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 110%;
+    padding-top: 1.5em;
+    margin-left: 0;
+}
+
+.proj-links a {
+    border: 1px solid var(--ink);
+    padding: .5rem 2rem .5rem 2rem;
+    border-radius: 0 0 12px 12px;
+    margin-right: .4rem;
+}
+
+.proj-links a:hover,
+.proj-links a:focus,
+.proj-links a:active {
+    color: var(--paper);
+    background-color: var(--graphite500);
+    box-shadow: 0 5px 10px var(--graphite100);
+}
+
+.proj-links a+a:hover,
+.proj-links a+a:focus,
+.proj-links a+a:active {
+    background-color: var(--graphite300);
+}
+
+
 .proj1 {
     background-image: url('../images/ChildWelfarePortal.jpg');
 }
