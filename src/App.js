@@ -1,6 +1,8 @@
 import './css/Reset.css'
+import './css/DarkVars.css'
 import './css/Variables.css'
-import './css/Default.css';
+import './css/Style.css';
+
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 // site pages and components
 import Home from './pages/Home';

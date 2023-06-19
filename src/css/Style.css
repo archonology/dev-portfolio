@@ -53,6 +53,10 @@ nav ul a li {
 
 }
 
+p {
+    color: var(--ink);
+}
+
 .donate {
     position: fixed;
     right: 30px;
@@ -107,6 +111,7 @@ nav ul a li {
 .container-content .about {
     font-size: 130%;
     margin-left: 10em;
+    color: var(--ink);
 }
 
 .container .links,
@@ -200,6 +205,7 @@ a:hover {
 .donate-button:hover {
     transform: scale(112%);
 }
+
 
 
 @media screen and (max-width: 3000px) {

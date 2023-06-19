@@ -1,0 +1,10 @@
+:root {
+    --paper: rgb(21, 21, 21);
+    --ink: rgb(253, 252, 250);
+    --accent: rgb(255, 183, 0);
+    --graphite300: rgba(217, 218, 218, 0.863);
+    --graphite200: rgb(31, 32, 33);
+    --graphite100: rgb(110, 110, 110);
+    --graphite400: rgb(80, 80, 79);
+    --graphite500: rgb(23, 23, 23);
+}
