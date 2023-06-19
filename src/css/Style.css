@@ -61,6 +61,7 @@ p {
     position: fixed;
     right: 30px;
     bottom: 40px;
+    z-index: 1;
 }
 
 .donate-button {
@@ -70,8 +71,13 @@ p {
     border-radius: 10px;
     color: var(--paper);
     border: none;
-    box-shadow: 0 0 17px var(--graphite200);
+    box-shadow: 0 0 17px var(--graphite500);
     transition: 1s;
+    z-index: 1;
+}
+
+Image {
+    z-index: 0;
 }
 
 .container,
@@ -128,8 +134,10 @@ p {
     margin-top: .2em;
 }
 
+
 .pics {
     box-shadow: 7px 0 30px var(--graphite500);
+    z-index: 0;
 }
 
 .proj-links {
@@ -147,20 +155,6 @@ p {
     padding: .5rem 2rem .5rem 2rem;
     border-radius: 0 0 12px 12px;
     margin-right: .4rem;
-}
-
-.proj-links a:hover,
-.proj-links a:focus,
-.proj-links a:active {
-    color: var(--paper);
-    background-color: var(--graphite500);
-    box-shadow: 0 5px 10px var(--graphite100);
-}
-
-.proj-links a+a:hover,
-.proj-links a+a:focus,
-.proj-links a+a:active {
-    background-color: var(--graphite300);
 }
 
 
@@ -278,7 +272,20 @@ a:hover {
     transform: scale(112%);
 }
 
+.proj-links a:hover,
+.proj-links a:focus,
+.proj-links a:active {
+    color: var(--ink);
+    background-color: var(--leaf);
+    box-shadow: 0 5px 10px var(--graphite100);
+}
 
+.proj-links a+a:hover,
+.proj-links a+a:focus,
+.proj-links a+a:active {
+    background-color: var(--sky);
+    color: var(--ink);
+}
 
 @media screen and (max-width: 3000px) {
     .container {
@@ -294,6 +301,21 @@ a:hover {
         background-position-y: 0%;
         background-repeat: no-repeat;
         height: 450px;
+    }
+
+    .proj-columns {
+        flex: 0 0 25%;
+    }
+
+    .proj-links {
+        font-size: 110%;
+        padding-top: 1em;
+    }
+
+    .proj-links a {
+        border: 1px solid var(--ink);
+        padding: .3rem 1rem .3rem 1rem;
+        margin-right: .5rem;
     }
 
     .container-content p,
@@ -340,6 +362,11 @@ a:hover {
         height: 400px;
     }
 
+    .proj-columns {
+        flex: 1 0 50%;
+    }
+
+
     .container-content p,
     .portfolio-container p,
     .proj2 p {
@@ -385,6 +412,10 @@ a:hover {
         height: 400px;
     }
 
+    .proj-columns {
+        flex: 1 0 50%;
+    }
+
     .container-content p,
     .portfolio-container p,
     .proj2 p {
@@ -428,6 +459,10 @@ a:hover {
         height: 440px;
     }
 
+    .proj-columns {
+        flex: 1 0 50%;
+    }
+
     .container-content,
     .cc2 {
         background-color: var(--paper);
@@ -454,12 +489,12 @@ a:hover {
     .container .links,
     .portfolio-container .links,
     .proj2 .p2-links {
-        font-size: 110%;
+        font-size: 120%;
         font-weight: 600;
         font-family: 'Cutive Mono', monospace;
         margin-top: .5rem;
         max-width: 165px;
-        margin-left: 3em;
+        margin-left: 4em;
     }
 }
 
@@ -486,6 +521,9 @@ a:hover {
         border-radius: 0;
     }
 
+    .proj-columns {
+        flex: 1 0 100%;
+    }
 
     .container-content,
     .cc2 {
@@ -509,7 +547,7 @@ a:hover {
     .container .links,
     .portfolio-container .links,
     .proj2 .p2-links {
-        font-size: 110%;
+        font-size: 120%;
         font-weight: 600;
         font-family: 'Cutive Mono', monospace;
         margin-top: .5rem;

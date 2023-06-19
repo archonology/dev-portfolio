@@ -2,6 +2,8 @@ import React from "react";
 import Image from 'mui-image'
 import prima from '../images/prima-materia-home.jpg';
 import homeParty from '../images/home-party-page.jpg'
+import wanderComma from '../images/wandering-comma.jpg';
+import nightIn from '../images/a-night-in-page.jpg';
 
 const Portfolio = () => {
     return (
@@ -39,7 +41,7 @@ const Portfolio = () => {
             </div>
             <section className="projects-container">
                 <div className="proj-columns">
-                    <div className="proj-card">
+                    <div className="proj-card card-1">
                         <Image src={prima} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
                         <h3>Prima-Materia</h3>
                         <hr />
@@ -65,7 +67,8 @@ const Portfolio = () => {
                 </div>
                 <div className="proj-columns">
                     <div className="proj-card">
-                        <h3>Home Party</h3>
+                        <Image src={wanderComma} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
+                        <h3>The Wandering Comma</h3>
                         <hr />
                         <p>A full stack application built with React, Mongoose, Express, and Node (MERN).</p>
                         <div className="proj-links">
@@ -76,7 +79,8 @@ const Portfolio = () => {
                 </div>
                 <div className="proj-columns">
                     <div className="proj-card">
-                        <h3>The Wandering Comma</h3>
+                        <Image src={nightIn} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
+                        <h3>A Night In</h3>
                         <hr />
                         <p>A full stack application built with React, Mongoose, Express, and Node (MERN).</p>
                         <div className="proj-links">
