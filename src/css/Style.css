@@ -5,7 +5,6 @@ html {
 }
 
 body {
-    /* background-color: var(--graphite200); */
     color: var(--ink) 20%;
     font-family: 'Lato', sans-serif;
     line-height: 1.2;
@@ -132,6 +131,7 @@ Image {
     margin-bottom: .5em;
     font-family: 'Cutive Mono', monospace;
     font-size: 150%;
+    color: var(--ink);
 }
 
 .proj-card p {
@@ -282,14 +282,14 @@ a:hover {
 .proj-links a:focus,
 .proj-links a:active {
     color: var(--ink);
-    background-color: var(--leaf);
+    background-color: var(--secondary);
     box-shadow: 0 5px 10px var(--graphite100);
 }
 
 .proj-links a+a:hover,
 .proj-links a+a:focus,
 .proj-links a+a:active {
-    background-color: var(--sky);
+    background-color: var(--primary);
     color: var(--ink);
 }
 
