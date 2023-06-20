@@ -26,6 +26,14 @@ const Portfolio = () => {
                     <div className="links">
                         <a href="https://github.com/archonology" target={'_blank'} rel={'nonreferrer'}>Watch Demo</a>
                     </div>
+                    <br />
+                    <hr />
+                    <ul style={{ textAlign: 'left', listStyle: 'square', marginTop: 12, marginLeft: 23, lineHeight: 1.4 }}>
+                        <li>Built collaboratively by a team of 4 developers.</li>
+                        <li>Reed handled the fetch API integration, UI design, and debugging.</li>
+                        <li>Login user environment with JWT.</li>
+                        <li>MERN Stack | GraphQL | Material UI | Apollo</li>
+                    </ul>
                 </div>
             </div>
 
@@ -47,6 +55,14 @@ const Portfolio = () => {
                     <div className="links">
                         <a href="https://github.com/archonology" target={'_blank'} rel={'nonreferrer'}>Watch Demo</a>
                     </div>
+                    <br />
+                    <hr />
+                    <ul style={{ textAlign: 'left', listStyle: 'square', marginTop: 12, marginLeft: 23, lineHeight: 1.4 }}>
+                        <li>Built collaboratively by a team of 4 developers.</li>
+                        <li>Reed handled the fetch API integration, UI design, and debugging.</li>
+                        <li>Login user environment with JWT.</li>
+                        <li>MERN Stack | GraphQL | Material UI | Apollo</li>
+                    </ul>
                 </div>
             </div>
             <div className="projects-container">

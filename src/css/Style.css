@@ -100,7 +100,7 @@ Image {
     background-position-x: 130%;
     background-position-y: 70%;
     background-repeat: no-repeat;
-    /* height: 350px; */
+    min-height: 525px;
 }
 
 .projects-container {
@@ -113,12 +113,16 @@ Image {
     box-shadow: 0 20px 25px var(--graphite200);
 }
 
+.container-content,
+.cc2 {
+    max-width: 40%;
+}
+
 .this-site-container {
     background-color: var(--paper);
     box-shadow: 0 20px 25px var(--graphite500);
     padding: 2em;
     margin-bottom: 3em;
-    /* min-height: 450px; */
 }
 
 .proj-columns {
@@ -169,7 +173,9 @@ Image {
     margin-bottom: .7rem;
 }
 
-.proj-card ul {
+.proj-card ul,
+.proj1 ul,
+.proj2 ul {
     font-family: 'Cutive Mono', monospace;
 }
 
@@ -209,28 +215,22 @@ Image {
 .container-content h2,
 .cc2 h2,
 .proj2 p {
-    max-width: 130px;
     font-family: 'Cutive Mono', monospace;
     font-size: 120%;
-    margin-left: -1em;
 }
 
 .container-content .about {
     font-size: 130%;
-    margin-left: 10em;
+    /* margin-left: 10em; */
     color: var(--ink);
 }
 
 .container .links,
 .portfolio-container .links,
 .proj2 .p2-links {
-    font-size: 105%;
-    font-weight: 600;
+    font-size: 120%;
     font-family: 'Cutive Mono', monospace;
-    margin-top: .5rem;
-    max-width: 150px;
-    margin-left: -2em;
-    transition: .5s;
+    margin-top: .8rem;
 }
 
 h4 {
@@ -334,13 +334,16 @@ a:hover {
     transform: scale(112%);
 }
 
-.proj1, .proj2 {
+.proj1,
+.proj2 {
     transition: .6s;
 }
 
-.proj1:hover, .proj2:hover, .proj1:active,
+.proj1:hover,
+.proj2:hover,
+.proj1:active,
 .proj2:active {
-box-shadow: 0 12px 25px black;
+    box-shadow: 0 12px 25px black;
 }
 
 .proj-links a:hover,
@@ -367,8 +370,8 @@ box-shadow: 0 12px 25px black;
     }
 
     .portfolio-container {
-        background-size: 70%;
-        background-position-x: 130%;
+        background-size: 90%;
+        background-position-x: 420%;
         background-position-y: 0%;
         background-repeat: no-repeat;
         height: 450px;
@@ -393,28 +396,17 @@ box-shadow: 0 12px 25px black;
     .container-content h2,
     .cc2 h2,
     .proj2 p {
-        max-width: 550px;
-        font-family: 'Cutive Mono', monospace;
-        font-size: 170%;
-        margin-left: 1em;
+        font-size: 160%;
     }
 
     .container-content .about {
-        max-width: 550px;
         font-size: 130%;
-        margin-left: 12em;
     }
 
     .container .links,
     .portfolio-container .links,
     .proj2 .p2-links {
-        font-size: 160%;
-        font-weight: 600;
-        font-family: 'Cutive Mono', monospace;
-        margin-top: .5rem;
-        max-width: 550px;
-        margin-left: 12em;
-        transition: .5s;
+        font-size: 140%;
     }
 
 }
@@ -428,9 +420,9 @@ box-shadow: 0 12px 25px black;
     }
 
     .portfolio-container {
-        background-size: 55%;
-        background-position-x: 108%;
-        background-position-y: 70%;
+        background-size: 80%;
+        background-position-x: 230%;
+        background-position-y: 30%;
         height: 400px;
     }
 
@@ -443,28 +435,17 @@ box-shadow: 0 12px 25px black;
     .container-content h2,
     .cc2 h2,
     .proj2 p {
-        max-width: 280px;
-        font-family: 'Cutive Mono', monospace;
         font-size: 150%;
-        margin-left: 5em;
     }
 
     .container-content .about {
-        max-width: 270px;
         font-size: 130%;
-        margin-left: 10em;
     }
 
     .container .links,
     .portfolio-container .links,
     .proj2 .p2-links {
         font-size: 130%;
-        font-weight: 600;
-        font-family: 'Cutive Mono', monospace;
-        margin-top: .5rem;
-        max-width: 280px;
-        margin-left: 12em;
-        transition: .5s;
     }
 
 
@@ -479,8 +460,8 @@ box-shadow: 0 12px 25px black;
     }
 
     .portfolio-container {
-        background-size: 70%;
-        background-position-x: 120%;
+        background-size: 105%;
+        background-position-x: -910%;
         background-position-y: 80%;
         height: 400px;
     }
@@ -493,27 +474,17 @@ box-shadow: 0 12px 25px black;
     .container-content h2,
     .cc2 h2,
     .proj2 p {
-        max-width: 220px;
-        font-family: 'Cutive Mono', monospace;
         font-size: 150%;
-        margin-left: 2em;
     }
 
     .container-content .about {
-        max-width: 270px;
         font-size: 130%;
-        margin-left: 3em;
     }
 
     .container .links,
     .portfolio-container .links,
     .proj2 .p2-links {
         font-size: 130%;
-        font-weight: 600;
-        font-family: 'Cutive Mono', monospace;
-        margin-top: .5rem;
-        max-width: 220px;
-        margin-left: 6em;
     }
 
 }
@@ -527,10 +498,10 @@ box-shadow: 0 12px 25px black;
     }
 
     .portfolio-container {
-        background-size: 150%;
+        background-size: 270%;
         background-position-x: 18%;
-        background-position-y: 20%;
-        height: 440px;
+        background-position-y: 40%;
+        min-height: 790px;
     }
 
     .proj-columns {
@@ -541,7 +512,7 @@ box-shadow: 0 12px 25px black;
     .cc2 {
         background-color: var(--paper);
         padding: 2rem;
-        width: 300px;
+        min-width: 70%;
         border-radius: 20px;
         box-shadow: 0 0 18px rgba(0, 0, 0, 0.368);
     }
@@ -550,14 +521,10 @@ box-shadow: 0 12px 25px black;
     .container-content h2,
     .cc2 h2,
     .proj2 p {
-        max-width: 175px;
-        font-family: 'Cutive Mono', monospace;
         font-size: 150%;
-        margin-left: 3em;
     }
 
     .container-content .about {
-        max-width: 250px;
         font-size: 120%;
     }
 
@@ -565,11 +532,6 @@ box-shadow: 0 12px 25px black;
     .portfolio-container .links,
     .proj2 .p2-links {
         font-size: 120%;
-        font-weight: 600;
-        font-family: 'Cutive Mono', monospace;
-        margin-top: .5rem;
-        max-width: 165px;
-        margin-left: 4em;
     }
 }
 
@@ -586,14 +548,15 @@ box-shadow: 0 12px 25px black;
     }
 
     .portfolio-container {
-        background-size: 205%;
+        background-size: 315%;
         background-position-x: 18%;
-        background-position-y: 70%;
-        height: 440px;
+        background-position-y: 30%;
         margin: 0;
         margin-top: 1em;
         margin-bottom: 1em;
         border-radius: 0;
+        min-width: 100%;
+        min-height: 750px;
     }
 
     .proj-columns {
@@ -603,7 +566,7 @@ box-shadow: 0 12px 25px black;
     .container-content,
     .cc2 {
         padding: 2rem;
-        width: 300px;
+        min-width: 97%;
         border-radius: 20px;
     }
 
@@ -611,10 +574,7 @@ box-shadow: 0 12px 25px black;
     .container-content h2,
     .cc2 h2,
     .proj2 p {
-        max-width: 200px;
-        font-family: 'Cutive Mono', monospace;
-        font-size: 120%;
-        margin-left: 4em;
+        font-size: 130%;
     }
 
     .about {
@@ -625,11 +585,6 @@ box-shadow: 0 12px 25px black;
     .portfolio-container .links,
     .proj2 .p2-links {
         font-size: 120%;
-        font-weight: 600;
-        font-family: 'Cutive Mono', monospace;
-        margin-top: .5rem;
-        max-width: 365px;
-        margin-left: 4em;
     }
 
 }
