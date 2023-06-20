@@ -1,11 +1,10 @@
 import React from "react";
 import Quotes from "../components/Quotes";
-import rm from "../images/bwPortraitRM.jpeg"
+
 const Home = () => {
     return (
         <>
             <div className="container">
-                {/* <img src={rm} alt="Reed Meher" className="self-portrait" /> */}
                 <div className="container-content">
                     <p className="about">Reed Meher is a certified full stack web developer. He specializes in ReactJS, CSS, and learning new tricks.</p>
                     <br />
@@ -21,7 +20,6 @@ const Home = () => {
                 </div>
             </div>
             <Quotes />
-
         </>
     )
 }

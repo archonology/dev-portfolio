@@ -1,5 +1,11 @@
+html {
+    background: linear-gradient(var(--graphite100), var(--graphite200), var(--graphite100));
+    z-index: 0;
+    background-repeat: repeat-y;
+}
+
 body {
-    background-color: var(--graphite200);
+    /* background-color: var(--graphite200); */
     color: var(--ink) 20%;
     font-family: 'Lato', sans-serif;
     line-height: 1.2;
@@ -134,10 +140,10 @@ Image {
     margin-top: .2em;
 }
 
-
 .pics {
     box-shadow: 7px 0 30px var(--graphite500);
     z-index: 0;
+
 }
 
 .proj-links {

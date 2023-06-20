@@ -39,7 +39,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <section className="projects-container">
+            <div className="projects-container">
                 <div className="proj-columns">
                     <div className="proj-card card-1">
                         <Image src={prima} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
@@ -90,7 +90,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-            </section>
+            </div>
         </>
     )
 }

@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <>
             <header>
-                <h1>REED MEHE<span className="letter-spin">R</span></h1>
+                <h1>REED MEHER</h1>
                 <p>Full Stack Web Developer</p>
                 <hr />
                 <nav>
