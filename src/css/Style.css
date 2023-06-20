@@ -100,7 +100,7 @@ Image {
     background-position-x: 130%;
     background-position-y: 70%;
     background-repeat: no-repeat;
-    min-height: 525px;
+    min-height: 625px;
 }
 
 .projects-container {
@@ -177,6 +177,7 @@ Image {
 .proj1 ul,
 .proj2 ul {
     font-family: 'Cutive Mono', monospace;
+    font-size: 108%;
 }
 
 .pics {
@@ -227,7 +228,7 @@ Image {
 
 .container .links,
 .portfolio-container .links,
-.proj2 .p2-links {
+.proj2 .links {
     font-size: 120%;
     font-family: 'Cutive Mono', monospace;
     margin-top: .8rem;
@@ -326,8 +327,17 @@ nav ul a li:hover {
     /* font-weight: 600; */
 }
 
-a:hover {
-    color: var(--graphite300);
+.proj1 .links a:hover,
+.proj2 .links a:hover {
+    /* color: var(--secondary); */
+    background-color: var(--primary);
+    padding: .3rem;
+    font-weight: 700;
+}
+
+.proj1 .link2 a:hover,
+.proj2 .link2 a:hover {
+    background-color: var(--secondary);
 }
 
 .donate-button:hover {
@@ -405,7 +415,7 @@ a:hover {
 
     .container .links,
     .portfolio-container .links,
-    .proj2 .p2-links {
+    .proj2 .links {
         font-size: 140%;
     }
 
@@ -444,7 +454,7 @@ a:hover {
 
     .container .links,
     .portfolio-container .links,
-    .proj2 .p2-links {
+    .proj2 .links {
         font-size: 130%;
     }
 
@@ -460,9 +470,9 @@ a:hover {
     }
 
     .portfolio-container {
-        background-size: 105%;
-        background-position-x: -910%;
-        background-position-y: 80%;
+        background-size: 125%;
+        background-position-x: -190%;
+        background-position-y: 10%;
         height: 400px;
     }
 
@@ -483,7 +493,7 @@ a:hover {
 
     .container .links,
     .portfolio-container .links,
-    .proj2 .p2-links {
+    .proj2 .links {
         font-size: 130%;
     }
 
@@ -512,7 +522,7 @@ a:hover {
     .cc2 {
         background-color: var(--paper);
         padding: 2rem;
-        min-width: 70%;
+        min-width: 75%;
         border-radius: 20px;
         box-shadow: 0 0 18px rgba(0, 0, 0, 0.368);
     }
@@ -530,7 +540,7 @@ a:hover {
 
     .container .links,
     .portfolio-container .links,
-    .proj2 .p2-links {
+    .proj2 .links {
         font-size: 120%;
     }
 }
@@ -548,7 +558,7 @@ a:hover {
     }
 
     .portfolio-container {
-        background-size: 315%;
+        background-size: 375%;
         background-position-x: 18%;
         background-position-y: 30%;
         margin: 0;
@@ -556,7 +566,7 @@ a:hover {
         margin-bottom: 1em;
         border-radius: 0;
         min-width: 100%;
-        min-height: 750px;
+        min-height: 850px;
     }
 
     .proj-columns {
@@ -583,7 +593,7 @@ a:hover {
 
     .container .links,
     .portfolio-container .links,
-    .proj2 .p2-links {
+    .proj2 .links {
         font-size: 120%;
     }
 
