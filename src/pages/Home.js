@@ -19,7 +19,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Quotes />
+            <div>
+                <Quotes />
+            </div>
         </>
     )
 }
