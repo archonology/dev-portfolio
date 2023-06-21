@@ -17,6 +17,7 @@ header {
     padding-top: 1.3rem;
     margin-bottom: .2rem;
     text-align: center;
+
 }
 
 h1 {
@@ -112,7 +113,6 @@ Image {
     margin-top: 3em;
     background-color: var(--paper);
     box-shadow: 0 20px 25px var(--graphite200);
-    /* color: var(--ink); */
 }
 
 .container-content,
@@ -153,10 +153,6 @@ Image {
     justify-content: center;
     min-height: 300px;
     padding: 3rem;
-}
-
-.proj-card {
-    background-color: var(--paper);
 }
 
 .proj-card h3 {
@@ -249,7 +245,6 @@ h4 {
 footer {
     min-height: 200px;
     top: 0;
-    /* background-color: var(--paper); */
     text-align: center;
     font-family: 'Cutive Mono', monospace;
     padding-top: 3em;
@@ -324,24 +319,16 @@ q {
     animation: cycle4 25s linear infinite;
 }
 
-.dark, .dark-qoute-slider {
-    background-color: rgb(53, 55, 58);
-}
-
-.dark h1, .dark p, .dark .about, .dark .links a, .dark ul li, .dark ul li p, .dark-qoute-slider ul, .dark-qoute-slider p {
-    color: var(--paper);
-    font-weight: 600;
-}
-
 nav ul a li:hover {
     transform: scale(105%);
-    /* font-weight: 600; */
 }
 
 .proj1 .links a:hover,
-.proj2 .links a:hover {
+.proj2 .links a:hover,
+.links a:hover {
     /* color: var(--secondary); */
     background-color: var(--primary);
+    color: var(--ink);
     padding: .3rem;
     font-weight: 700;
 }
@@ -382,9 +369,47 @@ nav ul a li:hover {
     color: var(--ink);
 }
 
+/******************* DARKMODE ******************/
+.dark,
+.dark-qoute-slider {
+    background-color: var(--nightSky);
+    box-shadow: 0 12px 20px black;
+}
+
+.dark h1,
+.dark p,
+.dark .about,
+.dark .links a,
+.dark ul li,
+.dark ul li p,
+.dark-qoute-slider ul,
+.dark-qoute-slider p,
+.dark h2,
+.dark h3,
+.dark .proj-links a,
+.dark h4 {
+    color: var(--paper);
+    font-weight: 600;
+}
+
+.dark .proj-links a {
+    border: 1px solid var(--paper);
+}
+
+.dark .links a:hover,
+.dark .proj-links a:hover {
+    color: var(--ink);
+   box-shadow: 0 12px 20px black;
+}
+
+
+footer .dark {
+    height: 150px;
+}
+
 @media screen and (max-width: 3000px) {
     .container {
-        background-size: 35%;
+        background-size: 55%;
         background-position-x: 100%;
         background-position-y: 70%;
         height: 400px;
@@ -434,7 +459,7 @@ nav ul a li:hover {
 
 @media screen and (max-width: 1200px) {
     .container {
-        background-size: 45%;
+        background-size: 55%;
         background-position-x: 100%;
         background-position-y: 70%;
         height: 400px;
@@ -474,8 +499,8 @@ nav ul a li:hover {
 
 @media screen and (max-width: 993px) {
     .container {
-        background-size: 55%;
-        background-position-x: 100%;
+        background-size: 67%;
+        background-position-x: 130%;
         background-position-y: 70%;
         height: 400px;
     }
@@ -484,7 +509,7 @@ nav ul a li:hover {
         background-size: 125%;
         background-position-x: -190%;
         background-position-y: 10%;
-        height: 400px;
+        min-height: 675px;
     }
 
     .proj-columns {

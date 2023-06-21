@@ -1,15 +1,15 @@
 // import React from "react";
 // import Quotes from "../components/Quotes";
 // import { useContext, useState } from "react";
-// const ThemeContext = createContext(null);
     
-// const Home = () => {
-// const theme = useContext(ThemeContext);
-//     console.log(theme);
+// const Home = (theme) => {
+
+//     const style = 'container' + ' ' + theme.theme;
+
 //     return (
         
 //         <>
-//             <div className={`'container' ${theme}`}>
+//             <div className={style}>
 //                 <div className="container-content">
 //                     <p className="about">Reed Meher is a certified full stack web developer. He specializes in ReactJS, CSS, and learning new tricks.</p>
 //                     <br />
@@ -25,7 +25,7 @@
 //                 </div>
 //             </div>
 //             <div>
-//                 <Quotes />
+//                 <Quotes theme={theme} />
 //             </div>
 //         </>
 //     )

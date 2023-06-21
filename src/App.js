@@ -1,13 +1,10 @@
 import './css/Reset.css'
-// import './css/DarkVars.css'
 import './css/Variables.css'
 import './css/Style.css';
 import { createContext, useContext, useState } from 'react';
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-// site pages and components
-// import Home from './pages/Home';
-// import Header from './components/Header';
+
 import Footer from './components/Footer';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
@@ -36,11 +33,19 @@ export default function App() {
                 <a href='/#/resume'><li>Resume</li></a>
                 <a href='/#/contact'><li>Contact</li></a>
               </ul>
-              <ul className="iconUl">
-                <a href='/'><li><FoundationIcon /></li></a>
-                <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: 'black' }) }}><DarkModeIcon /></li>
-                <li onClick={() => { setTheme('light'); setStyle({ backgroundColor: 'white' }) }}><LightModeIcon /></li>
-              </ul>
+              {theme === 'light' ? (
+                <>
+                  <ul className="iconUl">
+                    <a href='/#'><li><FoundationIcon /></li></a>
+                    <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: '#2d373c' }) }}><DarkModeIcon /></li>
+                  </ul>
+                </>) : (<>
+                  <ul className="iconUl">
+                    <a href='/'><li><FoundationIcon /></li></a>
+                    <li onClick={() => { setTheme('light'); setStyle({ backgroundColor: 'white' }) }}><LightModeIcon /></li>
+                  </ul>
+                </>)}
+
             </nav>
           </header>
 
@@ -51,13 +56,13 @@ export default function App() {
           <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route index element={<Home />} />
-            <Route path="portfolio" element={<Portfolio />} />
-            <Route path="resume" element={<Resume />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="portfolio" element={<Portfolio theme={theme} />} />
+            <Route path="resume" element={<Resume theme={theme} />} />
+            <Route path="contact" element={<Contact theme={theme} />} />
             <Route path="*" element={<Home />} />
           </Routes>
           <div>
-            <Footer />
+            <Footer theme={theme} />
           </div>
         </div>
       </Router>

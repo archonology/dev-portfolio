@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --paper: rgb(21, 21, 21);
     --ink: rgb(253, 252, 250);
     --primary: rgb(251, 229, 84);
@@ -8,7 +8,7 @@
     --graphite100: rgb(110, 110, 110);
     --graphite400: rgb(80, 80, 79);
     --graphite500: rgb(23, 23, 23);
-}
+} */
 
 .proj-links a:hover,
 .proj-links a:focus,
@@ -25,3 +25,21 @@
     background-color: var(--primary);
     color: black;
 }
+
+.dark,
+.dark-qoute-slider {
+    background-color: rgb(53, 55, 58);
+}
+
+.dark h1,
+.dark p,
+.dark .about,
+.dark .links a,
+.dark ul li,
+.dark ul li p,
+.dark-qoute-slider ul,
+.dark-qoute-slider p {
+    color: var(--paper);
+    font-weight: 600;
+}
+
