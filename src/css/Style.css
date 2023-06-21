@@ -1,22 +1,21 @@
 html {
-    background: linear-gradient(var(--graphite100), var(--graphite200), var(--graphite100));
     z-index: 0;
-    background-repeat: repeat-y;
 }
 
 body {
-    color: var(--ink) 20%;
+    color: var(--ink);
     font-family: 'Lato', sans-serif;
-    line-height: 1.2;
+    line-height: 1.2; 
+    background-color: var(--deepOcean);
 }
 
 header {
-    background-color: var(--paper);
     background-size: cover;
     padding: 1.7rem;
     padding-top: 1.3rem;
     margin-bottom: .2rem;
     text-align: center;
+
 }
 
 h1 {
@@ -41,7 +40,7 @@ nav ul {
 }
 
 header h1,
-nav ul a li {
+nav ul li {
     display: inline-flex;
     color: var(--ink);
     padding: 7px;
@@ -52,7 +51,7 @@ nav ul a li {
     transition: 500ms;
 }
 
-nav ul a li {
+nav ul li {
     font-size: larger;
     margin-right: 10px;
 
@@ -60,6 +59,10 @@ nav ul a li {
 
 p {
     color: var(--ink);
+}
+
+.iconUl li {
+    transition: .5s;
 }
 
 .donate {
@@ -76,13 +79,9 @@ p {
     border-radius: 10px;
     color: var(--paper);
     border: none;
-    box-shadow: 0 0 17px var(--graphite500);
+    box-shadow: 0 17px 20px rgba(0, 0, 0, 0.65);
     transition: 1s;
     z-index: 1;
-}
-
-Image {
-    z-index: 0;
 }
 
 .container,
@@ -94,7 +93,7 @@ Image {
     padding: 30px 20px 30px 30px;
     background-color: var(--paper);
     border-radius: 20px;
-    box-shadow: 0 10px 25px var(--graphite500);
+    box-shadow: 0 17px 20px rgba(0, 0, 0, 0.471);
     background-image: url('../images/bwPortraitRM.jpeg');
     background-size: 70%;
     background-position-x: 130%;
@@ -110,7 +109,7 @@ Image {
     margin-bottom: 3em;
     margin-top: 3em;
     background-color: var(--paper);
-    box-shadow: 0 20px 25px var(--graphite200);
+    box-shadow: 0 17px 20px rgba(0, 0, 0, 0.2);
 }
 
 .container-content,
@@ -120,7 +119,7 @@ Image {
 
 .this-site-container {
     background-color: var(--paper);
-    box-shadow: 0 20px 25px var(--graphite500);
+    box-shadow: 0 17px 20px rgba(0, 0, 0, 0.212);
     padding: 2em;
     margin-bottom: 3em;
 }
@@ -153,10 +152,6 @@ Image {
     padding: 3rem;
 }
 
-.proj-card {
-    background-color: var(--paper);
-}
-
 .proj-card h3 {
     text-align: center;
     margin-bottom: .5em;
@@ -181,9 +176,8 @@ Image {
 }
 
 .pics {
-    box-shadow: 7px 0 30px var(--graphite500);
+    box-shadow: -20px 14px 20px rgba(0, 0, 0, 0.448);
     z-index: 0;
-
 }
 
 .proj-links {
@@ -247,7 +241,6 @@ h4 {
 footer {
     min-height: 200px;
     top: 0;
-    background-color: var(--paper);
     text-align: center;
     font-family: 'Cutive Mono', monospace;
     padding-top: 3em;
@@ -324,13 +317,19 @@ q {
 
 nav ul a li:hover {
     transform: scale(105%);
-    /* font-weight: 600; */
+}
+
+.iconUl li:hover {
+    cursor: pointer;
+    transform: scale(115%);
 }
 
 .proj1 .links a:hover,
-.proj2 .links a:hover {
+.proj2 .links a:hover,
+.links a:hover {
     /* color: var(--secondary); */
     background-color: var(--primary);
+    color: var(--ink);
     padding: .3rem;
     font-weight: 700;
 }
@@ -371,9 +370,47 @@ nav ul a li:hover {
     color: var(--ink);
 }
 
+/******************* DARKMODE ******************/
+.dark,
+.dark-qoute-slider {
+    background-color: var(--nightSky);
+}
+
+
+.dark h1,
+.dark p,
+.dark .about,
+.dark .links a,
+.dark ul li,
+.dark ul li p,
+.dark-qoute-slider ul,
+.dark-qoute-slider p,
+.dark h2,
+.dark h3,
+.dark .proj-links a,
+.dark h4 {
+    color: var(--paper);
+    font-weight: 600;
+}
+
+.dark .proj-links a {
+    border: 1px solid var(--paper);
+}
+
+.dark .links a:hover,
+.dark .proj-links a:hover {
+    color: var(--ink);
+    box-shadow: 0 12px 20px black;
+}
+
+
+footer .dark {
+    height: 150px;
+}
+
 @media screen and (max-width: 3000px) {
     .container {
-        background-size: 35%;
+        background-size: 55%;
         background-position-x: 100%;
         background-position-y: 70%;
         height: 400px;
@@ -423,15 +460,15 @@ nav ul a li:hover {
 
 @media screen and (max-width: 1200px) {
     .container {
-        background-size: 45%;
+        background-size: 55%;
         background-position-x: 100%;
         background-position-y: 70%;
         height: 400px;
     }
 
     .portfolio-container {
-        background-size: 80%;
-        background-position-x: 230%;
+        background-size: 105%;
+        background-position-x: -930%;
         background-position-y: 30%;
         height: 400px;
     }
@@ -463,8 +500,8 @@ nav ul a li:hover {
 
 @media screen and (max-width: 993px) {
     .container {
-        background-size: 55%;
-        background-position-x: 100%;
+        background-size: 67%;
+        background-position-x: 130%;
         background-position-y: 70%;
         height: 400px;
     }
@@ -473,7 +510,7 @@ nav ul a li:hover {
         background-size: 125%;
         background-position-x: -190%;
         background-position-y: 10%;
-        height: 400px;
+        min-height: 675px;
     }
 
     .proj-columns {

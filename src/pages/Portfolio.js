@@ -5,10 +5,15 @@ import homeParty from '../images/home-party-page.jpg'
 import wanderComma from '../images/wandering-comma.jpg';
 import nightIn from '../images/a-night-in-page.jpg';
 
-const Portfolio = () => {
+const Portfolio = (theme) => {
+    const containerStyle = "portfolio-container proj1 " + theme.theme;
+    const containerStyle2 = "portfolio-container proj2 " + theme.theme;
+    const containerStyle3 = "projects-container " + theme.theme;
+    const containerStyle4 = "this-site-container " + theme.theme;
+
     return (
         <>
-            <div className="portfolio-container proj1">
+            <div className={containerStyle}>
                 <div className="container-content">
                     <h2>The Child Welfare Portal</h2>
                     <br />
@@ -38,7 +43,7 @@ const Portfolio = () => {
                 </div>
             </div>
 
-            <div className="portfolio-container proj2">
+            <div className={containerStyle2}>
                 <div className="cc2">
                     <h2>BakPak</h2>
                     <br />
@@ -66,7 +71,7 @@ const Portfolio = () => {
                     </ul>
                 </div>
             </div>
-            <div className="projects-container">
+            <div className={containerStyle3}>
                 <div className="proj-columns">
                     <div className="proj-card card-1">
                         <Image src={prima} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
@@ -147,7 +152,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div className="this-site-container">
+            <div className={containerStyle4}>
                 <div>
                     <h4>This Portfolio</h4>
                     <hr />

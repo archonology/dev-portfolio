@@ -1,10 +1,13 @@
 import React from "react";
 import Quotes from "../components/Quotes";
 
-const Home = () => {
+const Home = (theme) => {
+    const className = 'container ' + theme.theme;
+    console.log(className);
     return (
+
         <>
-            <div className="container">
+            <div className={className}>
                 <div className="container-content">
                     <p className="about">Reed Meher is a certified full stack web developer. He specializes in ReactJS, CSS, and learning new tricks.</p>
                     <br />
@@ -20,7 +23,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <Quotes />
+                <Quotes theme={theme.theme} />
             </div>
         </>
     )

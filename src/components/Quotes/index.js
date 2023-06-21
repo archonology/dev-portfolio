@@ -1,10 +1,12 @@
 import * as React from "react";
 
-const Quotes = () => {
+const Quotes = (theme) => {
+    const sliderStyle = 'qoute-slider ' + theme.theme;
+
     return (
-        <>
-            <section className="row">
-                    <div className="qoute-slider">
+        <div>
+            <section className='row'>
+                <div className={sliderStyle}>
                         <div className="slider">
                             <div className="mask">
                                 <a
@@ -42,7 +44,7 @@ const Quotes = () => {
                     </div>
             
             </section>
-        </>
+        </div>
     )
 }
 

@@ -1,9 +1,15 @@
 import * as React from "react";
 
-const Footer = () => {
+
+const Footer = (theme) => {
+  
+    const foot = theme.theme;
+
     return (
-        <footer>
-            <a href="/"><p>Made by MeherDevs | 2023</p></a>
+        <footer className={foot}>
+            <section className={foot}>
+                <a href="/"><p >Made by MeherDevs | 2023</p></a>
+            </section>
         </footer>
     )
 }
