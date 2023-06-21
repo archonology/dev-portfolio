@@ -21,10 +21,11 @@ const ThemeContext = createContext(null);
 
 export default function App() {
   const [theme, setTheme] = useState('light');
-  // const theme = useContext(ThemeContext);
+  const [style, setStyle] = useState({ backgroundColor: 'white' })
   return (
     <ThemeContext.Provider value={theme}>
-    <Router>
+      <Router>
+        <div className='background-all' style={style}>
           <header className={theme}>
             <h1>REED MEHER</h1>
             <p>Full Stack Web Developer</p>
@@ -37,8 +38,8 @@ export default function App() {
               </ul>
               <ul className="iconUl">
                 <a href='/'><li><FoundationIcon /></li></a>
-                <li onClick={() => { setTheme('dark'); }}><DarkModeIcon /></li>
-                <li onClick={() => { setTheme('light'); }}><LightModeIcon /></li>
+                <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: 'black' }) }}><DarkModeIcon /></li>
+                <li onClick={() => { setTheme('light'); setStyle({ backgroundColor: 'white' }) }}><LightModeIcon /></li>
               </ul>
             </nav>
           </header>
@@ -46,19 +47,19 @@ export default function App() {
           <div className="donate">
             <button className="donate-button">DONATE</button>
           </div>
- 
-      <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route index element={<Home />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="resume" element={<Resume />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<Home />} />
-      </Routes>
-      <div>
-        <Footer />
+
+          <Routes>
+            <Route path='/' element={<Home />}></Route>
+            <Route index element={<Home />} />
+            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="resume" element={<Resume />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<Home />} />
+          </Routes>
+          <div>
+            <Footer />
+          </div>
         </div>
-      
       </Router>
     </ThemeContext.Provider>
   );
@@ -87,7 +88,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <Quotes theme={theme}/>
+        <Quotes theme={theme} />
       </div>
     </>
   )
