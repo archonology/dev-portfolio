@@ -1,12 +1,12 @@
 html {
     z-index: 0;
-    background-repeat: repeat-y;
 }
 
 body {
     color: var(--ink);
     font-family: 'Lato', sans-serif;
-    line-height: 1.2;
+    line-height: 1.2; 
+    background-color: var(--deepOcean);
 }
 
 header {
@@ -59,6 +59,10 @@ nav ul li {
 
 p {
     color: var(--ink);
+}
+
+.iconUl li {
+    transition: .5s;
 }
 
 .donate {
@@ -313,6 +317,11 @@ q {
 
 nav ul a li:hover {
     transform: scale(105%);
+}
+
+.iconUl li:hover {
+    cursor: pointer;
+    transform: scale(115%);
 }
 
 .proj1 .links a:hover,
