@@ -1,18 +1,12 @@
 import * as React from "react";
 
 const Quotes = (theme) => {
-    const rowName = 'row';
-    let sliderName = '';
-    if (theme.theme === 'light') {
-        sliderName = 'qoute-slider';
-    } else {
-        sliderName = 'qoute-slider dark-qoute-slider';
-    }
-    console.log(theme);
+    const sliderStyle = 'qoute-slider ' + theme.theme;
+
     return (
         <div>
-            <section className={rowName}>
-                <div className={sliderName}>
+            <section className='row'>
+                <div className={sliderStyle}>
                         <div className="slider">
                             <div className="mask">
                                 <a

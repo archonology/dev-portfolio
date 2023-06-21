@@ -1,5 +1,4 @@
 html {
-    /* background: rgb(67, 72, 77); */
     z-index: 0;
     background-repeat: repeat-y;
 }
@@ -11,7 +10,6 @@ body {
 }
 
 header {
-    /* background-color: var(--paper); */
     background-size: cover;
     padding: 1.7rem;
     padding-top: 1.3rem;
@@ -77,13 +75,9 @@ p {
     border-radius: 10px;
     color: var(--paper);
     border: none;
-    box-shadow: 0 0 17px var(--graphite500);
+    box-shadow: 0 17px 20px rgba(0, 0, 0, 0.65);
     transition: 1s;
     z-index: 1;
-}
-
-Image {
-    z-index: 0;
 }
 
 .container,
@@ -95,14 +89,13 @@ Image {
     padding: 30px 20px 30px 30px;
     background-color: var(--paper);
     border-radius: 20px;
-    box-shadow: 0 10px 25px var(--graphite500);
+    box-shadow: 0 17px 20px rgba(0, 0, 0, 0.471);
     background-image: url('../images/bwPortraitRM.jpeg');
     background-size: 70%;
     background-position-x: 130%;
     background-position-y: 70%;
     background-repeat: no-repeat;
     min-height: 625px;
-    /* color: var(--ink); */
 }
 
 .projects-container {
@@ -112,7 +105,7 @@ Image {
     margin-bottom: 3em;
     margin-top: 3em;
     background-color: var(--paper);
-    box-shadow: 0 20px 25px var(--graphite200);
+    box-shadow: 0 17px 20px rgba(0, 0, 0, 0.2);
 }
 
 .container-content,
@@ -122,7 +115,7 @@ Image {
 
 .this-site-container {
     background-color: var(--paper);
-    box-shadow: 0 20px 25px var(--graphite500);
+    box-shadow: 0 17px 20px rgba(0, 0, 0, 0.212);
     padding: 2em;
     margin-bottom: 3em;
 }
@@ -179,9 +172,8 @@ Image {
 }
 
 .pics {
-    box-shadow: 7px 0 30px var(--graphite500);
+    box-shadow: -20px 14px 20px rgba(0, 0, 0, 0.448);
     z-index: 0;
-
 }
 
 .proj-links {
@@ -373,8 +365,8 @@ nav ul a li:hover {
 .dark,
 .dark-qoute-slider {
     background-color: var(--nightSky);
-    box-shadow: 0 12px 20px black;
 }
+
 
 .dark h1,
 .dark p,
@@ -399,7 +391,7 @@ nav ul a li:hover {
 .dark .links a:hover,
 .dark .proj-links a:hover {
     color: var(--ink);
-   box-shadow: 0 12px 20px black;
+    box-shadow: 0 12px 20px black;
 }
 
 
@@ -466,8 +458,8 @@ footer .dark {
     }
 
     .portfolio-container {
-        background-size: 80%;
-        background-position-x: 230%;
+        background-size: 105%;
+        background-position-x: -930%;
         background-position-y: 30%;
         height: 400px;
     }

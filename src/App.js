@@ -4,7 +4,7 @@ import './css/Style.css';
 import { createContext, useContext, useState } from 'react';
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-
+import Home from './pages/Home';
 import Footer from './components/Footer';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
@@ -54,12 +54,12 @@ export default function App() {
           </div>
 
           <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route index element={<Home />} />
+            <Route path='/' element={<Home theme={theme} />}></Route>
+            <Route index element={<Home theme={theme} />} />
             <Route path="portfolio" element={<Portfolio theme={theme} />} />
             <Route path="resume" element={<Resume theme={theme} />} />
             <Route path="contact" element={<Contact theme={theme} />} />
-            <Route path="*" element={<Home />} />
+            <Route path="*" element={<Home theme={theme} />} />
           </Routes>
           <div>
             <Footer theme={theme} />
@@ -70,32 +70,32 @@ export default function App() {
   );
 }
 
-const Home = () => {
-  const theme = useContext(ThemeContext);
-  const className = 'container' + ' ' + theme;
-  console.log(className);
-  return (
+// const Home = () => {
+//   const theme = useContext(ThemeContext);
+//   const className = 'container' + ' ' + theme;
+//   console.log(className);
+//   return (
 
-    <>
-      <div className={className}>
-        <div className="container-content">
-          <p className="about">Reed Meher is a certified full stack web developer. He specializes in ReactJS, CSS, and learning new tricks.</p>
-          <br />
-          <hr />
-          <div className="links">
-            <a href="https://www.linkedin.com/in/reed-meher" target='_blank' rel='nonreferrer'>Follow on LinkedIn</a>
-          </div>
-          <br />
-          <hr />
-          <div className="links">
-            <a href="https://github.com/archonology" target='_blank' rel='nonreferrer'>Follow on Github</a>
-          </div>
-        </div>
-      </div>
-      <div>
-        <Quotes theme={theme} />
-      </div>
-    </>
-  )
-}
+//     <>
+//       <div className={className}>
+//         <div className="container-content">
+//           <p className="about">Reed Meher is a certified full stack web developer. He specializes in ReactJS, CSS, and learning new tricks.</p>
+//           <br />
+//           <hr />
+//           <div className="links">
+//             <a href="https://www.linkedin.com/in/reed-meher" target='_blank' rel='nonreferrer'>Follow on LinkedIn</a>
+//           </div>
+//           <br />
+//           <hr />
+//           <div className="links">
+//             <a href="https://github.com/archonology" target='_blank' rel='nonreferrer'>Follow on Github</a>
+//           </div>
+//         </div>
+//       </div>
+//       <div>
+//         <Quotes theme={theme} />
+//       </div>
+//     </>
+//   )
+// }
 
