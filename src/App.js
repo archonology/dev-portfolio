@@ -36,12 +36,12 @@ export default function App() {
               {theme === 'light' ? (
                 <>
                   <ul className="iconUl">
-                    <a href='/#'><li><FoundationIcon /></li></a>
+                    <a href='/#/home'><li><FoundationIcon /></li></a>
                     <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: '#2d373c' }) }}><DarkModeIcon /></li>
                   </ul>
                 </>) : (<>
                   <ul className="iconUl">
-                    <a href='/'><li><FoundationIcon /></li></a>
+                    <a href='/#/home'><li><FoundationIcon /></li></a>
                     <li onClick={() => { setTheme('light'); setStyle({ backgroundColor: 'white' }) }}><LightModeIcon /></li>
                   </ul>
                 </>)}
@@ -55,10 +55,11 @@ export default function App() {
 
           <Routes>
             <Route path='/' element={<Home theme={theme} />}></Route>
-            <Route index element={<Home theme={theme} />} />
+            {/* <Route index element={<Home theme={theme} />} /> */}
             <Route path="portfolio" element={<Portfolio theme={theme} />} />
             <Route path="resume" element={<Resume theme={theme} />} />
             <Route path="contact" element={<Contact theme={theme} />} />
+            <Route path="home" element={<Home theme={theme} />} />
             <Route path="*" element={<Home theme={theme} />} />
           </Routes>
           <div>
