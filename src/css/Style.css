@@ -261,7 +261,7 @@ footer p {
     width: 100%;
     height: 180px;
     margin-top: 3rem;
-    background-color: var(--paper);
+    /* background-color: var(--paper); */
 }
 
 .slider {
@@ -545,10 +545,10 @@ footer .dark {
     }
 
     .portfolio-container {
-        background-size: 270%;
-        background-position-x: 18%;
-        background-position-y: 40%;
-        min-height: 790px;
+        background-size: 290%;
+        background-position-x: 20%;
+        background-position-y: 60%;
+        min-height: 820px;
     }
 
     .proj-columns {
@@ -564,6 +564,9 @@ footer .dark {
         box-shadow: 0 0 18px rgba(0, 0, 0, 0.368);
     }
 
+    .dark .container-content, .dark .cc2 {
+        background-color: var(--deepOcean);
+    }
     .container-content p,
     .container-content h2,
     .cc2 h2,
