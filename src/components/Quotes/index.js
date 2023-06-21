@@ -1,10 +1,18 @@
 import * as React from "react";
 
-const Quotes = () => {
+const Quotes = (theme) => {
+    const rowName = 'row';
+    let sliderName = '';
+    if (theme.theme === 'light') {
+        sliderName = 'qoute-slider';
+    } else {
+        sliderName = 'qoute-slider dark-qoute-slider';
+    }
+    console.log(theme);
     return (
-        <>
-            <section className="row">
-                    <div className="qoute-slider">
+        <div>
+            <section className={rowName}>
+                <div className={sliderName}>
                         <div className="slider">
                             <div className="mask">
                                 <a
@@ -42,7 +50,7 @@ const Quotes = () => {
                     </div>
             
             </section>
-        </>
+        </div>
     )
 }
 
