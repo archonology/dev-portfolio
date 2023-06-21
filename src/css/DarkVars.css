@@ -10,7 +10,7 @@
     --graphite500: rgb(23, 23, 23);
 } */
 
-.proj-links a:hover,
+/* .proj-links a:hover,
 .proj-links a:focus,
 .proj-links a:active {
     color: black;
@@ -41,5 +41,5 @@
 .dark-qoute-slider p {
     color: var(--paper);
     font-weight: 600;
-}
+} */
 

@@ -1,7 +1,7 @@
 import './css/Reset.css'
 import './css/Variables.css'
 import './css/Style.css';
-import { createContext, useContext, useState } from 'react';
+import { createContext, useState } from 'react';
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
@@ -70,33 +70,4 @@ export default function App() {
     </ThemeContext.Provider>
   );
 }
-
-// const Home = () => {
-//   const theme = useContext(ThemeContext);
-//   const className = 'container' + ' ' + theme;
-//   console.log(className);
-//   return (
-
-//     <>
-//       <div className={className}>
-//         <div className="container-content">
-//           <p className="about">Reed Meher is a certified full stack web developer. He specializes in ReactJS, CSS, and learning new tricks.</p>
-//           <br />
-//           <hr />
-//           <div className="links">
-//             <a href="https://www.linkedin.com/in/reed-meher" target='_blank' rel='nonreferrer'>Follow on LinkedIn</a>
-//           </div>
-//           <br />
-//           <hr />
-//           <div className="links">
-//             <a href="https://github.com/archonology" target='_blank' rel='nonreferrer'>Follow on Github</a>
-//           </div>
-//         </div>
-//       </div>
-//       <div>
-//         <Quotes theme={theme} />
-//       </div>
-//     </>
-//   )
-// }
 
