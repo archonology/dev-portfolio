@@ -438,7 +438,7 @@ footer .dark {
 
     .portfolio-container {
         background-size: 90%;
-        background-position-x: 420%;
+        background-position-x: 320%;
         background-position-y: 0%;
         background-repeat: no-repeat;
         height: 450px;
@@ -490,7 +490,7 @@ footer .dark {
 
     .portfolio-container {
         background-size: 105%;
-        background-position-x: -930%;
+        background-position-x: 30%;
         background-position-y: 30%;
         height: 400px;
     }
@@ -548,8 +548,8 @@ footer .dark {
     }
 
     .portfolio-container {
-        background-size: 125%;
-        background-position-x: -190%;
+        background-size: 145%;
+        background-position-x: 0%;
         background-position-y: 0%;
         min-height: 675px;
     }
@@ -588,7 +588,7 @@ footer .dark {
     }
 
     .portfolio-container {
-        background-size: 290%;
+        background-size: 270%;
         background-position-x: 20%;
         background-position-y: 60%;
         min-height: 820px;
