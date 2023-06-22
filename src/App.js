@@ -13,6 +13,7 @@ import Quotes from './components/Quotes';
 import FoundationIcon from '@mui/icons-material/Foundation';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';
+import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 
 const ThemeContext = createContext(null);
 
@@ -38,11 +39,13 @@ export default function App() {
                   <ul className="iconUl">
                     <a href='/#/home'><li><FoundationIcon /></li></a>
                     <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: '#2d373c' }) }}><DarkModeIcon /></li>
+                    <a href='/#/home'><li><VideoLibraryIcon /></li></a>
                   </ul>
                 </>) : (<>
                   <ul className="iconUl">
                     <a href='/#/home'><li><FoundationIcon /></li></a>
                     <li onClick={() => { setTheme('light'); setStyle({ backgroundColor: 'white' }) }}><LightModeIcon /></li>
+                    <a href='/#/home'><li><VideoLibraryIcon /></li></a>
                   </ul>
                 </>)}
 
