@@ -4,8 +4,9 @@ html {
 
 body {
     color: var(--ink);
-    font-family: 'Lato', sans-serif;
-    line-height: 1.2; 
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2;
     background-color: var(--deepOcean);
 }
 
@@ -90,12 +91,13 @@ p {
     text-align: right;
     margin: 2rem;
     margin-bottom: 2em;
+    margin-top: .7rem;
     padding: 30px 20px 30px 30px;
     background-color: var(--paper);
     border-radius: 20px;
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.304);
-    background-image: url('../images/bwPortraitRM.jpeg');
-    background-size: 70%;
+    background-image: url('../images/Family.jpeg');
+    background-size: 100%;
     background-position-x: 130%;
     background-position-y: 70%;
     background-repeat: no-repeat;
@@ -113,9 +115,10 @@ p {
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.2);
 }
 
+.home-container-content,
 .container-content,
 .cc2 {
-    max-width: 40%;
+    max-width: 25%;
 }
 
 .this-site-container {
@@ -158,14 +161,16 @@ p {
     margin-bottom: .5em;
     margin-top: .5rem;
     font-family: 'Cutive Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
     font-size: 150%;
     color: var(--ink);
 }
 
 .proj-card p {
     font-family: 'Cutive Mono', monospace;
-    text-align: center;
-    font-size: 130%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 115%;
     margin-top: .7rem;
     margin-bottom: .7rem;
 }
@@ -174,7 +179,8 @@ p {
 .proj1 ul,
 .proj2 ul {
     font-family: 'Cutive Mono', monospace;
-    font-size: 108%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 110%;
 }
 
 .pics {
@@ -187,6 +193,7 @@ p {
     text-align: center;
     justify-content: center;
     font-family: 'Cutive Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
     font-size: 110%;
     padding-top: 1.5em;
     margin-left: 0;
@@ -208,15 +215,18 @@ p {
     background-image: url('../images/BakPak2.png');
 }
 
+.home-container-content p,
+.home-container-content h2,
 .container-content p,
 .container-content h2,
 .cc2 h2,
 .proj2 p {
     font-family: 'Cutive Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
     font-size: 120%;
 }
 
-.container-content .about {
+.home-container-content .about {
     font-size: 130%;
     /* margin-left: 10em; */
     color: var(--ink);
@@ -227,26 +237,30 @@ p {
 .proj2 .links {
     font-size: 120%;
     font-family: 'Cutive Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
     margin-top: .8rem;
 }
 
 h4 {
     font-family: 'Cutive Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
     font-size: 120%;
 }
 
 .this-site-container p {
     font-family: 'Cutive Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
     font-size: 120%;
 }
 
 footer {
-    min-height: 200px;
+    min-height: 150px;
     top: 0;
     text-align: center;
     font-family: 'Cutive Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
     padding-top: 3em;
-    padding-bottom: 4em;
+    padding-bottom: 3em;
     margin-bottom: 0;
     position: relative;
 }
@@ -261,9 +275,8 @@ footer p {
 
 .qoute-slider {
     width: 100%;
-    height: 180px;
-    margin-top: 3rem;
-    /* background-color: var(--paper); */
+    min-height: 180px;
+    margin-top: .7rem;
 }
 
 .slider {
@@ -291,9 +304,9 @@ a {
 }
 
 q {
-    font-size: 20px;
+    font-size: 140%;
     font-style: italic;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 .slider .source {
@@ -349,7 +362,8 @@ nav ul a li:hover {
 .proj2 {
     transition: .6s;
 }
- .container:hover,
+
+.container:hover,
 .proj1:hover,
 .proj2:hover,
 .proj1:active,
@@ -370,6 +384,10 @@ nav ul a li:hover {
 .proj-links a+a:active {
     background-color: var(--primary);
     color: var(--ink);
+}
+
+footer p:hover {
+    font-weight: bold;
 }
 
 /******************* DARKMODE ******************/
@@ -407,13 +425,13 @@ nav ul a li:hover {
 
 
 footer .dark {
-    height: 150px;
+    height: 50px;
 }
 
 @media screen and (max-width: 3000px) {
     .container {
-        background-size: 55%;
-        background-position-x: 100%;
+        background-size: 75%;
+        background-position-x: 120%;
         background-position-y: 70%;
         height: 400px;
     }
@@ -441,6 +459,8 @@ footer .dark {
         margin-right: .5rem;
     }
 
+    .home-container-content p,
+    .home-container-content h2,
     .container-content p,
     .container-content h2,
     .cc2 h2,
@@ -448,7 +468,7 @@ footer .dark {
         font-size: 160%;
     }
 
-    .container-content .about {
+    .home-container-content .about {
         font-size: 130%;
     }
 
@@ -462,9 +482,9 @@ footer .dark {
 
 @media screen and (max-width: 1200px) {
     .container {
-        background-size: 55%;
-        background-position-x: 100%;
-        background-position-y: 70%;
+        background-size: 105%;
+        background-position-x: 60%;
+        background-position-y: 0%;
         height: 400px;
     }
 
@@ -473,6 +493,25 @@ footer .dark {
         background-position-x: -930%;
         background-position-y: 30%;
         height: 400px;
+    }
+
+    .container-content,
+    .cc2 {
+        background-color: var(--paper);
+        padding: 2rem;
+        min-width: 55%;
+        height: 90%;
+        border-radius: 20px;
+        box-shadow: 0 0 18px rgba(0, 0, 0, 0.368);
+    }
+
+    .home-container-content {
+        background-color: var(--paper);
+        padding: 2rem;
+        min-width: 55%;
+        height: 60%;
+        border-radius: 20px;
+        box-shadow: 0 0 18px rgba(0, 0, 0, 0.368);
     }
 
     .proj-columns {
@@ -487,7 +526,7 @@ footer .dark {
         font-size: 150%;
     }
 
-    .container-content .about {
+    .home-container-content .about {
         font-size: 130%;
     }
 
@@ -502,16 +541,16 @@ footer .dark {
 
 @media screen and (max-width: 993px) {
     .container {
-        background-size: 67%;
-        background-position-x: 130%;
-        background-position-y: 70%;
-        height: 400px;
+        background-size: 115%;
+        background-position-x: 20%;
+        background-position-y: 0%;
+        min-height: 600px;
     }
 
     .portfolio-container {
         background-size: 125%;
         background-position-x: -190%;
-        background-position-y: 10%;
+        background-position-y: 0%;
         min-height: 675px;
     }
 
@@ -519,6 +558,8 @@ footer .dark {
         flex: 1 0 50%;
     }
 
+    .home-container-content p,
+    .home-container-content h2,
     .container-content p,
     .container-content h2,
     .cc2 h2,
@@ -540,9 +581,9 @@ footer .dark {
 
 @media screen and (max-width: 770px) {
     .container {
-        background-size: 110%;
-        background-position-x: 0;
-        background-position-y: 70%;
+        background-size: 165%;
+        background-position-x: 30%;
+        background-position-y: 0%;
         height: 440px;
     }
 
@@ -557,6 +598,7 @@ footer .dark {
         flex: 1 0 50%;
     }
 
+    .home-container-content,
     .container-content,
     .cc2 {
         background-color: var(--paper);
@@ -566,9 +608,13 @@ footer .dark {
         box-shadow: 0 0 18px rgba(0, 0, 0, 0.368);
     }
 
-    .dark .container-content, .dark .cc2 {
+    .dark .container-content,
+    .dark .cc2 {
         background-color: var(--deepOcean);
     }
+
+    .home-container-content p,
+    .home-container-content h2,
     .container-content p,
     .container-content h2,
     .cc2 h2,
@@ -576,7 +622,7 @@ footer .dark {
         font-size: 150%;
     }
 
-    .container-content .about {
+    .home-container-content .about {
         font-size: 120%;
     }
 
@@ -587,15 +633,28 @@ footer .dark {
     }
 }
 
+@media screen and (max-width: 550px) {
+    .container {
+        background-size: 175%;
+        background-position-x: 30%;
+        background-position-y: 0%;
+        min-height: 540px;
+    }
+
+    .home-container-content {
+        min-height: 70%;
+    }
+}
+
 @media screen and (max-width: 470px) {
     .container {
-        background-size: 130%;
-        background-position-x: 0;
-        background-position-y: 70%;
-        height: 540px;
+        background-size: 210%;
+        background-position-x: 100%;
+        background-position-y: 50%;
+        min-height: 490px;
         margin: 0;
         margin-top: -1;
-        margin-bottom: 0;
+        margin-bottom: 4;
         border-radius: 0;
     }
 
@@ -615,13 +674,18 @@ footer .dark {
         flex: 1 0 100%;
     }
 
+    .home-container-content,
     .container-content,
     .cc2 {
         padding: 2rem;
+        padding-top: 1rem;
         min-width: 97%;
+        min-height: 90%;
         border-radius: 20px;
     }
 
+    .home-container-content p,
+    .home-container-content h2,
     .container-content p,
     .container-content h2,
     .cc2 h2,
