@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
     background-color: var(--deepOcean);
+    list-style: ;
 }
 
 header {
@@ -228,7 +229,6 @@ p {
 
 .home-container-content .about {
     font-size: 130%;
-    /* margin-left: 10em; */
     color: var(--ink);
 }
 
@@ -247,10 +247,15 @@ h4 {
     font-size: 120%;
 }
 
+.this-site-container h4 {
+    margin-bottom: .5rem;
+}
+
 .this-site-container p {
     font-family: 'Cutive Mono', monospace;
     font-family: 'Open Sans', sans-serif;
     font-size: 120%;
+    margin-top: .5rem;
 }
 
 footer {
@@ -386,10 +391,6 @@ nav ul a li:hover {
     color: var(--ink);
 }
 
-footer p:hover {
-    font-weight: bold;
-}
-
 /******************* DARKMODE ******************/
 .dark,
 .dark-qoute-slider {
@@ -514,6 +515,12 @@ footer .dark {
         box-shadow: 0 0 18px rgba(0, 0, 0, 0.368);
     }
 
+   .dark .home-container-content,
+   .dark .container-content,
+   .dark .cc2 {
+       background-color: var(--nightSky);
+   }
+
     .proj-columns {
         flex: 1 0 50%;
     }
@@ -608,9 +615,10 @@ footer .dark {
         box-shadow: 0 0 18px rgba(0, 0, 0, 0.368);
     }
 
+    .dark .home-container-content,
     .dark .container-content,
     .dark .cc2 {
-        background-color: var(--deepOcean);
+        background-color: var(--nightSky);
     }
 
     .home-container-content p,
@@ -638,11 +646,15 @@ footer .dark {
         background-size: 175%;
         background-position-x: 30%;
         background-position-y: 0%;
-        min-height: 540px;
+        min-height: 640px;
     }
 
-    .home-container-content {
-        min-height: 70%;
+    .portfolio-container {
+            background-size: 290%;
+    }
+
+     .container-content, .cc2 {
+        min-height: 740px;
     }
 }
 
