@@ -33,7 +33,7 @@ const Portfolio = (theme) => {
                     </div>
                     <br />
                     <hr />
-                    <ul style={{ textAlign: 'left', listStyle: 'square', marginTop: 12, marginLeft: 23, lineHeight: 1.4 }}>
+                    <ul style={{ textAlign: 'left', listStyle: 'disc', marginTop: 12, marginLeft: 26, lineHeight: 1.4 }}>
                         <li>A React app comissioned by a former coworker and built to specifications.</li>
                         <li>Fully functional user and hidden admin environments via JSON Web Token.</li>
                         <li style={{ marginBottom: 7 }}>Utilizes continuous deployment practices to add features and make improvements.</li>
@@ -63,7 +63,7 @@ const Portfolio = (theme) => {
                     </div>
                     <br />
                     <hr />
-                    <ul style={{ textAlign: 'left', listStyle: 'square', marginTop: 12, marginLeft: 23, lineHeight: 1.4 }}>
+                    <ul style={{ textAlign: 'left', listStyle: 'disc', marginTop: 12, marginLeft: 26, lineHeight: 1.4 }}>
                         <li>As a student, I wanted an application that offered a collection of tools commonly found in a backpack so that all my study and research tools could be found in one place.</li>
                         <li style={{ marginBottom: 7 }}>I keep adding new tools built with vanilla JS: stay tuned for more!</li>
                         <hr />
@@ -79,7 +79,7 @@ const Portfolio = (theme) => {
                         <hr />
                         <p>As a player of Magic The Gathering, I want an application that lets me login and search a database of all Magic cards, add the ones I like to a favorites list, and build virtual decks so that I can improve my deck-building skills, see cards from all sets, and make deck-building more efficient.</p>
                         <hr />
-                        <ul style={{ textAlign: 'left', listStyle: 'square', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
+                        <ul style={{ textAlign: 'left', listStyle: 'disc', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
                             <li>Built collaboratively by a team of 4 developers.</li>
                             <li>I handled the fetch API integration, UI design, and debugging.</li>
                             <li style={{ marginBottom: 7 }}>Login user environment with JWT.</li>
@@ -100,7 +100,7 @@ const Portfolio = (theme) => {
                         <hr />
                         <p>As a home-seeker, I want an app that lets me save the homes I like best, pair them with the things I want to fill the home with, and share what I find with my friends and family so that I can not only find the right new home, but share the journey with others as well.</p>
                         <hr />
-                        <ul style={{ textAlign: 'left', listStyle: 'square', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
+                        <ul style={{ textAlign: 'left', listStyle: 'disc', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
                             <li>Built collaboratively by a team of 3 developers.</li>
                             <li style={{ marginBottom: 7 }}>I was the project lead as well as architect for the front and backend design, CRUD routes, debugging, deployment, and testing.</li>
                             <hr />
@@ -119,7 +119,7 @@ const Portfolio = (theme) => {
                         <hr />
                         <p>As a budding web developer, I want a blog where I can post about tech topics and manage the content so that I can share what I'm learning in a professional way.</p>
                         <hr />
-                        <ul style={{ textAlign: 'left', listStyle: 'square', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
+                        <ul style={{ textAlign: 'left', listStyle: 'disc', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
                             <li>Designed and constructed front to back by yours truly.</li>
                             <li style={{ marginBottom: 7 }}> Full Stack app Deployed on Heroku.</li>
                             <hr/>
@@ -138,7 +138,7 @@ const Portfolio = (theme) => {
                         <hr />
                         <p>As a person ready for dinner and relaxation, I want to find food recipes, cocktail recipes, and a show to watch while I relax and eat so that I can have an enjoyable night in.</p>
                         <hr />
-                        <ul style={{ textAlign: 'left', listStyle: 'square', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
+                        <ul style={{ textAlign: 'left', listStyle: 'disc', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
                             <li>Built collaboratively by a team of 3 developers.</li>
                             <li>I was in charge of Tailwind CSS library research, implementation, and tutorials for the team.</li>
                             <li style={{ marginBottom: 7 }}>I created the search and save cocktail recipes component: fetch API, HTML, JS, and CSS.</li>
@@ -156,7 +156,7 @@ const Portfolio = (theme) => {
                 <div>
                     <h4>This Portfolio</h4>
                     <hr />
-                    <p>Built with ReactJS and custom CSS for all formatting and animations, this portfolio utilizes a minimal number of components from CSS libraries. Check out the repo to see the code behind it!</p>
+                    <p>Built with ReactJS and custom CSS for all formatting and animations, this portfolio utilizes React Hooks and a minimal number of components from CSS libraries. Check out the repo to see the code behind it!</p>
                 </div>
                 <div className="proj-links">
                     <a href="https://github.com/archonology/dev-portfolio" target={'_blank'} rel={'nonreferrer'}>See the Repository</a>

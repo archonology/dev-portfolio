@@ -38,7 +38,7 @@ export default function App() {
                 <>
                   <ul className="iconUl">
                     <a href='/#/home'><li><FoundationIcon /></li></a>
-                    <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: '#2d373c' }) }}><DarkModeIcon /></li>
+                    <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: '#2b2e35' }) }}><DarkModeIcon /></li>
                     <a href='/#/home'><li><VideoLibraryIcon /></li></a>
                   </ul>
                 </>) : (<>
@@ -53,7 +53,7 @@ export default function App() {
           </header>
 
           <div className="donate">
-            <button className="donate-button">DONATE</button>
+            <a href='https://buy.stripe.com/28oaENdwM33Cgbm5kl' target='_blank' rel='nonreferrer'><button className="donate-button">DONATE</button></a>
           </div>
 
           <Routes>
