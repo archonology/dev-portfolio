@@ -38,7 +38,7 @@ export default function App() {
                 <>
                   <ul className="iconUl">
                     <a href='/#/home'><li><FoundationIcon /></li></a>
-                    <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: '#2d373c' }) }}><DarkModeIcon /></li>
+                    <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: '#2b2e35' }) }}><DarkModeIcon /></li>
                     <a href='/#/home'><li><VideoLibraryIcon /></li></a>
                   </ul>
                 </>) : (<>

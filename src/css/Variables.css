@@ -2,15 +2,17 @@
     --ink: rgb(21, 21, 21);
     --paper: rgb(253, 252, 250);
     /* --primary: rgb(252, 224, 100); */
-    --primary: rgb(217, 216, 215);
+    --primary: rgb(235, 6, 120);
+    /* --primary: rgb(189, 3, 96); */
     --secondary: rgb(245, 157, 195);
-    --secondary: rgb(240, 189, 212);
+    --secondary: hwb(190 9% 52%);
     --graphite100: rgba(217, 218, 218, 0.863);
     --graphite200: rgb(157, 158, 158);
     --graphite300: rgb(110, 110, 110);
     --graphite400: rgb(80, 80, 79);
     --graphite500: rgb(63, 62, 62);
     --deepOcean: #2d373c;
+    --deepOcean: #2b2e35;
     --nightSky: #1c232d;
     --deepAccent: rgb(252, 161, 5);
 }
