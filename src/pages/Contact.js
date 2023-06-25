@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { validateEmail } from '../utils/validation';
 
 const Contact = () => {
     const [name, setName] = useState('');
@@ -39,6 +40,7 @@ const Contact = () => {
         setName('');
         setEmail('');
         setMessage('');
+        setErrorMessage('');
         emailjs.sendForm('service_8vauvgr', 'template_favgkfg', form.current, '5oouP9wFVBIv7Jaue')
 
         alert(`
@@ -62,8 +64,34 @@ const Contact = () => {
 
             )}
             <form ref={form} onSubmit={handleFormSubmit}>
-                <label for='nameInput'></label>
-                <input id='nameInput' value={name} onChange={handleInputChange} />
+                <label for='nameInput'>Name
+                    <input
+                        id='nameInput'
+                        value={name}
+                        type="text"
+                        name="name"
+                        onChange={handleInputChange}
+                    />
+                </label>
+                <label for='emailInput'>Email
+                    <input
+                        id='emailInput'
+                        value={email}
+                        type="text"
+                        name="email"
+                        onChange={handleInputChange}
+                    />
+                </label>
+                <label for='messageInput'>Message
+                    <input
+                        id='messageInput'
+                        value={message}
+                        type="textarea"
+                        name="message"
+                        onChange={handleInputChange}
+                    />
+                </label>
+                <button type='submit'>Send</button>
             </form>
         </>
     )
