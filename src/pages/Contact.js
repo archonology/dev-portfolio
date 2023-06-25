@@ -2,12 +2,13 @@ import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { validateEmail } from '../utils/validation';
 
-const Contact = () => {
+const Contact = (theme) => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
     const form = useRef();
+    const containerStyle = "contact-" + theme.theme;
 
     const handleInputChange = (e) => {
 
@@ -27,13 +28,21 @@ const Contact = () => {
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
-        if (!validateEmail(email) || !name) {
+        if (!validateEmail(email)) {
             setErrorMessage(`
-      Sorry, ${name}, 
-      the email is missing something. 
-      Please check it and try again, 
-      thanks!
+      Please check the email address you entered.
       `);
+            return;
+
+        } else if (!name) {
+            setErrorMessage(`
+            Please include a name.`);
+
+            return;
+        } else if (!message) {
+            setErrorMessage(`
+            Please include a message.`);
+
             return;
         }
 
@@ -45,7 +54,7 @@ const Contact = () => {
 
         alert(`
       Thanks for your message, ${name}! 
-      I'll be in touch soon. ☕️
+      I'll be in touch soon. 🌿
       - Reed Meher
       `);
     };
@@ -53,46 +62,59 @@ const Contact = () => {
 
     return (
         <>
-            <h2>Contact</h2>
-            <p>Have questions or interested in services? Please reach out!</p>
-            <hr />
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                    <hr />
-                </div>
+            <div className={containerStyle}>
+                {errorMessage && (
+                    <div style={{ marginBottom: 24 }} className='contact-row'>
+                        <p className="error-text">{errorMessage}</p>
+                        <hr />
+                    </div>
 
-            )}
-            <form ref={form} onSubmit={handleFormSubmit}>
-                <label for='nameInput'>Name
-                    <input
-                        id='nameInput'
-                        value={name}
-                        type="text"
-                        name="name"
-                        onChange={handleInputChange}
-                    />
-                </label>
-                <label for='emailInput'>Email
-                    <input
-                        id='emailInput'
-                        value={email}
-                        type="text"
-                        name="email"
-                        onChange={handleInputChange}
-                    />
-                </label>
-                <label for='messageInput'>Message
-                    <input
-                        id='messageInput'
-                        value={message}
-                        type="textarea"
-                        name="message"
-                        onChange={handleInputChange}
-                    />
-                </label>
-                <button type='submit'>Send</button>
-            </form>
+                )}
+
+                <form
+                    ref={form}
+                    onSubmit={handleFormSubmit}
+                >
+                    <div >
+
+                        <input
+                            className='contact-row'
+                            id='nameInput'
+                            value={name}
+                            type="text"
+                            name="name"
+                            placeholder='Name'
+                            onChange={handleInputChange}
+                        />
+
+                        <br />
+                        <input
+                            className='contact-row'
+                            id='emailInput'
+                            value={email}
+                            type="text"
+                            name="email"
+                            placeholder='Email'
+                            onChange={handleInputChange}
+                        />
+                        <br />
+                        <textarea
+                            className='contact-row'
+                            id='messageInput'
+                            value={message}
+                            type="textarea"
+                            name="message"
+                            placeholder='Message'
+                            onChange={handleInputChange}
+                            rows='10'
+                            cols='30'
+                        />
+                        <br />
+                        <button type='submit' className='contact-row'>Send</button>
+                    </div>
+                </form>
+            </div>
+
         </>
     )
 }

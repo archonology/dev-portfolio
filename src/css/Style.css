@@ -426,6 +426,51 @@ q {
     color: var(--paper);
 }
 
+/* ********CONTACT PAGE******** */
+.contact-light,
+.contact-dark {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem;
+    margin-top: -10px;
+    justify-content: center;
+}
+
+
+.contact-row {
+    flex-direction: column;
+    flex: 1 0 100%;
+    padding: 1rem;
+    margin: .5rem;
+    width: 290px;
+}
+
+.error-text {
+    padding: 1em;
+    text-align: center;
+}
+
+/* input {
+    background: none;
+} */
+
+button {
+    background-color: var(--primary);
+    border: none;
+    color: var(--paper);
+    font-size: 110%;
+    font-weight: 700;
+}
+
+.contact-dark .error-text {
+    color: var(--paper);
+}
+
+button:hover {
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.412);
+}
+
 /* *************:::::::::::::::************ PSEUDO *************::::::::::************************ */
 
 .clicked {
