@@ -118,6 +118,27 @@ const Portfolio = (theme) => {
                     </div>
                 </div>
                 <div className="proj-columns">
+                    <div className="proj-card card-1">
+                        <Image src={prima} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
+                        <h3>Prima-Materia</h3>
+                        <hr />
+                        <p>As a player of Magic The Gathering, I want an application that lets me login and search a database of all Magic cards, add the ones I like to a favorites list, and build virtual decks so that I can improve my deck-building skills, see cards from all sets, and make deck-building more efficient.</p>
+                        <hr />
+                        <ul style={{ textAlign: 'left', listStyle: 'disc', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
+                            <li>Built collaboratively by a team of 4 developers.</li>
+                            <li>I handled the fetch API integration, UI design, and debugging.</li>
+                            <li style={{ marginBottom: 7 }}>Login user environment with JWT.</li>
+                            <hr />
+                            <li style={{ marginTop: 7, listStyle: 'none', fontWeight: '700' }}>MERN Stack | GraphQL | Material UI | Apollo</li>
+                        </ul>
+                        <div className="proj-links">
+                            <a href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}>Live Site</a>
+                            <a href="https://github.com/archonology/Prima-Materia" target={'_blank'} rel={'nonreferrer'}>Repository</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div className="proj-columns">
                     <div className="proj-card">
                         <Image src={homeParty} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
                         <h3>Home Party</h3>

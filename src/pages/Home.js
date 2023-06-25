@@ -9,7 +9,7 @@ const Home = (theme) => {
         <>
             <div className={className}>
                 <div className="home-container-content">
-                    <p className="about">Reed Meher is a certified full stack web developer and a father of three. He specializes in the MERN Stack, CSS, and learning new tricks. He also has a minor in dance parties.</p>
+                    <p className="about">Reed Meher is a certified full stack web developer and a father of three. He specializes in the MERN Stack and learning new tricks.</p>
                     <br />
                     <hr />
                     <div className="links">

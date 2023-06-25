@@ -96,7 +96,7 @@ p {
     background-color: var(--paper);
     border-radius: 20px;
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.304);
-    background-image: url('../images/Family.jpeg');
+    background-image: url('../images/self-portrait-leaves.png');
     background-size: 100%;
     background-position-x: 130%;
     background-position-y: 70%;
@@ -471,6 +471,13 @@ button:hover {
     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.412);
 }
 
+input[type="text"]:focus,
+textarea[type="textarea"]:focus {
+    outline: none;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.412);
+    border: 1px solid var(--ink);
+}
+
 /* *************:::::::::::::::************ PSEUDO *************::::::::::************************ */
 
 .clicked {
@@ -783,9 +790,9 @@ footer .dark {
 
 @media screen and (max-width: 550px) {
     .container {
-        background-size: 175%;
+        background-size: 275%;
         background-position-x: 30%;
-        background-position-y: 0%;
+        background-position-y: 30%;
         min-height: 640px;
     }
 
