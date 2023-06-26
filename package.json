@@ -2,7 +2,7 @@
   "name": "meherdevs-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.meherdevs.com/",
+  "homepage": "https://www.github.com/io/archonology/Dev-Portfolio",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@emotion/react": "^11.11.1",
