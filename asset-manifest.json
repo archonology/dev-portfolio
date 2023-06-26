@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/io/archonology/Dev-Portfolio/static/css/main.5713e0b0.css",
+    "main.js": "/io/archonology/Dev-Portfolio/static/js/main.0a5ba92f.js",
+    "static/js/787.556ec7cb.chunk.js": "/io/archonology/Dev-Portfolio/static/js/787.556ec7cb.chunk.js",
+    "static/media/cwPOrtalNew.png": "/io/archonology/Dev-Portfolio/static/media/cwPOrtalNew.752c3a621d14c473c18d.png",
+    "static/media/self-portrait-leaves.png": "/io/archonology/Dev-Portfolio/static/media/self-portrait-leaves.ba49520ba62aafd1c924.png",
+    "static/media/prima-materia-home.jpg": "/io/archonology/Dev-Portfolio/static/media/prima-materia-home.835ccd374f37f0e70ec6.jpg",
+    "static/media/home-party-page.jpg": "/io/archonology/Dev-Portfolio/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
+    "static/media/BakPak2.png": "/io/archonology/Dev-Portfolio/static/media/BakPak2.1b28d1c313d524471b81.png",
+    "static/media/a-night-in-page.jpg": "/io/archonology/Dev-Portfolio/static/media/a-night-in-page.a077afed328e2ae96e36.jpg",
+    "static/media/wandering-comma.jpg": "/io/archonology/Dev-Portfolio/static/media/wandering-comma.928ef04ff0ef7acd9d48.jpg",
+    "index.html": "/io/archonology/Dev-Portfolio/index.html",
+    "main.5713e0b0.css.map": "/io/archonology/Dev-Portfolio/static/css/main.5713e0b0.css.map",
+    "main.0a5ba92f.js.map": "/io/archonology/Dev-Portfolio/static/js/main.0a5ba92f.js.map",
+    "787.556ec7cb.chunk.js.map": "/io/archonology/Dev-Portfolio/static/js/787.556ec7cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5713e0b0.css",
+    "static/js/main.0a5ba92f.js"
+  ]
+}
