@@ -20,6 +20,47 @@ const ThemeContext = createContext(null);
 export default function App() {
   const [theme, setTheme] = useState('light');
   const [style, setStyle] = useState({ backgroundColor: 'white' })
+  const [clickState1, setClickState1] = useState('not-clicked');
+  const [clickState2, setClickState2] = useState('not-clicked');
+  const [clickState3, setClickState3] = useState('not-clicked');
+
+  function handleClick1() {
+    if (clickState1 === 'not-clicked') {
+      setClickState1('clicked');
+      setClickState2('not-clicked');
+      setClickState3('not-clicked');
+    } else {
+      setClickState1('not-clicked');
+    }
+  }
+
+  function handleClick2() {
+    if (clickState2 === 'not-clicked') {
+      setClickState2('clicked');
+      setClickState1('not-clicked');
+      setClickState3('not-clicked');
+    } else {
+      setClickState2('not-clicked');
+    }
+  }
+
+
+  function handleClick3() {
+    if (clickState3 === 'not-clicked') {
+      setClickState3('clicked');
+      setClickState2('not-clicked');
+      setClickState1('not-clicked');
+    } else {
+      setClickState3('not-clicked');
+    }
+  }
+
+  function clearClicks() {
+    setClickState2('not-clicked');
+    setClickState1('not-clicked');
+    setClickState3('not-clicked');
+  }
+
   return (
     <ThemeContext.Provider value={theme}>
       <Router>
@@ -30,14 +71,29 @@ export default function App() {
             <hr />
             <nav>
               <ul>
-                <a href='/#/portfolio'><li>Portfolio</li></a>
-                <a href='/#/resume'><li>Resume</li></a>
-                <a href='/#/contact'><li>Contact</li></a>
+                <a
+                  href='/#/portfolio'
+                  onClick={handleClick1}
+                  className={clickState1}>
+                  <li>Portfolio</li>
+                </a>
+                <a
+                  href='/#/resume'
+                  onClick={handleClick2}
+                  className={clickState2}>
+                  <li>Resume</li>
+                </a>
+                <a
+                  href='/#/contact'
+                  onClick={handleClick3}
+                  className={clickState3}>
+                  <li>Contact</li>
+                </a>
               </ul>
               {theme === 'light' ? (
                 <>
                   <ul className="iconUl">
-                    <a href='/#/home'><li><FoundationIcon /></li></a>
+                    <a href='/#/home' onClick={clearClicks}><li><FoundationIcon /></li></a>
                     <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: '#2b2e35' }) }}><DarkModeIcon /></li>
                     <a href='/#/home'><li><VideoLibraryIcon /></li></a>
                   </ul>
