@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-import Quotes from './components/Quotes';
 import FoundationIcon from '@mui/icons-material/Foundation';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';

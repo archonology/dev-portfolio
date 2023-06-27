@@ -21,10 +21,6 @@ const Resume = (theme) => {
                     <p>JavaScript • HTML • CSS • MERN Stack • GraphQL • Web API • Git • React • Unit Testing • Agile Practices • Express • Node </p>
                 </div>
             </div>
-            {/* <div className="resume-col resume-col2">
-                <h2>SKILLS</h2>
-                <p>JavaScript • HTML • CSS • MERN Stack • GraphQL • Web API • Git • React • Unit Testing • Agile Practices • Express • Node </p>
-            </div> */}
             <div className="resume-col resume-col2">
                 <h2>EXPERIENCE</h2>
                 <h3>Instructional Specialist for Full Stack Flex Boot Camp</h3>

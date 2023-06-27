@@ -1,16 +1,10 @@
 :root {
-    --ink: rgb(21, 21, 21);
-    --paper: rgb(253, 252, 250);
-    --primary: hsl(330, 95%, 47%);
-    --secondary: rgb(245, 157, 195);
+    --ink: hwb(0 8% 92%);
+    --paper: hwb(40 98% 1%);
+    --primary: hwb(330 2% 8%);
     --secondary: hwb(190 9% 52%);
     --graphite100: rgba(217, 218, 218, 0.863);
-    --graphite200: rgb(157, 158, 158);
-    --graphite300: rgb(110, 110, 110);
-    --graphite400: rgb(80, 80, 79);
-    --graphite500: rgb(63, 62, 62);
     --deepOcean: #2d373c;
     --deepOcean: #2b2e35;
     --nightSky: #1c232d;
-    --deepAccent: rgb(252, 161, 5);
 }

@@ -4,7 +4,6 @@ html {
 
 body {
     color: var(--ink);
-    /* font-family: 'Lato', sans-serif; */
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
     background-color: var(--deepOcean);
@@ -359,7 +358,7 @@ q {
 .resume-dark h2 {
     font-size: 100%;
     font-weight: 900;
-    color: rgb(219, 13, 119);
+    color: var(--primary);
     margin-bottom: .5rem;
 }
 
@@ -367,12 +366,10 @@ q {
 .resume-dark h3 {
     font-size: 120%;
     line-height: 1.2;
-    /* text-align: center; */
 }
 
 .resume-light h4,
 .resume-dark h4 {
-    /* text-align: center; */
     font-weight: 400;
     line-height: 1.3;
     font-size: 100%;
@@ -381,7 +378,6 @@ q {
 
 .resume-light p,
 .resume-dark p {
-    /* text-align: center; */
     line-height: 1.3;
 }
 
@@ -484,7 +480,6 @@ textarea[type="textarea"]:focus {
 .proj1 .links a:hover,
 .proj2 .links a:hover,
 .links a:hover {
-    /* color: var(--secondary); */
     background-color: var(--primary);
     color: var(--paper);
     padding: .3rem;
