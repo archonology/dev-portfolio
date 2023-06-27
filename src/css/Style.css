@@ -454,17 +454,6 @@ button {
     color: var(--paper);
 }
 
-button:hover {
-    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.412);
-}
-
-input[type="text"]:focus,
-textarea[type="textarea"]:focus {
-    outline: none;
-    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.412);
-    border: 1px solid var(--ink);
-}
-
 /* *************:::::::::::::::************ PSEUDO *************::::::::::************************ */
 
 .clicked {
@@ -522,6 +511,19 @@ textarea[type="textarea"]:focus {
 .proj-links a+a:active {
     background-color: var(--primary);
     color: var(--paper);
+}
+
+button:hover {
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.412);
+}
+
+input[type="text"]:focus,
+textarea[type="textarea"]:focus,
+input[type="text"]:active,
+textarea[type="textarea"]:active {
+    outline: none;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.412);
+    border: 1px solid var(--ink);
 }
 
 /******************* DARKMODE ******************/

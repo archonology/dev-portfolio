@@ -24,9 +24,8 @@ const Portfolio = (theme) => {
                         <hr />
                         <ul style={{ textAlign: 'left', listStyle: 'disc', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
                             <li>A React app comissioned by a former coworker and built to specifications.</li>
-                            <li>Fully functional user and hidden admin environments via JSON Web Token..</li>
-                            <li>Utilizes continuous deployment practices to add features and make improvements.</li>
-                            <li style={{ marginBottom: 7 }}>Login user environment with JWT.</li>
+                            <li>Fully functional user and hidden admin environments via JSON Web Token.</li>
+                            <li style={{ marginBottom: 7 }}>Utilizes continuous deployment practices to add features and make improvements.</li>
                             <hr />
                             <li style={{ marginTop: 7, listStyle: 'none', fontWeight: '700' }}>MERN Stack | GraphQL | Material UI | Apollo</li>
                         </ul>
@@ -47,7 +46,7 @@ const Portfolio = (theme) => {
                         <ul style={{ textAlign: 'left', listStyle: 'disc', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
                             <li>Implements fetch API.</li>
                             <li>Utilizes localStorage to save user's input and data.</li>
-                            <li style={{ marginBottom: 7 }}>Built with Vanilla JS, Bootstrap, and Material UI components.</li>
+                            <li style={{ marginBottom: 7 }}>Built with React Hooks, Bootstrap, and Material UI components.</li>
                             <hr />
                             <li style={{ marginTop: 7, listStyle: 'none', fontWeight: '700' }}>ReactJS | LocalStorage | Material UI | GH-Pages</li>
                         </ul>
@@ -106,7 +105,7 @@ const Portfolio = (theme) => {
                         <p>As a budding web developer, I needed a custom blog where I could post about tech topics so that I could share what I'm learning in a professional way.</p>
                         <hr />
                         <ul style={{ textAlign: 'left', listStyle: 'disc', marginTop: 5, marginLeft: 23, lineHeight: 1.4 }}>
-                            <li>Designed and constructed front to back by yours truly.</li>
+                            <li>Designed and constructed with full CRUD routes and token user environment.</li>
                             <li style={{ marginBottom: 7 }}> Full Stack app Deployed on Heroku.</li>
                             <hr />
                             <li style={{ marginTop: 7, listStyle: 'none', fontWeight: '700' }}>MySQL | Handlebars | Express | Sequelize</li>
