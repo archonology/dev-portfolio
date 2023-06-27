@@ -72,19 +72,19 @@ export default function App() {
             <nav>
               <ul>
                 <a
-                  href='/#/portfolio'
+                  href='#/portfolio'
                   onClick={handleClick1}
                   className={clickState1}>
                   <li>Portfolio</li>
                 </a>
                 <a
-                  href='/#/resume'
+                  href='#/resume'
                   onClick={handleClick2}
                   className={clickState2}>
                   <li>Resume</li>
                 </a>
                 <a
-                  href='/#/contact'
+                  href='#/contact'
                   onClick={handleClick3}
                   className={clickState3}>
                   <li>Contact</li>
@@ -93,15 +93,15 @@ export default function App() {
               {theme === 'light' ? (
                 <>
                   <ul className="iconUl">
-                    <a href='/#/home' onClick={clearClicks}><li><FoundationIcon /></li></a>
+                    <a href='#/' onClick={clearClicks}><li><FoundationIcon /></li></a>
                     <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: '#2b2e35' }) }}><DarkModeIcon /></li>
-                    <a href='/#/home'><li><VideoLibraryIcon /></li></a>
+                    <a href='#/'><li><VideoLibraryIcon /></li></a>
                   </ul>
                 </>) : (<>
                   <ul className="iconUl">
-                    <a href='/#/home'><li><FoundationIcon /></li></a>
+                    <a href='#/'><li><FoundationIcon /></li></a>
                     <li onClick={() => { setTheme('light'); setStyle({ backgroundColor: 'white' }) }}><LightModeIcon /></li>
-                    <a href='/#/home'><li><VideoLibraryIcon /></li></a>
+                    <a href='#/'><li><VideoLibraryIcon /></li></a>
                   </ul>
                 </>)}
 
@@ -114,7 +114,7 @@ export default function App() {
 
           <Routes>
             <Route path='/' element={<Home theme={theme} />}></Route>
-            {/* <Route index element={<Home theme={theme} />} /> */}
+            <Route index element={<Home theme={theme} />} />
             <Route path="portfolio" element={<Portfolio theme={theme} />} />
             <Route path="resume" element={<Resume theme={theme} />} />
             <Route path="contact" element={<Contact theme={theme} />} />
