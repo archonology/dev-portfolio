@@ -30,8 +30,8 @@ const Portfolio = (theme) => {
                             <li style={{ marginTop: 7, listStyle: 'none', fontWeight: '700' }}>MERN Stack | GraphQL | Material UI | Apollo</li>
                         </ul>
                         <div className="proj-links">
-                            <a href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}>Live Site</a>
-                            <a href="https://github.com/archonology/Prima-Materia" target={'_blank'} rel={'nonreferrer'}>Repository</a>
+                            <a href="https://www.childwelfareportal.org/" target={'_blank'} rel={'nonreferrer'}>Live Site</a>
+                            <a href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'}>Repository</a>
                         </div>
 
                     </div>
@@ -51,8 +51,8 @@ const Portfolio = (theme) => {
                             <li style={{ marginTop: 7, listStyle: 'none', fontWeight: '700' }}>ReactJS | LocalStorage | Material UI | GH-Pages</li>
                         </ul>
                         <div className="proj-links">
-                            <a href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}>Live Site</a>
-                            <a href="https://github.com/archonology/Prima-Materia" target={'_blank'} rel={'nonreferrer'}>Repository</a>
+                            <a href="https://archonology.github.io/BakPak/#/home" target={'_blank'} rel={'nonreferrer'}>Live Site</a>
+                            <a href="https://github.com/archonology/BakPak" target={'_blank'} rel={'nonreferrer'}>Repository</a>
                         </div>
 
                     </div>
