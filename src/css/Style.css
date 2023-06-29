@@ -13,7 +13,6 @@ header {
     background-size: cover;
     padding: 1.7rem;
     padding-top: 1.3rem;
-    margin-bottom: .2rem;
     text-align: center;
 
 }
@@ -88,21 +87,16 @@ p {
 .portfolio-container {
     display: flex;
     text-align: right;
+    justify-content: center;
     margin: 2rem;
     margin-bottom: 2em;
-    margin-top: .7rem;
-    padding: 30px 20px 30px 30px;
+    margin-top: 0;
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
     background-color: var(--paper);
-    border-radius: 20px;
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.304);
-    background-image: url('../images/self-portrait-leaves.png');
-    background-size: 100%;
-    background-position-x: 130%;
-    background-position-y: 70%;
-    background-repeat: no-repeat;
-    min-height: 625px;
     transition: .5s;
 }
+
 
 .projects-container {
     display: flex;
@@ -460,6 +454,10 @@ button {
     font-weight: 700;
 }
 
+header nav ul a:hover {
+    font-weight: 700;
+}
+
 
 .iconUl li:hover {
     cursor: pointer;
@@ -472,6 +470,10 @@ button {
     background-color: var(--primary);
     color: var(--paper);
     padding: .3rem;
+    font-weight: 700;
+}
+
+.homeLinks a:hover {
     font-weight: 700;
 }
 
@@ -530,12 +532,15 @@ textarea[type="textarea"]:active {
 .dark,
 .dark-qoute-slider {
     background-color: var(--deepOcean);
+    color: rgb(250, 162, 193);
+    font-weight: 600;
 }
 
 
 .dark h1,
 .dark p,
 .dark .about,
+.dark .homeLinks a,
 .dark .links a,
 .dark ul li,
 .dark ul li p,
@@ -852,6 +857,11 @@ footer .dark {
         min-height: 90%;
         border-radius: 20px;
     }
+
+                .home-container-content {
+                    display: flex;
+                  flex-direction: column;
+                }
 
     .home-container-content p,
     .home-container-content h2,
