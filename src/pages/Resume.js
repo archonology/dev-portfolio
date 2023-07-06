@@ -1,8 +1,13 @@
 import React from "react";
+import { useState } from "react";
 
 const Resume = (theme) => {
     const containerStyle = "resume-" + theme.theme;
     const containerStyle2 = "featured-" + theme.theme;
+    const [visibility, setVisibility] = useState({ display: 'none' });
+    function showButton() {
+        setVisibility({ display: 'block' });
+    }
     return (
         <section className={containerStyle}>
             <div className="resume-col resume-col1">
@@ -15,13 +20,13 @@ const Resume = (theme) => {
                     <div className="proj-links">
                         <a href="https://www.credly.com/badges/38a79ed6-ec04-410f-9ba1-f54002812bf5/public_url" target={'_blank'} rel={'nonreferrer'}>See Certificate</a>
                     </div>
-                
-                <br />
-                <h2>SKILLS</h2>
+
+                    <br />
+                    <h2>SKILLS</h2>
                     <p>JavaScript • HTML • CSS • MERN Stack • GraphQL • Web API • Git • React • Unit Testing • Agile Practices • Express • Node </p>
                 </div>
             </div>
-            <div className="resume-col resume-col2">
+            <div className="resume-col resume-col2" onMouseEnter={showButton} onTouchMove={showButton}>
                 <h2>EXPERIENCE</h2>
                 <h3>Instructional Specialist for Full Stack Flex Boot Camp</h3>
                 <h4>2U / University of Minnesota • April 2022 - Present • Remote</h4>
@@ -39,6 +44,16 @@ const Resume = (theme) => {
                     <li>Implemented asynchronous programming,  prototypical inheritance, source control on Git, and continuous deployment of updates, bug fixes, and new features.</li>
                     <li>Delivered a promptly deployed bug-free application that exceeded client expectations.</li>
                 </ul>
+            </div>
+            <div className="toTop">
+                <button
+                    className="toTop-button" style={visibility}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        window.scrollTo(0, 0);
+                        setVisibility({ display: 'none' });
+                    }}
+                >TO TOP</button>
             </div>
         </section>
     )

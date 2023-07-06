@@ -64,11 +64,31 @@ p {
     transition: .5s;
 }
 
+.toTop {
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    z-index: 1;
+}
+
 .donate {
     position: fixed;
     right: 30px;
     bottom: 40px;
     z-index: 1;
+}
+
+.toTop-button {
+    width: 105px;
+    height: 45px;
+    background-color: var(--paper);
+    border-radius: 10px;
+    color: var(--ink);
+    border: none;
+    box-shadow: 0 17px 20px rgba(0, 0, 0, 0.65);
+    transition: .5s ease-in-out;
+    z-index: 1;
+
 }
 
 .donate-button {
@@ -79,7 +99,7 @@ p {
     color: var(--paper);
     border: none;
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.65);
-    transition: 1s;
+    transition: .7s;
     z-index: 1;
 }
 
@@ -474,7 +494,12 @@ header nav ul a:hover {
 }
 
 .homeLinks a:hover {
-    font-weight: 700;
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+.dark .homeLinks a:hover {
+    color: rgb(142, 201, 254);
 }
 
 .proj1 .link2 a:hover,
@@ -483,8 +508,13 @@ header nav ul a:hover {
     color: var(--paper);
 }
 
+.toTop-button:hover {
+    background-color: var(--primary);
+    color: var(--paper);
+}
+
 .donate-button:hover {
-    transform: scale(112%);
+    transform: scale(108%);
 }
 
 .proj1,

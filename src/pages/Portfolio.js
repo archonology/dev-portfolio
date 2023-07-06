@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import Image from 'mui-image'
 import prima from '../images/prima-materia-home.jpg';
 import homeParty from '../images/home-party-page.jpg'
@@ -8,7 +9,11 @@ import cwp from '../images/cwPOrtalNew.png'
 import bakpak from '../images/BakPak2.png'
 
 const Portfolio = (theme) => {
-  
+    const [visibility, setVisibility] = useState({ display: 'none' });
+    function showButton() {
+        setVisibility({ display: 'block' });
+    }
+
     const containerStyle3 = "projects-container " + theme.theme;
     const containerStyle4 = "this-site-container " + theme.theme;
 
@@ -57,7 +62,7 @@ const Portfolio = (theme) => {
 
                     </div>
                 </div>
-                <div className="proj-columns">
+                <div className="proj-columns" onMouseEnter={showButton} onTouchMove={showButton}>
                     <div className="proj-card card-1">
                         <Image src={prima} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
                         <h3>Prima-Materia</h3>
@@ -78,7 +83,7 @@ const Portfolio = (theme) => {
 
                     </div>
                 </div>
-                <div className="proj-columns">
+                <div className="proj-columns" onMouseEnter={showButton} onTouchMove={showButton}>
                     <div className="proj-card">
                         <Image src={homeParty} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
                         <h3>Home Party</h3>
@@ -146,6 +151,17 @@ const Portfolio = (theme) => {
                 <div className="proj-links">
                     <a href="https://github.com/archonology/dev-portfolio" target={'_blank'} rel={'nonreferrer'}>See the Repository</a>
                 </div>
+            </div>
+
+            <div className="toTop">
+                <button
+                    className="toTop-button" style={visibility}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        window.scrollTo(0, 0);
+                        setVisibility({ display: 'none' });
+                    }}
+                >TO TOP</button>
             </div>
         </>
     )

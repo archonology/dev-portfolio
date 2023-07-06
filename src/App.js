@@ -22,6 +22,7 @@ export default function App() {
   const [clickState1, setClickState1] = useState('not-clicked');
   const [clickState2, setClickState2] = useState('not-clicked');
   const [clickState3, setClickState3] = useState('not-clicked');
+  const [visibility, setVisibility] = useState({ visibility: 'hidden' }); 
 
   function handleClick1() {
     if (clickState1 === 'not-clicked') {
@@ -60,12 +61,17 @@ export default function App() {
     setClickState3('not-clicked');
   }
 
+  function showButton() {
+    console.log('scrolling?');
+    setVisibility({ visibility: 'visible' });
+  }
+
   return (
     <ThemeContext.Provider value={theme}>
       <Router>
         <div className='background-all' style={style}>
           <header className={theme}>
-            <h1>REED MEHER</h1>
+            <h1 id='X'>REED MEHER</h1>
             <p>Full Stack Web Developer</p>
             <hr />
             <nav>
@@ -108,6 +114,9 @@ export default function App() {
             </nav>
           </header>
 
+          {/* <div className="toTop">
+            <a href='#X'><button className="toTop-button" style={visibility}>TO TOP</button></a>
+          </div> */}
           <div className="donate">
             <a href='https://buy.stripe.com/28oaENdwM33Cgbm5kl' target='_blank' rel='nonreferrer'><button className="donate-button">DONATE</button></a>
           </div>
