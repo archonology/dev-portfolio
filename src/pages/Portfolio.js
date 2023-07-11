@@ -76,7 +76,8 @@ const Portfolio = (theme) => {
                             <hr />
                             <li style={{ marginTop: 7, listStyle: 'none', fontWeight: '700' }}>MERN Stack | GraphQL | Material UI | Apollo</li>
                         </ul>
-                        <div className="proj-links">
+                        <div
+                            onMouseEnter={showButton} onTouchMove={showButton} className="proj-links">
                             <a href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}>Live Site</a>
                             <a href="https://github.com/archonology/Prima-Materia" target={'_blank'} rel={'nonreferrer'}>Repository</a>
                         </div>
@@ -96,13 +97,16 @@ const Portfolio = (theme) => {
                             <hr />
                             <li style={{ marginTop: 7, listStyle: 'none', fontWeight: '700' }}>MySQL | Handlebars | Express | Sequelize</li>
                         </ul>
-                        <div className="proj-links">
+                        <div
+                            onMouseEnter={showButton} onTouchMove={showButton} className="proj-links">
                             <a href="https://home-party-app.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>Live Site</a>
                             <a href="https://github.com/archonology/Home-Party" target={'_blank'} rel={'nonreferrer'}>Repository</a>
                         </div>
                     </div>
                 </div>
-                <div className="proj-columns">
+                <div
+                    onMouseEnter={showButton} onTouchMove={showButton}
+                    className="proj-columns">
                     <div className="proj-card">
                         <Image src={wanderComma} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
                         <h3>The Wandering Comma</h3>
@@ -115,13 +119,16 @@ const Portfolio = (theme) => {
                             <hr />
                             <li style={{ marginTop: 7, listStyle: 'none', fontWeight: '700' }}>MySQL | Handlebars | Express | Sequelize</li>
                         </ul>
-                        <div className="proj-links">
+                        <div
+                            onMouseEnter={showButton} onTouchMove={showButton} className="proj-links">
                             <a href="https://the-wandering-comma.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>Live Site</a>
                             <a href="https://github.com/archonology/The-Wandering-Comma-Tech-Blog" target={'_blank'} rel={'nonreferrer'}>Repository</a>
                         </div>
                     </div>
                 </div>
-                <div className="proj-columns">
+                <div
+                    onMouseEnter={showButton} onTouchMove={showButton}
+                    className="proj-columns">
                     <div className="proj-card">
                         <Image src={nightIn} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
                         <h3>A Night In</h3>
@@ -135,20 +142,25 @@ const Portfolio = (theme) => {
                             <hr />
                             <li style={{ marginTop: 7, listStyle: 'none', fontWeight: '700' }}>Vanilla JS | Tailwind CSS | LocalStorage | Fetch API</li>
                         </ul>
-                        <div className="proj-links">
+                        <div
+                            onMouseEnter={showButton} onTouchMove={showButton} className="proj-links">
                             <a href="https://archonology.github.io/A-Night-In/" target={'_blank'} rel={'nonreferrer'}>Live Site</a>
                             <a href="https://github.com/archonology/A-Night-In" target={'_blank'} rel={'nonreferrer'}>Repository</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className={containerStyle4}>
+            <div
+                onMouseEnter={showButton} onTouchMove={showButton}
+                className={containerStyle4}>
                 <div>
                     <h4>This Portfolio</h4>
                     <hr />
                     <p>Built with ReactJS and custom CSS for all formatting and animations, this portfolio utilizes React Hooks and a minimal number of components from CSS libraries. Check out the repo to see the code behind it!</p>
                 </div>
-                <div className="proj-links">
+                <div
+                    onMouseEnter={showButton} onTouchMove={showButton}
+                    className="proj-links">
                     <a href="https://github.com/archonology/dev-portfolio" target={'_blank'} rel={'nonreferrer'}>See the Repository</a>
                 </div>
             </div>
