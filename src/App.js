@@ -18,11 +18,11 @@ const ThemeContext = createContext(null);
 
 export default function App() {
   const [theme, setTheme] = useState('light');
-  const [style, setStyle] = useState({ backgroundColor: 'white' })
+  const [background, setBackground] = useState('background-all light')
   const [clickState1, setClickState1] = useState('not-clicked');
   const [clickState2, setClickState2] = useState('not-clicked');
   const [clickState3, setClickState3] = useState('not-clicked');
-  const [visibility, setVisibility] = useState({ visibility: 'hidden' }); 
+  const [visibility, setVisibility] = useState({ visibility: 'hidden' });
 
   function handleClick1() {
     if (clickState1 === 'not-clicked') {
@@ -69,7 +69,7 @@ export default function App() {
   return (
     <ThemeContext.Provider value={theme}>
       <Router>
-        <div className='background-all' style={style}>
+        <div className={background}>
           <header className={theme}>
             <h1 id='X'>REED MEHER</h1>
             <p>Full Stack Web Developer</p>
@@ -99,14 +99,20 @@ export default function App() {
                 <>
                   <ul className="iconUl">
                     <a href='#/' onClick={clearClicks}><li><FoundationIcon /></li></a>
-                    <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: '#2b2e35' }) }}><DarkModeIcon /></li>
+                    <li onClick={() => {
+                      setTheme('dark');
+                      setBackground('background-all dark');
+                    }}><DarkModeIcon /></li>
                     {/* video demos are in development */}
                     {/* <a href='#/'><li><VideoLibraryIcon /></li></a> */}
                   </ul>
                 </>) : (<>
                   <ul className="iconUl">
                     <a href='#/' onClick={clearClicks}><li><FoundationIcon /></li></a>
-                    <li onClick={() => { setTheme('light'); setStyle({ backgroundColor: 'white' }) }}><LightModeIcon /></li>
+                    <li onClick={() => {
+                      setTheme('light');
+                      setBackground('background-all light');
+                    }}><LightModeIcon /></li>
                     {/* <a href='#/'><li><VideoLibraryIcon /></li></a> */}
                   </ul>
                 </>)}
@@ -114,9 +120,6 @@ export default function App() {
             </nav>
           </header>
 
-          {/* <div className="toTop">
-            <a href='#X'><button className="toTop-button" style={visibility}>TO TOP</button></a>
-          </div> */}
           <div className="donate">
             <a href='https://buy.stripe.com/28oaENdwM33Cgbm5kl' target='_blank' rel='nonreferrer'><button className="donate-button">DONATE</button></a>
           </div>

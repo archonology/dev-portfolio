@@ -5,7 +5,6 @@ import Image from "mui-image";
 
 const Home = (theme) => {
     const className = theme.theme;
-    console.log(className);
     return (
 
         <>

@@ -2,15 +2,26 @@ html {
     z-index: 0;
 }
 
+.background-all .light {
+    background-image: url(../images/PartialCloudy.jpg);
+    background-size: cover;
+}
+
+.background-all .dark {
+    background-image: url(../images/PartCloudyNight.jpg);
+    background-size: cover;
+}
+
 body {
     color: var(--ink);
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
-    background-color: var(--deepOcean);
+    /* background-color: var(--deepOcean); */
 }
 
 header {
-    background-size: cover;
+    /* background-size: cover;
+    background-color: var(--paper); */
     padding: 1.7rem;
     padding-top: 1.3rem;
     text-align: center;
@@ -112,7 +123,7 @@ p {
     margin-bottom: 2em;
     margin-top: 0;
     padding: 1.5rem 1.5rem 2rem 1.5rem;
-    background-color: var(--paper);
+    /* background-color: var(--paper); */
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.304);
     transition: .5s;
 }
@@ -124,7 +135,7 @@ p {
     flex-wrap: wrap;
     margin-bottom: 3em;
     margin-top: 3em;
-    background-color: var(--paper);
+    /* background-color: var(--paper); */
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.2);
 }
 
