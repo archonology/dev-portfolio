@@ -63,13 +63,20 @@ const Contact = (theme) => {
     return (
         <>
             <div className={containerStyle}>
-                {errorMessage && (
-                    <div style={{ marginBottom: 24 }} className='contact-row'>
-                        <p className="error-text">{errorMessage}</p>
-                        <hr />
-                    </div>
+                <div style={{ marginBottom: 14 }} className='contact-row'>
+                    <p className="error-text">Contact Reed to get a full resume, inquire about experience, or to discuss potential collaborations and contract services.</p>
+                    {errorMessage && (
+                        <>
+                            <p className="error-text" style={{ color: 'hwb(330 2% 8%)', marginTop: '-15px' }}>{errorMessage}</p>
+                            {/* <hr /> */}
+                        </>
 
-                )}
+                    )}
+                    <hr />
+
+                </div>
+
+
 
                 <form
                     ref={form}
