@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a89d8a3c.css",
-    "main.js": "/static/js/main.0ecd25a6.js",
+    "main.css": "/static/css/main.70e3dfbe.css",
+    "main.js": "/static/js/main.525f85b9.js",
     "static/js/787.556ec7cb.chunk.js": "/static/js/787.556ec7cb.chunk.js",
     "static/media/cwPOrtalNew.png": "/static/media/cwPOrtalNew.752c3a621d14c473c18d.png",
     "static/media/self-portrait-leaves.png": "/static/media/self-portrait-leaves.ba49520ba62aafd1c924.png",
     "static/media/prima-materia-home.jpg": "/static/media/prima-materia-home.835ccd374f37f0e70ec6.jpg",
     "static/media/home-party-page.jpg": "/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
+    "static/media/WanderingComma2.png": "/static/media/WanderingComma2.06013c394c2d323348b2.png",
     "static/media/BakPak2.png": "/static/media/BakPak2.1b28d1c313d524471b81.png",
     "static/media/a-night-in-page.jpg": "/static/media/a-night-in-page.a077afed328e2ae96e36.jpg",
-    "static/media/wandering-comma.jpg": "/static/media/wandering-comma.928ef04ff0ef7acd9d48.jpg",
     "index.html": "/index.html",
-    "main.a89d8a3c.css.map": "/static/css/main.a89d8a3c.css.map",
-    "main.0ecd25a6.js.map": "/static/js/main.0ecd25a6.js.map",
+    "main.70e3dfbe.css.map": "/static/css/main.70e3dfbe.css.map",
+    "main.525f85b9.js.map": "/static/js/main.525f85b9.js.map",
     "787.556ec7cb.chunk.js.map": "/static/js/787.556ec7cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a89d8a3c.css",
-    "static/js/main.0ecd25a6.js"
+    "static/css/main.70e3dfbe.css",
+    "static/js/main.525f85b9.js"
   ]
 }
