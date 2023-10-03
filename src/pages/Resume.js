@@ -13,6 +13,10 @@ const Resume = (theme) => {
             <div className="resume-col resume-col1">
                 <h2>EDUCATION</h2>
                 <div className={containerStyle2}>
+                    <h3>Bachelor of Science in Applied Computer Science</h3>
+                    <h4>University of Wisconsin, Milwaukee • begins January of 2024</h4>
+                    <hr />
+                    <br />
                     <h3>Full Stack Web Development Certificate</h3>
                     <h4>University of Minnesota • 2022</h4>
                     <hr />
@@ -20,10 +24,14 @@ const Resume = (theme) => {
                     <div className="proj-links">
                         <a href="https://www.credly.com/badges/38a79ed6-ec04-410f-9ba1-f54002812bf5/public_url" target={'_blank'} rel={'nonreferrer'}>See Certificate</a>
                     </div>
+                    <br />
+                    <h3>Bachelor of Arts in Literature</h3>
+                    <h4>University of Minnesota, Morris • 2004 - 2008</h4>
+                    <hr />
 
                     <br />
                     <h2>SKILLS</h2>
-                    <p>JavaScript • HTML • CSS • MERN Stack • GraphQL • Web API • Git • React • Unit Testing • Agile Practices • Express • Node </p>
+                    <p>JavaScript • HTML5 • CSS3 • ReactJS • SQL • MySQL • GraphQL • WebAPI • Git • React • Unit Testing • Agile Practices • Express • NodeJS • TypeScript • JQuery • CMS • UI/UX • and much more!</p>
                 </div>
             </div>
             <div className="resume-col resume-col2" onMouseEnter={showButton} onTouchMove={showButton}>
