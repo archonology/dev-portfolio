@@ -37,7 +37,12 @@ const Quotes = (theme) => {
                                             <p className="source">
                                                 - Coworker and client Heidi A.
                                             </p>
-                                        </li>
+                                    </li>
+                                    <li className="anim5"><q className="qoute">it's clear to me that whatever organizations can leverage his skills now stand to prosper immensely.</q>
+                                        <p className="source">
+                                            - Coworker Jack L.
+                                        </p>
+                                    </li>
                                     </ul></a>
                             </div>
                         </div>

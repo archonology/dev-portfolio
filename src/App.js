@@ -114,13 +114,6 @@ export default function App() {
             </nav>
           </header>
 
-          {/* <div className="toTop">
-            <a href='#X'><button className="toTop-button" style={visibility}>TO TOP</button></a>
-          </div> */}
-          <div className="donate">
-            <a href='https://buy.stripe.com/28oaENdwM33Cgbm5kl' target='_blank' rel='nonreferrer'><button className="donate-button">DONATE</button></a>
-          </div>
-
           <Routes>
             <Route path='/' element={<Home theme={theme} />}></Route>
             <Route index element={<Home theme={theme} />} />
