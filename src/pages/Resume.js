@@ -28,6 +28,32 @@ const Resume = (theme) => {
             </div>
             <div className="resume-col resume-col2" onMouseEnter={showButton} onTouchMove={showButton}>
                 <h2>EXPERIENCE</h2>
+                <h3>Development Coordinator</h3>
+                <h4>Violence Prevention Center • June 2022 - Present • Grand Marais, MN</h4>
+                <hr />
+                <ul>
+                    <li>
+                        Developed and deployed a brand new website on the Wix platform resulting in:
+                        - 80% improvement in site accessibility, SEO performance, and user experience;
+                        -20% increase in site traffic since deployment;
+                        -100% increase in donations via new web traffic.</li>
+                    <li>
+                        Providing consultation on technologies including SaaS, website accessibility, database management, Website SEO, and donation payment systems.
+                    </li>
+                    <li>
+                        Design original advertising using Adobe Express and Illustrator.
+                    </li>
+                    <li>
+                        Communicate with local businesses, donors, and regional nonprofits to develop programs, donor relationships, and events.
+                    </li>
+                    <li>
+                        Coordinate and implement marketing strategies and marketing campaigns.
+                    </li>
+                    <li>
+                        Create original copy for print and online campaigns.
+                    </li>
+                </ul>
+                <br />
                 <h3>Instructional Specialist for Full Stack Flex Boot Camp</h3>
                 <h4>2U / University of Minnesota • April 2022 - Present • Remote</h4>
                 <hr />
