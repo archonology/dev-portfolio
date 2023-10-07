@@ -22,7 +22,7 @@ const Portfolio = (theme) => {
             <div className={containerStyle3} style={{ marginTop: -25 }}>
                 <div className="proj-columns">
                     <div className="proj-card card-1">
-                        <Image src={cwp} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
+                        <a href="https://www.childwelfareportal.org/" target={'_blank'} rel={'nonreferrer'}><Image src={cwp} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' /></a>
                         <h3>The Child Welfare Portal</h3>
                         <hr />
                         <p>As a child welfare worker, I needed a way to track and provide resources so that I could pass on essential information to clients and fellow workers.</p>
@@ -43,7 +43,7 @@ const Portfolio = (theme) => {
                 </div>
                 <div className="proj-columns">
                     <div className="proj-card card-1">
-                        <Image src={bakpak} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
+                        <a href="https://archonology.github.io/BakPak/#/home" target={'_blank'} rel={'nonreferrer'}><Image src={bakpak} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' /></a>
                         <h3>BakPak</h3>
                         <hr />
                         <p>As a student, I needed an application that offered a collection of tools commonly found in a backpack so that I can easily find and use them.</p>
@@ -64,7 +64,7 @@ const Portfolio = (theme) => {
                 </div>
                 <div className="proj-columns" onMouseEnter={showButton} onTouchMove={showButton}>
                     <div className="proj-card card-1">
-                        <Image src={prima} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
+                        <a href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}><Image src={prima} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' /></a>
                         <h3>Prima-Materia</h3>
                         <hr />
                         <p>As a player of Magic The Gathering, I needed an application that would let me log in and search a database of all Magic cards, add the ones I like to a favorites list, and build virtual decks so that I can improve my deck-building skills, see cards from all sets, and make deck-building more efficient.</p>
@@ -86,7 +86,7 @@ const Portfolio = (theme) => {
                 </div>
                 <div className="proj-columns" onMouseEnter={showButton} onTouchMove={showButton}>
                     <div className="proj-card">
-                        <Image src={homeParty} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
+                        <a href="https://home-party-app.herokuapp.com" target={'_blank'} rel={'nonreferrer'}><Image src={homeParty} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' /></a>
                         <h3>Home Party</h3>
                         <hr />
                         <p>As a home-seeker, I needed a way to save the homes I like best, pair them with styles and furnishings, and share what I find with friends and family so that I can track and share my home-buying journey.</p>
@@ -108,7 +108,7 @@ const Portfolio = (theme) => {
                     onMouseEnter={showButton} onTouchMove={showButton}
                     className="proj-columns">
                     <div className="proj-card">
-                        <Image src={wanderComma} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
+                        <a href="https://the-wandering-comma.herokuapp.com" target={'_blank'} rel={'nonreferrer'}><Image src={wanderComma} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' /></a>
                         <h3>The Wandering Comma</h3>
                         <hr />
                         <p>As a budding web developer, I needed a custom blog where I could post about tech topics so that I could share what I'm learning in a professional way.</p>
@@ -130,7 +130,7 @@ const Portfolio = (theme) => {
                     onMouseEnter={showButton} onTouchMove={showButton}
                     className="proj-columns">
                     <div className="proj-card">
-                        <Image src={nightIn} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' />
+                        <a href="https://github.com/archonology/A-Night-In" target={'_blank'} rel={'nonreferrer'}><Image src={nightIn} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' /></a>
                         <h3>A Night In</h3>
                         <hr />
                         <p>As a person ready for dinner and relaxation, I needed to find food recipes, cocktail recipes, and a show to watch so that I can have an enjoyable night in.</p>

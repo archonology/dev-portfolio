@@ -121,7 +121,7 @@ p {
 .container {
     margin-left: 10%;
     margin-right: 10%;
-    min-height: 600px;
+    min-height: 650px;
 }
 
 
@@ -206,8 +206,9 @@ p {
 .pics {
     box-shadow: -20px 14px 20px rgba(0, 0, 0, 0.448);
     z-index: 0;
-    min-height: 300px;
-    min-width: 300px;
+    min-height: 315px;
+    min-width: 325px;
+    /* transition: 3s ease-in; */
 }
 
 .proj-links {
@@ -514,6 +515,11 @@ header nav ul a:hover {
     color: rgb(142, 201, 254);
 }
 
+.pics:hover {
+    box-shadow: -20px 18px 38px rgba(0, 0, 0, 0.678);
+
+}
+
 .proj1 .link2 a:hover,
 .proj2 .link2 a:hover {
     background-color: var(--secondary);
@@ -574,7 +580,7 @@ textarea[type="textarea"]:active {
 .dark,
 .dark-qoute-slider {
     background-color: var(--testDark);
-    color: var(--graphite100);
+    color: var(--nightpaper);
     /* font-weight: 600; */
 }
 
@@ -592,17 +598,17 @@ textarea[type="textarea"]:active {
 .dark h3,
 .dark .proj-links a,
 .dark h4 {
-    color: var(--paper);
+    color: var(--nightpaper);
 }
 
 .dark .proj-links a {
-    border: 1px solid var(--paper);
+    border: 1px solid var(--nightpaper);
 }
 
 .dark .links a:hover,
 .dark .proj-links a:hover,
 .featured-dark .proj-links a:hover {
-    color: var(--paper);
+    color: var(--nightpaper);
     box-shadow: 0 12px 20px black;
 }
 
