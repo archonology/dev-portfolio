@@ -6,7 +6,7 @@ body {
     color: var(--ink);
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
-    background-color: var(--deepOcean);
+    background-color: var(--testDark);
 }
 
 header {
@@ -573,9 +573,9 @@ textarea[type="textarea"]:active {
 /******************* DARKMODE ******************/
 .dark,
 .dark-qoute-slider {
-    background-color: var(--deepOcean);
-    color: rgb(250, 162, 193);
-    font-weight: 600;
+    background-color: var(--testDark);
+    color: var(--graphite100);
+    /* font-weight: 600; */
 }
 
 
