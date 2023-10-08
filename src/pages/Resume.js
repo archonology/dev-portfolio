@@ -22,7 +22,7 @@ const Resume = (theme) => {
                     <hr />
                     <p>A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, NoSQL, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS. </p>
                     <div className="proj-links">
-                        <a href="https://www.credly.com/badges/38a79ed6-ec04-410f-9ba1-f54002812bf5/public_url" target={'_blank'} rel={'nonreferrer'}>See Certificate</a>
+                        <a href="https://www.credly.com/badges/38a79ed6-ec04-410f-9ba1-f54002812bf5/public_url" target={'_blank'} rel={'nonreferrer'} style={{ marginTop: '.7em', backgroundColor: 'hwb(190 9% 33%)'}}>See Certificate</a>
                     </div>
                     <br />
                     <h3>Bachelor of Arts in Literature</h3>

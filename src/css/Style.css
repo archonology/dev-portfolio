@@ -60,6 +60,7 @@ p {
     color: var(--ink);
 }
 
+
 .iconUl li {
     transition: .5s;
 }
@@ -121,7 +122,7 @@ p {
 .container {
     margin-left: 10%;
     margin-right: 10%;
-    min-height: 650px;
+    min-height: 550px;
 }
 
 
@@ -204,7 +205,7 @@ p {
 }
 
 .pics {
-    box-shadow: -20px 14px 20px rgba(0, 0, 0, 0.448);
+    box-shadow: -15px 9px 30px rgba(0, 0, 0, 0.448);
     z-index: 0;
     min-height: 315px;
     min-width: 325px;
@@ -219,16 +220,22 @@ p {
     font-size: 110%;
     padding-top: 1.5em;
     margin-left: 0;
+
 }
 
 .proj-links a {
-    padding: .5rem 2rem .5rem 2rem;
-    width: 50%;
-    background-color: var(--liveGreen);
+    padding: .5em;
+    width: 40%;
+    background-color: var(--liveGreen2);
+    color: var(--ink);
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 10px, 8px, 15px, rgba(0, 0, 0, 0.79);
 }
 
 .proj-links a+a {
-    background-color: var(--repoBlue);
+    background-color: var(--repoBlue2);
+    margin-left: .5em;
 }
 
 
@@ -387,7 +394,7 @@ q {
 .resume-dark h2 {
     font-size: 100%;
     font-weight: 900;
-    color: var(--primary);
+    color: var(--secondary);
     margin-bottom: .5rem;
 }
 
@@ -505,8 +512,8 @@ header nav ul a:hover {
 }
 
 .homeLinks a:hover {
-    text-decoration: underline;
-    color: var(--primary);
+    text-decoration: none;
+    color: var(--secondary);
 }
 
 .dark .homeLinks a:hover {
@@ -514,7 +521,7 @@ header nav ul a:hover {
 }
 
 .pics:hover {
-    box-shadow: -20px 18px 38px rgba(0, 0, 0, 0.678);
+    box-shadow: -15px 9px 35px rgba(0, 0, 0, 0.347);
 
 }
 
@@ -571,7 +578,7 @@ input[type="text"]:active,
 textarea[type="textarea"]:active {
     outline: none;
     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.412);
-    /* border: 1px solid var(--ink); */
+    border: 1px solid var(--ink);
 }
 
 /******************* DARKMODE ******************/
@@ -587,25 +594,34 @@ textarea[type="textarea"]:active {
 .dark p,
 .dark .about,
 .dark .homeLinks a,
-.dark .links a,
 .dark ul li,
 .dark ul li p,
 .dark-qoute-slider ul,
 .dark-qoute-slider p,
 .dark h2,
 .dark h3,
-.dark .proj-links a,
 .dark h4 {
     color: var(--nightpaper);
 }
 
+.dark .proj-links a{
+    background-color: var(--liveGreen);
+}
 
-.dark .links a:hover,
+.dark .proj-links a+a {
+    background-color: var(--repoBlue);
+}
+
 .dark .proj-links a:hover,
 .featured-dark .proj-links a:hover {
-    color: var(--nightpaper);
+    color: var(--ink);
     box-shadow: 0 12px 20px black;
 }
+
+.dark .proj-links a:hover {
+    color: var(--ink);
+}
+
 
 
 footer .dark {

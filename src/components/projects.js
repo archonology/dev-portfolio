@@ -34,28 +34,28 @@ const projects = [
         image: bakpak
     },
     {
-        title: "BakPak",
-        description: "A fun website that works great as a PWA(Progressive Web Application). Currently, it has a 1. calculator that Reed built from scratch with JavaScript, React's useState, and CSS. 2. A dictionary that lets you search and save words to localStorage from a public dictionary API. 3. A notebook that lets you display entries and saves them chronologically in localStorage.",
-        techStack: "ReactJS | LocalStorage | Express | Node.js | GH-Pages | Material UI",
-        liveLink: "https://archonology.github.io/BakPak",
-        repoLink: "https://github.com/archonology/BakPak",
-        image: bakpak
+        title: "Home Party",
+        description: "Home Party provides a way to save the real estate you're tracking, pair them with styles and furnishings, and share what you find with friends and family.",
+        techStack: "MySQL | Handlebars | Express | Sequelize | EmailJS",
+        liveLink: "https://home-party-app.herokuapp.com",
+        repoLink: "https://github.com/archonology/Home-Party",
+        image: homeParty
     },
     {
-        title: "BakPak",
-        description: "A fun website that works great as a PWA(Progressive Web Application). Currently, it has a 1. calculator that Reed built from scratch with JavaScript, React's useState, and CSS. 2. A dictionary that lets you search and save words to localStorage from a public dictionary API. 3. A notebook that lets you display entries and saves them chronologically in localStorage.",
-        techStack: "ReactJS | LocalStorage | Express | Node.js | GH-Pages | Material UI",
-        liveLink: "https://archonology.github.io/BakPak",
-        repoLink: "https://github.com/archonology/BakPak",
-        image: bakpak
+        title: "The Wandering Comma",
+        description: "A budding web developer often needs a custom blog where they can post about tech topics they are learning. This MVC (Model View Controller) style application offers users the ability to create, read, update, and delete(CRUD) blog posts. Posts are organized chronologically and allow for other users to comment on all posts.",
+        techStack: "MySQL | Handlebars | Express | Sequelize",
+        liveLink: "https://the-wandering-comma.herokuapp.com",
+        repoLink: "https://github.com/archonology/The-Wandering-Comma-Tech-Blog",
+        image: wanderComma
     },
     {
-        title: "BakPak",
-        description: "A fun website that works great as a PWA(Progressive Web Application). Currently, it has a 1. calculator that Reed built from scratch with JavaScript, React's useState, and CSS. 2. A dictionary that lets you search and save words to localStorage from a public dictionary API. 3. A notebook that lets you display entries and saves them chronologically in localStorage.",
-        techStack: "ReactJS | LocalStorage | Express | Node.js | GH-Pages | Material UI",
-        liveLink: "https://archonology.github.io/BakPak",
-        repoLink: "https://github.com/archonology/BakPak",
-        image: bakpak
+        title: "A Night In",
+        description: "Sometimes a user is looking for a night at home. A Night In helps the user find food and drink recipes as well as find films and shows to watch for the night in. Recipes can be saved to LocalStorage. This was made by a team of three developers. I was in charge of Tailwind research and implementation and creating the cocktail recipe API, writing the frontend code, and developing the user interface.",
+        techStack: "Vanilla JS | Tailwind CSS | LocalStorage | Fetch API",
+        liveLink: "https://archonology.github.io/A-Night-In/",
+        repoLink: "https://github.com/archonology/A-Night-In",
+        image: nightIn
     },
 
 ]
