@@ -9,4 +9,8 @@
     --deepOcean: #2b2e35;
     --nightSky: #1c232d;
     --testDark: #252628;
+    --liveGreen: hwb(141 25% 32%);
+    --liveGreen2: hwb(141 35% 20%);
+    --repoBlue: hwb(179 25% 32%);
+    --repoBlue2: hwb(179 33% 18%);
 }

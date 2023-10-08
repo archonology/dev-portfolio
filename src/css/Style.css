@@ -222,10 +222,13 @@ p {
 }
 
 .proj-links a {
-    border: 1px solid var(--ink);
     padding: .5rem 2rem .5rem 2rem;
-    border-radius: 0 0 12px 12px;
-    margin-right: .4rem;
+    width: 50%;
+    background-color: var(--liveGreen);
+}
+
+.proj-links a+a {
+    background-color: var(--repoBlue);
 }
 
 
@@ -432,11 +435,6 @@ q {
     justify-content: flex-start;
 }
 
-.featured-dark .proj-links a {
-    border: 1px solid var(--paper);
-    color: var(--paper);
-
-}
 
 .featured-dark h4,
 .featured-dark p {
@@ -551,16 +549,16 @@ header nav ul a:hover {
 .proj-links a:hover,
 .proj-links a:focus,
 .proj-links a:active {
-    color: var(--paper);
-    background-color: var(--secondary);
+    color: var(--ink);
+    background-color: var(--liveGreen2);
     box-shadow: 0 5px 10px var(--graphite100);
 }
 
 .proj-links a+a:hover,
 .proj-links a+a:focus,
 .proj-links a+a:active {
-    background-color: var(--primary);
-    color: var(--paper);
+    background-color: var(--repoBlue2);
+    color: var(--ink);
 }
 
 button:hover {
@@ -573,7 +571,7 @@ input[type="text"]:active,
 textarea[type="textarea"]:active {
     outline: none;
     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.412);
-    border: 1px solid var(--ink);
+    /* border: 1px solid var(--ink); */
 }
 
 /******************* DARKMODE ******************/
@@ -601,9 +599,6 @@ textarea[type="textarea"]:active {
     color: var(--nightpaper);
 }
 
-.dark .proj-links a {
-    border: 1px solid var(--nightpaper);
-}
 
 .dark .links a:hover,
 .dark .proj-links a:hover,
@@ -652,8 +647,7 @@ footer .dark {
     }
 
     .proj-links a {
-        border: 1px solid var(--ink);
-        padding: .3rem 1rem .3rem 1rem;
+        padding: .7em;
         margin-right: .5rem;
     }
 

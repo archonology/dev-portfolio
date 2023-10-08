@@ -1,12 +1,13 @@
 import React from "react";
 import { useState } from "react";
-import Image from 'mui-image'
-import prima from '../images/prima-materia-home.jpg';
-import homeParty from '../images/home-party-page.jpg'
-import wanderComma from '../images/WanderingComma2.png';
-import nightIn from '../images/a-night-in-page.jpg';
-import cwp from '../images/CWP fresh screenshot Sept23.png'
-import bakpak from '../images/BakPak2.png'
+import ProjectCard from "../components/ProjectCard";
+// import Image from 'mui-image'
+// import prima from '../images/prima-materia-home.jpg';
+// import homeParty from '../images/home-party-page.jpg'
+// import wanderComma from '../images/WanderingComma2.png';
+// import nightIn from '../images/a-night-in-page.jpg';
+// import cwp from '../images/CWP fresh screenshot Sept23.png'
+// import bakpak from '../images/BakPak2.png'
 
 const Portfolio = (theme) => {
     const [visibility, setVisibility] = useState({ display: 'none' });
@@ -20,7 +21,8 @@ const Portfolio = (theme) => {
     return (
         <>
             <div className={containerStyle3} style={{ marginTop: -25 }}>
-                <div className="proj-columns">
+                <ProjectCard />
+                {/* <div className="proj-columns">
                     <div className="proj-card card-1">
                         <a href="https://www.childwelfareportal.org/" target={'_blank'} rel={'nonreferrer'}><Image src={cwp} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' /></a>
                         <h3>The Child Welfare Portal</h3>
@@ -147,8 +149,8 @@ const Portfolio = (theme) => {
                             <a href="https://archonology.github.io/A-Night-In/" target={'_blank'} rel={'nonreferrer'}>Live Site</a>
                             <a href="https://github.com/archonology/A-Night-In" target={'_blank'} rel={'nonreferrer'}>Repository</a>
                         </div>
-                    </div>
-                </div>
+                    </div> */}
+                {/* </div> */}
             </div>
             <div
                 onMouseEnter={showButton} onTouchMove={showButton}
