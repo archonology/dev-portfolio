@@ -849,6 +849,7 @@ footer .dark {
 @media screen and (max-width: 550px) {
     .container {
         min-height: 440px;
+
     }
 
     .portfolio-container {
