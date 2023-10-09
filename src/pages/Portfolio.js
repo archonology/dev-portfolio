@@ -13,7 +13,7 @@ const Portfolio = (theme) => {
 
     return (
         <>
-            <div className={containerStyle3} style={{ marginTop: -25 }}>
+            <div className={containerStyle3} style={{ marginTop: -25 }} onMouseEnter={showButton} onTouchMove={showButton} onScroll={showButton}>
                 <ProjectCard />
             </div>
             <div
@@ -27,7 +27,7 @@ const Portfolio = (theme) => {
                 <div
                     onMouseEnter={showButton} onTouchMove={showButton}
                     className="proj-links">
-                    <a href="https://github.com/archonology/dev-portfolio" target={'_blank'} rel={'nonreferrer'}>See the Repository</a>
+                    <a href="https://github.com/archonology/dev-portfolio" target={'_blank'} rel={'nonreferrer'} style={{width: '35%', borderRadius: '0 0 10px 10px', backgroundColor: 'var(--primary)', color: 'var(--paper)'}}>See the Repository</a>
                 </div>
             </div>
 

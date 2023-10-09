@@ -18,11 +18,11 @@ const ThemeContext = createContext(null);
 
 export default function App() {
   const [theme, setTheme] = useState('light');
-  const [style, setStyle] = useState({ backgroundColor: 'white' })
+  const [style, setStyle] = useState({ backgroundColor: 'var(--paper)' })
   const [clickState1, setClickState1] = useState('not-clicked');
   const [clickState2, setClickState2] = useState('not-clicked');
   const [clickState3, setClickState3] = useState('not-clicked');
-  const [visibility, setVisibility] = useState({ visibility: 'hidden' }); 
+  const [visibility, setVisibility] = useState({ visibility: 'hidden' });
 
   function handleClick1() {
     if (clickState1 === 'not-clicked') {
@@ -99,14 +99,14 @@ export default function App() {
                 <>
                   <ul className="iconUl">
                     <a href='#/' onClick={clearClicks}><li><FoundationIcon /></li></a>
-                    <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: '#252628' }) }}><DarkModeIcon /></li>
+                    <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: 'var(--testDark)' }) }}><DarkModeIcon /></li>
                     {/* video demos are in development */}
                     {/* <a href='#/'><li><VideoLibraryIcon /></li></a> */}
                   </ul>
                 </>) : (<>
                   <ul className="iconUl">
                     <a href='#/' onClick={clearClicks}><li><FoundationIcon /></li></a>
-                    <li onClick={() => { setTheme('light'); setStyle({ backgroundColor: 'white' }) }}><LightModeIcon /></li>
+                    <li onClick={() => { setTheme('light'); setStyle({ backgroundColor: 'var(--paper)' }) }}><LightModeIcon /></li>
                     {/* <a href='#/'><li><VideoLibraryIcon /></li></a> */}
                   </ul>
                 </>)}

@@ -2,12 +2,19 @@ html {
     z-index: 0;
 }
 
+.this-site-container {
+    box-shadow: 0 17px 20px rgba(0, 0, 0, 0.212);
+    padding: 2em;
+    margin-bottom: 3em;
+}
+
 body {
     color: var(--ink);
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
     background-color: var(--testDark);
 }
+
 
 header {
     background-size: cover;
@@ -60,7 +67,6 @@ p {
     color: var(--ink);
 }
 
-
 .iconUl li {
     transition: .5s;
 }
@@ -82,9 +88,9 @@ p {
 .toTop-button {
     width: 105px;
     height: 45px;
-    background-color: var(--paper);
+    background-color: var(--ink);
     border-radius: 10px;
-    color: var(--ink);
+    color: var(--paper);
     border: none;
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.65);
     transition: .5s ease-in-out;
@@ -110,19 +116,18 @@ p {
     display: flex;
     text-align: right;
     justify-content: center;
-    margin: rem;
     margin-bottom: 2em;
     margin-top: 0;
-    padding: 1.5rem 1.5rem 2rem 1.5rem;
-    background-color: var(--paper);
+    /* padding: 1.5rem; */
+    background-color: var(--ink);
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.304);
     transition: .5s;
 }
 
 .container {
-    margin-left: 10%;
-    margin-right: 10%;
-    min-height: 550px;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 325px;
 }
 
 
@@ -132,7 +137,6 @@ p {
     flex-wrap: wrap;
     margin-bottom: 3em;
     margin-top: 3em;
-    background-color: var(--paper);
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -142,12 +146,7 @@ p {
     max-width: 25%;
 }
 
-.this-site-container {
-    background-color: var(--paper);
-    box-shadow: 0 17px 20px rgba(0, 0, 0, 0.212);
-    padding: 2em;
-    margin-bottom: 3em;
-}
+
 
 .proj-columns {
     flex: 1 0 50%;
@@ -477,6 +476,7 @@ q {
 button {
     background-color: var(--primary);
     border: none;
+    /* border-radius: 8px; */
     color: var(--paper);
     font-size: 110%;
     font-weight: 700;
@@ -533,7 +533,7 @@ header nav ul a:hover {
 
 .toTop-button:hover {
     background-color: var(--primary);
-    color: var(--paper);
+    /* color: var(--ink); */
 }
 
 .donate-button:hover {
@@ -582,9 +582,13 @@ textarea[type="textarea"]:active {
 }
 
 /******************* DARKMODE ******************/
+
+.dark .container {
+    background-color: var(--ink);
+}
+
 .dark,
 .dark-qoute-slider {
-    background-color: var(--testDark);
     color: var(--nightpaper);
     /* font-weight: 600; */
 }
@@ -604,7 +608,7 @@ textarea[type="textarea"]:active {
     color: var(--nightpaper);
 }
 
-.dark .proj-links a{
+.dark .proj-links a {
     background-color: var(--liveGreen);
 }
 
@@ -615,7 +619,7 @@ textarea[type="textarea"]:active {
 .dark .proj-links a:hover,
 .featured-dark .proj-links a:hover {
     color: var(--ink);
-    box-shadow: 0 12px 20px black;
+    box-shadow: -5px 12px 20px rgba(0, 0, 0, 0.248);
 }
 
 .dark .proj-links a:hover {
@@ -630,10 +634,9 @@ footer .dark {
 
 @media screen and (max-width: 3000px) {
     .container {
-        background-size: 75%;
-        background-position-x: 120%;
-        background-position-y: 70%;
-        height: 400px;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 350px;
     }
 
     .portfolio-container {
@@ -691,10 +694,9 @@ footer .dark {
 
 @media screen and (max-width: 1200px) {
     .container {
-        background-size: 105%;
-        background-position-x: 60%;
-        background-position-y: 0%;
-        height: 400px;
+        height: 350px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .portfolio-container {
@@ -706,7 +708,6 @@ footer .dark {
 
     .container-content,
     .cc2 {
-        background-color: var(--paper);
         padding: 2rem;
         min-width: 55%;
         height: 90%;
@@ -715,7 +716,6 @@ footer .dark {
     }
 
     .home-container-content {
-        background-color: var(--paper);
         padding: 2rem;
         min-width: 55%;
         height: 60%;
@@ -756,10 +756,7 @@ footer .dark {
 
 @media screen and (max-width: 993px) {
     .container {
-        background-size: 115%;
-        background-position-x: 20%;
-        background-position-y: 0%;
-        min-height: 600px;
+        min-height: 400px;
     }
 
     .portfolio-container {
@@ -796,10 +793,7 @@ footer .dark {
 
 @media screen and (max-width: 770px) {
     .container {
-        background-size: 165%;
-        background-position-x: 30%;
-        background-position-y: 0%;
-        height: 440px;
+        min-height: 440px;
     }
 
     .portfolio-container {
@@ -816,17 +810,10 @@ footer .dark {
     .home-container-content,
     .container-content,
     .cc2 {
-        background-color: var(--paper);
         padding: 2rem;
         min-width: 75%;
         border-radius: 20px;
         box-shadow: 0 0 18px rgba(0, 0, 0, 0.368);
-    }
-
-    .dark .home-container-content,
-    .dark .container-content,
-    .dark .cc2 {
-        background-color: var(--deepOcean);
     }
 
     .home-container-content p,
@@ -861,10 +848,7 @@ footer .dark {
 
 @media screen and (max-width: 550px) {
     .container {
-        background-size: 275%;
-        background-position-x: 30%;
-        background-position-y: 30%;
-        min-height: 640px;
+        min-height: 440px;
     }
 
     .portfolio-container {
@@ -898,14 +882,13 @@ footer .dark {
 
 @media screen and (max-width: 470px) {
     .container {
-        background-size: 210%;
-        background-position-x: 100%;
-        background-position-y: 50%;
-        min-height: 490px;
+        min-height: 190px;
         margin: 0;
         margin-top: -1;
-        margin-bottom: 4;
+        margin-bottom: 2;
         border-radius: 0;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .portfolio-container {

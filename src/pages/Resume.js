@@ -21,8 +21,8 @@ const Resume = (theme) => {
                     <h4>University of Minnesota • 2022</h4>
                     <hr />
                     <p>A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, NoSQL, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS. </p>
-                    <div className="proj-links">
-                        <a href="https://www.credly.com/badges/38a79ed6-ec04-410f-9ba1-f54002812bf5/public_url" target={'_blank'} rel={'nonreferrer'} style={{ marginTop: '.7em', backgroundColor: 'hwb(190 9% 33%)'}}>See Certificate</a>
+                    <div className="proj-links certif">
+                        <a href="https://www.credly.com/badges/38a79ed6-ec04-410f-9ba1-f54002812bf5/public_url" target={'_blank'} rel={'nonreferrer'} style={{ marginTop: '.2em', backgroundColor: 'var(--primary)', color: 'var(--paper)', padding: '.3rem', borderRadius: '0 0 10px 10px', width: '45%'}}>See Certificate</a>
                     </div>
                     <br />
                     <h3>Bachelor of Arts in Literature</h3>
