@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bbaf1b51.css",
-    "main.js": "/static/js/main.8148c10c.js",
+    "main.css": "/static/css/main.66b3c563.css",
+    "main.js": "/static/js/main.875046b6.js",
     "static/js/787.556ec7cb.chunk.js": "/static/js/787.556ec7cb.chunk.js",
     "static/media/cwPOrtalNew.png": "/static/media/cwPOrtalNew.752c3a621d14c473c18d.png",
     "static/media/self-portrait-leaves.png": "/static/media/self-portrait-leaves.ba49520ba62aafd1c924.png",
@@ -12,12 +12,12 @@
     "static/media/BakPak2.png": "/static/media/BakPak2.1b28d1c313d524471b81.png",
     "static/media/a-night-in-page.jpg": "/static/media/a-night-in-page.a077afed328e2ae96e36.jpg",
     "index.html": "/index.html",
-    "main.bbaf1b51.css.map": "/static/css/main.bbaf1b51.css.map",
-    "main.8148c10c.js.map": "/static/js/main.8148c10c.js.map",
+    "main.66b3c563.css.map": "/static/css/main.66b3c563.css.map",
+    "main.875046b6.js.map": "/static/js/main.875046b6.js.map",
     "787.556ec7cb.chunk.js.map": "/static/js/787.556ec7cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbaf1b51.css",
-    "static/js/main.8148c10c.js"
+    "static/css/main.66b3c563.css",
+    "static/js/main.875046b6.js"
   ]
 }
