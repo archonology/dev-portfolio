@@ -1,6 +1,6 @@
 import React from "react";
 import Quotes from "../components/Quotes";
-import rum from '../images/self-portrait-leaves.png'
+import rum from '../images/learning to code.png'
 import Image from "mui-image";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';

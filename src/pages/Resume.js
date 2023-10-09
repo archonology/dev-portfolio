@@ -13,7 +13,7 @@ const Resume = (theme) => {
             <div className="resume-col resume-col1">
                 <h2>EDUCATION</h2>
                 <div className={containerStyle2}>
-                    <h3>Bachelor of Science in Applied Computer Science</h3>
+                    <h3>BS in Applied Computer Science</h3>
                     <h4>University of Wisconsin, Milwaukee • begins January of 2024</h4>
                     <hr />
                     <br />
