@@ -45,12 +45,12 @@ const Contact = (theme) => {
 
             return;
         }
-
+      emailjs.sendForm('service_8vauvgr', 'template_favgkfg', form.current, '5oouP9wFVBIv7Jaue')
         setName('');
         setEmail('');
         setMessage('');
         setErrorMessage('');
-        emailjs.sendForm('service_8vauvgr', 'template_favgkfg', form.current, '5oouP9wFVBIv7Jaue')
+  
 
         alert(`
       Thanks for your message, ${name}! 
