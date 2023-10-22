@@ -111,6 +111,12 @@ p {
 }
 
 
+.text {
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+    text-align: center;
+}
+
 .container,
 .portfolio-container {
     display: flex;

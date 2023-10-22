@@ -14,7 +14,7 @@ const Resume = (theme) => {
                 <h2>EDUCATION</h2>
                 <div className={containerStyle2}>
                     <h3>Bachelor of Science, Information Science & Technology</h3>
-                    <h4>University of Wisconsin, Milwaukee • begins January of 2024</h4>
+                    <h4>University of Wisconsin, Milwaukee • current student</h4>
                     <hr />
                     <br />
                     <h3>Full Stack Web Development Certificate</h3>
@@ -32,6 +32,14 @@ const Resume = (theme) => {
                     <br />
                     <h2>SKILLS</h2>
                     <p>JavaScript • HTML5 • CSS3 • ReactJS • SQL • MySQL • GraphQL • WebAPI • Git • React • Unit Testing • Agile Practices • Express • NodeJS • TypeScript • JQuery • CMS • UI/UX • and much more!</p>
+                    <br />
+                    <hr />
+                    <br />
+                    <a href="https://www.hackerrank.com/profile/MeherDevs" target="_blank" rel="nonreferrer" style={{ color: 'var(--liveGreen)', fontWeight: '700' }} className=" certif"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png' width={100}></img></a>
+                    <br />
+                    <a target="_blank" rel="nonreferrer" href="https://www.codewars.com/r/C6HkBg"><img src="https://www.codewars.com/users/archonology/badges/large" alt="codewars badge large" style={{ marginTop: '1em' }} /></a>
+                    <br/>
+
                 </div>
             </div>
             <div className="resume-col resume-col2" onMouseEnter={showButton} onTouchMove={showButton}>

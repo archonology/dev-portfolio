@@ -1,13 +1,6 @@
 import React from "react";
-import { useState } from "react";
 import Image from 'mui-image';
 import projects from "../projects";
-// import prima from '../../images/prima-materia-home.jpg';
-// import homeParty from '../../images/home-party-page.jpg'
-// import wanderComma from '../../images/WanderingComma2.png';
-// import nightIn from '../../images/a-night-in-page.jpg';
-// import cwp from '../../images/CWP fresh screenshot Sept23.png';
-// import bakpak from '../../images/BakPak2.png';
 
 
 const ProjectCard = () => {
