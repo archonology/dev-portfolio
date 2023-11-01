@@ -36,9 +36,9 @@ const Resume = (theme) => {
                     <hr />
                     <br />
                     <a href="https://www.hackerrank.com/profile/MeherDevs" target="_blank" rel="nonreferrer" style={{ color: 'var(--liveGreen)', fontWeight: '700' }} className=" certif"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png' width={100}></img></a>
+                    {/* <br /> */}
+                    <a target="_blank" rel="nonreferrer" href="https://www.codewars.com/r/C6HkBg"><img src="https://www.codewars.com/users/archonology/badges/micro" alt="codewars badge large" style={{ marginBottom: '5em', marginLeft: '1em' }} /></a>
                     <br />
-                    <a target="_blank" rel="nonreferrer" href="https://www.codewars.com/r/C6HkBg"><img src="https://www.codewars.com/users/archonology/badges/large" alt="codewars badge large" style={{ marginTop: '1em' }} /></a>
-                    <br/>
 
                 </div>
             </div>
@@ -50,7 +50,7 @@ const Resume = (theme) => {
                 <ul>
                     <li>
                         Developed and deployed a brand new website on the Wix platform resulting in:
-                        <ul style={{listStyle: 'circle', marginBottom: '.5em'}}>
+                        <ul style={{ listStyle: 'circle', marginBottom: '.5em' }}>
                             <li>80% improvement in site accessibility, SEO performance, and user experience</li>
                             <li>20% increase in site traffic since deployment</li>
                             <li>100% increase in donations via new web traffic</li>
