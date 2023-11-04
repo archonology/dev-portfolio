@@ -32,8 +32,16 @@ const EducationCard = () => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Visit Program Page</Button>
-                                <Button size="small">{school.certificateTitle}</Button>
+                                <Button
+                                    href={school.link}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    size="small">Visit Program Page</Button>
+                                <Button
+                                    href={school.certificate}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    size="small">{school.certificateTitle}</Button>
                             </CardActions>
                         </Card>
                     </>

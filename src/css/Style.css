@@ -461,6 +461,11 @@ q {
     color: var(--paper);
 }
 
+.featured-light .skillPoint {
+    background-color: var(--graphite100);
+    color: var(--ink);
+}
+
 /* ********CONTACT PAGE******** */
 .contact-light,
 .contact-dark {
@@ -487,17 +492,14 @@ q {
     text-align: center;
 }
 
-.skills {
-flex: 3 0 10%;
-flex-direction: row;
-}
 
 .skillPoint {
-    padding: .7em;
+    padding: 1em;
     margin: .5em;
     background-color: var(--ink);
     color: var(--paper);
     border-radius: 8px;
+    text-align: center;
 }
 
 button {

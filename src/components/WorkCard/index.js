@@ -21,15 +21,27 @@ const WorkCard = () => {
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h3"
-                                    style={{ fontSize: '16px' }}
+                                    style={{ fontSize: '16px', fontWeight: 700 }}
                                     component="div">
                                     {work.title}
                                 </Typography>
                                 <hr />
-                                <Typography>{work.employer} | {work.location} | {work.dates}</Typography>
-                                <Typography variant="body2" color="text.secondary" style={{ paddingTop: '.7em' }}>
+                                <Typography style={{ fontSize: '15px', marginTop: '.5em'}}>{work.employer} | {work.location} | {work.dates}</Typography>
+                                <Typography variant="body2" color="text.secondary" style={{ paddingTop: '.7em', paddingBottom: '1em' }}>
                                     {work.summary}
                                 </Typography>
+                                <h6 style={{ fontSize: '14px' }}>Accomplishments:</h6>
+                                <ul style={{ fontSize: '14px' }}>
+                                    {work.accomplishments.map((each) => {
+                                        return (
+                                            <li>{each}
+                                            </li>
+                                        )
+                                    })}
+                                    <br />
+                                </ul>
+                                <h6 style={{ fontSize: '14px' }}>Skills:</h6>
+                                <p style={{ fontSize: '14px' }}>{work.skills}</p>
                             </CardContent>
                             <CardActions>
                                 <Button size="small">Visit Website</Button>
