@@ -1,8 +1,12 @@
+import cwp from '../images/cwp banner.png';
+import vpc from '../images/vpc banner.png';
+import cook from '../images/cookcounty.png'
+
 const work = [
     {
         title: "Development Coordinator",
         employer: "Violence Prevention Center",
-        dates: "06/2023 -",
+        dates: "06/2023 - present",
         location: "Grand Marais, MN",
         status: "current",
         summary: "Head of web, events, marketing, email campaigns, graphic design, community relations, and donor relations management. Lead consultant on SaaS, CMS, and technology solutions.",
@@ -28,7 +32,8 @@ const work = [
             "Stripe",
             "Square",
             "GiveButter"],
-        link: "https://www.violencepreventioncenter.org/"
+        link: "https://www.violencepreventioncenter.org/",
+        image: vpc
     },
     {
         title: "Instructional Specialist",
@@ -66,7 +71,8 @@ const work = [
             "Leadership",
             "Collaboration"
         ],
-        link: "https://bootcamp.umn.edu/coding/landing-ftpt/?s=Google-Brand_ExternalState_&dki=Learn%20Coding%20and%20More%20Online&pkw=u%20of%20m%20coding%20bootcamp&pcrid=626983640577&pmt=e&utm_source=google&utm_medium=cpc&utm_campaign=GGL%7CUNIVERSITY-OF-MINNESOTA%7CSEM%7CCODING%7C-%7COFL%7C_ExternalState_%7CAll%7CBRD%7CEXACT%7CCore%7CBootcamp&utm_term=u%20of%20m%20coding%20bootcamp&s=google&k=u%20of%20m%20coding%20bootcamp&utm_adgroupid=145900744207&utm_locationphysicalms=9019708&utm_matchtype=e&utm_network=g&utm_device=c&utm_content=626983640577&utm_placement=&gad=1&gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_m6zVV23h9zU-wM5k4ZM9sfJOtSQejHRi3SLZ4Vz7o1yNEn8LD_EnIaAjP5EALw_wcB&gclsrc=aw.ds"
+        link: "https://bootcamp.umn.edu/coding/landing-ftpt/?s=Google-Brand_ExternalState_&dki=Learn%20Coding%20and%20More%20Online&pkw=u%20of%20m%20coding%20bootcamp&pcrid=626983640577&pmt=e&utm_source=google&utm_medium=cpc&utm_campaign=GGL%7CUNIVERSITY-OF-MINNESOTA%7CSEM%7CCODING%7C-%7COFL%7C_ExternalState_%7CAll%7CBRD%7CEXACT%7CCore%7CBootcamp&utm_term=u%20of%20m%20coding%20bootcamp&s=google&k=u%20of%20m%20coding%20bootcamp&utm_adgroupid=145900744207&utm_locationphysicalms=9019708&utm_matchtype=e&utm_network=g&utm_device=c&utm_content=626983640577&utm_placement=&gad=1&gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_m6zVV23h9zU-wM5k4ZM9sfJOtSQejHRi3SLZ4Vz7o1yNEn8LD_EnIaAjP5EALw_wcB&gclsrc=aw.ds",
+        image: "https://twin-cities.umn.edu/sites/twin-cities.umn.edu/files/styles/desktop/public/umn-lawn.jpg"
     },
     {
         title: "Full Stack Developer for The Child Welfare Portal",
@@ -80,6 +86,8 @@ const work = [
             "Exceeded client expectations with final product",
             "All content is not only able to be modified in the CMS dashboard, but also real-time from anywhere in the site while the user is logged in as an admin."
         ],
+        link: 'https://www.childwelfareportal.org/',
+        image: cwp
 
     },
     {
@@ -105,11 +113,11 @@ const work = [
             "Case Management",
             "Emergency Response",
             "Saftey Response Management",
-            "Data Management",
             "Court Case Management",
             "Compassion",
         ],
-        link: "https://www.co.cook.mn.us/government/departments/public_health_and_human_services/index.php"
+        link: "https://www.co.cook.mn.us/government/departments/public_health_and_human_services/index.php",
+        image: cook
     }
 ]
 
