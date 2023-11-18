@@ -1,6 +1,6 @@
-import cwp from '../images/cwp banner.png';
-import vpc from '../images/vpc banner.png';
-import cook from '../images/cookcounty.png'
+import cwp from '../images/cwp banner.jpg';
+import vpc from '../images/vpcbanner.jpg';
+import cook from '../images/cookcounty.jpg';
 
 const work = [
     {

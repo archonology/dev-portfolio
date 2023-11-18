@@ -12,7 +12,7 @@ const EducationCard = () => {
             {education.map((school) => {
                 return (
                     <>
-                        <Card sx={{ maxWidth: 545 }} className="edCard">
+                        <Card className="edCard">
                             <CardMedia
                                 component="img"
                                 alt={school.institution}
@@ -36,7 +36,8 @@ const EducationCard = () => {
                                     href={school.link}
                                     target="_blank"
                                     rel="noreferrer"
-                                    size="small">Visit Program Page</Button>
+                                    size="small">Visit Program Page
+                                </Button>
                                 <Button
                                     href={school.certificate}
                                     target="_blank"

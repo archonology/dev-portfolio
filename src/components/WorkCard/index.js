@@ -12,7 +12,7 @@ const WorkCard = () => {
             {work.map((work) => {
                 return (
                     <>
-                        <Card sx={{ maxWidth: 545 }} className="edCard">
+                        <Card className="edCard">
                             <CardMedia
                                 component="img"
                                 alt={work.employer}
@@ -26,7 +26,7 @@ const WorkCard = () => {
                                     {work.title}
                                 </Typography>
                                 <hr />
-                                <Typography style={{ fontSize: '15px', marginTop: '.5em'}}>{work.employer} | {work.location} | {work.dates}</Typography>
+                                <Typography style={{ fontSize: '15px', marginTop: '.5em' }}>{work.employer} | {work.location} | {work.dates}</Typography>
                                 <Typography variant="body2" color="text.secondary" style={{ paddingTop: '.7em', paddingBottom: '1em' }}>
                                     {work.summary}
                                 </Typography>
@@ -44,7 +44,12 @@ const WorkCard = () => {
                                 <p style={{ fontSize: '14px' }}>{work.skills}</p>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Visit Website</Button>
+                                <Button
+                                    href={work.link}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    size="small">Visit
+                                </Button>
                             </CardActions>
                         </Card>
                     </>
