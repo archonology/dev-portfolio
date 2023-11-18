@@ -47,7 +47,7 @@ const projects = [
         title: "BakPak",
         description: "A fun website that works great as a PWA(Progressive Web Application). Currently, it has a 1. calculator that Reed built from scratch with JavaScript, React's useState, and CSS. 2. A dictionary that lets you search and save words to localStorage from a public dictionary API. 3. A notebook that lets you display entries and saves them chronologically in localStorage.",
         techStack: "ReactJS | LocalStorage | Express | Node.js | GH-Pages | Material UI",
-        liveLink: "https://archonology.github.io/BakPak",
+        liveLink: "https://archonology.github.io/BakPak/#/home",
         repoLink: "https://github.com/archonology/BakPak",
         image: bakpak
     },
