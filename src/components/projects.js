@@ -1,11 +1,9 @@
-import prima from '../images/prima-materia-home.jpg';
+import prima from '../images//primaNew.jpg';
 import homeParty from '../images/home-party-page.jpg'
-import wanderComma from '../images/WanderingComma2.png';
-import nightIn from '../images/a-night-in-page.jpg';
-import cwp from '../images/CWP fresh screenshot Sept23.png';
-import bakpak from '../images/BakPak2.png';
+import cwp from '../images/CWP fresh screenshot Sept23.jpg';
+import bakpak from '../images/BakPak2.jpg';
 import vpc from '../images/vpcBanner1.jpeg';
-import blog from '../images/blogrm.png';
+import blog from '../images/blogrm.jpg';
 
 const projects = [
     {
@@ -33,8 +31,8 @@ const projects = [
         description: `Custom built blog on the Wordpress.org engine with Hostinger hosting and CMS. All images are original and created with Adobe Express.
         `,
         techStack: "Wordpress.org | Hostinger | Adobe Express",
-        liveLink: "https://www.violencepreventioncenter.org/",
-        repoLink: "https://www.violencepreventioncenter.org/",
+        liveLink: "https://www.reedmeher.com/",
+        repoLink: "https://www.reedmeher.com",
         image: blog
     },
     {
