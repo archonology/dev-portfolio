@@ -4,6 +4,7 @@ import cwp from '../images/CWP fresh screenshot Sept23.jpg';
 import bakpak from '../images/BakPak2.jpg';
 import vpc from '../images/vpcBanner1.jpeg';
 import blog from '../images/blogrm.jpg';
+import wedding from '../images/wedding.jpg';
 
 const projects = [
     {
@@ -12,7 +13,6 @@ const projects = [
         `,
         techStack: "Wix | Adobe Express",
         liveLink: "https://www.violencepreventioncenter.org/",
-        repoLink: "https://www.violencepreventioncenter.org/",
         image: vpc
     },
     {
@@ -32,8 +32,14 @@ const projects = [
         `,
         techStack: "Wordpress.org | Hostinger | Adobe Express",
         liveLink: "https://www.reedmeher.com/",
-        repoLink: "https://www.reedmeher.com",
         image: blog
+    },
+    {
+        title: "Web Wedding Invite",
+        description: "A landing page that acts as a wedding invite. Built with React and Vite, this front end site is mostly built from scratch with a few Material UI components. It includes an orginal song and is hosted through GitHub Pages.",
+        techStack: "ReactJS | Material UI | Vite | GH Pages",
+        liveLink: "https://www.reedandheidi.com",
+        image: wedding
     },
     {
         title: "Prima-Materia",
@@ -51,14 +57,14 @@ const projects = [
         repoLink: "https://github.com/archonology/BakPak",
         image: bakpak
     },
-    {
-        title: "Home Party",
-        description: "Home Party provides a way to save the real estate you're tracking, pair them with styles and furnishings, and share what you find with friends and family.",
-        techStack: "MySQL | Handlebars | Express | Sequelize | EmailJS",
-        liveLink: "https://home-party-app.herokuapp.com",
-        repoLink: "https://github.com/archonology/Home-Party",
-        image: homeParty
-    },
+    // {
+    //     title: "Home Party",
+    //     description: "Home Party provides a way to save the real estate you're tracking, pair them with styles and furnishings, and share what you find with friends and family.",
+    //     techStack: "MySQL | Handlebars | Express | Sequelize | EmailJS",
+    //     liveLink: "https://home-party-app.herokuapp.com",
+    //     repoLink: "https://github.com/archonology/Home-Party",
+    //     image: homeParty
+    // },
     // {
     //     title: "The Wandering Comma",
     //     description: "A budding web developer often needs a custom blog where they can post about tech topics they are learning. This MVC (Model View Controller) style application offers users the ability to create, read, update, and delete(CRUD) blog posts. Posts are organized chronologically and allow for other users to comment on all posts.",
