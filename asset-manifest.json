@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0749e595.css",
-    "main.js": "/static/js/main.2cce971a.js",
+    "main.js": "/static/js/main.fdbb936a.js",
     "static/js/787.556ec7cb.chunk.js": "/static/js/787.556ec7cb.chunk.js",
     "static/media/groceryCCC.jpg": "/static/media/groceryCCC.96a027116ce1c4144767.jpg",
     "static/media/affordSMC.jpg": "/static/media/affordSMC.4bc3bd36bb70ec698c47.jpg",
@@ -25,11 +25,11 @@
     "static/media/learning to code.png": "/static/media/learning to code.69c2720aff97fbf63cbd.png",
     "index.html": "/index.html",
     "main.0749e595.css.map": "/static/css/main.0749e595.css.map",
-    "main.2cce971a.js.map": "/static/js/main.2cce971a.js.map",
+    "main.fdbb936a.js.map": "/static/js/main.fdbb936a.js.map",
     "787.556ec7cb.chunk.js.map": "/static/js/787.556ec7cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0749e595.css",
-    "static/js/main.2cce971a.js"
+    "static/js/main.fdbb936a.js"
   ]
 }
