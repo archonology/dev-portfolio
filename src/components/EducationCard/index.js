@@ -13,12 +13,12 @@ const EducationCard = () => {
                 return (
                     <>
                         <Card className="edCard">
-                            <CardMedia
+                            {/* <CardMedia
                                 component="img"
                                 alt={school.institution}
                                 height="140"
                                 image={school.image}
-                            />
+                            /> */}
                             <CardContent>
                                 <Typography gutterBottom variant="h3"
                                     style={{ fontSize: '16px' }}

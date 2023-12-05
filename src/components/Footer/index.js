@@ -8,7 +8,7 @@ const Footer = (theme) => {
     return (
         <footer className={foot}>
             <section className={foot}>
-                <p >Made by MeherDevs | 2023</p>
+                <p >Made by MeherDevs LLC | 2023</p>
             </section>
         </footer>
     )

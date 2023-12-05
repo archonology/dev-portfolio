@@ -71,8 +71,8 @@ export default function App() {
       <Router>
         <div className='background-all' style={style}>
           <header className={theme}>
-            <h1 id='X'>REED MEHER</h1>
-            <p>Full Stack Web Developer</p>
+            <h1 id='X'>MEHERDEVS</h1>
+            <p>Web Development Services • LLC est. 2023</p>
             <hr />
             <nav>
               <ul>

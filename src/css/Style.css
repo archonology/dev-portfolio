@@ -462,9 +462,20 @@ q {
     color: var(--paper);
 }
 
+.skillRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillPoint {
+    flex-direction: column;
+    flex: 1 0 20%;
+}
+
 .featured-light .skillPoint {
-    background-color: var(--graphite100);
+    background-color: white;
     color: var(--ink);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.325);
 }
 
 /* ********CONTACT PAGE******** */

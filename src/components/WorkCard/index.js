@@ -13,12 +13,6 @@ const WorkCard = () => {
                 return (
                     <>
                         <Card className="edCard">
-                            <CardMedia
-                                component="img"
-                                alt={work.employer}
-                                height="140"
-                                image={work.image}
-                            />
                             <CardContent>
                                 <Typography gutterBottom variant="h3"
                                     style={{ fontSize: '16px', fontWeight: 700 }}
