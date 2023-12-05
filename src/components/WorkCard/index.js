@@ -15,17 +15,17 @@ const WorkCard = () => {
                         <Card className="edCard">
                             <CardContent>
                                 <Typography gutterBottom variant="h3"
-                                    style={{ fontSize: '1.7vh', fontWeight: 700 }}
+                                    style={{ fontSize: '20px', fontWeight: 700 }}
                                     component="div">
                                     {work.title}
                                 </Typography>
                                 <hr />
-                                <Typography style={{ fontSize: '1.5vh', marginTop: '.5em' }}>{work.employer} | {work.location} | {work.dates}</Typography>
-                                <Typography variant="body2" style={{ paddingTop: '.7em', paddingBottom: '1em', fontSize: '1.4vh' }}>
+                                <Typography style={{ fontSize: '17px', marginTop: '.5em' }}>{work.employer} | {work.location} | {work.dates}</Typography>
+                                <Typography variant="body2" style={{ paddingTop: '.7em', paddingBottom: '1em', fontSize: '16px' }}>
                                     {work.summary}
                                 </Typography>
-                                <h6 style={{ fontSize: '1.6vh' }}>Accomplishments:</h6>
-                                <ul style={{ fontSize: '1.4vh' }}>
+                                <h6 style={{ fontSize: '17px' }}>Accomplishments:</h6>
+                                <ul style={{ fontSize: '16px' }}>
                                     {work.accomplishments.map((each) => {
                                         return (
                                             <li>{each}
@@ -34,8 +34,8 @@ const WorkCard = () => {
                                     })}
                                     <br />
                                 </ul>
-                                <h6 style={{ fontSize: '1.6vh' }}>Skills:</h6>
-                                <p style={{ fontSize: '1.4vh' }}>{work.skills}</p>
+                                <h6 style={{ fontSize: '17px' }}>Skills:</h6>
+                                <p style={{ fontSize: '16px', lineHeight: '1.5' }}>{work.skills}</p>
                             </CardContent>
                             <CardActions>
                                 <Button
@@ -43,7 +43,7 @@ const WorkCard = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                     
-                                    size="medium">Visit
+                                    size="large">Visit
                                 </Button>
                             </CardActions>
                         </Card>

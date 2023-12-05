@@ -13,7 +13,7 @@ const Resume = (theme) => {
     }
     return (
         <section className={containerStyle}>
-            <div className="resume-col resume-col1" onMouseEnter={showButton} onTouchMove={showButton} style={{ paddingLeft: '1em', paddingRight: '1em' }}>
+            <div className="resume-col" onMouseEnter={showButton} onTouchMove={showButton}>
                 <h2>EXPERIENCE</h2>
                 <WorkCard />
                 <br />

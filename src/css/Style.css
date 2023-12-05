@@ -392,9 +392,7 @@ q {
 .resume-col {
     flex-direction: column;
     flex: 1 0 25%;
-    padding: .5rem;
     padding-top: 0;
-    margin: .5rem;
 }
 
 .resume-light h2 {

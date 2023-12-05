@@ -21,13 +21,13 @@ const EducationCard = () => {
                             /> */}
                             <CardContent>
                                 <Typography gutterBottom variant="h3"
-                                    style={{ fontSize: '1.7vh', fontWeight: '700' }}
+                                    style={{ fontSize: '20px', fontWeight: '700' }}
                                     component="div">
                                     {school.award}
                                 </Typography>
                                 <hr />
-                                <Typography style={{ fontSize: '1.5vh' }}>{school.institution} | {school.dates}</Typography>
-                                <Typography variant="body2" style={{ paddingTop: '.7em', fontSize: '1.5vh' }}>
+                                <Typography style={{ fontSize: '17px', marginTop: '.5em' }}>{school.institution} | {school.dates}</Typography>
+                                <Typography variant="body2" style={{ paddingTop: '.7em', fontSize: '16px' }}>
                                     {school.description}
                                 </Typography>
                             </CardContent>
@@ -36,7 +36,7 @@ const EducationCard = () => {
                                     href={school.link}
                                     target="_blank"
                                     rel="noreferrer"
-                                    size="small">Visit Program Page
+                                    size="medium">Visit Program Page
                                 </Button>
                                 <Button
                                     href={school.certificate}
