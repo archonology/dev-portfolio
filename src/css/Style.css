@@ -677,7 +677,7 @@ footer .dark {
     height: 50px;
 }
 
-@media screen and (max-width: 3000px) {
+@media screen and (max-width: 10000px) {
     .container {
         margin-left: 15%;
         margin-right: 15%;
@@ -697,7 +697,8 @@ footer .dark {
     }
 
     .pics {
-        min-height: 425px;
+        max-height: 500px;
+        min-height: 500px;
         min-width: 0;
     }
 
