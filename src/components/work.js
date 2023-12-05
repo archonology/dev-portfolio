@@ -1,26 +1,4 @@
-import cwp from '../images/cwp banner.jpg';
-import vpc from '../images/vpcbanner.jpg';
-import cook from '../images/cookcounty.jpg';
-
 const work = [
-    {
-        title: "Development Coordinator",
-        employer: "Violence Prevention Center",
-        dates: "06/2023 - present",
-        location: "Grand Marais, MN",
-        status: "current",
-        summary: "Head of web, events, marketing, email campaigns, graphic design, community relations, and donor relations management. Lead consultant on SaaS, CMS, and technology solutions.",
-        accomplishments: [
-            "Researched, designed, and deployed a new agency website on the Wix platform.",
-            "Introduced and implemented website accessibility focused design which increased website accessibility by 100%.",
-            "Conducted Search Engine Optimization (SEO), which led to a 20% increase in new web traffic.",
-            "Implemented paper and digital filing optimization strategies that resulted in a higher functioning agency filing system that led to a 30% increase in filing efficiency.",
-            "Researched, presented, and implemented new fundraising events, marketing strategies, donor engagement strategies, and technology implementation strategies, which resulted in 40% increase in web traffic, 20% increase in new donations, improved donor engagment, and 10% increase in business partnerships."
-        ],
-        skills: "Adobe Express • Google Sheet • Wix • Communication • Leadership • Collaboration • Client Relations • Presenting Projects • Board Presentations • Written Communication • MailChimp • Stripe • Square • GiveButter",
-        link: "https://www.violencepreventioncenter.org/",
-        image: vpc
-    },
     {
         title: "Instructional Specialist",
         employer: "2U / University of Minnesota",
@@ -50,11 +28,27 @@ const work = [
         ],
         skills: "JavaScript • HTML5 • CSS3 • ReactJS • GraphQL • Git • Express • Node.js • MongoDB • Bootstrap • NoSQL • Communication • Collaboration",
         link: 'https://www.childwelfareportal.org/',
-        image: cwp
 
     },
     {
-        title: "Social Worker 1",
+        title: "Development Coordinator",
+        employer: "Violence Prevention Center",
+        dates: "06/2023 - 12/2023",
+        location: "Grand Marais, MN",
+        status: "current",
+        summary: "Head of web, events, marketing, email campaigns, graphic design, community relations, and donor relations management. Lead consultant on SaaS, CMS, and technology solutions.",
+        accomplishments: [
+            "Researched, designed, and deployed a new agency website on the Wix platform.",
+            "Introduced and implemented website accessibility focused design which increased website accessibility by 100%.",
+            "Conducted Search Engine Optimization (SEO), which led to a 20% increase in new web traffic.",
+            "Implemented paper and digital filing optimization strategies that resulted in a higher functioning agency filing system that led to a 30% increase in filing efficiency.",
+            "Researched, presented, and implemented new fundraising events, marketing strategies, donor engagement strategies, and technology implementation strategies, which resulted in 40% increase in web traffic, 20% increase in new donations, improved donor engagment, and 10% increase in business partnerships."
+        ],
+        skills: "Adobe Express • Google Sheet • Wix • Communication • Leadership • Collaboration • Client Relations • Presenting Projects • Board Presentations • Written Communication • MailChimp • Stripe • Square • GiveButter",
+        link: "https://www.violencepreventioncenter.org/",
+    },
+    {
+        title: "Family Services Case Manager",
         employer: "Cook County Public Health & Human Services",
         dates: "06/2017 - 07/2022",
         location: "Grand Marais, MN",
@@ -67,7 +61,6 @@ const work = [
         ],
         skills: "Communication • Leadership • Team Leadership • Collaboration • Data Management • State Record Keeping • Time Management • Case Management • Emergency Response • Saftey Response Management • Court Case Management • Compassion",
         link: "https://www.co.cook.mn.us/government/departments/public_health_and_human_services/index.php",
-        image: cook
     }
 ]
 
