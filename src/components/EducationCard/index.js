@@ -21,13 +21,13 @@ const EducationCard = () => {
                             /> */}
                             <CardContent>
                                 <Typography gutterBottom variant="h3"
-                                    style={{ fontSize: '16px' }}
+                                    style={{ fontSize: '1.7vh', fontWeight: '700' }}
                                     component="div">
                                     {school.award}
                                 </Typography>
                                 <hr />
-                                <Typography>{school.institution} | {school.dates}</Typography>
-                                <Typography variant="body2" color="text.secondary" style={{ paddingTop: '.7em' }}>
+                                <Typography style={{ fontSize: '1.5vh' }}>{school.institution} | {school.dates}</Typography>
+                                <Typography variant="body2" style={{ paddingTop: '.7em', fontSize: '1.5vh' }}>
                                     {school.description}
                                 </Typography>
                             </CardContent>
