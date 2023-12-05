@@ -16,7 +16,7 @@ const ProjectCard = () => {
                                 <h3>{project.title}</h3>
                                 <hr />
                                 <p>{project.description}</p>
-                                <div className="proj-links" style={{ marginBottom: '1.5em' }}>
+                                <div className="proj-links" style={{ marginBottom: '1.1em' }}>
                                     <a href={project.liveLink} target={'_blank'} rel={'nonreferrer'}>Live Site</a>
                                     {project.repoLink ? (<>
                                         <a href={project.repoLink} target={'_blank'} rel={'nonreferrer'}>Repository</a>
@@ -24,7 +24,7 @@ const ProjectCard = () => {
 
                                 </div>
                                 <hr />
-                                <p style={{ textAlign: 'center', fontSize: '15px', lineHeight: 1.6, fontWeight: 600 }}>
+                                <p style={{ textAlign: 'left', fontSize: '15px', lineHeight: 1.6, fontWeight: 600 }}>
                                     {project.techStack}
                                 </p>
 
