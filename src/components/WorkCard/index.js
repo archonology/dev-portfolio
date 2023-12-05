@@ -42,7 +42,7 @@ const WorkCard = () => {
                                     href={work.link}
                                     target="_blank"
                                     rel="noreferrer"
-                                    
+
                                     size="large">Visit
                                 </Button>
                             </CardActions>

@@ -1,10 +1,9 @@
 :root {
     --ink: hwb(0 8% 92%);
-    --paper: #f7fafa;
     --paper: #eeeeee;
     --nightpaper: hwb(36 98% 0% / 0.827);
     --primary: hwb(208 19% 37%);
-    --secondary: hwb(214 44% 2%);
+    --secondary: hwb(141 40% 44%);
     --graphite100: rgba(217, 218, 218, 0.863);
     --deepOcean: #2b2e35;
     --nightSky: #1c232d;
@@ -13,5 +12,5 @@
     --liveGreen: hwb(141 40% 44%);
     --liveGreen2: hwb(142 65% 24%);
     --repoBlue: hwb(176 50% 37%);;
-    --repoBlue2: hwb(177 65% 17%);
+    --repoBlue2: hwb(210 59% 12%);
 }

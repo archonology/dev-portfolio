@@ -71,7 +71,7 @@ export default function App() {
       <Router>
         <div className='background-all' style={style}>
           <header className={theme}>
-            <h1 id='X'>MEHERDEVS</h1>
+            <h1 id='X'>MeherDevs</h1>
             <p>Web Development Services • LLC est. 2023</p>
             <hr />
             <nav>
@@ -99,14 +99,14 @@ export default function App() {
                 <>
                   <ul className="iconUl">
                     <a href='#/' onClick={clearClicks}><li><FoundationIcon /></li></a>
-                    <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: 'var(--testDark)' }) }}><DarkModeIcon /></li>
+                    <li onClick={() => { setTheme('dark'); setStyle({ backgroundColor: 'var(--testDark)', transition: '2s' }) }}><DarkModeIcon /></li>
                     {/* video demos are in development */}
                     {/* <a href='#/'><li><VideoLibraryIcon /></li></a> */}
                   </ul>
                 </>) : (<>
                   <ul className="iconUl">
                     <a href='#/' onClick={clearClicks}><li><FoundationIcon /></li></a>
-                    <li onClick={() => { setTheme('light'); setStyle({ backgroundColor: 'var(--paper)' }) }}><LightModeIcon /></li>
+                    <li onClick={() => { setTheme('light'); setStyle({ backgroundColor: 'var(--paper)', transition: '2s' }) }}><LightModeIcon /></li>
                     {/* <a href='#/'><li><VideoLibraryIcon /></li></a> */}
                   </ul>
                 </>)}
