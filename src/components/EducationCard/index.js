@@ -12,7 +12,7 @@ const EducationCard = () => {
             {education.map((school) => {
                 return (
                     <>
-                        <Card className="edCard">
+                        <Card className="edCard" style={{padding: '1em'}}>
                             {/* <CardMedia
                                 component="img"
                                 alt={school.institution}
