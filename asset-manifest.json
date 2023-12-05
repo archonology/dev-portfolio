@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.949c9093.css",
-    "main.js": "/static/js/main.494b00aa.js",
+    "main.css": "/static/css/main.115a5bfd.css",
+    "main.js": "/static/js/main.e50c4469.js",
     "static/js/787.556ec7cb.chunk.js": "/static/js/787.556ec7cb.chunk.js",
     "static/media/groceryCCC.jpg": "/static/media/groceryCCC.96a027116ce1c4144767.jpg",
     "static/media/affordSMC.jpg": "/static/media/affordSMC.4bc3bd36bb70ec698c47.jpg",
@@ -27,12 +27,12 @@
     "static/media/vpcbanner.jpg": "/static/media/vpcbanner.fee8ccbfcd019f3b35c4.jpg",
     "static/media/cwp banner.jpg": "/static/media/cwp banner.4b30b904fa0e4eacb390.jpg",
     "index.html": "/index.html",
-    "main.949c9093.css.map": "/static/css/main.949c9093.css.map",
-    "main.494b00aa.js.map": "/static/js/main.494b00aa.js.map",
+    "main.115a5bfd.css.map": "/static/css/main.115a5bfd.css.map",
+    "main.e50c4469.js.map": "/static/js/main.e50c4469.js.map",
     "787.556ec7cb.chunk.js.map": "/static/js/787.556ec7cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.949c9093.css",
-    "static/js/main.494b00aa.js"
+    "static/css/main.115a5bfd.css",
+    "static/js/main.e50c4469.js"
   ]
 }
