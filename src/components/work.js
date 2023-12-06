@@ -7,7 +7,7 @@ const work = [
         status: "current",
         summary: "Support the instructor in class, provide mentorship, tutoring, and overall support to students in their mastery of learning objectives in a full stack web development certification program (coding boot camp).",
         accomplishments: [
-            "Completed rigorous coding test in JavaScript, CSS, HTML, React, and coding triage in oral and written forms in an online classroom setting to gain the position",
+            "Completed test in JavaScript, CSS, HTML, React, and coding triage in oral and written forms in an online classroom setting to gain the position",
             "Researched breaking changes and technology source documentation to deliver quality tutoring, troubleshooting, and assistant instruction in the classroom."
         ],
         skills: "JavaScript • HTML5 • CSS3 • ReactJS • SQL • MYSQL • GRAPHQL • Git • Unit Testing • JQuery • TypeScript • Express • Node.js • MongoDB • Bootstrap • NoSQL • Communication • Collaboration",
@@ -39,10 +39,10 @@ const work = [
         summary: "Head of web, events, marketing, email campaigns, graphic design, community relations, and donor relations management. Lead consultant on SaaS, CMS, and technology solutions.",
         accomplishments: [
             "Researched, designed, and deployed a new agency website on the Wix platform.",
-            "Introduced and implemented website accessibility focused design which increased website accessibility by 100%.",
-            "Conducted Search Engine Optimization (SEO), which led to a 20% increase in new web traffic.",
-            "Implemented paper and digital filing optimization strategies that resulted in a higher functioning agency filing system that led to a 30% increase in filing efficiency.",
-            "Researched, presented, and implemented new fundraising events, marketing strategies, donor engagement strategies, and technology implementation strategies, which resulted in 40% increase in web traffic, 20% increase in new donations, improved donor engagment, and 10% increase in business partnerships."
+            "Introduced and implemented website accessibility focused design which increased website accessibility.",
+            "Conducted Search Engine Optimization (SEO).",
+            "Implemented paper and digital filing optimization strategies that resulted in a higher functioning and more efficient agency filing system.",
+            "Researched, presented, and implemented new fundraising events, marketing strategies, donor engagement strategies, and technology implementation strategies, which resulted in increased in web traffic, an increase in new donors, and improved donor engagment."
         ],
         skills: "Adobe Express • Google Sheet • Wix • Communication • Leadership • Collaboration • Client Relations • Presenting Projects • Board Presentations • Written Communication • MailChimp • Stripe • Square • GiveButter",
         link: "https://www.violencepreventioncenter.org/",
