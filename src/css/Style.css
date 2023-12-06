@@ -183,13 +183,13 @@ p {
 .proj-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     min-height: 300px;
     padding: 3rem;
 }
 
 .proj-card h3 {
-    text-align: center;
+    text-align: left;
     margin-bottom: .5em;
     margin-top: .5rem;
     font-family: 'Cutive Mono', monospace;
@@ -652,13 +652,13 @@ textarea[type="textarea"]:active {
 }
 
 .dark .proj-links a {
-    background-color: grey;
+    background-color: rgb(173, 172, 172);
    
 
 }
 
 .dark .proj-links a+a {
-    background-color: rgb(86, 85, 85);
+    background-color: rgb(138, 137, 137);
 }
 
 .dark .proj-links a:hover,
