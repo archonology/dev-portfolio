@@ -12,7 +12,7 @@ const WorkCard = () => {
             {work.map((work) => {
                 return (
                     <>
-                        <Card className="edCard" style={{ padding: '1em' }}>
+                        <Card className="edCard" style={{ padding: '1em', backgroundColor: '#e5e5e5' }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h3"
                                     style={{ fontSize: '20px', fontWeight: 700 }}
