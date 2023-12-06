@@ -11,7 +11,7 @@ const ProjectCard = () => {
                     <>
                         <div className="proj-columns">
                             <div className="proj-card card-1" style={{ lineHeight: 1.5 }}>
-                                <a href={project.liveLink} target={'_blank'} rel={'nonreferrer'}><Image src={project.image} style={{ borderRadius: 16, marginBottom: 17 }} className='pics' /></a>
+                                <a href={project.liveLink} target={'_blank'} rel={'nonreferrer'}><Image src={project.image} style={{ borderRadius: 16, marginBottom: 17, transition: '.5s ease-in-out' }} className='pics' /></a>
                                 <h3>{project.title}</h3>
                                 <hr />
                                 <p>{project.description}</p>
