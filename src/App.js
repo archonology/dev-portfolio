@@ -72,7 +72,7 @@ export default function App() {
         <div className='background-all' style={style}>
           <header className={theme}>
             <h1 id='X'>MeherDevs</h1>
-            <p>Web Development Services • LLC est. 2023</p>
+            <p>Web Development Services | LLC</p>
             <hr />
             <nav>
               <ul>
