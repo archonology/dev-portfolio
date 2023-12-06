@@ -4,7 +4,6 @@ import projects from "../projects";
 
 
 const ProjectCard = () => {
-
     return (
         <>
             {projects.map((project) => {

@@ -235,18 +235,17 @@ p {
 }
 
 .proj-links a {
-    padding: .1em;
-    width: 210px;
+    width: 130px;
     background-color: var(--nightpaper);
     color: var(--ink);
     font-weight: 500;
-    /* border-radius: 10px; */
     box-shadow: 10px, 8px, 15px, rgba(0, 0, 0, 0.79);
+    border-radius: 6px;
     transition: .5s ease-in-out;
 }
 
 .proj-links a+a {
-    background-color: rgb(213, 216, 220);
+    background-color: rgb(227, 229, 232);
     margin-left: .5em;
 }
 
@@ -601,8 +600,13 @@ header nav ul a:hover {
 .proj-links a:hover,
 .proj-links a:focus,
 .proj-links a:active {
-  background-color: rgb(34, 34, 34);
-  color: var(--paper);
+  background-color: #f4e66c;
+}
+
+.proj-links a+a:hover,
+.proj-links a+a:focus,
+.proj-links a+a:active {
+    background-color: #55c6e6;
 }
 
 
