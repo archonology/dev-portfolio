@@ -49,11 +49,6 @@ const Portfolio = (theme) => {
                         <a href="https://github.com/archonology/dev-portfolio" target={'_blank'} rel={'nonreferrer'}>Repository</a>
                     </div>
                 </div>
-                {/* <div
-                    onMouseEnter={showButton} onTouchMove={showButton}
-                    className="proj-links">
-                    <a href="https://github.com/archonology/dev-portfolio" target={'_blank'} rel={'nonreferrer'} style={{ width: '35%', borderRadius: '0 0 10px 10px', backgroundColor: 'var(--primary)', color: 'var(--paper)' }}>See the Repository</a>
-                </div> */}
             </div>
 
             <div className="toTop">
