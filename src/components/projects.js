@@ -37,7 +37,7 @@ const projects = [
     {
         title: "Web Wedding Invite",
         description: "A landing page that acts as a wedding invite. Built with React and Vite, this front end site is mostly built from scratch with a few Material UI components. It includes an orginal song and is hosted through GitHub Pages.",
-        techStack: "ReactJS | Material UI | Vite | GH Pages",
+        techStack: "ReactJS | GraphQL | Material UI | Vite | Render",
         liveLink: "https://www.reedandheidi.com",
         repoLink: "https://github.com/archonology/wedding-party",
         image: wedding
