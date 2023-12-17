@@ -19,7 +19,6 @@ import { useAppCtx } from './AppProvider';
 export default function App() {
   const { theme } = useAppCtx();
   const background = `${theme} ${theme}-background-all`;
-  console.log(background);
 
   return (
     // <AppProvider>

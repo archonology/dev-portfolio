@@ -693,6 +693,7 @@ footer .dark {
     transition: 1s ease-in-out;
 }
 
+
 @media screen and (max-width: 10000px) {
     .container {
         margin-left: 15%;
