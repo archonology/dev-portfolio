@@ -1,35 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e4f5595.css",
-    "main.js": "/static/js/main.91953264.js",
+    "main.css": "/static/css/main.d146df20.css",
+    "main.js": "/static/js/main.58e712f8.js",
     "static/js/787.556ec7cb.chunk.js": "/static/js/787.556ec7cb.chunk.js",
-    "static/media/groceryCCC.jpg": "/static/media/groceryCCC.96a027116ce1c4144767.jpg",
-    "static/media/affordSMC.jpg": "/static/media/affordSMC.4bc3bd36bb70ec698c47.jpg",
     "static/media/home-party-page.jpg": "/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
-    "static/media/productsCCC.jpg": "/static/media/productsCCC.240e490a31c121f4acda.jpg",
-    "static/media/artSMC.jpg": "/static/media/artSMC.8a3daacac32257bf8e77.jpg",
-    "static/media/learnSMC.jpg": "/static/media/learnSMC.88945d261c48103b373d.jpg",
-    "static/media/frontSMC.jpg": "/static/media/frontSMC.44bb01a58c488ea34d0c.jpg",
-    "static/media/locationSMC.jpg": "/static/media/locationSMC.553a9d3af84827941c92.jpg",
-    "static/media/localCCC.jpg": "/static/media/localCCC.4284a20367ef13505946.jpg",
     "static/media/wedding.jpg": "/static/media/wedding.9c7e97ee6f8b7edb8f39.jpg",
-    "static/media/qualitySMC.jpg": "/static/media/qualitySMC.42db55df2490ed3f5e40.jpg",
-    "static/media/roomSMC.jpg": "/static/media/roomSMC.6bcc5bd3070d5682697c.jpg",
-    "static/media/staffSMC.jpg": "/static/media/staffSMC.f94735f39cc4bec97ff6.jpg",
     "static/media/CWP fresh screenshot Sept23.jpg": "/static/media/CWP fresh screenshot Sept23.b6bf0a573d0f43125193.jpg",
     "static/media/blogrm.jpg": "/static/media/blogrm.3fb19ad5282e986f1ee0.jpg",
-    "static/media/giveSMC.jpg": "/static/media/giveSMC.02de29b41011cc2e4e59.jpg",
     "static/media/vpcBanner1.jpeg": "/static/media/vpcBanner1.f47ad87e717ce927bb0e.jpeg",
     "static/media/primaNew.jpg": "/static/media/primaNew.54d20167b57194db8bee.jpg",
     "static/media/BakPak2.jpg": "/static/media/BakPak2.4d4edca76f95498740fa.jpg",
     "static/media/MeherDevsLogoArt23.jpeg": "/static/media/MeherDevsLogoArt23.e0b3b42b6e4cc49dfdbc.jpeg",
     "index.html": "/index.html",
-    "main.8e4f5595.css.map": "/static/css/main.8e4f5595.css.map",
-    "main.91953264.js.map": "/static/js/main.91953264.js.map",
+    "main.d146df20.css.map": "/static/css/main.d146df20.css.map",
+    "main.58e712f8.js.map": "/static/js/main.58e712f8.js.map",
     "787.556ec7cb.chunk.js.map": "/static/js/787.556ec7cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e4f5595.css",
-    "static/js/main.91953264.js"
+    "static/css/main.d146df20.css",
+    "static/js/main.58e712f8.js"
   ]
 }
