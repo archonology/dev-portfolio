@@ -1,7 +1,9 @@
 import * as React from "react";
+import { useAppCtx } from '../../utils/AppProvider';
 
-const Quotes = (theme) => {
-    const sliderStyle = 'qoute-slider ' + theme.theme;
+const Quotes = () => {
+    const { theme } = useAppCtx;
+    const sliderStyle = 'qoute-slider ' + theme;
 
     return (
         <div>
