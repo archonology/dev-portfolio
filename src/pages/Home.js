@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Quotes from "../components/Quotes";
 import rum from '../images/MeherDevsLogoArt23.jpeg'
 import Image from "mui-image";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import BookIcon from '@mui/icons-material/Book';
-import { useAppCtx } from '../../utils/AppProvider';
+import { useAppCtx } from '../AppProvider';
 
 const Home = () => {
-    const { theme } = useAppCtx;
+    const { theme } = useAppCtx();
     const className = theme;
     const artBox = theme + ' coverLogo';
     

@@ -3,10 +3,10 @@ import { useState } from "react";
 import EducationCard from "../components/EducationCard";
 import WorkCard from "../components/WorkCard";
 import skills from "../components/skills";
-import { useAppCtx } from '../../utils/AppProvider';
+import { useAppCtx } from '../AppProvider';
 
 const Resume = () => {
-    const { theme } = useAppCtx;
+    const { theme } = useAppCtx();
     const containerStyle = "resume-" + theme;
     const containerStyle2 = "featured-" + theme;
     const [visibility, setVisibility] = useState({ display: 'none' });

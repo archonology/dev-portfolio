@@ -2,10 +2,10 @@ import React from "react";
 import { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import PhotoGallery from "../components/PhotoGallery";
-import { useAppCtx } from '../../utils/AppProvider';
+import { useAppCtx } from '../AppProvider';
 
 const Portfolio = () => {
-    const { theme } = useAppCtx;
+    const { theme } = useAppCtx();
     const [visibility, setVisibility] = useState({ display: 'none' });
     function showButton() {
         setVisibility({ display: 'block' });

@@ -3,6 +3,11 @@ html {
     scroll-behavior: smooth;
 }
 
+/* .background-all {
+    background-color: var(--paper);
+} */
+
+
 .this-site-container {
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.212);
     padding: 2em;
@@ -13,7 +18,7 @@ body {
     color: var(--ink);
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
-    background-color: var(--testDark);
+    /* background-color: var(--testDark); */
 }
 
 
@@ -599,7 +604,7 @@ header nav ul a:hover {
 .proj-links a:hover,
 .proj-links a:focus,
 .proj-links a:active {
-  background-color: #f4e66c;
+    background-color: #f4e66c;
 }
 
 .proj-links a+a:hover,
@@ -652,7 +657,7 @@ textarea[type="textarea"]:active {
 
 .dark .proj-links a {
     background-color: rgb(173, 172, 172);
-   
+
 
 }
 
@@ -674,6 +679,18 @@ textarea[type="textarea"]:active {
 
 footer .dark {
     height: 50px;
+}
+
+.light-background-all {
+    background-color: var(--paper);
+    color: var(--ink);
+    transition: 1s ease-in-out;
+}
+
+.dark-background-all {
+    background-color: var(--testDark);
+    color: var(--nightpaper);
+    transition: 1s ease-in-out;
 }
 
 @media screen and (max-width: 10000px) {

@@ -1,16 +1,15 @@
 import './css/Reset.css'
 import './css/Variables.css'
 import './css/Style.css';
-import { useEffect, useState } from 'react';
-
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import AppProvider from './utils/AppProvider';
+// import AppProvider from './AppProvider';
 import Home from './pages/Home';
 import Footer from './components/Footer';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Header from './components/Header';
+import { useAppCtx } from './AppProvider';
 
 // import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 
@@ -18,12 +17,14 @@ import Header from './components/Header';
 
 
 export default function App() {
-
+  const { theme } = useAppCtx();
+  const background = `${theme} ${theme}-background-all`;
+  console.log(background);
 
   return (
-    <AppProvider>
-      <Router>
-        <div className='background-all' style={style}>
+    // <AppProvider>
+    <Router>
+      <div className={background}>
           <Header />
           <Routes>
             <Route path='/' element={<Home />}></Route>
@@ -36,10 +37,10 @@ export default function App() {
           </Routes>
           <div>
             <Footer />
-          </div>
         </div>
+      </div>
       </Router>
-    </AppProvider>
+    // </AppProvider>
   );
 }
 

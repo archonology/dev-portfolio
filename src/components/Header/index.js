@@ -1,22 +1,11 @@
-import './css/Reset.css'
-import './css/Variables.css'
-import './css/Style.css';
 import { useState } from 'react';
-import { useAppCtx } from '../../utils/AppProvider';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Home from './pages/Home';
-import Footer from './components/Footer';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+import { useAppCtx } from '../../AppProvider';
 import FoundationIcon from '@mui/icons-material/Foundation';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';
 
 export default function Header() {
-    const { theme, toggleTheme } = useAppCtx;
-    // const [theme, setTheme] = useState('light');
-    const [style, setStyle] = useState({ backgroundColor: 'var(--paper)' })
+    const { theme, toggleTheme } = useAppCtx();
     const [clickState1, setClickState1] = useState('not-clicked');
     const [clickState2, setClickState2] = useState('not-clicked');
     const [clickState3, setClickState3] = useState('not-clicked');
@@ -64,7 +53,7 @@ export default function Header() {
 
     return (
         <>
-            <header className={theme}>
+            <header>
                 <h1 id='X'>MeherDevs</h1>
                 <p>Web Development Services | LLC</p>
                 <hr />
@@ -93,14 +82,14 @@ export default function Header() {
                         <>
                             <ul className="iconUl">
                                 <a href='#/' onClick={clearClicks}><li><FoundationIcon /></li></a>
-                                <li onClick={() => { toggleTheme(); setStyle({ backgroundColor: 'var(--testDark)', transition: '2s' }) }}><DarkModeIcon /></li>
+                                <li onClick={toggleTheme}><DarkModeIcon /></li>
                                 {/* video demos are in development */}
                                 {/* <a href='#/'><li><VideoLibraryIcon /></li></a> */}
                             </ul>
                         </>) : (<>
                             <ul className="iconUl">
                                 <a href='#/' onClick={clearClicks}><li><FoundationIcon /></li></a>
-                                <li onClick={() => { toggleTheme(); setStyle({ backgroundColor: 'var(--paper)', transition: '2s' }) }}><LightModeIcon /></li>
+                                <li onClick={toggleTheme}><LightModeIcon /></li>
                                 {/* <a href='#/'><li><VideoLibraryIcon /></li></a> */}
                             </ul>
                         </>)}
