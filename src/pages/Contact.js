@@ -1,14 +1,16 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { validateEmail } from '../utils/validation';
+import { useAppCtx } from '../../utils/AppProvider';
 
-const Contact = (theme) => {
+const Contact = () => {
+    const { theme } = useAppCtx;
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
     const form = useRef();
-    const containerStyle = "contact-" + theme.theme;
+    const containerStyle = "contact-" + theme;
 
     const handleInputChange = (e) => {
 

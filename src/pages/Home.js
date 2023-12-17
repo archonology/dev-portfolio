@@ -5,11 +5,13 @@ import Image from "mui-image";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import BookIcon from '@mui/icons-material/Book';
+import { useAppCtx } from '../../utils/AppProvider';
 
-const Home = (theme) => {
-    const className = theme.theme;
-    // const containerName = theme.theme + ' container';
-    const artBox = theme.theme + ' coverLogo';
+const Home = () => {
+    const { theme } = useAppCtx;
+    const className = theme;
+    const artBox = theme + ' coverLogo';
+    
     return (
 
         <>

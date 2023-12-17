@@ -2,20 +2,22 @@ import React from "react";
 import { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import PhotoGallery from "../components/PhotoGallery";
+import { useAppCtx } from '../../utils/AppProvider';
 
-const Portfolio = (theme) => {
+const Portfolio = () => {
+    const { theme } = useAppCtx;
     const [visibility, setVisibility] = useState({ display: 'none' });
     function showButton() {
         setVisibility({ display: 'block' });
     }
 
-    const containerStyle3 = "projects-container " + theme.theme;
-    const containerStyle4 = "this-site-container " + theme.theme;
+    const containerStyle3 = "projects-container " + theme;
+    const containerStyle4 = "this-site-container " + theme;
 
     return (
         <>
             <h2
-                className={theme.theme}
+                className={theme}
                 style={{
                     fontSize: '42px',
                     textAlign: 'center',
@@ -25,7 +27,7 @@ const Portfolio = (theme) => {
                 <ProjectCard />
             </div>
             <h2
-                className={theme.theme}
+                className={theme}
                 style={{
                     fontSize: '42px',
                     textAlign: 'center',
