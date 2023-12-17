@@ -18,7 +18,7 @@ body {
     color: var(--ink);
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
-    /* background-color: var(--testDark); */
+    background-color: var(--testDark);
 }
 
 
