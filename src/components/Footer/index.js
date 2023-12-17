@@ -1,9 +1,11 @@
 import * as React from "react";
+import { useAppCtx } from '../../AppProvider';
 
 
-const Footer = (theme) => {
+const Footer = () => {
+    const { theme } = useAppCtx();
 
-    const foot = theme.theme;
+    const foot = theme;
 
     return (
         <footer className={foot}>

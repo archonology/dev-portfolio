@@ -1,17 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import work from "../work"
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { useAppCtx } from "../../AppProvider";
 const WorkCard = () => {
+    const { theme } = useAppCtx();
+    const [cardStyle, setCardStyle] = useState({ padding: '1em', backgroundColor: 'black' });
+
+    useEffect(() => {
+        theme === 'dark' ?
+            setCardStyle({ padding: '1em', backgroundColor: 'hwb(0 8% 92%)', color: 'white' }) :
+            setCardStyle({ padding: '1em', backgroundColor: '#e5e5e5' })
+    }, [theme]);
+
     return (
         <>
             {work.map((work) => {
                 return (
                     <>
-                        <Card className="edCard" style={{ padding: '1em', backgroundColor: '#e5e5e5' }}>
+                        <Card className="edCard" style={cardStyle}>
                             <CardContent>
                                 <Typography gutterBottom variant="h3"
                                     style={{ fontSize: '20px', fontWeight: 700 }}

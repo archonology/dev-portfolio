@@ -1,18 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import education from '../education';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
+// import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { useAppCtx } from "../../AppProvider";
 const EducationCard = () => {
+    const { theme } = useAppCtx();
+    const [cardStyle, setCardStyle] = useState({});
+
+    useEffect(() => {
+        theme === 'dark' ?
+            setCardStyle({ padding: '1em', backgroundColor: 'hwb(0 8% 92%)', color: 'white' }) :
+            setCardStyle({ padding: '1em', backgroundColor: '#e5e5e5' })
+    }, [theme]);
+
     return (
         <>
             {education.map((school) => {
                 return (
                     <>
-                        <Card className="edCard" style={{padding: '1em'}}>
+                        <Card className="edCard" style={cardStyle}>
                             {/* <CardMedia
                                 component="img"
                                 alt={school.institution}

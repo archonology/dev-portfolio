@@ -1,21 +1,23 @@
 import React from "react";
 import { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
-import PhotoGallery from "../components/PhotoGallery";
+// import PhotoGallery from "../components/PhotoGallery";
+import { useAppCtx } from '../AppProvider';
 
-const Portfolio = (theme) => {
+const Portfolio = () => {
+    const { theme } = useAppCtx();
     const [visibility, setVisibility] = useState({ display: 'none' });
     function showButton() {
         setVisibility({ display: 'block' });
     }
 
-    const containerStyle3 = "projects-container " + theme.theme;
-    const containerStyle4 = "this-site-container " + theme.theme;
+    const containerStyle3 = "projects-container " + theme;
+    const containerStyle4 = "this-site-container " + theme;
 
     return (
         <>
             <h2
-                className={theme.theme}
+                className={theme}
                 style={{
                     fontSize: '42px',
                     textAlign: 'center',
@@ -24,17 +26,17 @@ const Portfolio = (theme) => {
             <div className={containerStyle3} style={{ marginTop: -25 }} onMouseEnter={showButton} onTouchMove={showButton} onScroll={showButton}>
                 <ProjectCard />
             </div>
-            <h2
-                className={theme.theme}
+            {/* <h2
+                className={theme}
                 style={{
                     fontSize: '42px',
                     textAlign: 'center',
                     paddingBottom: '1em',
 
-                }}>Original Photography</h2>
-            <div className={containerStyle3} style={{ marginTop: -25 }} onMouseEnter={showButton} onTouchMove={showButton} onScroll={showButton}>
+                }}>Original Photography</h2> */}
+            {/* <div className={containerStyle3} style={{ marginTop: -25 }} onMouseEnter={showButton} onTouchMove={showButton} onScroll={showButton}>
                 <PhotoGallery />
-            </div>
+            </div> */}
             <div
                 onMouseEnter={showButton} onTouchMove={showButton}
                 className={containerStyle4}
