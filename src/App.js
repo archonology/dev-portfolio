@@ -21,7 +21,6 @@ export default function App() {
   const background = `${theme} ${theme}-background-all`;
 
   return (
-    // <AppProvider>
     <Router>
       <div className={background}>
           <Header />
@@ -39,7 +38,6 @@ export default function App() {
         </div>
       </div>
       </Router>
-    // </AppProvider>
   );
 }
 
