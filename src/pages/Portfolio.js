@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
-import PhotoGallery from "../components/PhotoGallery";
+// import PhotoGallery from "../components/PhotoGallery";
 import { useAppCtx } from '../AppProvider';
 
 const Portfolio = () => {
@@ -26,17 +26,17 @@ const Portfolio = () => {
             <div className={containerStyle3} style={{ marginTop: -25 }} onMouseEnter={showButton} onTouchMove={showButton} onScroll={showButton}>
                 <ProjectCard />
             </div>
-            <h2
+            {/* <h2
                 className={theme}
                 style={{
                     fontSize: '42px',
                     textAlign: 'center',
                     paddingBottom: '1em',
 
-                }}>Original Photography</h2>
-            <div className={containerStyle3} style={{ marginTop: -25 }} onMouseEnter={showButton} onTouchMove={showButton} onScroll={showButton}>
+                }}>Original Photography</h2> */}
+            {/* <div className={containerStyle3} style={{ marginTop: -25 }} onMouseEnter={showButton} onTouchMove={showButton} onScroll={showButton}>
                 <PhotoGallery />
-            </div>
+            </div> */}
             <div
                 onMouseEnter={showButton} onTouchMove={showButton}
                 className={containerStyle4}
