@@ -4,17 +4,11 @@ import cwp from '../images/CWP fresh screenshot Sept23.jpg';
 import bakpak from '../images/BakPak2.jpg';
 import vpc from '../images/vpcBanner1.jpeg';
 import blog from '../images/blogrm.jpg';
-import wedding from '../images/wedding.jpg';
+import wanderComma from '../images/wandercomma.png'
+import portpic from '../images/portfolio.png'
+// import wedding from '../images/wedding.jpg';
 
 const projects = [
-    {
-        title: "The Violence Prevention Center",
-        description: `New responsive website on the Wix Platform. Special attention was given during development to the safety of visitors who may be in dangerous situations. I completed several accessiblity and SEO tests and optimizations.
-        `,
-        techStack: "Wix | Adobe Express",
-        liveLink: "https://www.violencepreventioncenter.org/",
-        image: vpc
-    },
     {
         title: "The Childwelfare Portal",
         description: `The Childwelfare Portal has dual web token environments for administrators and regular users. Admins can add, delete, and make changes to any aspect of the content, while users are able to add resources to lists, create custom quicklinks to resources, and add and remove resources from a kanban-style list of to-do, doing, and done. 
@@ -27,20 +21,12 @@ const projects = [
         image: cwp
     },
     {
-        title: "Reed's Blog",
-        description: `Custom built blog on the Wordpress.org engine with Hostinger hosting and CMS. All images are original and created with Adobe Express.
+        title: "The Violence Prevention Center",
+        description: `New responsive website on the Wix Platform. Special attention was given during development to the safety of visitors who may be in dangerous situations. I completed several accessiblity and SEO tests and optimizations.
         `,
-        techStack: "Wordpress.org | Hostinger | Adobe Express",
-        liveLink: "https://www.reedmeher.com/",
-        image: blog
-    },
-    {
-        title: "Web Wedding Invite",
-        description: "A landing page that acts as a wedding invite. Built with React and Vite, this full stack site lets the host create a private login user that can be shared with their gueslist. Reach out to MeherDevs on the contact page to get login password.",
-        techStack: "ReactJS | GraphQL | Material UI | Vite | Render",
-        liveLink: "https://www.reedandheidi.com",
-        repoLink: "https://github.com/archonology/wedding-party",
-        image: wedding
+        techStack: "Wix | Adobe Express",
+        liveLink: "https://www.violencepreventioncenter.org/",
+        image: vpc
     },
     {
         title: "Prima-Materia",
@@ -58,21 +44,45 @@ const projects = [
         repoLink: "https://github.com/archonology/BakPak",
         image: bakpak
     },
+    {
+        title: "Home Party",
+        description: "Home Party provides a way to save the real estate you're tracking, pair them with styles and furnishings, and share what you find with friends and family.",
+        techStack: "MySQL | Handlebars | Express | Sequelize | EmailJS",
+        liveLink: "https://home-party-app.herokuapp.com",
+        repoLink: "https://github.com/archonology/Home-Party",
+        image: homeParty
+    },
+    {
+        title: "Reed's Blog",
+        description: `Custom built blog on the Wordpress.org engine with Hostinger hosting and CMS. All images are original and created with Adobe Express.
+        `,
+        techStack: "Wordpress.org | Hostinger | Adobe Express",
+        liveLink: "https://www.reedmeher.com/",
+        image: blog
+    },
+    {
+        title: "The Wandering Comma",
+        description: "A budding web developer often needs a custom blog where they can post about tech topics they are learning. This MVC (Model View Controller) style application offers users the ability to create, read, update, and delete(CRUD) blog posts. Posts are organized chronologically and allow for other users to comment on all posts.",
+        techStack: "MySQL | Handlebars | Express | Sequelize",
+        liveLink: "https://the-wandering-comma.herokuapp.com",
+        repoLink: "https://github.com/archonology/The-Wandering-Comma-Tech-Blog",
+        image: wanderComma
+    },
+    {
+        title: "This Portfolio",
+        description: "Built with ReactJS and custom CSS for all formatting and animations, this portfolio utilizes React Hooks and a minimal number of components from CSS libraries. Check out the repo to see the code behind it!",
+        techStack: "ReactJS | Github Pages | React Context | Material UI",
+        liveLink: "https://www.meherdevs.com/",
+        repoLink: "https://github.com/archonology/dev-portfolio",
+        image: portpic
+    },
     // {
-    //     title: "Home Party",
-    //     description: "Home Party provides a way to save the real estate you're tracking, pair them with styles and furnishings, and share what you find with friends and family.",
-    //     techStack: "MySQL | Handlebars | Express | Sequelize | EmailJS",
-    //     liveLink: "https://home-party-app.herokuapp.com",
-    //     repoLink: "https://github.com/archonology/Home-Party",
-    //     image: homeParty
-    // },
-    // {
-    //     title: "The Wandering Comma",
-    //     description: "A budding web developer often needs a custom blog where they can post about tech topics they are learning. This MVC (Model View Controller) style application offers users the ability to create, read, update, and delete(CRUD) blog posts. Posts are organized chronologically and allow for other users to comment on all posts.",
-    //     techStack: "MySQL | Handlebars | Express | Sequelize",
-    //     liveLink: "https://the-wandering-comma.herokuapp.com",
-    //     repoLink: "https://github.com/archonology/The-Wandering-Comma-Tech-Blog",
-    //     image: wanderComma
+    //     title: "Web Wedding Invite",
+    //     description: "A landing page that acts as a wedding invite. Built with React and Vite, this full stack site lets the host create a private login user that can be shared with their gueslist. Reach out to MeherDevs on the contact page to get login password.",
+    //     techStack: "ReactJS | GraphQL | Material UI | Vite | Render",
+    //     liveLink: "https://www.reedandheidi.com",
+    //     repoLink: "https://github.com/archonology/wedding-party",
+    //     image: wedding
     // },
     // {
     //     title: "A Night In",

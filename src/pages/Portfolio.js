@@ -22,7 +22,7 @@ const Portfolio = () => {
                     fontSize: '42px',
                     textAlign: 'center',
                     paddingBottom: '1em',
-                }}>Website Developments</h2>
+                }}>Web Developments</h2>
             <div className={containerStyle3} style={{ marginTop: -25 }} onMouseEnter={showButton} onTouchMove={showButton} onScroll={showButton}>
                 <ProjectCard />
             </div>
@@ -37,7 +37,7 @@ const Portfolio = () => {
             {/* <div className={containerStyle3} style={{ marginTop: -25 }} onMouseEnter={showButton} onTouchMove={showButton} onScroll={showButton}>
                 <PhotoGallery />
             </div> */}
-            <div
+            {/* <div
                 onMouseEnter={showButton} onTouchMove={showButton}
                 className={containerStyle4}
                 style={{ maxWidth: '600px' }}>
@@ -51,7 +51,7 @@ const Portfolio = () => {
                         <a href="https://github.com/archonology/dev-portfolio" target={'_blank'} rel={'nonreferrer'}>Repository</a>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="toTop">
                 <button

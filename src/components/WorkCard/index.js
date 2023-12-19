@@ -13,7 +13,7 @@ const WorkCard = () => {
     useEffect(() => {
         theme === 'dark' ?
             setCardStyle({ padding: '1em', backgroundColor: 'hwb(0 8% 92%)', color: 'white' }) :
-            setCardStyle({ padding: '1em', backgroundColor: '#e5e5e5' })
+            setCardStyle({ padding: '1em', backgroundColor: 'white' })
     }, [theme]);
 
     return (
