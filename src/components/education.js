@@ -4,7 +4,7 @@ const education = [
         institution: "University of Wisconsin, Milwaukee",
         dates: "01/2024 - present",
         status: "current student",
-        description: 'Given my past college credits, I am starting the IST program as a second term junior. I will graduate with my BS degree in the spring of 2024. About the program: The IST program immerses students in information science, information architecture, human factors in information seeking and use, information organization, storage and retrieval, and applications of the internet. This degree prepares graduates to be IT leaders in our increasingly digital culture and economy.',
+        description: 'Given my past college credits, I am starting the IST program as a second term junior. I will graduate with my BS degree in the spring of 2025. About the program: The IST program immerses students in information science, information architecture, human factors in information seeking and use, information organization, storage and retrieval, and applications of the internet. This degree prepares graduates to be IT leaders in our increasingly digital culture and economy.',
         gpa: "",
         link: "https://uwm.edu/informationstudies/academic-programs/information-science-and-technology/",
         certificate: "",
