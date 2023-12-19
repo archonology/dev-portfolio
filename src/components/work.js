@@ -42,7 +42,7 @@ const work = [
             "Introduced and implemented website accessibility focused design which increased website accessibility.",
             "Conducted Search Engine Optimization (SEO).",
             "Implemented paper and digital filing optimization strategies that resulted in a higher functioning and more efficient agency filing system.",
-            "Researched, presented, and implemented new fundraising events, marketing strategies, donor engagement strategies, and technology implementation strategies, which resulted in increased in web traffic, an increase in new donors, and improved donor engagment."
+            "Researched, presented, and implemented new fundraising events, marketing strategies, donor engagement strategies, and technology implementation strategies, which resulted in increased web traffic, an increase in new donors, and improved donor engagement."
         ],
         skills: "Adobe Express • Google Sheet • Wix • Communication • Leadership • Collaboration • Client Relations • Presenting Projects • Board Presentations • Written Communication • MailChimp • Stripe • Square • GiveButter",
         link: "https://www.violencepreventioncenter.org/",
