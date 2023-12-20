@@ -140,7 +140,8 @@ p {
 
 .coverLogo {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    align-items: left;
     background-color: rgb(243, 244, 245);
 }
 
@@ -318,9 +319,9 @@ footer p {
 
 .qoute-slider {
     width: 100%;
-    min-height: 180px;
-    margin-top: -3%;
-    margin-left: 3.5%;
+    min-height: 205px;
+    margin-top: -2%;
+    margin-left: 2.5%;
 }
 
 .slider {
