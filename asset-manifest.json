@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.c76cd717.css",
-    "main.js": "/static/js/main.69fde60e.js",
+    "main.js": "/static/js/main.278cb466.js",
     "static/js/787.556ec7cb.chunk.js": "/static/js/787.556ec7cb.chunk.js",
     "static/media/home-party-page.jpg": "/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
     "static/media/CWP fresh screenshot Sept23.jpg": "/static/media/CWP fresh screenshot Sept23.b6bf0a573d0f43125193.jpg",
     "static/media/blogrm.jpg": "/static/media/blogrm.3fb19ad5282e986f1ee0.jpg",
     "static/media/vpcBanner1.jpeg": "/static/media/vpcBanner1.f47ad87e717ce927bb0e.jpeg",
     "static/media/reed.jpg": "/static/media/reed.8c389758dc954257b53a.jpg",
-    "static/media/wandercomma.png": "/static/media/wandercomma.50d7d08828d1205486d1.png",
     "static/media/portfolio.png": "/static/media/portfolio.5bf7b1982bf42a6b79c1.png",
     "static/media/primaNew.jpg": "/static/media/primaNew.54d20167b57194db8bee.jpg",
     "static/media/BakPak2.jpg": "/static/media/BakPak2.4d4edca76f95498740fa.jpg",
+    "static/media/wandercomma2.png": "/static/media/wandercomma2.3f4f7da924113e563277.png",
     "static/media/MeherDevsLogoArt23.jpeg": "/static/media/MeherDevsLogoArt23.e0b3b42b6e4cc49dfdbc.jpeg",
     "index.html": "/index.html",
     "main.c76cd717.css.map": "/static/css/main.c76cd717.css.map",
-    "main.69fde60e.js.map": "/static/js/main.69fde60e.js.map",
+    "main.278cb466.js.map": "/static/js/main.278cb466.js.map",
     "787.556ec7cb.chunk.js.map": "/static/js/787.556ec7cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c76cd717.css",
-    "static/js/main.69fde60e.js"
+    "static/js/main.278cb466.js"
   ]
 }
