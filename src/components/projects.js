@@ -4,7 +4,7 @@ import cwp from '../images/CWP fresh screenshot Sept23.jpg';
 import bakpak from '../images/BakPak2.jpg';
 import vpc from '../images/vpcBanner1.jpeg';
 import blog from '../images/blogrm.jpg';
-import wanderComma from '../images/wandercomma.png'
+import wanderComma from '../images/wandercomma2.png'
 import portpic from '../images/portfolio.png'
 // import wedding from '../images/wedding.jpg';
 
