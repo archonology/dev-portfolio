@@ -237,7 +237,7 @@ p {
 
 .proj-links a {
     width: 130px;
-    background-color: var(--nightpaper);
+    background-color: white;
     color: var(--ink);
     font-weight: 500;
     box-shadow: 10px, 8px, 15px, rgba(0, 0, 0, 0.79);
@@ -601,7 +601,7 @@ header nav ul a:hover {
 .proj-links a:hover,
 .proj-links a:focus,
 .proj-links a:active {
-    background-color: #f4e66c;
+    background-color: #ffee56;
 }
 
 .proj-links a+a:hover,
