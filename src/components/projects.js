@@ -20,14 +20,14 @@ const projects = [
         repoLink: "https://github.com/archonology/CW-Portal",
         image: cwp
     },
-    {
-        title: "The Violence Prevention Center",
-        description: `New responsive website on the Wix Platform. Special attention was given during development to the safety of visitors who may be in dangerous situations. I completed several accessiblity and SEO tests and optimizations.
-        `,
-        techStack: "Wix | Adobe Express",
-        liveLink: "https://www.violencepreventioncenter.org/",
-        image: vpc
-    },
+    // {
+    //     title: "The Violence Prevention Center",
+    //     description: `New responsive website on the Wix Platform. Special attention was given during development to the safety of visitors who may be in dangerous situations. I completed several accessiblity and SEO tests and optimizations.
+    //     `,
+    //     techStack: "Wix | Adobe Express",
+    //     liveLink: "https://www.violencepreventioncenter.org/",
+    //     image: vpc
+    // },
     {
         title: "Prima-Materia",
         description: "Reed was assistant-lead developer, backend designer, and implemented the third party fetch API functionality on this deckbuilding application. Users can search cards, create decks, manage a favorites list, and conduct random searches on the 'Mystery Card' page. Prima-materia was built by a team of four developers.",

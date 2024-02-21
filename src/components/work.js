@@ -30,23 +30,23 @@ const work = [
         link: 'https://www.childwelfareportal.org/',
 
     },
-    {
-        title: "Development Coordinator",
-        employer: "Violence Prevention Center",
-        dates: "06/2023 - 12/2023",
-        location: "Grand Marais, MN",
-        status: "current",
-        summary: "Head of web, events, marketing, email campaigns, graphic design, community relations, and donor relations management. Lead consultant on SaaS, CMS, and technology solutions.",
-        accomplishments: [
-            "Researched, designed, and deployed a new agency website on the Wix platform.",
-            "Introduced and implemented website accessibility focused design which increased website accessibility.",
-            "Conducted Search Engine Optimization (SEO).",
-            "Implemented paper and digital filing optimization strategies that resulted in a higher functioning and more efficient agency filing system.",
-            "Researched, presented, and implemented new fundraising events, marketing strategies, donor engagement strategies, and technology implementation strategies, which resulted in increased web traffic, an increase in new donors, and improved donor engagement."
-        ],
-        skills: "Adobe Express • Google Sheet • Wix • Communication • Leadership • Collaboration • Client Relations • Presenting Projects • Board Presentations • Written Communication • MailChimp • Stripe • Square • GiveButter",
-        link: "https://www.violencepreventioncenter.org/",
-    },
+    // {
+    //     title: "Development Coordinator",
+    //     employer: "Violence Prevention Center",
+    //     dates: "06/2023 - 12/2023",
+    //     location: "Grand Marais, MN",
+    //     status: "current",
+    //     summary: "Head of web, events, marketing, email campaigns, graphic design, community relations, and donor relations management. Lead consultant on SaaS, CMS, and technology solutions.",
+    //     accomplishments: [
+    //         "Researched, designed, and deployed a new agency website on the Wix platform.",
+    //         "Introduced and implemented website accessibility focused design which increased website accessibility.",
+    //         "Conducted Search Engine Optimization (SEO).",
+    //         "Implemented paper and digital filing optimization strategies that resulted in a higher functioning and more efficient agency filing system.",
+    //         "Researched, presented, and implemented new fundraising events, marketing strategies, donor engagement strategies, and technology implementation strategies, which resulted in increased web traffic, an increase in new donors, and improved donor engagement."
+    //     ],
+    //     skills: "Adobe Express • Google Sheet • Wix • Communication • Leadership • Collaboration • Client Relations • Presenting Projects • Board Presentations • Written Communication • MailChimp • Stripe • Square • GiveButter",
+    //     link: "https://www.violencepreventioncenter.org/",
+    // },
     {
         title: "Family Services Case Manager",
         employer: "Cook County Public Health & Human Services",
