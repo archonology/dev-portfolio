@@ -150,11 +150,12 @@ p {
     justify-content: left;
     margin: 4rem;
     margin-left: 5rem;
+    margin-bottom: 3rem;
     flex-wrap: wrap;
 }
 
 #vid {
-    width: 30vw;
+    width: 35vw;
     border-radius: 20px;
     box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.33);
     margin-bottom: .3rem;
@@ -786,6 +787,23 @@ footer .dark {
         height: 400px;
     }
 
+    #vidBox {
+        padding: 0;
+        justify-content: center;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+
+    #vid {
+        width: 50vw;
+        margin: 0;
+        margin-left: 0;
+    }
+
+    .qoute-slider {
+        margin-left: 14rem;
+    }
+
     .container-content,
     .cc2 {
         padding: 2rem;
@@ -850,6 +868,23 @@ footer .dark {
         flex: 1 0 100%;
     }
 
+    #vidBox {
+        padding: 0;
+        justify-content: center;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+
+    #vid {
+        width: 55vw;
+        margin: 0;
+        margin-left: 0;
+    }
+
+    .qoute-slider {
+        margin-left: 11rem;
+    }
+
     .home-container-content p,
     .home-container-content h2,
     .container-content p,
@@ -881,6 +916,23 @@ footer .dark {
         background-position-x: 20%;
         background-position-y: 60%;
         min-height: 820px;
+    }
+
+    #vidBox {
+        padding: 0;
+        justify-content: center;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+
+    #vid {
+        width: 60vw;
+        margin: 0;
+        margin-left: 0;
+    }
+
+    .qoute-slider {
+        margin-left: 7rem;
     }
 
     .proj-columns {
@@ -934,6 +986,23 @@ footer .dark {
 
     .portfolio-container {
         background-size: 290%;
+    }
+
+    #vidBox {
+        padding: 0;
+        justify-content: center;
+        margin-bottom: 2rem;
+        margin-top: 0;
+    }
+
+    #vid {
+        width: 70vw;
+        margin: 0;
+        margin-left: 0;
+    }
+
+    .qoute-slider {
+        margin-left: 3rem;
     }
 
     .proj-card {
