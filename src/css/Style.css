@@ -145,6 +145,23 @@ p {
     background-color: rgb(243, 244, 245);
 }
 
+#vidBox {
+    display: flex;
+    justify-content: left;
+    margin: 4rem;
+    margin-left: 5rem;
+    flex-wrap: wrap;
+}
+
+#vid {
+    width: 30vw;
+    border-radius: 20px;
+    box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.33);
+    margin-bottom: .3rem;
+
+}
+
+
 .projects-container {
     display: flex;
     flex-direction: row;
@@ -318,18 +335,21 @@ footer p {
 }
 
 .qoute-slider {
-    width: 100%;
     min-height: 205px;
     margin-top: -2%;
     margin-left: 2.5%;
+    /* display: flex;
+    justify-content: center; */
 }
 
-.slider {
+/* .slider {
     position: relative;
-}
+    flex: 1 0 100%;
+} */
 
 .mask {
     padding: 2rem;
+    padding-top: 0;
 }
 
 a {
@@ -950,6 +970,18 @@ footer .dark {
         border-radius: 0;
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    #vidBox {
+        padding: 0;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    #vid {
+        width: 70vw;
+        margin: 0;
+        margin-left: 0;
     }
 
     .portfolio-container {
