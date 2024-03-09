@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Quotes from "../components/Quotes";
 import rum from '../images/MeherDevsLogoArt23.jpeg';
-import reed from '../images/reed.jpg';
 import Image from "mui-image";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -30,10 +29,8 @@ const Home = () => {
 
             </div>
             <div id="vidBox">
-                {/* <Image src={reed} style={{ width: '50vw', height: 'auto', borderRadius: '20px', boxShadow: '8px 10px 20px rgba(0, 0, 0, 0.33)' }} alt="portrait of Reed Meher" /> */}
                 <video autoPlay muted loop id="vid"><source src={rmeherVid} type="video/mp4"></source>
                 </video>
-
             </div>
             <Quotes theme={theme.theme} />
         </>

@@ -126,7 +126,6 @@ p {
     justify-content: center;
     margin-bottom: 2em;
     margin-top: 0;
-    /* padding: 1.5rem; */
     background-color: var(--ink);
     box-shadow: 0 17px 20px rgba(0, 0, 0, 0.304);
     transition: .5s;
@@ -169,7 +168,6 @@ p {
     flex-wrap: wrap;
     margin-bottom: 3em;
     margin-top: 3em;
-    /* box-shadow: 0 17px 20px rgba(0, 0, 0, 0.2); */
 }
 
 .home-container-content,
@@ -339,14 +337,8 @@ footer p {
     min-height: 205px;
     margin-top: -2%;
     margin-left: 2.5%;
-    /* display: flex;
-    justify-content: center; */
 }
 
-/* .slider {
-    position: relative;
-    flex: 1 0 100%;
-} */
 
 .mask {
     padding: 2rem;
