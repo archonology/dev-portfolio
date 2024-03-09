@@ -7,7 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import BookIcon from '@mui/icons-material/Book';
 import { useAppCtx } from '../AppProvider';
-import rmeherVid from '../images/rmeherVid.mp4'
+import rmeherVid from '../images/rMeherVid.mp4'
 
 const Home = () => {
 
