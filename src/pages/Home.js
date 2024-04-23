@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import BookIcon from '@mui/icons-material/Book';
 import PaletteIcon from '@mui/icons-material/Palette';
 import { useAppCtx } from '../AppProvider';
-import rmeherVid from '../images/rMeherVid.mp4'
+import rmeherVid from '../images/rmeherVid.mp4'
 
 const Home = () => {
 

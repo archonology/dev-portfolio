@@ -6,7 +6,7 @@ import vpc from '../images/vpcBanner1.jpeg';
 import blog from '../images/blogrm.jpg';
 import wanderComma from '../images/wandercomma2.png'
 import portpic from '../images/portfolio.png'
-// import wedding from '../images/wedding.jpg';
+import carpAI from '../images/CarpAIDiem.png'
 
 const projects = [
     {
@@ -20,14 +20,6 @@ const projects = [
         repoLink: "https://github.com/archonology/CW-Portal",
         image: cwp
     },
-    // {
-    //     title: "The Violence Prevention Center",
-    //     description: `New responsive website on the Wix Platform. Special attention was given during development to the safety of visitors who may be in dangerous situations. I completed several accessiblity and SEO tests and optimizations.
-    //     `,
-    //     techStack: "Wix | Adobe Express",
-    //     liveLink: "https://www.violencepreventioncenter.org/",
-    //     image: vpc
-    // },
     {
         title: "Prima-Materia",
         description: "Reed was assistant-lead developer, backend designer, and implemented the third party fetch API functionality on this deckbuilding application. Users can search cards, create decks, manage a favorites list, and conduct random searches on the 'Mystery Card' page. Prima-materia was built by a team of four developers.",
@@ -43,6 +35,21 @@ const projects = [
         liveLink: "https://archonology.github.io/BakPak/#/home",
         repoLink: "https://github.com/archonology/BakPak",
         image: bakpak
+    },
+    {
+        title: "CarpAI Diem",
+        description: `A mock blog built on the WordPress platform, CarpAI Diem explores the more personal side of AI and what it thinks about itself. By 'interviewing' ChatGPT about playful topics such as 'How does AI deal with stress?', 'Why does AI love to ride bike?' CarpAI Diem offers some playful fun that may also be eye-opening and challenge the ways we perceive AI.`,
+        techStack: "WordPress | Adobe Express",
+        liveLink: "https://rmeher.soisweb.uwm.edu/wordpress/",
+        image: carpAI
+    },
+    {
+        title: "The Violence Prevention Center",
+        description: `New responsive website on the Wix Platform. Special attention was given during development to the safety of visitors who may be in dangerous situations. I completed several accessiblity and SEO tests and optimizations.
+        `,
+        techStack: "Wix | Adobe Express",
+        liveLink: "https://www.violencepreventioncenter.org/",
+        image: vpc
     },
     {
         title: "Home Party",

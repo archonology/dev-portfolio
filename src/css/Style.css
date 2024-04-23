@@ -56,7 +56,7 @@ nav ul li {
 }
 
 nav ul a li {
-    transition: 300ms;
+    transition: 300ms ease-in-out;
 }
 
 nav ul li {
@@ -547,12 +547,17 @@ button {
 /* *************:::::::::::::::************ PSEUDO *************::::::::::************************ */
 
 .clicked {
-    font-weight: 700;
+    font-style: italic;
+    transition: .3s ease-in-out;
 }
 
-header nav ul a:hover {
-    font-weight: 700;
+nav ul a li:hover, nav ul a li:focus {
+    color: var(--primary);
 }
+
+/* header nav ul a:hover {
+    font-weight: 700;
+} */
 
 
 .iconUl li:hover {
@@ -571,11 +576,11 @@ header nav ul a:hover {
 
 .homeLinks a:hover {
     text-decoration: none;
-    color: var(--secondary);
+    color: var(--primary);
 }
 
-.dark .homeLinks a:hover {
-    color: var(--secondary)
+.dark .homeLinks a:hover, .homeLinks a:focus {
+    color: var(--primary)
 }
 
 .pics:hover {

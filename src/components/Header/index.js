@@ -3,6 +3,10 @@ import { useAppCtx } from '../../AppProvider';
 import FoundationIcon from '@mui/icons-material/Foundation';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import BookIcon from '@mui/icons-material/Book';
+import PaletteIcon from '@mui/icons-material/Palette';
 
 export default function Header() {
     const { theme, toggleTheme } = useAppCtx();
@@ -55,7 +59,7 @@ export default function Header() {
         <>
             <header>
                 <h1 id='X'>MeherDevs</h1>
-                <p>Web Development Services | LLC</p>
+                <p>Web Development Services | LLC<span className="homeLinks" style={{}}> <br /> <br /><a href="https://github.com/archonology" target='_blank' rel='nonreferrer'><GitHubIcon fontSize="large" /></a>   <a href="https://www.linkedin.com/in/reed-meher" target='_blank' rel='nonreferrer'><LinkedInIcon fontSize="large" /></a>   <a href="https://reedmeher.com/" target='_blank' rel='nonreferrer'><BookIcon fontSize="large" /></a>  <a href="https://reedmeher.myportfolio.com/" target='_blank' rel='nonreferrer'><PaletteIcon fontSize="large" /></a></span></p>
                 <hr />
                 <nav>
                     <ul>
