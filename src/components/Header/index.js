@@ -11,7 +11,7 @@ import PaletteIcon from "@mui/icons-material/Palette";
 export default function Header() {
   const { theme, toggleTheme } = useAppCtx();
   const [clickState1, setClickState1] = useState("not-clicked");
-  const [clickState2, setClickState2] = useState('not-clicked');
+  const [clickState2, setClickState2] = useState('clicked');
   const [clickState3, setClickState3] = useState("not-clicked");
   const [visibility, setVisibility] = useState({ visibility: "hidden" });
 
