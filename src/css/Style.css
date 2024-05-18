@@ -17,60 +17,57 @@ body {
     background-color: var(--testDark);
 }
 
-
 header {
-    background-size: cover;
-    padding: 1.7rem;
-    padding-top: 1.3rem;
-    text-align: center;
-
+    padding: 1.3rem;
+    padding-top: 1rem;
+    text-align: left;
 }
 
 h1 {
-    margin-bottom: .1rem;
-    font-size: 350%;
+    font-size: 12svw;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.2;
+    font-style: italic;
 }
 
-header p {
+header h4 {
     margin-bottom: 1rem;
-    font-size: 110%;
+    font-size: 3.7svw;
     font-weight: 500;
-}
-
-h1 nav {
-    display: inline-flex;
+    font-style: italic;
 }
 
 nav ul {
     margin-top: .5rem;
+    display: flex;
+    justify-content: left;
 }
 
 header h1,
 nav ul li {
-    display: inline-flex;
+    display: inline;
     color: var(--ink);
-    padding: 7px;
-    transition: flex-basis 500ms linear;
-}
-
-nav ul a li {
-    transition: 300ms ease-in-out;
 }
 
 nav ul li {
-    font-size: larger;
-    margin-right: 10px;
+    padding: 7px;
+    font-size: 3.5svw;
+}
 
+#about {
+    padding-left: 3px;
 }
 
 p {
     color: var(--ink);
 }
 
-.iconUl li {
+.iconUl {
+    text-align: right;
     transition: .5s;
+    float: right;
+    z-index: 1;
+    margin-top: 5px;
 }
 
 .toTop {
@@ -546,23 +543,14 @@ button {
 
 /* *************:::::::::::::::************ PSEUDO *************::::::::::************************ */
 
-.clicked {
-    font-style: italic;
-    transition: .3s ease-in-out;
+.clicked, .clicked li {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: .5s ease-in;
 }
 
 nav ul a li:hover, nav ul a li:focus {
-    color: var(--primary);
-}
-
-/* header nav ul a:hover {
-    font-weight: 700;
-} */
-
-
-.iconUl li:hover {
-    cursor: pointer;
-    transform: scale(115%);
+    color: white;
 }
 
 .proj1 .links a:hover,
