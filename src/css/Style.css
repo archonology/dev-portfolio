@@ -353,14 +353,14 @@ a {
 }
 
 q {
-  font-size: 140%;
-  font-style: italic;
+  font-size: 200%;
+  font-weight: 700;
   line-height: 1.5;
 }
 
 
 .slider .source {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -698,6 +698,7 @@ footer .dark {
   color: var(--nightpaper);
   transition: 1s ease-in-out;
 }
+
 
 @media screen and (max-width: 10000px) {
   .container {

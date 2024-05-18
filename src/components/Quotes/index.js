@@ -29,7 +29,7 @@ const Quotes = () => {
                                         </p>
                                     </li>
                                     <li className="anim3">
-                                        <q className="qoute"> Excellent communication skills</q>
+                                        <q className="qoute">Excellent communication skills</q>
                                         <p className="source">
                                             - Teammate Alexandra D.
                                         </p>

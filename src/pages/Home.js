@@ -21,7 +21,7 @@ const Home = () => {
           <Quotes theme={theme.theme} />
         </div>
 
-        <Image src={rum} alt="logo image"></Image>
+        <Image src={rum} bgColor="black" alt="logo image"></Image>
       </div>
       <p
         className={className}
