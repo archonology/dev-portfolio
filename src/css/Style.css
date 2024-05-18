@@ -18,7 +18,8 @@ body {
 
 header {
   padding: 1.3rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
   text-align: left;
 }
 
@@ -77,8 +78,12 @@ p {
   transition: 0.5s;
   float: right;
   z-index: 1;
-  margin-top: 2.3%;
-  margin-right: 2%;
+  /* margin-top: 1%; */
+  margin-right: 1%;
+}
+
+.iconUl:hover {
+ cursor: pointer;
 }
 
 .toTop {
