@@ -1,6 +1,8 @@
 import './css/Reset.css'
 import './css/Variables.css'
 import './css/Style.css';
+import './css/QouteSlider.css'
+import './css/Responsive.css'
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 // import AppProvider from './AppProvider';
 import Home from './pages/Home';
