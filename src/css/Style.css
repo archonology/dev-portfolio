@@ -61,8 +61,14 @@ p {
   color: var(--ink);
 }
 
+.aboutbox {
+    display: flex;
+    background-color: rgb(10, 20, 49);
+    width: 100%;
+    height: auto;
+}
+
 .coverLogo p {
-  background-color: rgb(10, 20, 49);
   color: white;
 }
 
