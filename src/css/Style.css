@@ -25,19 +25,19 @@ header {
 h1 {
   font-size: 8.4svw;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1;
   font-style: italic;
 }
 
 header h4 {
   margin-bottom: 1rem;
-  font-size: 108%;
+  font-size: 110%;
   font-weight: 500;
   font-style: italic;
 }
 
 nav ul {
-  margin-top: 0.5rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: left;
 }
@@ -386,14 +386,14 @@ q {
 
 .row {
   z-index: 1;
-  width: 450px;
+  width: 95%;
   margin-left: 1%;
 }
 
 .quotebox {
   background-color: black;
-  width: 40%;
-  height: 40%;
+  width: 52svw;
+  height: 32svh;
   margin-left: 5%;
   margin-top: 5%;
   z-index: 1;

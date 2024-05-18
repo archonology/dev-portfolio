@@ -72,7 +72,8 @@ export default function Header() {
             </p>
           </>
         )}
-        <h1>MEHERDEVS</h1>
+        <h1>REED MEHER</h1>
+        <h4> Full Stack Web Development // MeherDevs LLC. est. 2023</h4>
         {/* <h4>Web Development by Reed Meher</h4> */}
         {/* <p>Web Development Services | LLC</p> */}
         {/* <hr /> */}
