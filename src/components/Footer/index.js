@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <footer className={foot}>
             <section className={foot}>
-                <p >Made by MeherDevs LLC | 2023</p>
+                <p >MeherDevs LLC | 2024</p>
             </section>
         </footer>
     )

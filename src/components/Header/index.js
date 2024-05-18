@@ -1,12 +1,7 @@
 import { useState } from "react";
 import { useAppCtx } from "../../AppProvider";
-import FoundationIcon from "@mui/icons-material/Foundation";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import BookIcon from "@mui/icons-material/Book";
-import PaletteIcon from "@mui/icons-material/Palette";
 
 export default function Header() {
   const { theme, toggleTheme } = useAppCtx();
@@ -73,7 +68,7 @@ export default function Header() {
           </>
         )}
         <h1>REED MEHER</h1>
-        <h4> Full Stack Web Development // MeherDevs LLC. est. 2023</h4>
+        <h4> Full Stack Web Developer // MeherDevs LLC. est. 2023</h4>
         {/* <h4>Web Development by Reed Meher</h4> */}
         {/* <p>Web Development Services | LLC</p> */}
         {/* <hr /> */}

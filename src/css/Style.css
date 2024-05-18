@@ -13,7 +13,7 @@ body {
   color: var(--ink);
   font-family: "Open Sans", sans-serif;
   line-height: 1.2;
-  background-color: var(--testDark);
+  background-color: var(--nightOcean);
 }
 
 header {
@@ -24,7 +24,7 @@ header {
 }
 
 h1 {
-  font-size: 8.4svw;
+  font-size: 7.4svw;
   font-weight: 700;
   line-height: 1;
   font-style: italic;
@@ -597,11 +597,6 @@ nav ul a li:focus {
   box-shadow: 9px 30px 32px -15px rgba(0, 0, 0, 0.632);
 }
 
-.proj1 .link2 a:hover,
-.proj2 .link2 a:hover {
-  background-color: var(--secondary);
-  color: var(--paper);
-}
 
 .toTop-button:hover {
   background-color: var(--primary);
@@ -705,7 +700,7 @@ footer .dark {
 }
 
 .dark-background-all {
-  background-color: var(--testDark);
+  background-color: var(--nightOcean);
   color: var(--nightpaper);
   transition: 1s ease-in-out;
 }
