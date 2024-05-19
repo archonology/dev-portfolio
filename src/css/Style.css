@@ -62,7 +62,7 @@ nav ul li {
   color: var(--ink);
 }
 
-nav ul li {
+nav ul li a {
   padding: 7px;
   font-size: 2.2svw;
 }
@@ -101,13 +101,13 @@ p {
 .toTop {
   position: fixed;
   right: 30px;
-  bottom: 100px;
+  bottom: 70px;
   z-index: 1;
 }
 
 .toTop-button {
-  width: 105px;
-  height: 45px;
+  width: 65px;
+  height: 55px;
   background-color: var(--ink);
   border-radius: 10px;
   color: var(--paper);
@@ -177,6 +177,11 @@ p {
   padding-left: 2rem;
 }
 
+#techBox h3 {
+  margin-top: 1rem;
+  font-size: 16px;
+}
+
 #techBox ul {
   display: inline-flex;
   flex-wrap: wrap;
@@ -187,6 +192,7 @@ p {
   margin-top: .4rem;
   padding: .5rem;
   background-color: var(--primary);
+  font-weight: 600;
 }
 
 .proj-txt {

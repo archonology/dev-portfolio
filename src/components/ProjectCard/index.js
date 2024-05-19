@@ -21,6 +21,7 @@ const ProjectCard = () => {
               <h2>{project.title}</h2>
               <p>{project.description}</p>
               <div id="techBox">
+                <h3>Tech Used:</h3>
                 <ul>
                   {project.techStack.map((tech) => {
                     return <li>{tech}</li>
