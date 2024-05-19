@@ -3,12 +3,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.this-site-container {
-  box-shadow: 0 17px 20px rgba(0, 0, 0, 0.212);
-  padding: 2em;
-  margin-bottom: 3em;
-}
-
 .light-background-all {
   background-color: var(--paper);
   color: var(--ink);
