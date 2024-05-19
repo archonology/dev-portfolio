@@ -24,8 +24,33 @@ const ProjectCard = () => {
                 <h3>Tech Used:</h3>
                 <ul>
                   {project.techStack.map((tech) => {
-                    return <li>{tech}</li>
+                    return <li>{tech}</li>;
                   })}
+                </ul>
+              </div>
+              <div id="linkBox">
+                <h3>Links:</h3>
+                <ul>
+                  <li>
+                    <a
+                      href={project.liveLink}
+                      rel="non_openner"
+                      target="_blank"
+                      aria-label={project.liveLink}
+                    >
+                      Website
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={project.repoLink}
+                      rel="non_openner"
+                      target="_blank"
+                      aria-label={project.repoLink}
+                    >
+                      Github
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>

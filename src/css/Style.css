@@ -177,12 +177,12 @@ p {
   padding-left: 2rem;
 }
 
-#techBox h3 {
+#techBox h3, #linkBox h3 {
   margin-top: 1rem;
   font-size: 16px;
 }
 
-#techBox ul {
+#techBox ul, #linkBox ul {
   display: inline-flex;
   flex-wrap: wrap;
 }
@@ -192,6 +192,18 @@ p {
   margin-top: .4rem;
   padding: .5rem;
   background-color: var(--primary);
+  font-weight: 600;
+}
+
+#linkBox li {
+  margin-right: .3rem;
+  margin-top: .5rem;
+  padding: .5rem;
+  background-color: var(--secondary);
+}
+
+#linkBox li a {
+  color: var(--ink);
   font-weight: 600;
 }
 
