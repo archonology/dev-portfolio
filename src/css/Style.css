@@ -156,7 +156,7 @@ p {
 }
 
 .projBox:nth-child(3),
-.projBox:nth-child(8) {
+.projBox:nth-child(7) {
   background-color: var(--deepOcean);
 }
 
@@ -314,9 +314,8 @@ nav ul a li:focus {
   font-weight: 700;
 }
 
-.homeLinks a:hover {
-  text-decoration: none;
-  color: var(--primary);
+#linkBox li:hover {
+  background-color: var(--secHover);
 }
 
 .dark .homeLinks a:hover,
