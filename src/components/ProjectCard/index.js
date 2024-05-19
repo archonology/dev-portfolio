@@ -13,13 +13,20 @@ const ProjectCard = () => {
                 id="folioImg"
                 src={project.image}
                 bgColor="black"
-                alt="portrait of Reed Meher in black and white"
+                alt={project.title}
                 // style={{ width: "35svw" }}
               ></Image>
             </div>
             <div id="projTextBox">
               <h2>{project.title}</h2>
               <p>{project.description}</p>
+              <div id="techBox">
+                <ul>
+                  {project.techStack.map((tech) => {
+                    return <li>{tech}</li>
+                  })}
+                </ul>
+              </div>
             </div>
           </div>
         );

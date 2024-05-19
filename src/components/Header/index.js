@@ -6,14 +6,14 @@ import LightModeIcon from "@mui/icons-material/LightMode";
 export default function Header() {
   const { theme, toggleTheme } = useAppCtx();
   const [clickState1, setClickState1] = useState("not-clicked");
-  const [clickState2, setClickState2] = useState('clicked');
+  const [clickState2, setClickState2] = useState("clicked");
   const [clickState3, setClickState3] = useState("not-clicked");
   const [visibility, setVisibility] = useState({ visibility: "hidden" });
 
   function handleClick1() {
     if (clickState1 === "not-clicked") {
       setClickState1("clicked");
-      setClickState2('not-clicked');
+      setClickState2("not-clicked");
       setClickState3("not-clicked");
     } else {
       setClickState1("not-clicked");
@@ -23,7 +23,7 @@ export default function Header() {
   function handleClick2() {
     if (clickState2 === "not-clicked") {
       setClickState3("not-clicked");
-      setClickState2('clicked');
+      setClickState2("clicked");
       setClickState1("not-clicked");
     } else {
       setClickState3("not-clicked");
@@ -33,7 +33,7 @@ export default function Header() {
   function handleClick3() {
     if (clickState3 === "not-clicked") {
       setClickState3("clicked");
-      setClickState2('not-clicked');
+      setClickState2("not-clicked");
       setClickState1("not-clicked");
     } else {
       setClickState3("not-clicked");
@@ -41,7 +41,7 @@ export default function Header() {
   }
 
   function clearClicks() {
-    setClickState2('not-clicked');
+    setClickState2("not-clicked");
     setClickState1("not-clicked");
     setClickState3("not-clicked");
   }
@@ -68,33 +68,37 @@ export default function Header() {
           </>
         )}
         <h1>REED MEHER</h1>
-        <h4> Full Stack Web Developer // MeherDevs LLC. est. 2023</h4>
-        {/* <h4>Web Development by Reed Meher</h4> */}
-        {/* <p>Web Development Services | LLC</p> */}
-        {/* <hr /> */}
+        <h4> Full Stack Web Developer • MeherDevs LLC. est. 2023</h4>
         <nav>
           <ul>
-            <a href="#/" onClick={handleClick2}
-            className={clickState2}
-            >
-              <li id="about">About</li>
-            </a>
-            <a
-              href="#/portfolio"
-              onClick={handleClick1}
-              className={clickState1}
-            >
-              <li>Portfolio</li>
-            </a>
-            {/* <a
-                            href='#/resume'
-                            onClick={handleClick2}
-                            className={clickState2}>
-                            <li>Resume</li>
-                        </a> */}
-            <a href="#/contact" onClick={handleClick3} className={clickState3}>
-              <li>Contact</li>
-            </a>
+            <li>
+              <a
+                href="#/"
+                onClick={handleClick2}
+                className={clickState2}
+                id="about"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#/portfolio"
+                onClick={handleClick1}
+                className={clickState1}
+              >
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a
+                href="#/contact"
+                onClick={handleClick3}
+                className={clickState3}
+              >
+                Contact
+              </a>
+            </li>
           </ul>
         </nav>
       </header>

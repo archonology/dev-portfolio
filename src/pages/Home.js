@@ -57,6 +57,7 @@ const Home = () => {
                 href="https://github.com/archonology"
                 target="_blank"
                 rel="nonreferrer"
+                aria-label="https://github.com/archonology"
               >
                 <GitHubIcon fontSize="large" />
               </a>{" "}
@@ -64,6 +65,7 @@ const Home = () => {
                 href="https://www.linkedin.com/in/reed-meher"
                 target="_blank"
                 rel="nonreferrer"
+                aria-label="https://www.linkedin.com/in/reed-meher"
               >
                 <LinkedInIcon fontSize="large" />
               </a>{" "}
@@ -71,16 +73,10 @@ const Home = () => {
                 href="https://reedmeher.com/"
                 target="_blank"
                 rel="nonreferrer"
+                aria-label="https://reedmeher.com/"
               >
                 <BookIcon fontSize="large" />
               </a>{" "}
-              <a
-                href="https://reedmeher.myportfolio.com/"
-                target="_blank"
-                rel="nonreferrer"
-              >
-                <PaletteIcon fontSize="large" />
-              </a>
             </span>
           </p>
         </div>
