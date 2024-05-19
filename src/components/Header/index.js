@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useAppCtx } from "../../AppProvider";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
-import LightModeIcon from "@mui/icons-material/LightMode";
+// import DarkModeIcon from "@mui/icons-material/DarkMode";
+// import LightModeIcon from "@mui/icons-material/LightMode";
 
 export default function Header() {
   const { theme, toggleTheme } = useAppCtx();
@@ -54,7 +54,7 @@ export default function Header() {
   return (
     <>
       <header>
-        {theme === "light" ? (
+        {/* {theme === "light" ? (
           <>
             <p className="iconUl" onClick={toggleTheme}>
               <DarkModeIcon />
@@ -66,7 +66,7 @@ export default function Header() {
               <LightModeIcon />
             </p>
           </>
-        )}
+        )} */}
         <h1>REED MEHER</h1>
         <h4> Full Stack Web Developer • MeherDevs LLC. est. 2023</h4>
         <nav>

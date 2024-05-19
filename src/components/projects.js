@@ -6,7 +6,6 @@ import vpc from "../images/vpcBanner1.jpeg";
 import blog from "../images/blogrm.jpg";
 import wanderComma from "../images/wandercomma2.png";
 import portpic from "../images/portfolio.png";
-import carpAI from "../images/CarpAIDiem.png";
 
 const projects = [
   {

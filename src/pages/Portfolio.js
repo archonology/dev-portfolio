@@ -1,10 +1,12 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { useState } from "react";
-import ProjectCard from "../components/ProjectCard";
 import Image from "mui-image";
 import { useAppCtx } from "../AppProvider";
 import ocean from "../images/ocean.png";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
+
+const ProjCard = React.lazy(()=> import('../components/ProjectCard'));
+
 
 const Portfolio = () => {
   const { theme } = useAppCtx();
@@ -33,7 +35,10 @@ const Portfolio = () => {
           onTouchMove={showButton}
           onScroll={showButton}
         >
-          <ProjectCard />
+            <Suspense fallback={<div id="loadBox"><p>Loading...</p></div>}>
+                    <ProjCard />      
+            </Suspense>
+
         </div>
 
         <div className="toTop">
