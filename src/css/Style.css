@@ -9,6 +9,18 @@ html {
   margin-bottom: 3em;
 }
 
+.light-background-all {
+  background-color: var(--paper);
+  color: var(--ink);
+  transition: 1s ease-in-out;
+}
+
+.dark-background-all {
+  background-color: var(--nightOcean);
+  color: var(--nightpaper);
+  transition: 1s ease-in-out;
+}
+
 body {
   color: var(--ink);
   font-family: "Open Sans", sans-serif;
@@ -24,11 +36,22 @@ header {
 }
 
 h1 {
-  font-size: 7.4svw;
+  font-size: 7svw;
   font-weight: 700;
   line-height: 1;
   font-style: italic;
 }
+
+h2 {
+  font-size: 3svw;
+  font-weight: 600;
+  line-height: 1.3;
+  padding-bottom: 2rem;
+  font-style: italic;
+  color: #ffe600;
+}
+
+
 
 header h4 {
   margin-bottom: 1rem;
@@ -51,7 +74,7 @@ nav ul li {
 
 nav ul li {
   padding: 7px;
-  font-size: 2.4svw;
+  font-size: 2.2svw;
 }
 
 #about {
@@ -136,72 +159,86 @@ p {
   background-color: rgb(243, 244, 245);
 }
 
-#vidBox {
+.oceanBox {
+  height: 4svh;
+}
+
+.portfolioBox {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  
+}
+
+.projBox {
   display: flex;
-  justify-content: left;
-  margin: 4rem;
-  margin-left: 5rem;
-  margin-bottom: 3rem;
-  flex-wrap: wrap;
+  height: 60svh;
+  margin-top: 1rem;
+  background-color: rgb(23, 24, 25);
 }
 
-#vid {
-  width: 35vw;
-  border-radius: 20px;
-  box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.33);
-  margin-bottom: 0.3rem;
+#projTextBox {
+  flex: 1 0 30%;
+  margin: 2rem;
+  padding: 2rem;
 }
 
-.projects-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 3em;
-  margin-top: 3em;
+#projTextBox p {
+  font-size: 18px;
+  line-height: 1.3;
 }
 
-.home-container-content,
-.container-content,
-.cc2 {
-  max-width: 25%;
+
+#portraitbox {
+  flex: 1 0 10%;
+  margin: 2.5rem;
+  padding-left: 1rem;
 }
 
-.proj-columns {
-  flex: 1 0 50%;
-  transition: flex-basis 500ms linear;
+
+/* #folioImg {
+  width: 100px;
+} */
+
+.proj-txt {
+  text-align: left;
+  line-height: 1.4;
+  font-size: 18px;
+  margin-bottom: 3%;
+  color: white;
+  padding: 9svw;
 }
 
 .proj-row {
-  display: flex;
-  flex: 1 0 20%;
-  flex-direction: row;
-  transition: flex-basis 500ms linear;
+  /* flex: 1 0 20%;
+  flex-direction: col;
+  transition: flex-basis 500ms linear; */
 }
 
 .proj-row-card {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: flex-start;
   padding: 1rem;
-  margin-left: 20px;
+  margin-left: 20px; */
 }
 
 .proj-card {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: left;
   min-height: 300px;
-  padding: 3rem;
+  padding: 3rem; */
 }
 
 .proj-card h3 {
-  text-align: left;
+  /* text-align: left;
   margin-bottom: 0.5em;
   margin-top: 0.5rem;
   font-family: "Cutive Mono", monospace;
   font-family: "Open Sans", sans-serif;
   font-size: 150%;
-  color: var(--ink);
+  color: var(--ink); */
 }
 
 .proj-card p {
@@ -224,18 +261,18 @@ p {
 .pics {
   box-shadow: 15px 19px 37px rgba(0, 0, 0, 0.257);
   z-index: 0;
-  min-height: 315px;
-  min-width: 325px;
+  /* min-height: 315px;
+  min-width: 325px; */
 }
 
 .proj-links {
-  display: flex;
+  /* display: flex;
   text-align: center;
   justify-content: left;
   font-family: "Open Sans", sans-serif;
   font-size: 110%;
   padding-top: 1.1em;
-  margin-left: 0;
+  margin-left: 0; */
 }
 
 .proj-links a {
@@ -253,54 +290,6 @@ p {
   margin-left: 0.5em;
 }
 
-.home-container-content p,
-.home-container-content h2,
-.container-content p,
-.container-content h2,
-.cc2 h2,
-.proj2 p {
-  font-family: "Cutive Mono", monospace;
-  font-family: "Open Sans", sans-serif;
-  font-size: 120%;
-}
-
-.home-container-content .about {
-  font-size: 130%;
-  color: var(--ink);
-}
-
-.container .links,
-.portfolio-container .links,
-.proj2 .links {
-  font-size: 120%;
-  font-family: "Cutive Mono", monospace;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 0.8rem;
-}
-
-h4 {
-  font-family: "Cutive Mono", monospace;
-  font-family: "Open Sans", sans-serif;
-  font-size: 110%;
-}
-
-.edCard {
-  margin: 1em;
-}
-
-.edCard h3 {
-  font-size: 20px;
-}
-
-.this-site-container h4 {
-  margin-bottom: 0.5rem;
-}
-
-.this-site-container p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 120%;
-  margin-top: 0.5rem;
-}
 
 footer {
   min-height: 100px;
@@ -319,108 +308,6 @@ footer p {
   text-decoration: none;
 }
 
-
-/*/////////////////******* RESUME PAGE ********* ///////////// */
-
-.resume-light,
-.resume-dark {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0;
-  line-height: 1.4;
-  justify-content: center;
-}
-
-.resume-dark {
-  color: var(--paper);
-}
-
-.resume-col {
-  flex-direction: column;
-  flex: 1 0 25%;
-  padding-top: 0;
-}
-
-.resume-light h2 {
-  font-size: 120%;
-  font-weight: 900;
-  color: var(--ink);
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
-.resume-dark h2 {
-  font-size: 120%;
-  font-weight: 900;
-  color: var(--paper);
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
-.resume-light h3,
-.resume-dark h3 {
-  font-size: 100%;
-  line-height: 1.3;
-}
-
-.resume-light h4,
-.resume-dark h4 {
-  font-weight: 400;
-  line-height: 1.3;
-  font-size: 100%;
-  margin-bottom: 0.3rem;
-}
-
-.resume-light p,
-.resume-dark p {
-  line-height: 1.3;
-}
-
-.resume-light ul,
-.resume-dark ul {
-  list-style: disc;
-  margin-left: 3%;
-  margin-top: 0.3rem;
-}
-
-.featured-light h3,
-.featured-dark h3 {
-  font-size: 110%;
-}
-
-.featured-light h4,
-.featured-light p,
-.featured-dark h4,
-.featured-dark p {
-  font-size: 100%;
-}
-
-.featured-light .proj-links,
-.featured-dark .proj-links {
-  margin-top: -10px;
-  justify-content: flex-start;
-}
-
-.featured-dark h4 {
-  color: var(--paper);
-}
-
-.skillRow {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.skillPoint {
-  flex-direction: column;
-  flex: 1 0 20%;
-}
-
-.featured-light .skillPoint {
-  background-color: white;
-  color: var(--ink);
-  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.325);
-}
 
 /* ********CONTACT PAGE******** */
 .contact-light,
@@ -597,15 +484,4 @@ footer .dark {
   height: 50px;
 }
 
-.light-background-all {
-  background-color: var(--paper);
-  color: var(--ink);
-  transition: 1s ease-in-out;
-}
-
-.dark-background-all {
-  background-color: var(--nightOcean);
-  color: var(--nightpaper);
-  transition: 1s ease-in-out;
-}
 

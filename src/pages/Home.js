@@ -7,7 +7,6 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import BookIcon from "@mui/icons-material/Book";
 import PaletteIcon from "@mui/icons-material/Palette";
 import { useAppCtx } from "../AppProvider";
-import rmeherVid from "../images/rmeherVid.mp4";
 import reedBW from "../images/reedBW.jpeg";
 
 const Home = () => {
@@ -23,7 +22,7 @@ const Home = () => {
         </div>
 
         <Image
-        id="ocean"
+          id="ocean"
           src={ocean}
           bgColor="black"
           alt="detail of an ocean wave"
@@ -39,7 +38,6 @@ const Home = () => {
               lineHeight: "1.4",
               fontSize: "18px",
               marginBottom: "3%",
-              //   backgroundColor: "rgb(10, 20, 49)",
               color: "white",
               padding: "9svw",
             }}
@@ -92,15 +90,10 @@ const Home = () => {
             src={reedBW}
             bgColor="black"
             alt="portrait of Reed Meher in black and white"
-            // style={{ width: "35svw" }}
+            style={{ width: "35svw" }}
           ></Image>
         </div>
       </div>
-      {/* <div id="vidBox">
-        <video autoPlay muted loop id="vid">
-          <source src={rmeherVid} type="video/mp4"></source>
-        </video>
-      </div> */}
     </>
   );
 };

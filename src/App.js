@@ -13,11 +13,6 @@ import Contact from './pages/Contact';
 import Header from './components/Header';
 import { useAppCtx } from './AppProvider';
 
-// import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
-
-
-
-
 export default function App() {
   const { theme } = useAppCtx();
   const background = `${theme} ${theme}-background-all`;

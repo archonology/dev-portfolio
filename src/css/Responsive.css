@@ -10,9 +10,9 @@
     min-height: 675px;
   }
 
-  .proj-columns {
+  /* .proj-columns {
     flex: 1 0 100%;
-  }
+  } */
 
   .quotebox {
     height: 45svh;

@@ -1,0 +1,99 @@
+.resume-light,
+.resume-dark {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  line-height: 1.4;
+  justify-content: center;
+}
+
+.resume-dark {
+  color: var(--paper);
+}
+
+.resume-col {
+  flex-direction: column;
+  flex: 1 0 25%;
+  padding-top: 0;
+}
+
+.resume-light h2 {
+  font-size: 120%;
+  font-weight: 900;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.resume-dark h2 {
+  font-size: 120%;
+  font-weight: 900;
+  color: var(--paper);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.resume-light h3,
+.resume-dark h3 {
+  font-size: 100%;
+  line-height: 1.3;
+}
+
+.resume-light h4,
+.resume-dark h4 {
+  font-weight: 400;
+  line-height: 1.3;
+  font-size: 100%;
+  margin-bottom: 0.3rem;
+}
+
+.resume-light p,
+.resume-dark p {
+  line-height: 1.3;
+}
+
+.resume-light ul,
+.resume-dark ul {
+  list-style: disc;
+  margin-left: 3%;
+  margin-top: 0.3rem;
+}
+
+.featured-light h3,
+.featured-dark h3 {
+  font-size: 110%;
+}
+
+.featured-light h4,
+.featured-light p,
+.featured-dark h4,
+.featured-dark p {
+  font-size: 100%;
+}
+
+.featured-light .proj-links,
+.featured-dark .proj-links {
+  margin-top: -10px;
+  justify-content: flex-start;
+}
+
+.featured-dark h4 {
+  color: var(--paper);
+}
+
+.skillRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillPoint {
+  flex-direction: column;
+  flex: 1 0 20%;
+}
+
+.featured-light .skillPoint {
+  background-color: white;
+  color: var(--ink);
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.325);
+}
