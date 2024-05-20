@@ -41,16 +41,20 @@ const ProjectCard = () => {
                       Website
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href={project.repoLink}
-                      rel="non_openner"
-                      target="_blank"
-                      aria-label={project.repoLink}
-                    >
-                      Github
-                    </a>
-                  </li>
+                  {project.repoLink ? (
+                    <li>
+                      <a
+                        href={project.repoLink}
+                        rel="non_openner"
+                        target="_blank"
+                        aria-label={project.repoLink}
+                      >
+                        Github
+                      </a>
+                    </li>
+                  ) : (
+                    <></>
+                  )}
                 </ul>
               </div>
             </div>
