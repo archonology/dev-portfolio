@@ -8,7 +8,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Footer from './components/Footer';
 import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
+// import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import { useAppCtx } from './AppProvider';
@@ -25,7 +25,7 @@ export default function App() {
             <Route path='/' element={<Home />}></Route>
             <Route index element={<Home />} />
             <Route path="portfolio" element={<Portfolio />} />
-            <Route path="resume" element={<Resume />} />
+            {/* <Route path="resume" element={<Resume />} /> */}
             <Route path="contact" element={<Contact />} />
             <Route path="home" element={<Home />} />
             <Route path="*" element={<Home />} />

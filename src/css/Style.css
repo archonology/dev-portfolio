@@ -212,36 +212,12 @@ p {
   margin-right: .3rem;
   margin-top: .5rem;
   padding: .5rem;
-  background-color: var(--secondary);
+  background-color: var(--tirtiary);
 }
 
 #linkBox li a {
-  color: var(--ink);
+  color: var(--paper);
   font-weight: 600;
-}
-
-.proj-txt {
-  text-align: left;
-  line-height: 1.4;
-  font-size: 18px;
-  margin-bottom: 3%;
-  color: white;
-  padding: 9svw;
-}
-
-.proj-links a {
-  width: 130px;
-  background-color: white;
-  color: var(--ink);
-  font-weight: 500;
-  box-shadow: 10px, 8px, 15px, rgba(0, 0, 0, 0.79);
-  border-radius: 6px;
-  transition: 0.5s ease-in-out;
-}
-
-.proj-links a + a {
-  background-color: rgb(227, 229, 232);
-  margin-left: 0.5em;
 }
 
 footer {
@@ -258,43 +234,58 @@ footer p {
 }
 
 /* ********CONTACT PAGE******** */
-.contact-light,
-.contact-dark {
+#contactBox {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 2rem;
-  margin-top: -30px;
-  margin-bottom: 1rem;
-  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 2rem;
+  height: 70svh;
+  background-color: rgb(23, 24, 25);
 }
 
-.contact-row {
-  flex-direction: column;
+#contactTextBox {
+  flex: 1 0 50%;
+  text-align: left;
+  margin: 2rem;
+  padding: 5rem;
+}
+
+form {
+  flex: 1 0 20%;
+}
+
+input, textarea {
+  background-color: var(--nightOcean);
+  color: white;
+  border: none;
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--paper);
+}
+
+input:focus {
+  border: none;
+}
+
+.form-row {
+  flex-direction: row;
   flex: 1 0 100%;
   padding: 1rem;
   margin: 0.5rem;
-  width: 290px;
+  width: 25svw;
 }
 
 .error-text {
   padding: 1em;
   text-align: center;
-}
-
-.skillPoint {
-  padding: 1em;
-  margin: 0.5em;
-  background-color: var(--ink);
-  color: var(--paper);
-  border-radius: 8px;
-  text-align: center;
+  color: var(--secondary);
 }
 
 button {
   background-color: var(--primary);
+  background-color: hwb(168 1% 66%);
   border: none;
-  /* border-radius: 8px; */
   color: var(--paper);
   font-size: 110%;
   font-weight: 700;
@@ -327,8 +318,10 @@ nav ul a li:focus {
   font-weight: 700;
 }
 
-#linkBox li:hover {
-  background-color: var(--secHover);
+#linkBox li:hover,
+#linkBox li:focus,
+#linkBox li:active {
+  background-color: var(--tirtHover);
 }
 
 .dark .homeLinks a:hover,
@@ -369,7 +362,8 @@ nav ul a li:focus {
 }
 
 button:hover {
-  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.412);
+  box-shadow: 5px 7px black;
+  background-color: rgb(3, 110, 88);
 }
 
 input[type="text"]:focus,
@@ -377,8 +371,9 @@ textarea[type="textarea"]:focus,
 input[type="text"]:active,
 textarea[type="textarea"]:active {
   outline: none;
-  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.412);
-  border: 1px solid var(--ink);
+  box-shadow: 5px 7px black;
+  /* background-color: var(--deepOcean);
+  color: var(--paper); */
 }
 
 /******************* DARKMODE ******************/

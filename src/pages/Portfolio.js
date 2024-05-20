@@ -7,7 +7,6 @@ import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp
 
 const ProjCard = React.lazy(()=> import('../components/ProjectCard'));
 
-
 const Portfolio = () => {
   const { theme } = useAppCtx();
   const [visibility, setVisibility] = useState({ display: "none" });

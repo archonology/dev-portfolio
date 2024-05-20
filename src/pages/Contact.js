@@ -1,131 +1,139 @@
-import React, { useState, useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import { validateEmail } from '../utils/validation';
-import { useAppCtx } from '../AppProvider';
+import React, { useState, useRef } from "react";
+import Image from "mui-image";
+import emailjs from "@emailjs/browser";
+import { validateEmail } from "../utils/validation";
+import { useAppCtx } from "../AppProvider";
+import ocean from "../images/ocean.png";
 
 const Contact = () => {
-    const { theme } = useAppCtx();
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-    const [errorMessage, setErrorMessage] = useState('');
-    const form = useRef();
-    const containerStyle = "contact-" + theme;
+  const { theme } = useAppCtx();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const form = useRef();
+  const containerStyle = "contact-" + theme;
 
-    const handleInputChange = (e) => {
+  const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
 
-        const { target } = e;
-        const inputType = target.name;
-        const inputValue = target.value;
+    if (inputType === "email") {
+      setEmail(inputValue);
+    } else if (inputType === "name") {
+      setName(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
+  };
 
-        if (inputType === 'email') {
-            setEmail(inputValue);
-        } else if (inputType === 'name') {
-            setName(inputValue);
-        } else {
-            setMessage(inputValue);
-        }
-    };
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
 
-    const handleFormSubmit = (e) => {
-        e.preventDefault();
-
-        if (!validateEmail(email)) {
-            setErrorMessage(`
+    if (!validateEmail(email)) {
+      setErrorMessage(`
       Please check the email address you entered.
       `);
-            return;
-
-        } else if (!name) {
-            setErrorMessage(`
+      return;
+    } else if (!name) {
+      setErrorMessage(`
             Please include a name.`);
 
-            return;
-        } else if (!message) {
-            setErrorMessage(`
+      return;
+    } else if (!message) {
+      setErrorMessage(`
             Please include a message.`);
 
-            return;
-        }
-      emailjs.sendForm('service_8vauvgr', 'template_favgkfg', form.current, '5oouP9wFVBIv7Jaue')
-        setName('');
-        setEmail('');
-        setMessage('');
-        setErrorMessage('');
-  
+      return;
+    }
+    emailjs.sendForm(
+      "service_8vauvgr",
+      "template_favgkfg",
+      form.current,
+      "5oouP9wFVBIv7Jaue"
+    );
+    setName("");
+    setEmail("");
+    setMessage("");
+    setErrorMessage("");
 
-        alert(`
+    alert(`
       Thanks for your message, ${name}! 
       I'll be in touch soon. 🌿
       - Reed Meher
       `);
-    };
+  };
 
+  return (
+    <>
+      <div className="oceanBox">
+        <Image
+          id="ocean"
+          src={ocean}
+          bgColor="black"
+          alt="detail of an ocean wave"
+        ></Image>
+      </div>
+      <div id="contactBox">
+        <div id="contactTextBox">
+          <p>
+            Contact Reed to get a full resume, inquire about experience, or to
+            discuss potential collaborations and contract services. Contact Reed to get a full resume, inquire about experience, or to
+            discuss potential collaborations and contract services. Contact Reed to get a full resume, inquire about experience, or to
+            discuss potential collaborations and contract services.
+          </p>
+          {errorMessage && (
+            <>
+              <p className="error-text" style={{ color: "#ffe600" }}>
+                {errorMessage}
+              </p>
+            </>
+          )}
+        </div>
+        <form ref={form} onSubmit={handleFormSubmit}>
+          <div>
+            <input
+              className="form-row"
+              id="nameInput"
+              value={name}
+              type="text"
+              name="name"
+              placeholder="Name"
+              onChange={handleInputChange}
+            />
 
-    return (
-        <>
-            <div className={containerStyle}>
-                <div style={{ marginBottom: 14 }} className='contact-row'>
-                    <p className="error-text">Contact Reed to get a full resume, inquire about experience, or to discuss potential collaborations and contract services.</p>
-                    {errorMessage && (
-                        <>
-                            <p className="error-text" style={{ color: 'hwb(330 2% 8%)', marginTop: '-15px' }}>{errorMessage}</p>
-                            {/* <hr /> */}
-                        </>
-
-                    )}
-                    <hr />
-
-                </div>
-
-
-
-                <form
-                    ref={form}
-                    onSubmit={handleFormSubmit}
-                >
-                    <div >
-
-                        <input
-                            className='contact-row'
-                            id='nameInput'
-                            value={name}
-                            type="text"
-                            name="name"
-                            placeholder='Name'
-                            onChange={handleInputChange}
-                        />
-
-                        <br />
-                        <input
-                            className='contact-row'
-                            id='emailInput'
-                            value={email}
-                            type="text"
-                            name="email"
-                            placeholder='Email'
-                            onChange={handleInputChange}
-                        />
-                        <br />
-                        <textarea
-                            className='contact-row'
-                            id='messageInput'
-                            value={message}
-                            type="textarea"
-                            name="message"
-                            placeholder='Message'
-                            onChange={handleInputChange}
-                            rows='10'
-                            cols='30'
-                        />
-                        <br />
-                        <button type='submit' className='contact-row'>Send</button>
-                    </div>
-                </form>
-            </div>
-
-        </>
-    )
-}
+            <br />
+            <input
+              className="form-row"
+              id="emailInput"
+              value={email}
+              type="text"
+              name="email"
+              placeholder="Email"
+              onChange={handleInputChange}
+            />
+            <br />
+            <textarea
+              className="form-row"
+              id="messageInput"
+              value={message}
+              type="textarea"
+              name="message"
+              placeholder="Message"
+              onChange={handleInputChange}
+              rows="10"
+              cols="30"
+            />
+            <br />
+            <button type="submit" className="form-row">
+              <p>Send</p>
+            </button>
+          </div>
+        </form>
+      </div>
+    </>
+  );
+};
 
 export default Contact;

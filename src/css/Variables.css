@@ -5,7 +5,8 @@
     --primary: hwb(208 19% 37%);
     --secondary: #ffe600;
     --secHover: #ffc800;
-    --tirtiary: #55c6e6;
+    --tirtiary: hwb(168 1% 66%);
+    --tirtHover: rgb(3, 110, 88);
     --deepOcean: #151d30;
     --nightOcean: #012234;
 }
