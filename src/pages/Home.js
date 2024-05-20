@@ -26,6 +26,7 @@ const Home = () => {
           src={ocean}
           bgColor="black"
           alt="detail of an ocean wave"
+          duration={5000}
         ></Image>
       </div>
 
@@ -87,6 +88,7 @@ const Home = () => {
             bgColor="black"
             alt="portrait of Reed Meher in black and white"
             style={{ width: "35svw" }}
+            duration={5000}
           ></Image>
         </div>
       </div>

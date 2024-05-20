@@ -14,7 +14,8 @@ const ProjectCard = () => {
                 src={project.image}
                 bgColor="black"
                 alt={project.title}
-                // style={{ width: "35svw" }}
+                style={{ boxShadow: '9px 14px 18px -5px black' }}
+                duration={5000}
               ></Image>
             </div>
             <div id="projTextBox">

@@ -3,10 +3,10 @@
     --paper: #c7cbcf;
     --nightpaper: hwb(37 93% 0% / 0.994);
     --primary: hwb(208 19% 37%);
-    --secondary: #ffe600;
-    --secHover: #ffc800;
-    --tirtiary: hwb(168 1% 66%);
-    --tirtHover: rgb(3, 110, 88);
+    --tirtiary: #ffe600;
+    --alert: #ffc800;
+    --secondary: hwb(168 1% 66%);
+    --secondHover: rgb(3, 110, 88);
     --deepOcean: #151d30;
     --nightOcean: #012234;
 }

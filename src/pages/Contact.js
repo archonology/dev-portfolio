@@ -73,6 +73,7 @@ const Contact = () => {
           src={ocean}
           bgColor="black"
           alt="detail of an ocean wave"
+          duration={5000}
         ></Image>
       </div>
       <div id="contactBox">
