@@ -43,10 +43,19 @@
     font-size: 16px;
     line-height: 1.3;
   }
-
-  #portrait {
-    width: 35svw;
+  .aboutbox {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(10, 20, 49);
+    width: 100%;
+    height: auto;
   }
+#abouttext {
+  flex: 1 0 100%;
+}
+#portraitbox {
+  margin: 4rem;
+}
 
   .proj-columns {
     flex: 1 0 100%;
@@ -71,6 +80,10 @@
     line-height: 1.3;
   }
 
+  h2 {
+    font-size: 8svw;
+  }
+
   header h4 {
     margin-bottom: 1rem;
     font-size: 10px;
@@ -80,9 +93,9 @@
     margin-top: 1rem;
   }
 
-  nav ul li {
+  nav ul li a {
     padding: 7px;
-    font-size: 4.4svw;
+    font-size: 5.4svw;
   }
 
   .quotebox {
@@ -102,27 +115,31 @@
     line-height: 1.3;
   }
 
-  .aboutbox {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(10, 20, 49);
-    width: 100%;
-    height: auto;
-  }
-
-  #abouttext {
-    flex: 1 0 100%;
-  }
-
   #portraitbox {
     flex: 1 0 100%;
-  }
-
-  #portrait {
-    width: 35svw;
+    margin: 0;
   }
 
   .proj-card {
     padding: 1.3rem;
+  }
+
+  .projBox {
+    padding: .5em .5em .5em .5em;
+  }
+
+  #projImgBox {
+    flex: 1 0 80%;
+    margin: 1rem;
+    padding-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem; 
+  }
+
+  #projTextBox {
+    flex: 1 0 95%;
+    margin: 0rem;
+    margin-top: 2rem;
+    padding: 1rem;
   }
 }

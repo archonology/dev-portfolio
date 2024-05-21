@@ -87,7 +87,7 @@ const Home = () => {
             src={reedBW}
             bgColor="black"
             alt="portrait of Reed Meher in black and white"
-            style={{ width: "35svw" }}
+            // style={{ width: "35svw" }}
             duration={5000}
           ></Image>
         </div>
