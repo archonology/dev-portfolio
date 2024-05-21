@@ -51,6 +51,12 @@
   .proj-columns {
     flex: 1 0 100%;
   }
+
+  #projImgBox {
+    flex: 1 0 60%;
+    margin: 2rem;
+    padding-left: 0; 
+  }
 }
 
 @media screen and (max-width: 425px) {
