@@ -2,6 +2,26 @@
   .quotebox {
     height: 45svh;
   }
+
+  .projBox {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .projBox:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  #projImgBox {
+    flex: 1 0 40%;
+    margin-top: 0;
+  }
+
+  #projTextBox {
+    flex: 1 0 100%;
+    margin-right: .5rem;
+    padding-left: .5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {

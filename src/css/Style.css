@@ -167,21 +167,22 @@ p {
   background-color: var(--deepOcean);
 }
 
+#projImgBox {
+  flex: 1 0 30%;
+  margin: 5rem;
+  padding-left: 2rem;
+}
+
 #projTextBox {
   flex: 1 0 50%;
   margin: 3rem;
   padding: 2rem;
 }
 
+
 #projTextBox p {
   font-size: 18px;
   line-height: 1.3;
-}
-
-#portraitbox {
-  flex: 1 0 30%;
-  margin: 5rem;
-  padding-left: 2rem;
 }
 
 #techBox h3, #linkBox h3 {

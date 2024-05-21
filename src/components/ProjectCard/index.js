@@ -8,7 +8,7 @@ const ProjectCard = () => {
       {projects.map((project) => {
         return (
           <div className="projBox">
-            <div id="portraitbox">
+            <div id="projImgBox">
               <Image
                 id="folioImg"
                 src={project.image}

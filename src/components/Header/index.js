@@ -1,12 +1,10 @@
 import { useState } from "react";
 import { useAppCtx } from "../../AppProvider";
-// import DarkModeIcon from "@mui/icons-material/DarkMode";
-// import LightModeIcon from "@mui/icons-material/LightMode";
+
 
 export default function Header() {
-  // const { theme, toggleTheme } = useAppCtx();
-  const [clickState1, setClickState1] = useState("not-clicked");
-  const [clickState2, setClickState2] = useState("clicked");
+  const [clickState1, setClickState1] = useState("clicked");
+  const [clickState2, setClickState2] = useState("not-clicked");
   const [clickState3, setClickState3] = useState("not-clicked");
   const [visibility, setVisibility] = useState({ visibility: "hidden" });
 
