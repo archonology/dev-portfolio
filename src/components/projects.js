@@ -1,11 +1,11 @@
 import prima from "../images//primaNew.jpg";
 import homeParty from "../images/home-party-page.jpg";
-import cwp from "../images/CWP fresh screenshot Sept23.jpg";
+import cwp from "../images/cwp.jpg";
 import bakpak from "../images/BakPak2.jpg";
 import vpc from "../images/vpcBanner1.jpeg";
 import blog from "../images/blogrm.jpg";
 import wanderComma from "../images/wandercomma2.png";
-import portpic from "../images/portfolio.png";
+import portpic from "../images/portfolio.jpg";
 
 const projects = [
   {
