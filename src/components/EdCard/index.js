@@ -27,6 +27,20 @@ const EdCard = ({ ed }) => {
               Learn More
             </a>
           </li>
+          {ed.certificate ? (
+            <li>
+              <a
+                href={ed.certificate}
+                rel="non_openner"
+                target="_blank"
+                aria-label={ed.certificate}
+              >
+                See Certificate
+              </a>
+            </li>
+          ) : (
+            <></>
+          )}
         </ul>
       </div>
       <UpArrow showBtn={showBtn} />
