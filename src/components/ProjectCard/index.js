@@ -10,7 +10,13 @@ const ProjectCard = () => {
       {projects.map((project) => {
         return (
           <div className="projBox">
-            <div id="projImgBox">
+            <figure id="projImgBox">
+              <a 
+              href={project.liveLink}
+              rel="non_openner"
+              target="_blank"
+              aria-label={project.liveLink}
+              >
               <Image
                 id="folioImg"
                 src={project.image}
@@ -22,7 +28,9 @@ const ProjectCard = () => {
                 onTouchMove={() => setShowBtn(true)}
                 onScroll={() => setShowBtn(true)}
               ></Image>
-            </div>
+              </a>
+              <figcaption style={{ marginTop: '1.5rem'}}>{project.title}</figcaption>
+            </figure>
             <div id="projTextBox">
               <h2>{project.title}</h2>
               <p>{project.description}</p>

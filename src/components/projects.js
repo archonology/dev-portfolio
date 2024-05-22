@@ -10,10 +10,14 @@ import portpic from "../images/portfolio.jpg";
 const projects = [
   {
     title: "The Childwelfare Portal",
-    description: `The Childwelfare Portal has dual web token environments for administrators and regular users. Admins can add, delete, and make changes to any aspect of the content, while users are able to add resources to lists, create custom quicklinks to resources, and add and remove resources from a kanban-style list of to-do, doing, and done. 
-        
-        The admin login routes are hidden with a secret URL and they have unique access to a content creator dashboard where they can manage all aspects of the site.
-        `,
+    description: `Child welfare social workers rely on access to an sea of ever changing resources in their important work of supporting children and families. There is no centralized resource hub for their work, and what hubs there suffer from being out of date, static websites. It is essential that child welfare workers can find resources and learn from up to date sources. 
+
+Enter The Child Welfare Portal. Reed worked with a licensed social worker and put to use his social work background to deliver this full stack application, which comes complete with an admin dashboard for quickly and easily creating, updating, and deleting content across the site. 
+    
+Users can login and create custom hotlinks that go right to the top of the links tab. They can even assign resources to a kanban style list tracker and manage it from the dashboard.
+    
+While in ongoing development, the CWP is fully functional and is being improved frequently via continuous integration. For Reed, the CWP is a labor of love.
+`,
     techStack: [
       "ReactJS",
       "MongoDB",
