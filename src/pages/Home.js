@@ -7,6 +7,7 @@ import BookIcon from "@mui/icons-material/Book";
 import reedBW from "../images/reedBW.jpeg";
 import education from "../components/education";
 import UpArrow from "../components/UpArrow";
+import EdCard from "../components/EdCard";
 
 const Home = () => {
   return (
@@ -109,26 +110,7 @@ const Home = () => {
         <h2>Education</h2>
         {education.map((ed) => {
           return (
-            <div className="award">
-              <h3>{ed.award}</h3>
-              <h4>{ed.institution}</h4>
-              <h5>{ed.dates}</h5>
-              <p>{ed.description}</p>
-              <div id="linkBox">
-                <ul>
-                  <li>
-                    <a
-                      href={ed.link}
-                      rel="non_openner"
-                      target="_blank"
-                      aria-label={ed.linkTitle}
-                    >
-                      Learn More
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <EdCard ed={ed}/>
           );
         })}
       </section>
