@@ -44,6 +44,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  h2 {
+    font-size: 5svw;
+  }
   #ocean {
     height: 50svh;
   }
@@ -84,6 +87,7 @@
     flex: 1 0 60%;
     margin: 2rem;
     padding-left: 0; 
+    padding-top: 1rem;
   }
 
   #contactBox {
