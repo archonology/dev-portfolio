@@ -5,13 +5,11 @@ import Image from "mui-image";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import BookIcon from "@mui/icons-material/Book";
-import PaletteIcon from "@mui/icons-material/Palette";
 import { useAppCtx } from "../AppProvider";
 import reedBW from "../images/reedBW.jpeg";
 
 const Home = () => {
   const { theme } = useAppCtx();
-  const className = theme;
   const artBox = theme + " coverLogo";
 
   return (
@@ -32,25 +30,39 @@ const Home = () => {
 
       <div className="aboutbox">
         <div id="abouttext">
-          <p
-            className={className}
-            style={{
-              textAlign: "left",
-              lineHeight: "1.4",
-              fontSize: "18px",
-              marginBottom: "3%",
-              color: "white",
-              padding: "9svw",
-            }}
-          >
-            MeherDevs LLC is owned and operated by Reed Meher: a freelance web
-            developer who offers web builds and consultations. Having spent many
-            eclectic years as an educator, marketer, graphic designer, social
-            worker, luthier, and web developer, Reed has a rich palette of
-            experiences to draw from. His unconventional path through so many
-            facets of work, the world, and society gives him a unique set of
-            skills in intuition, compassion, communication, and big-thinking to
-            navigate both in and outside the box.
+          <p>
+            Web development is more than just code, more than degrees, more than
+            certificates. The web developing of the day demands knowing as much
+            about people as it does about programming languages, frameworks, and
+            libraries. It isn’t enough to be a wizard at optimization:
+            developers also need to be compassionate humanitarians. People
+            expect software to understand them, to be fluid, to be easy on their
+            eyes and minds, not just to be super fast and technologically
+            advanced.
+          </p>
+          <br />
+          <p>
+            That is why <strong>Reed Meher</strong> is the kind of developer you’re looking for.
+            His most recent years have been a complete immersion in JavaScript,
+            Python, Angular, React and the myriad of supporting libraries,
+            tools, and technologies that populate the ocean of web development.
+            Yet Reed comes to the coding world with a deep education in world
+            literature, in teaching English as a foreign language, and in social
+            work. He has lived around the world and knows deeply the value of
+            people and of community.
+          </p>
+          <br />
+          <p>
+            Communication and empathy are at the core of his work and his
+            passion. These are imperative traits and skills for the new world of
+            web development. So many unimaginable advancements are emerging, and
+            yet we are on the verge, in so many ways, of losing connection with
+            eachother. If we lose each other and lose our sense of community,
+            the advancements suddenly mean so much less.
+          </p>
+          <br />
+          <p>
+            Contact Reed if you would like to do more.
             <span className="homeLinks" style={{}}>
               {" "}
               <br /> <br />
@@ -81,7 +93,7 @@ const Home = () => {
             </span>
           </p>
         </div>
-        <div id="portraitbox">
+        <div id="portraitBox">
           <Image
             id="portrait"
             src={reedBW}

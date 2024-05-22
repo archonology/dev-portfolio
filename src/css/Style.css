@@ -128,6 +128,27 @@ p {
   height: 4svh;
 }
 
+#abouttext {
+  text-align: left;
+  line-height: 1.4;
+  font-size: 18px;
+  color: var(--paper);
+  padding: 9svw;
+  padding-top: 7svw;
+  padding-bottom: 7rem;
+  margin-bottom: .1rem;
+}
+
+#portraitBox {
+    flex: 1 0 40%;
+    margin: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    min-height: 350px;
+    max-width: 450px;
+    max-height: 600px;
+}
+
 #loadBox {
   width: 100%;
   height: 80svh;
