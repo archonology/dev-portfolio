@@ -76,7 +76,9 @@ While in ongoing development, the CWP is fully functional and is being improved 
   // },
   {
     title: "The Violence Prevention Center",
-    description: `New responsive website on the Wix Platform. Special attention was given during development to the safety of visitors who may be in dangerous situations. I completed several accessiblity and SEO tests and optimizations.
+    description: `I was tasked to do a Rebuild for accessibility, safety, and responsiveness on the WIX platform. The website went from over 40 accessibilty issues per page to zero, and I fixed the safety features to be more secure for users. Also, I optimized each page for SEO, resulting in a weekly increase in web traffick and online donations to the agency. 
+    
+The website was completely redesign and launched with board approval in less than 90 days.
         `,
     techStack: ["Wix", "Adobe Express"],
     liveLink: "https://www.violencepreventioncenter.org/",
