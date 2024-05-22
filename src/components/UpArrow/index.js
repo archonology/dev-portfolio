@@ -4,7 +4,7 @@ import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp
 const UpArrow = ({showBtn}) => {
   const [visibility, setVisibility] = useState({ display: "none" });
   useEffect(() => {
-    if (showBtn == true) {
+    if (showBtn === true) {
       setVisibility({ display: "block" });
     } else {
       setVisibility({ display: "none" });
@@ -19,7 +19,6 @@ const UpArrow = ({showBtn}) => {
         onClick={(e) => {
           e.preventDefault();
           window.scrollTo(0, 0);
-          setVisibility({ display: "none" });
         }}
       >
         <KeyboardDoubleArrowUpIcon />

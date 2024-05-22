@@ -100,15 +100,17 @@
     flex: 1 0 100%;
   }
 
-  #portraitbox {
-    margin: 4rem;
-    margin-top: 0;
-    width: 60%;
+  #portraitBox {
+    margin: 0;
+    margin-bottom: 6rem;
+    padding-top: 0;
+    padding-bottom: 5rem;
   }
 
   #educationBox {
     justify-content: left;
     padding: 2rem;
+    padding-bottom: 6rem;
     background-color: rgb(23, 24, 25);
     align-items: center;
   }
@@ -208,9 +210,11 @@
     line-height: 1.3;
   }
 
-  #portraitbox {
-    flex: 1 0 100%;
-    margin: 0;
+  #portraitBox {
+    margin: 1.5rem;
+    margin-top: -2rem;
+    margin-bottom: 6rem;
+    padding-top: 0;
   }
 
   .proj-card {

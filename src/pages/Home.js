@@ -109,9 +109,7 @@ const Home = () => {
       <section id="educationBox">
         <h2>Education</h2>
         {education.map((ed) => {
-          return (
-            <EdCard ed={ed}/>
-          );
+          return <EdCard ed={ed} />
         })}
       </section>
       <UpArrow />

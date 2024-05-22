@@ -1,15 +1,15 @@
 import { useState } from "react";
 import UpArrow from "../UpArrow";
 
-const EdCard = ({ed}) => {
+const EdCard = ({ ed }) => {
   const [showBtn, setShowBtn] = useState(false);
 
   return (
-    <div 
-    className="award"
-    onMouseEnter={() => setShowBtn(true)}
-    onTouchMove={() => setShowBtn(true)}
-    onScroll={() => setShowBtn(true)}
+    <div
+      className="award"
+      onMouseEnter={() => setShowBtn(true)}
+      onTouchMove={() => setShowBtn(true)}
+      onScroll={() => setShowBtn(true)}
     >
       <h3>{ed.award}</h3>
       <h4>{ed.institution}</h4>
@@ -29,7 +29,7 @@ const EdCard = ({ed}) => {
           </li>
         </ul>
       </div>
-      <UpArrow showBtn={showBtn}/>
+      <UpArrow showBtn={showBtn} />
     </div>
   );
 };
