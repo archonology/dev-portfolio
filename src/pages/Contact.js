@@ -79,11 +79,11 @@ const Contact = () => {
       <div id="contactBox">
         <div id="contactTextBox">
           <p>
-            Contact Reed to get a full resume, inquire about experience, or to
-            discuss potential collaborations and contract services. Contact Reed to get a full resume, inquire about experience, or to
-            discuss potential collaborations and contract services. Contact Reed to get a full resume, inquire about experience, or to
-            discuss potential collaborations and contract services.
+            Contact Reed just to <strong>say hello</strong>, get a full resume, chat about potential
+            collaborations, jobs, and contract services.
           </p>
+          <br />
+          <p>I look forward to hearing from you!</p>
         </div>
         <form ref={form} onSubmit={handleFormSubmit}>
           <div>
@@ -127,7 +127,7 @@ const Contact = () => {
               <p className="error-text" style={{ color: "#ff2a00" }}>
                 {errorMessage}
               </p>
-          )}
+            )}
           </div>
         </form>
       </div>
