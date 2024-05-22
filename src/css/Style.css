@@ -149,6 +149,7 @@ p {
 
 .projBox {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row-reverse;
   padding: 2em 4em 15em 4em;
   background-color: rgb(23, 24, 25);
@@ -169,12 +170,14 @@ p {
 
 #projImgBox {
   flex: 1 0 30%;
-  margin: 5rem;
-  padding-left: 2rem;
+  margin: 2rem;
+  padding-left: 1rem;
+  padding-top: 5rem;
+  min-height: 350px;
 }
 
 #projTextBox {
-  flex: 1 0 50%;
+  flex: 1 0 40%;
   margin: 3rem;
   padding: 2rem;
 }
@@ -271,8 +274,9 @@ input:focus {
 }
 
 .error-text {
-  padding: 1em;
-  text-align: center;
+  padding-top: .7rem;
+  padding-left: .7rem;
+  text-align: left;
   color: var(--alert);
 }
 
@@ -323,13 +327,13 @@ nav ul a li:focus {
   background-color: var(--primary);
 }
 
-#portraitbox:nth-child(1) {
-  opacity: .55;
+#projImgBox:nth-child(1) {
+  opacity: .65;
   transition: .5s ease-in-out;
 }
 
-#portraitbox:nth-child(1):hover {
-  opacity: .85;
+#projImgBox:nth-child(1):hover {
+  opacity: .95;
 }
 
 button:hover, button:focus {

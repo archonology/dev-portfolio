@@ -84,13 +84,6 @@ const Contact = () => {
             discuss potential collaborations and contract services. Contact Reed to get a full resume, inquire about experience, or to
             discuss potential collaborations and contract services.
           </p>
-          {errorMessage && (
-            <>
-              <p className="error-text" style={{ color: "#ffe600" }}>
-                {errorMessage}
-              </p>
-            </>
-          )}
         </div>
         <form ref={form} onSubmit={handleFormSubmit}>
           <div>
@@ -130,6 +123,11 @@ const Contact = () => {
             <button type="submit" className="form-row">
               <p>Send</p>
             </button>
+            {errorMessage && (
+              <p className="error-text" style={{ color: "#ff2a00" }}>
+                {errorMessage}
+              </p>
+          )}
           </div>
         </form>
       </div>
