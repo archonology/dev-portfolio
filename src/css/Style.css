@@ -281,26 +281,13 @@ p {
   font-weight: 600;
 }
 
-footer {
-  min-height: 100px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  padding-top: 3em;
-  padding-bottom: 0.1em;
-  position: relative;
-}
-
-footer p {
-  font-weight: 500;
-}
-
 /* ********CONTACT PAGE******** */
 #contactBox {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
   padding: 2rem;
-  height: 70svh;
+  height: 100svh;
   background-color: rgb(23, 24, 25);
 }
 
@@ -336,7 +323,7 @@ input:focus {
   flex: 1 0 100%;
   padding: 1rem;
   margin: 0.5rem;
-  width: 25svw;
+  width: 30svw;
 }
 
 .error-text {
@@ -357,6 +344,19 @@ button {
 
 .contact-dark .error-text {
   color: var(--paper);
+}
+
+footer {
+  min-height: 100px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 3em;
+  padding-bottom: 0.1em;
+  position: relative;
+}
+
+footer p {
+  font-weight: 500;
 }
 
 /* *************:::::::::::::::************ PSEUDO *************::::::::::************************ */

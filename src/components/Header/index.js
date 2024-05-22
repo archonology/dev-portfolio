@@ -1,12 +1,18 @@
-import { useState } from "react";
-import { useAppCtx } from "../../AppProvider";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 
 export default function Header() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Redirect to the home page on refresh
+    navigate("/");
+  }, []);
+
   const [clickState1, setClickState1] = useState("clicked");
   const [clickState2, setClickState2] = useState("not-clicked");
   const [clickState3, setClickState3] = useState("not-clicked");
-  const [visibility, setVisibility] = useState({ visibility: "hidden" });
 
   function handleClick1() {
       setClickState1("clicked");

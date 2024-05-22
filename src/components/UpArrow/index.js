@@ -9,7 +9,7 @@ const UpArrow = ({showBtn}) => {
     } else {
       setVisibility({ display: "none" });
     }
-  });
+  }, [showBtn]);
 
   return (
     <div className="toTop">
