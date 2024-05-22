@@ -47,6 +47,9 @@
   h2 {
     font-size: 5svw;
   }
+  nav ul li a {
+    font-size: 3.2svw;
+  }
   #ocean {
     height: 50svh;
   }
@@ -71,12 +74,15 @@
     background-color: rgb(10, 20, 49);
     width: 100%;
     height: auto;
+    justify-content: center;
   }
 #abouttext {
   flex: 1 0 100%;
 }
 #portraitbox {
   margin: 4rem;
+  margin-top: 0;
+  width: 60%;
 }
 
   .proj-columns {
