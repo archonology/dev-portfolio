@@ -1,8 +1,10 @@
 import React from "react";
+import { useState } from "react";
 import Image from "mui-image";
 import projects from "../projects";
-
+import UpArrow from "../UpArrow";
 const ProjectCard = () => {
+  const [showBtn, setShowBtn] = useState(false);
   return (
     <>
       {projects.map((project) => {
@@ -14,8 +16,11 @@ const ProjectCard = () => {
                 src={project.image}
                 bgColor="black"
                 alt={project.title}
-                style={{ boxShadow: '9px 14px 18px -5px black' }}
+                style={{ boxShadow: "9px 14px 18px -5px black" }}
                 duration={5000}
+                onMouseEnter={() => setShowBtn(true)}
+                onTouchMove={() => setShowBtn(true)}
+                onScroll={() => setShowBtn(true)}
               ></Image>
             </div>
             <div id="projTextBox">
@@ -59,6 +64,7 @@ const ProjectCard = () => {
                 </ul>
               </div>
             </div>
+            <UpArrow showBtn={showBtn} />
           </div>
         );
       })}

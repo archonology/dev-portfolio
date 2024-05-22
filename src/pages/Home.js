@@ -1,22 +1,19 @@
-import React from "react";
 import Quotes from "../components/Quotes";
 import ocean from "../images/ocean.png";
 import Image from "mui-image";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import BookIcon from "@mui/icons-material/Book";
-import { useAppCtx } from "../AppProvider";
 import reedBW from "../images/reedBW.jpeg";
+import education from "../components/education";
+import UpArrow from "../components/UpArrow";
 
 const Home = () => {
-  const { theme } = useAppCtx();
-  const artBox = theme + " coverLogo";
-
   return (
     <>
-      <div className={artBox}>
+      <div className="HomeBox">
         <div className="quotebox">
-          <Quotes theme={theme.theme} />
+          <Quotes />
         </div>
 
         <Image
@@ -28,7 +25,7 @@ const Home = () => {
         ></Image>
       </div>
 
-      <div className="aboutbox">
+      <section className="aboutbox">
         <div id="abouttext">
           <p>
             Web development is more than just code, more than degrees, more than
@@ -42,14 +39,14 @@ const Home = () => {
           </p>
           <br />
           <p>
-            That is why <strong>Reed Meher</strong> is the kind of developer you’re looking for.
-            His most recent years have been a complete immersion in JavaScript,
-            Python, Angular, React and the myriad of supporting libraries,
-            tools, and technologies that populate the ocean of web development.
-            Yet Reed comes to the coding world with a deep education in world
-            literature, in teaching English as a foreign language, and in social
-            work. He has lived around the world and knows deeply the value of
-            people and of community.
+            That is why <strong>Reed Meher</strong> is the kind of developer
+            you’re looking for. His most recent years have been a complete
+            immersion in <strong>JavaScript, Python, Angular, React</strong> and
+            the myriad of supporting libraries, tools, and technologies that
+            populate the ocean of web development. Yet Reed comes to the coding
+            world with a deep education in world literature, in teaching English
+            as a foreign language, and in social work. He has lived around the
+            world and knows deeply the value of people and of community.
           </p>
           <br />
           <p>
@@ -93,7 +90,7 @@ const Home = () => {
             </span>
           </p>
         </div>
-        <div id="portraitBox">
+        <figure id="portraitBox">
           <Image
             id="portrait"
             src={reedBW}
@@ -102,8 +99,40 @@ const Home = () => {
             // style={{ width: "35svw" }}
             duration={5000}
           ></Image>
-        </div>
-      </div>
+          <figcaption style={{ marginTop: "1rem" }}>
+            Reed is based in Minnesota with his wife, three daugthers, a big
+            golden dog, and an all-knowing cat.
+          </figcaption>
+        </figure>
+      </section>
+      <section id="educationBox">
+        <h2>Education</h2>
+        {education.map((ed) => {
+          return (
+            <div className="award">
+              <h3>{ed.award}</h3>
+              <h4>{ed.institution}</h4>
+              <h5>{ed.dates}</h5>
+              <p>{ed.description}</p>
+              <div id="linkBox">
+                <ul>
+                  <li>
+                    <a
+                      href={ed.link}
+                      rel="non_openner"
+                      target="_blank"
+                      aria-label={ed.linkTitle}
+                    >
+                      Learn More
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          );
+        })}
+      </section>
+      <UpArrow />
     </>
   );
 };

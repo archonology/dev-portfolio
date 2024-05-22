@@ -3,16 +3,17 @@ import { useState } from "react";
 import Image from "mui-image";
 import { useAppCtx } from "../AppProvider";
 import ocean from "../images/ocean.png";
-import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
+// import UpArrow from "../components/UpArrow";
 
-const ProjCard = React.lazy(()=> import('../components/ProjectCard'));
+const ProjCard = React.lazy(() => import("../components/ProjectCard"));
 
 const Portfolio = () => {
   const { theme } = useAppCtx();
-  const [visibility, setVisibility] = useState({ display: "none" });
-  function showButton() {
-    setVisibility({ display: "block" });
-  }
+  // const [visibility, setVisibility] = useState({ display: "none" });
+  // function showButton() {
+  //   setVisibility({ display: "block" });
+  // }
+  // const [showBtn, setShowBtn] = useState(false);
 
   const containerStyle3 = theme;
 
@@ -31,29 +32,19 @@ const Portfolio = () => {
         <div
           className={containerStyle3}
           style={{ marginTop: -25 }}
-          onMouseEnter={showButton}
-          onTouchMove={showButton}
-          onScroll={showButton}
         >
-            <Suspense fallback={<div id="loadBox"><p>Loading...</p></div>}>
-                    <ProjCard />      
-            </Suspense>
-
-        </div>
-
-        <div className="toTop">
-          <button
-            className="toTop-button"
-            style={visibility}
-            onClick={(e) => {
-              e.preventDefault();
-              window.scrollTo(0, 0);
-              setVisibility({ display: "none" });
-            }}
+          <Suspense
+            fallback={
+              <div id="loadBox">
+                <p>Loading...</p>
+              </div>
+            }
           >
-            <KeyboardDoubleArrowUpIcon />
-          </button>
+            <ProjCard />
+          </Suspense>
         </div>
+
+  
       </div>
     </>
   );

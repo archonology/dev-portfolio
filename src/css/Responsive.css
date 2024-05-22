@@ -3,6 +3,25 @@
     height: 45svh;
   }
 
+  #educationBox {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    padding: 2em 4em 15em 4em;
+    background-color: rgb(23, 24, 25);
+    align-items: normal;
+  }
+
+  .award {
+    flex: 1 0 100%;
+    padding: 2rem;
+    max-width: 100svw;
+    width: 80svw;
+    height: 70svh;
+    margin: 1rem;
+    background-color: var(--deepGreen);
+  }
+
   .projBox {
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -19,8 +38,8 @@
 
   #projTextBox {
     flex: 1 0 100%;
-    margin-right: .5rem;
-    padding-left: .5rem;
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
   }
 
   #contactBox {
@@ -30,14 +49,14 @@
     height: auto;
     background-color: rgb(23, 24, 25);
   }
-  
+
   #contactTextBox {
     flex: 1 0 50%;
     text-align: left;
     margin: 2rem;
     padding: 2rem;
   }
-  
+
   form {
     flex: 1 0 40%;
   }
@@ -76,15 +95,32 @@
     height: auto;
     justify-content: center;
   }
-#abouttext {
-  flex: 1 0 100%;
-}
 
-#portraitbox {
-  margin: 4rem;
-  margin-top: 0;
-  width: 60%;
-}
+  #abouttext {
+    flex: 1 0 100%;
+  }
+
+  #portraitbox {
+    margin: 4rem;
+    margin-top: 0;
+    width: 60%;
+  }
+
+  #educationBox {
+    justify-content: left;
+    padding: 2rem;
+    background-color: rgb(23, 24, 25);
+    align-items: center;
+  }
+
+  .award {
+    padding: 2rem;
+    max-width: 80svw;
+    width: 75svw;
+    height: 80svh;
+    margin: 1rem;
+    background-color: var(--deepGreen);
+  }
 
   .proj-columns {
     flex: 1 0 100%;
@@ -93,7 +129,7 @@
   #projImgBox {
     flex: 1 0 60%;
     margin: 2rem;
-    padding-left: 0; 
+    padding-left: 0;
     padding-top: 1rem;
   }
 
@@ -104,14 +140,14 @@
     height: auto;
     background-color: rgb(23, 24, 25);
   }
-  
+
   #contactTextBox {
     flex: 1 0 40%;
     text-align: left;
     margin: 2rem;
     padding: 2rem;
   }
-  
+
   form {
     flex: 1 0 40%;
   }
@@ -182,7 +218,7 @@
   }
 
   .projBox {
-    padding: .5em .5em .5em .5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
   }
 
   #projImgBox {
@@ -190,7 +226,7 @@
     margin: 1rem;
     padding-left: 0;
     margin-top: 1rem;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
   }
 
   #projTextBox {
@@ -203,19 +239,19 @@
   #contactBox {
     flex-direction: column;
     flex-wrap: wrap;
-    padding: .5rem;
+    padding: 0.5rem;
     height: auto;
     background-color: rgb(23, 24, 25);
   }
-  
+
   #contactTextBox {
     flex: 1 0 100%;
     text-align: left;
     margin: 1rem;
-    padding: .2rem;
+    padding: 0.2rem;
     line-height: 1.4;
   }
-  
+
   form {
     flex: 1 0 100%;
   }
