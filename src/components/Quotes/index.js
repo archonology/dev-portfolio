@@ -17,32 +17,32 @@ const Quotes = () => {
                                 rel="noreferrer"
                             >
                                 <ul>
-                                    <li className="anim1"><q className="qoute">Does his job with creativity, compassion, and sincere attention to detail.</q>
+                                <li className="anim1">
+                                        <q className="qoute">Reed is a pleasure to work with because of his motivation to grow, learn, and work hard.</q>
+                                        <p className="source">
+                                            - Coding Instructor Stephen O.
+                                        </p>
+                                    </li>
+                                    <li className="anim2"><q className="qoute">Whatever organization can leverage his skills stands to prosper immensely.</q>
+                                        <p className="source">
+                                            - Coworker Jack L.
+                                        </p>
+                                    </li>
+                                    <li className="anim3"><q className="qoute">Does his job with creativity, compassion, and sincere attention to detail.</q>
                                         <p className="source">
                                             - Coworker Brittany K.
                                         </p>
                                     </li>
-                                    <li className="anim2">
-                                        <q className="qoute">Very dependable and great at problem solving.</q>
+                                    <li className="anim4">
+                                        <q className="qoute">He has shown great leadership skills and helps others when needed.</q>
                                         <p className="source">
-                                            - Coworker Agne S.
+                                            - Developer David H.
                                         </p>
                                     </li>
-                                    <li className="anim3">
-                                        <q className="qoute">Excellent communication skills</q>
+                                    <li className="anim5">
+                                        <q className="qoute">Excellent communication skills that kept things running smoothly for the whole team.</q>
                                         <p className="source">
                                             - Teammate Alexandra D.
-                                        </p>
-                                    </li>
-                                    <li className="anim4">
-                                        <q className="qoute">An amazing teammate, a hard worker, an exceptional listener, and a compassionate soul.</q>
-                                        <p className="source">
-                                            - Coworker and client Heidi A.
-                                        </p>
-                                    </li>
-                                    <li className="anim5"><q className="qoute">it's clear to me that whatever organizations can leverage his skills now stand to prosper immensely.</q>
-                                        <p className="source">
-                                            - Coworker Jack L.
                                         </p>
                                     </li>
                                 </ul></a>
