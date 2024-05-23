@@ -110,8 +110,28 @@ const HomeBody = () => {
       <section id="educationBox">
         <h2>Education</h2>
         {education.map((ed) => {
-          return <EdCard ed={ed} />
+          return <EdCard ed={ed} />;
         })}
+        <a
+          href="https://www.hackerrank.com/profile/MeherDevs"
+          target="_blank"
+          rel="nonreferrer"
+          style={{ color: "var(--liveGreen)", fontWeight: "700" }}
+          className=" certif"
+        >
+          <figure>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png"
+              width={200}
+              style={{
+                marginTop: "1em",
+                marginBottom: "1em",
+                marginLeft: "1em",
+              }}
+            ></img>
+            <figcaption style={{ marginLeft: '1em'}}>HackerRank Profile</figcaption>
+          </figure>
+        </a>
       </section>
       <UpArrow />
     </>
