@@ -109,6 +109,8 @@
     margin-bottom: 6rem;
     padding-top: 0;
     padding-bottom: 5rem;
+    max-width: 350px;
+    max-height: 450px;
   }
 
   #educationBox {
@@ -200,12 +202,12 @@
   .quotebox {
     background-color: rgba(0, 0, 0, 0.895);
     width: 82svw;
-    height: 20svh;
+    height: 25svh;
     margin: 8%;
   }
 
   q {
-    font-size: 100%;
+    font-size: 20px;
     line-height: 1.3;
   }
 

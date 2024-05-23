@@ -4,10 +4,12 @@ html {
 }
 
 body {
-  color: var(--ink);
   font-family: "Open Sans", sans-serif;
   line-height: 1.2;
   background-color: black;
+  background-color: var(--nightOcean);
+  color: var(--paper);
+  transition: 1s ease-in-out;
 }
 
 header {
@@ -22,6 +24,7 @@ h1 {
   font-weight: 700;
   line-height: 1;
   font-style: italic;
+  color: var(--paper);
 }
 
 h2 {
@@ -47,7 +50,6 @@ nav ul {
 header h1,
 nav ul li {
   display: inline;
-  color: var(--ink);
 }
 
 nav ul li a {
@@ -59,19 +61,10 @@ strong {
   color: var(--tirtiary);
 }
 
-.dark-background-all {
-  background-color: var(--nightOcean);
-  color: var(--nightpaper);
-  transition: 1s ease-in-out;
-}
-
 #about {
   padding-left: 0.7svw;
 }
 
-p {
-  color: var(--ink);
-}
 
 .aboutbox {
   display: flex;
@@ -144,9 +137,10 @@ p {
   margin: 4rem;
   padding-top: 3rem;
   padding-bottom: 5rem;
-  height: 550px;
+  min-width: 350px;
+  min-height: 450px;
   max-width: 450px;
-  max-height: 600px;
+  max-height: 550px;
 }
 
 #educationBox {
@@ -194,7 +188,7 @@ p {
 #loadBox {
   width: 100%;
   height: 80svh;
-  background-color: var(--nightOcean);
+  background-color: var(--deepOcean);
   text-align: center;
 }
 
@@ -382,11 +376,6 @@ nav ul a li:focus {
   background-color: var(--secondHover);
 }
 
-.dark .homeLinks a:hover,
-.homeLinks a:focus {
-  color: var(--primary);
-}
-
 .pics:hover {
   box-shadow: 9px 30px 32px -15px rgba(0, 0, 0, 0.632);
 }
@@ -421,44 +410,3 @@ textarea[type="textarea"]:active {
   outline: 1px solid black;
 }
 
-/******************* DARKMODE ******************/
-.dark,
-.dark-qoute-slider {
-  color: var(--nightpaper);
-  /* font-weight: 600; */
-}
-
-.dark h1,
-.dark p,
-.dark .about,
-.dark .homeLinks a,
-.dark ul li,
-.dark ul li p,
-.dark-qoute-slider ul,
-.dark-qoute-slider p,
-.dark h2,
-.dark h3 {
-  color: var(--nightpaper);
-}
-
-.dark .proj-links a {
-  background-color: rgb(173, 172, 172);
-}
-
-.dark .proj-links a + a {
-  background-color: rgb(138, 137, 137);
-}
-
-.dark .proj-links a:hover,
-.featured-dark .proj-links a:hover {
-  box-shadow: none;
-  background-color: var(--nightpaper);
-}
-
-.dark .proj-links a:hover {
-  color: var(--ink);
-}
-
-footer .dark {
-  height: 50px;
-}

@@ -1,3 +1,4 @@
+import React, { Suspense } from "react";
 import './css/Reset.css'
 import './css/Variables.css'
 import './css/Style.css';
@@ -11,15 +12,15 @@ import Portfolio from './pages/Portfolio';
 // import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Header from './components/Header';
-import { useAppCtx } from './AppProvider';
+// import { useAppCtx } from './AppProvider';
 
 export default function App() {
-  const { theme } = useAppCtx();
-  const background = `${theme} ${theme}-background-all`;
+  // const { theme } = useAppCtx();
+  // const background = `${theme} ${theme}-background-all`;
 
   return (
     <Router>
-      <div className={background}>
+      <div >
           <Header />
           <Routes>
             <Route path='/' element={<Home />}></Route>
