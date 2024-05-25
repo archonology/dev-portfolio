@@ -64,7 +64,7 @@ export default function Header() {
                 onClick={handleClick2}
                 className={clickState2}
               >
-                Portfolio
+                Coding
               </a>
             </li>
             <li>

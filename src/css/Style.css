@@ -397,16 +397,27 @@ nav ul a li:focus {
   opacity: 0.95;
 }
 
+button {
+  outline: black solid;
+  transition: .7s ease-in-out;
+}
+
 button:hover,
 button:focus {
   outline: 1px solid black;
   background-color: var(--secondHover);
 }
 
+input[type="text"],
+textarea[type="textarea"] {
+  outline: black solid;
+  transition: .7s ease-in-out;
+}
+
 input[type="text"]:focus,
 textarea[type="textarea"]:focus,
 input[type="text"]:active,
 textarea[type="textarea"]:active {
-  outline: 1px solid black;
+  outline: 1px solid var(--secondHover);
 }
 

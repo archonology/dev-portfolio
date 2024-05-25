@@ -108,7 +108,7 @@ const HomeBody = () => {
       </section>
       <section id="educationBox">
         <h2>Education</h2>
-        <EdCard />;
+        <EdCard />
         <a
           href="https://www.hackerrank.com/profile/MeherDevs"
           style={{ color: "var(--liveGreen)", fontWeight: "700" }}
