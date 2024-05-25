@@ -21,7 +21,7 @@ const WritingCard = () => {
             src={writ.image}
             bgColor="black"
             alt={writ.title}
-            style={{ boxShadow: "9px 14px 18px -5px black" }}
+            style={{ boxShadow: "9px 14px 18px -5px black", marginTop: '-7rem' }}
             duration={5000}
             onMouseEnter={() => setShowBtn(true)}
             onTouchMove={() => setShowBtn(true)}
