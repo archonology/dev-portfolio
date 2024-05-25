@@ -267,10 +267,12 @@ strong {
 }
 
 #linkBox li {
-  margin-right: 0.3rem;
+  margin-right: 0.4rem;
   margin-top: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.8rem;
   background-color: var(--secondary);
+  border-radius: 7px;
+  transition: .5s ease;
 }
 
 #linkBox li a {
