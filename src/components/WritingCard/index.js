@@ -41,7 +41,7 @@ const WritingCard = () => {
                       href={writ.pdf}
                       rel="non_openner"
                       target="_blank"
-                      aria-label={writ.pdf}
+                      aria-label="View"
                       style={{padding: '2rem'}}
                     >
                       View

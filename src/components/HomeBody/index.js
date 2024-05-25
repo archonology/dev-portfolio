@@ -118,6 +118,7 @@ const HomeBody = () => {
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png"
               width={200}
+              alt="HackerRank logo"
               style={{
                 marginTop: "1em",
                 marginBottom: "1em",

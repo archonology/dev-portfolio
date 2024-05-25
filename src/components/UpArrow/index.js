@@ -16,6 +16,7 @@ const UpArrow = ({showBtn}) => {
       <button
         className="toTop-button"
         style={visibility}
+        aria-label="Scroll to top"
         onClick={(e) => {
           e.preventDefault();
           window.scrollTo(0, 0);

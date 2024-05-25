@@ -26,7 +26,7 @@ const EdCard = () => {
                     href={ed.link}
                     rel="non_openner"
                     target="_blank"
-                    aria-label={ed.linkTitle}
+                    aria-label="Learn More"
                   >
                     Learn More
                   </a>
@@ -37,7 +37,7 @@ const EdCard = () => {
                       href={ed.certificate}
                       rel="non_openner"
                       target="_blank"
-                      aria-label={ed.certificate}
+                      aria-label="See Certificate"
                     >
                       See Certificate
                     </a>

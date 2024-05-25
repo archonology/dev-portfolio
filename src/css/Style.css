@@ -34,11 +34,12 @@ h2 {
   padding-bottom: 2rem;
 }
 
-header h4 {
+header h2 {
   margin-bottom: 1rem;
-  font-size: 110%;
+  font-size: 18px;
   font-weight: 500;
   font-style: italic;
+  color: white;
 }
 
 nav ul {
@@ -263,6 +264,7 @@ strong {
   margin-top: 0.4rem;
   padding: 0.5rem;
   background-color: var(--primary);
+  color: white;
   font-weight: 600;
 }
 
@@ -271,6 +273,7 @@ strong {
   margin-top: 0.5rem;
   padding: 0.8rem;
   background-color: var(--secondary);
+  color: white;
   border-radius: 7px;
   transition: .5s ease;
 }
