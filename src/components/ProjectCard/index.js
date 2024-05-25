@@ -9,7 +9,7 @@ const ProjectCard = () => {
     <>
       {projects.map((project) => {
         return (
-          <div className="projBox">
+          <div className="projBox" key={project.id}>
             <figure id="projImgBox">
               <a 
               href={project.liveLink}
@@ -37,8 +37,8 @@ const ProjectCard = () => {
               <div id="techBox">
                 <h3>Tech Used:</h3>
                 <ul>
-                  {project.techStack.map((tech) => {
-                    return <li>{tech}</li>;
+                  {project.techStack.map((tech, i) => {
+                    return <li key={i}>{tech}</li>;
                   })}
                 </ul>
               </div>

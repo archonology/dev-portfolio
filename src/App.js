@@ -12,6 +12,7 @@ import Portfolio from './pages/Portfolio';
 // import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Header from './components/Header';
+import Writing from "./pages/Writing";
 // import { useAppCtx } from './AppProvider';
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
             <Route path='/' element={<Home />}></Route>
             <Route index element={<Home />} />
             <Route path="portfolio" element={<Portfolio />} />
+            <Route path="writing" element={<Writing />} />
             {/* <Route path="resume" element={<Resume />} /> */}
             <Route path="contact" element={<Contact />} />
             <Route path="home" element={<Home />} />

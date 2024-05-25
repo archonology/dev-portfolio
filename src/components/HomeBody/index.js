@@ -5,7 +5,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import BookIcon from "@mui/icons-material/Book";
 import reedBW from "../../images/reedBW.jpeg";
-import education from "../education";
 import UpArrow from "../UpArrow";
 import EdCard from "../EdCard";
 
@@ -109,13 +108,9 @@ const HomeBody = () => {
       </section>
       <section id="educationBox">
         <h2>Education</h2>
-        {education.map((ed) => {
-          return <EdCard ed={ed} />;
-        })}
+        <EdCard />;
         <a
           href="https://www.hackerrank.com/profile/MeherDevs"
-          target="_blank"
-          rel="nonreferrer"
           style={{ color: "var(--liveGreen)", fontWeight: "700" }}
           className=" certif"
         >

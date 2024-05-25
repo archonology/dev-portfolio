@@ -69,11 +69,11 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#/portfolio"
+                href="#/writing"
                 onClick={handleClick3}
                 className={clickState3}
               >
-                Words
+                Writing
               </a>
             </li>
             <li>

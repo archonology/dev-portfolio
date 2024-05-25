@@ -1,5 +1,6 @@
 const education = [
     {
+        id:1,
         award: "Full Stack Angular Developer Certificate",
         institution: "Zero to Mastery",
         dates: "01/2024 - 05/2024",
@@ -14,6 +15,7 @@ const education = [
         image: 'https://curator-assets.b-cdn.net/5471409d-fb56-475f-9de4-88472b8441b6/337054041.jpg?width=480&quality=75'
     },
     {
+        id:2,
         award: "Bachelor of Science, Information Science & Technology",
         institution: "University of Wisconsin, Milwaukee",
         dates: "01/2024 - present",
@@ -27,6 +29,7 @@ const education = [
         image: 'https://uwm.edu/wp-content/uploads/2021/10/aerial-uwmcampus-milwaukee-1500x650-1.jpg'
     },
     {
+        id:3,
         award: "Full Stack Web Development Certificate",
         institution: "University of Minnesota",
         dates: "06/2022 - 12/2022",
@@ -41,6 +44,7 @@ const education = [
         image: 'https://curator-assets.b-cdn.net/5471409d-fb56-475f-9de4-88472b8441b6/337054041.jpg?width=480&quality=75'
     },
     {
+        id:4,
         award: "Bachelor of Arts, English",
         institution: "University of Minnesota, Morris",
         dates: "08/2004 - 05/2004",
