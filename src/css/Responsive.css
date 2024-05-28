@@ -63,15 +63,19 @@
 }
 
 @media screen and (max-width: 768px) {
-  h2 {
-    font-size: 5svw;
+
+  h1 { 
+    font-size: 10svw;
+  }
+  header h2 {
+    font-size: 2.7svw;
   }
 
   header h4 {
     font-size: 1.8svw;
   }
   nav ul li a {
-    font-size: 3.2svw;
+    font-size: 4.2svw;
   }
   #ocean {
     height: 50svh;
@@ -79,7 +83,7 @@
 
   .quotebox {
     width: 60svw;
-    height: 30svh;
+    height: 38svh;
   }
 
   q {
@@ -181,8 +185,12 @@
     line-height: 1.2;
   }
 
+  header h2 {
+    font-size: 2.6svw;
+  }
+
   h2 {
-    font-size: 8svw;
+    font-size: 9svw;
   }
 
   header h4 {

@@ -6,8 +6,19 @@ import vpc from "../images/vpcBanner1.jpeg";
 import blog from "../images/blogrm.jpg";
 import wanderComma from "../images/wandercomma2.png";
 import portpic from "../images/portfolio.jpg";
+import clipzPic from "../images/clipzPic.png"
 
 const projects = [
+  {
+    id: 9,
+    title: "Clipz For Gamers",
+    description:
+      "A massive full stack Angular application that implements Firebase for the backend and TailwindCSS. ",
+    techStack: ["Angular", "TypeScript", "TailwindCSS", "Firebase", "AngularFire", "Rust", "WebAssembly"],
+    liveLink: "",
+    repoLink: "https://github.com/archonology/clipz-for-Gamers/",
+    image: clipzPic,
+  },
   {
     id: 1,
     title: "The Childwelfare Portal",
