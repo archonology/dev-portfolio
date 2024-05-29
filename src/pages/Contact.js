@@ -1,18 +1,15 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import Image from "mui-image";
 import emailjs from "@emailjs/browser";
 import { validateEmail } from "../utils/validation";
-import { useAppCtx } from "../AppProvider";
 import ocean from "../images/ocean.png";
 
 const Contact = () => {
-  const { theme } = useAppCtx();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const form = useRef();
-  const containerStyle = "contact-" + theme;
 
   const handleInputChange = (e) => {
     const { target } = e;
@@ -79,8 +76,8 @@ const Contact = () => {
       <div id="contactBox">
         <div id="contactTextBox">
           <p>
-            Contact Reed just to <strong>say hello</strong>, get a full resume, chat about potential
-            collaborations, jobs, and contract services.
+            Contact Reed just to <strong>say hello</strong>, get a full resume,
+            chat about potential collaborations, jobs, and contract services.
           </p>
           <br />
           <p>I look forward to hearing from you!</p>

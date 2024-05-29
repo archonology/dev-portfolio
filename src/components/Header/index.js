@@ -7,7 +7,7 @@ export default function Header() {
   useEffect(() => {
     // Redirect to the home page on refresh
     navigate("/");
-  }, []);
+  }, [navigate]);
 
   const [clickState1, setClickState1] = useState("clicked");
   const [clickState2, setClickState2] = useState("not-clicked");

@@ -1,4 +1,7 @@
 @media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 5svw;
+  }
   .quotebox {
     height: 45svh;
   }
@@ -63,9 +66,12 @@
 }
 
 @media screen and (max-width: 768px) {
-
-  h1 { 
+  h1 {
     font-size: 10svw;
+  }
+
+  h2 {
+    font-size: 5svw;
   }
   header h2 {
     font-size: 2.7svw;

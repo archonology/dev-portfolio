@@ -67,7 +67,7 @@ const HomeBody = () => {
               <a
                 href="https://github.com/archonology"
                 target="_blank"
-                rel="nonreferrer"
+                rel="noreferrer"
                 aria-label="https://github.com/archonology"
               >
                 <GitHubIcon fontSize="large" />
@@ -75,7 +75,7 @@ const HomeBody = () => {
               <a
                 href="https://www.linkedin.com/in/reed-meher"
                 target="_blank"
-                rel="nonreferrer"
+                rel="noreferrer"
                 aria-label="https://www.linkedin.com/in/reed-meher"
               >
                 <LinkedInIcon fontSize="large" />
@@ -83,7 +83,7 @@ const HomeBody = () => {
               <a
                 href="https://reedmeher.com/"
                 target="_blank"
-                rel="nonreferrer"
+                rel="noreferrer"
                 aria-label="https://reedmeher.com/"
               >
                 <BookIcon fontSize="large" />
@@ -125,7 +125,9 @@ const HomeBody = () => {
                 marginLeft: "1em",
               }}
             ></img>
-            <figcaption style={{ marginLeft: '1em'}}>HackerRank Profile</figcaption>
+            <figcaption style={{ marginLeft: "1em" }}>
+              HackerRank Profile
+            </figcaption>
           </figure>
         </a>
       </section>
