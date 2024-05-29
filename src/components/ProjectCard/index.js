@@ -1,40 +1,93 @@
-import React from "react";
-import Image from 'mui-image';
+import { useState } from "react";
+import Image from "mui-image";
 import projects from "../projects";
-
-
+import UpArrow from "../UpArrow";
 const ProjectCard = () => {
-    return (
-        <>
-            {projects.map((project) => {
-                return (
-                    <>
-                        <div className="proj-columns">
-                            <div className="proj-card card-1" style={{ lineHeight: 1.5 }}>
-                                <a href={project.liveLink} target={'_blank'} rel={'nonreferrer'}><Image src={project.image} style={{ borderRadius: 16, marginBottom: 17, transition: '.5s ease-in-out' }} className='pics' /></a>
-                                <h3>{project.title}</h3>
-                                <hr />
-                                <p>{project.description}</p>
-                                <div className="proj-links" style={{ marginBottom: '1.1em' }}>
-                                    <a href={project.liveLink} target={'_blank'} rel={'nonreferrer'}>Live Site</a>
-                                    {project.repoLink ? (<>
-                                        <a href={project.repoLink} target={'_blank'} rel={'nonreferrer'}>Repository</a>
-                                    </>) : (<></>)}
-
-                                </div>
-                                <hr />
-                                <p style={{ textAlign: 'left', fontSize: '15px', lineHeight: 1.6, fontWeight: 600 }}>
-                                    {project.techStack}
-                                </p>
-
-                            </div>
-                        </div>
-                    </>
-                )
-            })}
-
-        </>
-    )
-}
+  const [showBtn, setShowBtn] = useState(false);
+  return (
+    <>
+      {projects.map((project) => {
+        return (
+          <div className="projBox" key={project.id}>
+            <figure id="projImgBox">
+              <a
+                href={project.liveLink}
+                rel="noreferrer"
+                target="_blank"
+                aria-label={project.liveLink}
+              >
+                <Image
+                  id="folioImg"
+                  src={project.image}
+                  bgColor="black"
+                  alt={project.title}
+                  style={{ boxShadow: "9px 14px 18px -5px black" }}
+                  duration={5000}
+                  onMouseEnter={() => setShowBtn(true)}
+                  onTouchMove={() => setShowBtn(true)}
+                  onScroll={() => setShowBtn(true)}
+                ></Image>
+              </a>
+              <figcaption style={{ marginTop: "1.5rem" }}>
+                {project.title}
+              </figcaption>
+            </figure>
+            <div id="projTextBox">
+              <h2>{project.title}</h2>
+              <h4
+                style={{
+                  marginTop: "-1rem",
+                  fontSize: "18px",
+                  paddingBottom: ".8rem",
+                }}
+              >
+                {project.date}
+              </h4>
+              <p>{project.description}</p>
+              <div id="techBox">
+                <h3>Tech Used:</h3>
+                <ul>
+                  {project.techStack.map((tech, i) => {
+                    return <li key={i}>{tech}</li>;
+                  })}
+                </ul>
+              </div>
+              <div id="linkBox">
+                <h3>Links:</h3>
+                <ul>
+                  <li>
+                    <a
+                      href={project.liveLink}
+                      rel="noreferrer"
+                      target="_blank"
+                      aria-label={project.liveLink}
+                    >
+                      Website
+                    </a>
+                  </li>
+                  {project.repoLink ? (
+                    <li>
+                      <a
+                        href={project.repoLink}
+                        rel="noreferrer"
+                        target="_blank"
+                        aria-label={project.repoLink}
+                      >
+                        Github
+                      </a>
+                    </li>
+                  ) : (
+                    <></>
+                  )}
+                </ul>
+              </div>
+            </div>
+            <UpArrow showBtn={showBtn} />
+          </div>
+        );
+      })}
+    </>
+  );
+};
 
 export default ProjectCard;

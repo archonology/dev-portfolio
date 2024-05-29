@@ -6,7 +6,7 @@ export const useAppCtx = () => useContext(AppContext);
 
 export default function AppProvider(props) {
 
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
 
     const toggleTheme = () => {
         theme === 'light' ? setTheme('dark') : setTheme('light');

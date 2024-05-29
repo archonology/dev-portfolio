@@ -1,0 +1,290 @@
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 5svw;
+  }
+  .quotebox {
+    height: 45svh;
+  }
+
+  #educationBox {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    padding: 2em 4em 15em 4em;
+    background-color: rgb(23, 24, 25);
+    align-items: normal;
+  }
+
+  .award {
+    flex: 1 0 100%;
+    padding: 2rem;
+    max-width: 100svw;
+    width: 80svw;
+    height: 70svh;
+    margin: 1rem;
+    background-color: var(--deepGreen);
+  }
+
+  .projBox {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .projBox:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  #projImgBox {
+    flex: 1 0 40%;
+    margin-top: 0;
+  }
+
+  #projTextBox {
+    flex: 1 0 100%;
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  #contactBox {
+    flex-direction: row-reversecol;
+    flex-wrap: wrap;
+    padding: 2rem;
+    height: auto;
+    background-color: rgb(23, 24, 25);
+  }
+
+  #contactTextBox {
+    flex: 1 0 50%;
+    text-align: left;
+    margin: 2rem;
+    padding: 2rem;
+  }
+
+  form {
+    flex: 1 0 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 10svw;
+  }
+
+  h2 {
+    font-size: 5svw;
+  }
+  header h2 {
+    font-size: 2.7svw;
+  }
+
+  header h4 {
+    font-size: 1.8svw;
+  }
+  nav ul li a {
+    font-size: 4.2svw;
+  }
+  #ocean {
+    height: 50svh;
+  }
+
+  .quotebox {
+    width: 60svw;
+    height: 38svh;
+  }
+
+  q {
+    font-size: 150%;
+    line-height: 1.3;
+  }
+
+  .slider .source {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .aboutbox {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(10, 20, 49);
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+  #abouttext {
+    flex: 1 0 100%;
+  }
+
+  #portraitBox {
+    margin: 0;
+    margin-bottom: 6rem;
+    padding-top: 0;
+    padding-bottom: 5rem;
+    max-width: 350px;
+    max-height: 450px;
+  }
+
+  #educationBox {
+    justify-content: left;
+    padding: 2rem;
+    padding-bottom: 6rem;
+    background-color: rgb(23, 24, 25);
+    align-items: center;
+  }
+
+  .award {
+    padding: 2rem;
+    max-width: 80svw;
+    width: 75svw;
+    height: 80svh;
+    margin: 1rem;
+    background-color: var(--deepGreen);
+  }
+
+  .proj-columns {
+    flex: 1 0 100%;
+  }
+
+  #projImgBox {
+    flex: 1 0 60%;
+    margin: 2rem;
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+
+  #contactBox {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding: 1rem;
+    height: auto;
+    background-color: rgb(23, 24, 25);
+  }
+
+  #contactTextBox {
+    flex: 1 0 40%;
+    text-align: left;
+    margin: 2rem;
+    padding: 2rem;
+  }
+
+  form {
+    flex: 1 0 40%;
+  }
+
+  .form-row {
+    flex-direction: row;
+    flex: 1 0 100%;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 37svw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  h1 {
+    font-size: 10svw;
+    line-height: 1.2;
+  }
+
+  header h2 {
+    font-size: 2.6svw;
+  }
+
+  h2 {
+    font-size: 9svw;
+  }
+
+  header h4 {
+    margin-bottom: 3rem;
+    font-size: 2.5svw;
+  }
+
+  nav ul {
+    margin-top: 1rem;
+  }
+
+  nav ul li a {
+    padding: 7px;
+    font-size: 5.4svw;
+  }
+
+  .quotebox {
+    background-color: rgba(0, 0, 0, 0.895);
+    width: 82svw;
+    height: 25svh;
+    margin: 8%;
+  }
+
+  q {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .slider .source {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  #portraitBox {
+    margin: 1.5rem;
+    margin-top: -2rem;
+    margin-bottom: 6rem;
+    padding-top: 0;
+  }
+
+  .proj-card {
+    padding: 1.3rem;
+  }
+
+  .projBox {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+  }
+
+  #projImgBox {
+    flex: 1 0 80%;
+    margin: 1rem;
+    padding-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  #projTextBox {
+    flex: 1 0 95%;
+    margin: 0rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+
+  #contactBox {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    height: auto;
+    background-color: rgb(23, 24, 25);
+  }
+
+  #contactTextBox {
+    flex: 1 0 100%;
+    text-align: left;
+    margin: 1rem;
+    padding: 0.2rem;
+    line-height: 1.4;
+  }
+
+  form {
+    flex: 1 0 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+    flex: 1 0 100%;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 90svw;
+  }
+}

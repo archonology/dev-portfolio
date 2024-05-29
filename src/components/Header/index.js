@@ -1,105 +1,93 @@
-import { useState } from 'react';
-import { useAppCtx } from '../../AppProvider';
-import FoundationIcon from '@mui/icons-material/Foundation';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import LightModeIcon from '@mui/icons-material/LightMode';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import BookIcon from '@mui/icons-material/Book';
-import PaletteIcon from '@mui/icons-material/Palette';
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
-    const { theme, toggleTheme } = useAppCtx();
-    const [clickState1, setClickState1] = useState('not-clicked');
-    // const [clickState2, setClickState2] = useState('not-clicked');
-    const [clickState3, setClickState3] = useState('not-clicked');
-    const [visibility, setVisibility] = useState({ visibility: 'hidden' });
+  const navigate = useNavigate();
 
-    function handleClick1() {
-        if (clickState1 === 'not-clicked') {
-            setClickState1('clicked');
-            // setClickState2('not-clicked');
-            setClickState3('not-clicked');
-        } else {
-            setClickState1('not-clicked');
-        }
-    }
+  useEffect(() => {
+    // Redirect to the home page on refresh
+    navigate("/");
+  }, []);
 
-    // function handleClick2() {
-    //     if (clickState2 === 'not-clicked') {
-    //         setClickState2('clicked');
-    //         setClickState1('not-clicked');
-    //         setClickState3('not-clicked');
-    //     } else {
-    //         setClickState2('not-clicked');
-    //     }
-    // }
-    function handleClick3() {
-        if (clickState3 === 'not-clicked') {
-            setClickState3('clicked');
-            // setClickState2('not-clicked');
-            setClickState1('not-clicked');
-        } else {
-            setClickState3('not-clicked');
-        }
-    }
+  const [clickState1, setClickState1] = useState("clicked");
+  const [clickState2, setClickState2] = useState("not-clicked");
+  const [clickState3, setClickState3] = useState("not-clicked");
+  const [clickState4, setClickState4] = useState("not-clicked");
 
-    function clearClicks() {
-        // setClickState2('not-clicked');
-        setClickState1('not-clicked');
-        setClickState3('not-clicked');
-    }
+  function handleClick1() {
+    setClickState1("clicked");
+    setClickState2("not-clicked");
+    setClickState3("not-clicked");
+    setClickState4("not-clicked");
+  }
 
-    function showButton() {
-        console.log('scrolling?');
-        setVisibility({ visibility: 'visible' });
-    }
+  function handleClick2() {
+    setClickState4("not-clicked");
+    setClickState3("not-clicked");
+    setClickState2("clicked");
+    setClickState1("not-clicked");
+  }
 
-    return (
-        <>
-            <header>
-                <h1 id='X'>MeherDevs</h1>
-                <p>Web Development Services | LLC<span className="homeLinks" style={{}}> <br /> <br /><a href="https://github.com/archonology" target='_blank' rel='nonreferrer'><GitHubIcon fontSize="large" /></a>   <a href="https://www.linkedin.com/in/reed-meher" target='_blank' rel='nonreferrer'><LinkedInIcon fontSize="large" /></a>   <a href="https://reedmeher.com/" target='_blank' rel='nonreferrer'><BookIcon fontSize="large" /></a>  <a href="https://reedmeher.myportfolio.com/" target='_blank' rel='nonreferrer'><PaletteIcon fontSize="large" /></a></span></p>
-                <hr />
-                <nav>
-                    <ul>
-                        <a
-                            href='#/portfolio'
-                            onClick={handleClick1}
-                            className={clickState1}>
-                            <li>Portfolio</li>
-                        </a>
-                        {/* <a
-                            href='#/resume'
-                            onClick={handleClick2}
-                            className={clickState2}>
-                            <li>Resume</li>
-                        </a> */}
-                        <a
-                            href='#/contact'
-                            onClick={handleClick3}
-                            className={clickState3}>
-                            <li>Contact</li>
-                        </a>
-                    </ul>
-                    {theme === 'light' ? (
-                        <>
-                            <ul className="iconUl">
-                                <a href='#/' onClick={clearClicks}><li><FoundationIcon /></li></a>
-                                <li onClick={toggleTheme}><DarkModeIcon /></li>
-                                {/* video demos are in development */}
-                                {/* <a href='#/'><li><VideoLibraryIcon /></li></a> */}
-                            </ul>
-                        </>) : (<>
-                            <ul className="iconUl">
-                                <a href='#/' onClick={clearClicks}><li><FoundationIcon /></li></a>
-                                <li onClick={toggleTheme}><LightModeIcon /></li>
-                                {/* <a href='#/'><li><VideoLibraryIcon /></li></a> */}
-                            </ul>
-                        </>)}
+  function handleClick3() {
+    setClickState4("not-clicked");
+    setClickState3("clicked");
+    setClickState2("not-clicked");
+    setClickState1("not-clicked");
+  }
+  function handleClick4() {
+    setClickState4("clicked");
+    setClickState3("not-clicked");
+    setClickState2("not-clicked");
+    setClickState1("not-clicked");
+  }
 
-                </nav>
-            </header>
-        </>
-    )
+  return (
+    <>
+      <header>
+        <h1>REED MEHER</h1>
+        <h2> Full Stack Web Developer • MeherDevs LLC. est. 2023</h2>
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="#/"
+                onClick={handleClick1}
+                className={clickState1}
+                id="about"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#/portfolio"
+                onClick={handleClick2}
+                className={clickState2}
+              >
+                Coding
+              </a>
+            </li>
+            <li>
+              <a
+                href="#/writing"
+                onClick={handleClick3}
+                className={clickState3}
+              >
+                Writing
+              </a>
+            </li>
+            <li>
+              <a
+                href="#/contact"
+                onClick={handleClick4}
+                className={clickState4}
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </>
+  );
 }
