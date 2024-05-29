@@ -184,15 +184,16 @@
     padding: 1rem;
     padding-top: 1rem;
     padding-left: 1rem;
+    text-align: center;
   }
 
   h1 {
-    font-size: 10svw;
-    line-height: 1.2;
+    font-size: 14svw;
+    line-height: 1.1;
   }
 
   header h2 {
-    font-size: 2.6svw;
+    font-size: 3.7svw;
   }
 
   h2 {

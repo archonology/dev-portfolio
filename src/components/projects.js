@@ -26,7 +26,7 @@ const projects = [
       "WebAssembly",
       "HTML",
     ],
-    liveLink: "",
+    liveLink: "https://github.com/archonology/clipz-for-Gamers/",
     repoLink: "https://github.com/archonology/clipz-for-Gamers/",
     image: clipzPic,
   },
