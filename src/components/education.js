@@ -8,9 +8,10 @@ const education = [
     description:
       "An intensive, hands-on full stack Angular Bootcamp with over 30 hours of in-depth instruction and projects. Focused on Skills in Angular, TypeScript, WebAssembly, Rust, RxJS, TailwindCSS, and Firebase.",
     gpa: "",
-    link: "https://zerotomastery.io/",
+    link: "https://www.udemy.com/course/complete-angular-developer-zero-to-mastery/",
     linkTitle: "Program Home Page",
-    certificate: "",
+    certificate:
+      "https://www.udemy.com/certificate/UC-9abcf6dd-6018-4fa3-9133-e9ac5b02a489/",
     certificateTitle: "See Certificate",
     type: "Certificate",
     image:
