@@ -29,14 +29,12 @@ const HomeBody = () => {
       <section className="aboutbox">
         <div id="abouttext">
           <p>
-            Web development is more than just code, more than degrees, more than
-            certificates. The web developing of the day demands knowing as much
-            about people as it does about programming languages, frameworks, and
+            Coding demands knowing as much about people as it does about the
+            ever changing sea of programming languages, frameworks, and
             libraries. It isn’t enough to be a wizard at optimization:
-            developers also need to be compassionate humanitarians. People
-            expect software to understand them, to be fluid, to be easy on their
-            eyes and minds, not just to be super fast and technologically
-            advanced.
+            developers also need to be oriented around user experience. People
+            expect software to understand their needs, to be fluid, and to be
+            easy on their eyes and minds.
           </p>
           <br />
           <p>
@@ -45,22 +43,21 @@ const HomeBody = () => {
             immersion in <strong>JavaScript, Python, Angular, React</strong> and
             the myriad of supporting libraries, tools, and technologies that
             populate the ocean of web development. Yet Reed comes to the coding
-            world with a deep education in world literature, in teaching English
-            as a foreign language, and in social work. He has lived around the
-            world and knows deeply the value of people and of community.
+            world with a long background in writing, teaching English as a
+            foreign language, and social work, which has helped him become a
+            skilled <strong>technical writer</strong>, researcher, teammate, and
+            leader.
           </p>
           <br />
           <p>
-            Communication and empathy are at the core of his work and his
-            passion. These are imperative traits and skills for the new world of
-            web development. So many unimaginable advancements are emerging, and
-            yet we are on the verge, in so many ways, of losing connection with
-            eachother. If we lose each other and lose our sense of community,
-            the advancements suddenly mean so much less.
+            Communication, tenacity, accessibility, and empathy are at the core
+            of his work and his passion. Reed lives by the value that there is
+            always more to learn and that no matter how well built something is
+            it can always be better.
           </p>
           <br />
           <p>
-            Contact Reed if you would like to do more.
+            Check out Reed's blog and follow him on Github or LinkedIn:
             <span className="homeLinks" style={{}}>
               {" "}
               <br /> <br />

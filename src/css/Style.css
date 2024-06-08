@@ -380,7 +380,7 @@ nav ul a li:focus {
 .homeLinks a:hover,
 .homeLinks a:focus,
 .homeLinks a:active {
-  color: var(--primary);
+  color: var(--tirtiary);
 }
 
 #linkBox li:hover,
