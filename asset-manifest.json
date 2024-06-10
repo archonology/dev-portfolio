@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.f933a6bf.css",
-    "main.js": "/static/js/main.936dc35d.js",
+    "main.js": "/static/js/main.014909eb.js",
     "static/js/541.825b0664.chunk.js": "/static/js/541.825b0664.chunk.js",
-    "static/js/617.7d1b6eba.chunk.js": "/static/js/617.7d1b6eba.chunk.js",
+    "static/js/704.8a2814b6.chunk.js": "/static/js/704.8a2814b6.chunk.js",
     "static/js/756.d2e5f4c8.chunk.js": "/static/js/756.d2e5f4c8.chunk.js",
     "static/js/453.de0be941.chunk.js": "/static/js/453.de0be941.chunk.js",
     "static/media/ocean.png": "/static/media/ocean.24c37a80e3bb7a528ab1.png",
@@ -26,20 +26,21 @@
     "static/media/cwp.jpg": "/static/media/cwp.f1ca1ff96c4348bbbe65.jpg",
     "static/media/regexGist.png": "/static/media/regexGist.416611090ebbc0d62ef3.png",
     "static/media/wandercomma2.png": "/static/media/wandercomma2.3f4f7da924113e563277.png",
+    "static/media/termFinder.png": "/static/media/termFinder.18879df64939d2aae9a7.png",
     "static/media/shorewoodSwim.png": "/static/media/shorewoodSwim.f4f6dffd630794e1d6ca.png",
     "static/media/RMeher_Life With AI_Paper.pdf": "/static/media/RMeher_Life With AI_Paper.f9956560e5977951c275.pdf",
     "static/media/RMeher_310_heuristicEval_2024.pdf": "/static/media/RMeher_310_heuristicEval_2024.dec3aa6d30f480b8dcfd.pdf",
     "static/media/imgEffectPic.png": "/static/media/imgEffectPic.c90ac35712ff6633f942.png",
     "index.html": "/index.html",
     "main.f933a6bf.css.map": "/static/css/main.f933a6bf.css.map",
-    "main.936dc35d.js.map": "/static/js/main.936dc35d.js.map",
+    "main.014909eb.js.map": "/static/js/main.014909eb.js.map",
     "541.825b0664.chunk.js.map": "/static/js/541.825b0664.chunk.js.map",
-    "617.7d1b6eba.chunk.js.map": "/static/js/617.7d1b6eba.chunk.js.map",
+    "704.8a2814b6.chunk.js.map": "/static/js/704.8a2814b6.chunk.js.map",
     "756.d2e5f4c8.chunk.js.map": "/static/js/756.d2e5f4c8.chunk.js.map",
     "453.de0be941.chunk.js.map": "/static/js/453.de0be941.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f933a6bf.css",
-    "static/js/main.936dc35d.js"
+    "static/js/main.014909eb.js"
   ]
 }
