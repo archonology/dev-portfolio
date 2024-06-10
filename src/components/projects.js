@@ -8,6 +8,7 @@ import wanderComma from "../images/wandercomma2.png";
 import portpic from "../images/portfolio.jpg";
 import clipzPic from "../images/clipzPic.png";
 import imgEffPic from "../images/imgEffectPic.png";
+import termFindPic from "../images/termFinder.png";
 
 const projects = [
   {
@@ -74,6 +75,17 @@ While in ongoing development, the CWP is fully functional and is being improved 
     liveLink: "https://www.childwelfareportal.org/",
     repoLink: "https://github.com/archonology/CW-Portal",
     image: cwp,
+  },
+  {
+    id: 11,
+    title: "Term Finder",
+    date: "May 2024",
+    description:
+      "Term Finder is a python program that searches a given set of text documents for single word occurances. The program allows the user to input a word to search for in the documents and the program returns the frequency results in percentages, rounded to the nearest 5th decimal.",
+    techStack: ["Python"],
+    liveLink: "",
+    repoLink: "https://github.com/archonology/Term-Finder",
+    image: termFindPic,
   },
   {
     id: 2,

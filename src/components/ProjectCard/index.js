@@ -55,16 +55,20 @@ const ProjectCard = () => {
               <div id="linkBox">
                 <h3>Links:</h3>
                 <ul>
-                  <li>
-                    <a
-                      href={project.liveLink}
-                      rel="noreferrer"
-                      target="_blank"
-                      aria-label={project.liveLink}
-                    >
-                      Website
-                    </a>
-                  </li>
+                  {project.liveLink ? (
+                    <li>
+                      <a
+                        href={project.liveLink}
+                        rel="noreferrer"
+                        target="_blank"
+                        aria-label={project.liveLink}
+                      >
+                        Website
+                      </a>
+                    </li>
+                  ) : (
+                    <></>
+                  )}
                   {project.repoLink ? (
                     <li>
                       <a
