@@ -10,6 +10,7 @@ import usabilityTest from "../../pdfs/RMeher_Phase 4 Report_310.pdf";
 import goveePic from "../../pdfs/goveeAppPhase3.png";
 import blog from "../../images/blogrm.jpg";
 import vpcPic from "../../images/vpcPic.png";
+import regexGistPic from "../../images/regexGist.png";
 
 const writings = [
   {
@@ -60,6 +61,14 @@ const writings = [
     desc: "Annual report and call for donations. Written for the Grand Marais, MN Violence Prevention Center.",
     pdf: "https://us11.campaign-archive.com/?e=__test_email__&u=5f53fb7bab478dd614984056f&id=0399a994a4",
     image: vpcPic,
+  },
+  {
+    id: 9,
+    title: "Tutorial: Making a URL-Matching Regex",
+    date: "September 2022",
+    desc: "GitHub gist for learning about regex and building your own regular expression.",
+    pdf: "https://gist.github.com/archonology/467158f6d4becd1618d8ef6e1240af83",
+    image: regexGistPic,
   },
   {
     id: 7,
