@@ -72,7 +72,7 @@ While in ongoing development, the CWP is fully functional and is being improved 
       "JSON Web Token",
       "EmailJS",
     ],
-    liveLink: "https://www.childwelfareportal.org/",
+    liveLink: "https://childwelfareportal.herokuapp.com/",
     repoLink: "https://github.com/archonology/CW-Portal",
     image: cwp,
   },
