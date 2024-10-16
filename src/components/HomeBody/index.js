@@ -28,7 +28,7 @@ const HomeBody = () => {
 
       <section className="aboutbox">
         <div id="abouttext">
-          <p>
+          {/* <p>
             Coding demands knowing as much about people as it does about the
             ever changing sea of programming languages, frameworks, and
             libraries. It isn’t enough to be a wizard at optimization:
@@ -36,8 +36,8 @@ const HomeBody = () => {
             expect software to understand their needs, to be fluid, and to be
             easy on their eyes and minds.
           </p>
-          <br />
-          <p>
+          <br /> */}
+          {/* <p>
             That is why <strong>Reed Meher</strong> is the kind of developer
             you’re looking for. His most recent years have been a complete
             immersion in <strong>JavaScript, Python, Angular, React</strong> and
@@ -47,13 +47,13 @@ const HomeBody = () => {
             foreign language, and social work, which has helped him become a
             skilled <strong>technical writer</strong>, researcher, teammate, and
             leader.
-          </p>
+          </p> */}
           <br />
           <p>
-            Communication, tenacity, accessibility, and empathy are at the core
-            of his work and his passion. Reed lives by the value that there is
-            always more to learn and that no matter how well built something is
-            it can always be better.
+            At his core, <strong>Reed Meher</strong> is all about communication,
+            Creativity, tenacity, and the pursuit of solutions. He lives by the
+            value that there is always more to learn and that no matter how well
+            built something is it can always be better.
           </p>
           <br />
           <p>
