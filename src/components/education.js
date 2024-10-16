@@ -17,22 +17,22 @@ const education = [
     image:
       "https://curator-assets.b-cdn.net/5471409d-fb56-475f-9de4-88472b8441b6/337054041.jpg?width=480&quality=75",
   },
-  {
-    id: 2,
-    award: "Bachelor of Science, Information Science & Technology",
-    institution: "University of Wisconsin, Milwaukee",
-    dates: "01/2024 - present",
-    status: "current student",
-    description:
-      " Information Science foundations, UX/UI testing, WCAG 2 Accessibility Testing, Python coding, WordPress, technical writing, and web development.",
-    gpa: "",
-    link: "https://uwm.edu/informationstudies/academic-programs/information-science-and-technology/",
-    certificate: "",
-    linkTitle: "Program Home Page",
-    type: "Degree",
-    image:
-      "https://uwm.edu/wp-content/uploads/2021/10/aerial-uwmcampus-milwaukee-1500x650-1.jpg",
-  },
+  // {
+  //   id: 2,
+  //   award: "Bachelor of Science, Information Science & Technology",
+  //   institution: "University of Wisconsin, Milwaukee",
+  //   dates: "01/2024 - present",
+  //   status: "current student",
+  //   description:
+  //     " Information Science foundations, UX/UI testing, WCAG 2 Accessibility Testing, Python coding, WordPress, technical writing, and web development.",
+  //   gpa: "",
+  //   link: "https://uwm.edu/informationstudies/academic-programs/information-science-and-technology/",
+  //   certificate: "",
+  //   linkTitle: "Program Home Page",
+  //   type: "Degree",
+  //   image:
+  //     "https://uwm.edu/wp-content/uploads/2021/10/aerial-uwmcampus-milwaukee-1500x650-1.jpg",
+  // },
   {
     id: 3,
     award: "Full Stack Web Development Certificate",
@@ -59,7 +59,7 @@ const education = [
     status: "graduated",
     description:
       "Editing, creative writing, research, world cultures, and design via a minor in Art.",
-    gpa: "3.75",
+    // gpa: "3.75",
     link: "https://morris.umn.edu/academics/english#tab-overview",
     linkTitle: "Visit Program Page",
     certificate: "",
