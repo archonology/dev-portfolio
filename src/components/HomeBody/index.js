@@ -98,8 +98,8 @@ const HomeBody = () => {
             duration={5000}
           ></Image>
           <figcaption style={{ marginTop: "1rem" }}>
-            Reed is based in Minnesota with his wife, three daugthers, their big
-            golden dog, and an all-knowing cat.
+            Reed is based in Minnesota with his wife, three daugthers, a big
+            golden dog, and a noisy tuxedo cat.
           </figcaption>
         </figure>
       </section>

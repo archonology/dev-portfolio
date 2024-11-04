@@ -67,7 +67,7 @@ export default function Header() {
                 Coding
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#/writing"
                 onClick={handleClick3}
@@ -75,7 +75,7 @@ export default function Header() {
               >
                 Writing
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="#/contact"
