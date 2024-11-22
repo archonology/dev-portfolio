@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import Image from "mui-image";
 import emailjs from "@emailjs/browser";
 import { validateEmail } from "../utils/validation";
-import ocean from "../images/ocean.png";
+import ocean from "../images/computes.jpeg";
 
 const Contact = () => {
   const [name, setName] = useState("");

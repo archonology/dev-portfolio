@@ -1,5 +1,5 @@
 import Quotes from "../Quotes";
-import ocean from "../../images/ocean.png";
+import ocean from "../../images/computes.jpeg";
 import Image from "mui-image";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";

@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import Image from "mui-image";
-import ocean from "../images/ocean.png";
+import ocean from "../images/computes.jpeg";
 
 const ProjCard = React.lazy(() => import("../components/ProjectCard"));
 

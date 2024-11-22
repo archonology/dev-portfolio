@@ -7,7 +7,7 @@
 .quotebox {
   background-color: black;
   width: 52svw;
-  height: 38svh;
+  height: 32svh;
   margin-left: 5%;
   margin-top: 5%;
   z-index: 1;
@@ -39,7 +39,7 @@ a {
 }
 
 q {
-  font-size: 200%;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1.5;
 }
