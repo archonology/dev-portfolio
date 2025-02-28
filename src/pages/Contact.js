@@ -45,10 +45,10 @@ const Contact = () => {
       return;
     }
     emailjs.sendForm(
-      "service_8vauvgr",
+      "service_3dgvq19",
       "template_favgkfg",
       form.current,
-      "5oouP9wFVBIv7Jaue"
+      "9sgFkM95lTANHeSj5"
     );
     setName("");
     setEmail("");
