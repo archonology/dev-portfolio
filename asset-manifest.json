@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.fed4c532.css",
-    "main.js": "/static/js/main.2e37b37f.js",
+    "main.js": "/static/js/main.e609b7d5.js",
     "static/js/541.d1e29750.chunk.js": "/static/js/541.d1e29750.chunk.js",
-    "static/js/704.2efed643.chunk.js": "/static/js/704.2efed643.chunk.js",
+    "static/js/545.ba31a9ae.chunk.js": "/static/js/545.ba31a9ae.chunk.js",
     "static/js/790.8c61ed29.chunk.js": "/static/js/790.8c61ed29.chunk.js",
     "static/js/453.de0be941.chunk.js": "/static/js/453.de0be941.chunk.js",
     "static/media/ocean.png": "/static/media/ocean.24c37a80e3bb7a528ab1.png",
@@ -27,18 +27,19 @@
     "static/media/termFinder.png": "/static/media/termFinder.18879df64939d2aae9a7.png",
     "static/media/shorewoodSwim.png": "/static/media/shorewoodSwim.f4f6dffd630794e1d6ca.png",
     "static/media/RMeher_310_heuristicEval_2024.pdf": "/static/media/RMeher_310_heuristicEval_2024.dec3aa6d30f480b8dcfd.pdf",
+    "static/media/mathmatica.png": "/static/media/mathmatica.6f06fc81c78023533187.png",
     "static/media/computes.jpeg": "/static/media/computes.efd08018560505758bae.jpeg",
     "static/media/imgEffectPic.png": "/static/media/imgEffectPic.c90ac35712ff6633f942.png",
     "index.html": "/index.html",
     "main.fed4c532.css.map": "/static/css/main.fed4c532.css.map",
-    "main.2e37b37f.js.map": "/static/js/main.2e37b37f.js.map",
+    "main.e609b7d5.js.map": "/static/js/main.e609b7d5.js.map",
     "541.d1e29750.chunk.js.map": "/static/js/541.d1e29750.chunk.js.map",
-    "704.2efed643.chunk.js.map": "/static/js/704.2efed643.chunk.js.map",
+    "545.ba31a9ae.chunk.js.map": "/static/js/545.ba31a9ae.chunk.js.map",
     "790.8c61ed29.chunk.js.map": "/static/js/790.8c61ed29.chunk.js.map",
     "453.de0be941.chunk.js.map": "/static/js/453.de0be941.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fed4c532.css",
-    "static/js/main.2e37b37f.js"
+    "static/js/main.e609b7d5.js"
   ]
 }
