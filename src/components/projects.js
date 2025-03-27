@@ -9,7 +9,7 @@ import portpic from "../images/portfolio.jpg";
 import clipzPic from "../images/clipzPic.png";
 import imgEffPic from "../images/imgEffectPic.png";
 import termFindPic from "../images/termFinder.png";
-
+import mathmaticaPic from "../images/mathmatica.png";
 const projects = [
   {
     id: 9,
@@ -30,6 +30,17 @@ const projects = [
     liveLink: "https://clipz-for-gamers.vercel.app/",
     repoLink: "https://github.com/archonology/clipz-for-Gamers/",
     image: clipzPic,
+  },
+  {
+    id: 15,
+    title: "Mathmatica",
+    date: "Winter 2025",
+    description:
+      "My eldest daughter is in 4th grade. She told me she wanted to be the fastest in her class at solving multipication problems and wished she had a way she could practice beyond the worksheets she gets at school. For me, this sounded like the perfect coding challenge to spruce up on my web development essentials and a chance to inspire my kids with code. That is how Mathmatica came about.",
+    techStack: ["JavaScript", "CSS", "HTML", "Bootstrap", "GitHub"],
+    liveLink: "https://archonology.github.io/Mathmatica/",
+    repoLink: "https://github.com/archonology/Mathmatica",
+    image: mathmaticaPic,
   },
   {
     id: 10,
@@ -187,14 +198,6 @@ The website was completely redesign and launched with board approval in less tha
     repoLink: "https://github.com/archonology/dev-portfolio",
     image: portpic,
   },
-  // {
-  //     title: "Web Wedding Invite",
-  //     description: "A landing page that acts as a wedding invite. Built with React and Vite, this full stack site lets the host create a private login user that can be shared with their gueslist. Reach out to MeherDevs on the contact page to get login password.",
-  //     techStack: "ReactJS | GraphQL | Material UI | Vite | Render",
-  //     liveLink: "https://www.reedandheidi.com",
-  //     repoLink: "https://github.com/archonology/wedding-party",
-  //     image: wedding
-  // },
   // {
   //     title: "A Night In",
   //     description: "Sometimes a user is looking for a night at home. A Night In helps the user find food and drink recipes as well as find films and shows to watch for the night in. Recipes can be saved to LocalStorage. This was made by a team of three developers. I was in charge of Tailwind research and implementation and creating the cocktail recipe API, writing the frontend code, and developing the user interface.",
