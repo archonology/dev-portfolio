@@ -1,14 +1,27 @@
 :root {
-    --ink: hwb(198 6% 85%);
-    --paper: #ebeced;
-    --nightpaper: hwb(37 93% 0% / 0.994);
-    --primary: hwb(208 19% 37%);
-    --primelight:hwb(208 29% 7%);
-    --alert: #ff2a00;
-    --secondary: hwb(168 1% 66%);
-    --secondHover: hwb(168 1% 57%);
-    --tirtiary: hwb(168 1% 39%);
-    --deepGreen: hwb(167 2% 86%);
-    --deepOcean: #151d30;
-    --nightOcean: #012234;
+  --ink: hwb(198 6% 85%);
+  --paper: #fefefe;
+  --paper: #131313;
+  --nightpaper: hwb(37 93% 0% / 0.994);
+  --nightpaper: hwb(60 100% 0% / 0.994);
+  --primary: hwb(208 19% 37%);
+  --primary: hwb(208 39% 6%);
+  --primary: hwb(90 55% 13%);
+  --primary: hwb(12 23% 0%);
+  /* --primary: hwb(56 15% 1%); */
+  --primelight: hwb(210 85% 12%);
+  --alert: #ff2a00;
+  --secondary: hwb(168 1% 66%);
+  --secondary: hwb(191 62% 9%);
+  --secondHover: hwb(168 1% 57%);
+  --secondHover: hwb(168 1% 18%);
+  --secondHover: hwb(60 0% 11%);
+  --tirtiary: hwb(168 1% 33%);
+  --deepGreen: hwb(167 2% 86%);
+  --deepGreen: hwb(166 45% 48%);
+  --lightGreen: hwb(164 79% 11%);
+  --deepOcean: #151d30;
+  --deepOcean: #9a9b9b;
+  --nightOcean: #012234;
+  --nightOcean: #fdfdfd;
 }

@@ -1,5 +1,5 @@
 import Quotes from "../Quotes";
-import ocean from "../../images/computes.jpeg";
+import ocean from "../../images/computer-program-coding-screen.jpg";
 import Image from "mui-image";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -19,8 +19,8 @@ const HomeBody = () => {
         <Image
           id="ocean"
           src={ocean}
-          bgColor="black"
-          alt="detail of an ocean wave"
+          bgColor="var(--paper)"
+          alt="code in many colors"
           duration={5000}
           height={600}
         ></Image>
@@ -50,10 +50,10 @@ const HomeBody = () => {
           </p> */}
           <br />
           <p>
-            At his core, <strong>Reed Meher</strong> is all about communication,
-            Creativity, tenacity, and the pursuit of solutions. He lives by the
-            value that there is always more to learn and that no matter how well
-            built something is it can always be better.
+            Reed is all about communication, Creativity, tenacity, and the
+            pursuit of solutions. He lives by the value that there is always
+            more to learn and that no matter how well built something is it can
+            always be better.
           </p>
           <br />
           <p>
