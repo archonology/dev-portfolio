@@ -5,6 +5,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-family: monospace;
   line-height: 1.2;
   background-color: black;
   background-color: var(--nightOcean);
@@ -20,7 +21,7 @@ header {
 }
 
 h1 {
-  font-size: 5.3svw;
+  font-size: 3.4svw;
   font-weight: 700;
   line-height: 1;
   font-style: italic;
@@ -36,16 +37,17 @@ h2 {
 
 header h2 {
   margin-bottom: 1rem;
-  font-size: 2.1svh;
+  font-size: 1.8svh;
   font-weight: 500;
   font-style: italic;
-  color: white;
+  color: var(--paper);
 }
 
 nav ul {
   margin-top: 2rem;
   display: flex;
   justify-content: left;
+  color: var(--ink);
 }
 
 header h1,
@@ -54,12 +56,28 @@ nav ul li {
 }
 
 nav ul li a {
-  padding: 7px;
-  font-size: 2.2svw;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5svw;
 }
 
 strong {
   color: var(--tirtiary);
+}
+
+button {
+  background-color: var(--primary);
+  /* background-color: var(--secondary); */
+  border: none;
+  color: var(--paper);
+  font-size: 110%;
+  font-weight: 700;
+}
+
+.not-clicked {
+  color: var(--ink);
 }
 
 #about {
@@ -68,7 +86,8 @@ strong {
 
 .aboutbox {
   display: flex;
-  background-color: rgb(10, 20, 49);
+  background-color: var(--paper);
+  color: var(--nightpaper);
   width: 100%;
   height: auto;
 }
@@ -79,10 +98,15 @@ strong {
   float: right;
   z-index: 1;
   margin-right: 1%;
+  color: var(--ink);
 }
 
 .iconUl:hover {
   cursor: pointer;
+}
+
+.homeLinks {
+  color: black;
 }
 
 .toTop {
@@ -95,9 +119,9 @@ strong {
 .toTop-button {
   width: 65px;
   height: 55px;
-  background-color: var(--deepOcean);
+  background-color: var(--paper);
   border-radius: 10px;
-  color: var(--paper);
+  color: var(--nightpaper);
   border: none;
   box-shadow: 0 10px 15px #0000001f;
   transition: 0.5s ease-in-out;
@@ -114,7 +138,7 @@ strong {
   display: flex;
   justify-content: left;
   align-items: left;
-  background-color: rgb(243, 244, 245);
+  /* background-color: rgb(243, 244, 245); */
 }
 
 .oceanBox {
@@ -124,8 +148,8 @@ strong {
 #abouttext {
   text-align: left;
   line-height: 1.4;
-  font-size: 18px;
-  color: var(--paper);
+  font-size: 20px;
+  /* color: var(--paper); */
   padding: 9svw;
   padding-top: 7svw;
   padding-bottom: 7rem;
@@ -149,7 +173,7 @@ strong {
   flex-direction: row;
   justify-content: left;
   padding: 3rem;
-  background-color: rgb(23, 24, 25);
+  /* background-color: var(--paper); */
   align-items: start;
 }
 
@@ -164,7 +188,8 @@ strong {
   margin: 1rem;
   max-width: 400px;
   height: 75svh;
-  background-color: var(--deepGreen);
+  background-color: var(--paper);
+  color: var(--nightpaper);
 }
 
 .award h3 {
@@ -208,7 +233,8 @@ strong {
   flex-wrap: wrap;
   flex-direction: row-reverse;
   padding: 2em 4em 15em 4em;
-  background-color: rgb(23, 24, 25);
+  background-color: var(--paper);
+  color: var(--nightpaper);
 }
 
 .projBox:nth-child(even) {
@@ -216,13 +242,14 @@ strong {
 }
 
 .projBox:nth-child(even) {
-  background-color: black;
+  background-color: var(--nightpaper);
+  color: var(--paper);
 }
 
-.projBox:nth-child(3),
+/* .projBox:nth-child(3),
 .projBox:nth-child(7) {
-  background-color: var(--deepOcean);
-}
+  background-color: var(--nightpaper);
+} */
 
 #projImgBox {
   flex: 1 0 30%;
@@ -263,7 +290,7 @@ strong {
   margin-top: 0.4rem;
   padding: 0.5rem;
   background-color: var(--primary);
-  color: white;
+  color: var(--paper);
   font-weight: 600;
 }
 
@@ -271,8 +298,8 @@ strong {
   margin-right: 0.4rem;
   margin-top: 0.5rem;
   padding: 0.8rem;
-  background-color: var(--secondary);
-  color: white;
+  background-color: var(--tirtiary);
+  color: var(--paper);
   border-radius: 7px;
   transition: 0.5s ease;
 }
@@ -289,7 +316,9 @@ strong {
   flex-direction: row-reverse;
   padding: 2rem;
   height: 100svh;
-  background-color: rgb(23, 24, 25);
+  background-color: var(--paper);
+  color: var(--nightpaper);
+  font-size: larger;
 }
 
 #contactTextBox {
@@ -306,7 +335,7 @@ form {
 input,
 textarea {
   background-color: var(--nightOcean);
-  color: white;
+  color: var(--paper);
   border: none;
 }
 
@@ -334,13 +363,8 @@ input:focus {
   color: var(--alert);
 }
 
-button {
-  background-color: var(--primary);
-  background-color: var(--secondary);
-  border: none;
-  color: var(--paper);
-  font-size: 110%;
-  font-weight: 700;
+.sendBtn {
+  background-color: var(--tirtiary);
 }
 
 .contact-dark .error-text {
@@ -364,15 +388,17 @@ footer p {
 
 .clicked,
 .clicked li {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  transition: 0.5s ease-in;
+  /* background-color: var(--ink);
+  color: var(--nightpaper); */
+  font-weight: 700;
+  color: var(--ink);
+  /* transition: 0.5s ease-in; */
 }
 
-nav ul a li:hover,
+/* nav ul a li:hover,
 nav ul a li:focus {
-  color: white;
-}
+  color: var(--paper);
+} */
 
 .homeLinks a {
   transition: 0.5s ease;
@@ -396,7 +422,7 @@ nav ul a li:focus {
 }
 
 figure img {
-  opacity: 70%;
+  opacity: 90%;
   transition: 0.5s ease;
 }
 
@@ -407,15 +433,15 @@ figure img:active {
 }
 
 .toTop-button:hover {
-  background-color: var(--primary);
+  background-color: var(--tirtiary);
 }
 
 .toTop-button:focus {
-  background-color: var(--deepOcean);
+  background-color: var(--paper);
 }
 
 #projImgBox:nth-child(1) {
-  opacity: 0.65;
+  opacity: 0.9;
   transition: 0.5s ease-in-out;
 }
 
@@ -431,7 +457,7 @@ button {
 button:hover,
 button:focus,
 button:active {
-  outline: 1px solid black;
+  outline: 1px solid var(--ink);
   background-color: var(--secondHover);
 }
 

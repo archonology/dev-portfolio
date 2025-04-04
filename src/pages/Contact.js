@@ -1,8 +1,8 @@
 import { useState, useRef } from "react";
-import Image from "mui-image";
+// import Image from "mui-image";
 import emailjs from "@emailjs/browser";
 import { validateEmail } from "../utils/validation";
-import ocean from "../images/computes.jpeg";
+// import ocean from "../images/computes.jpeg";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -65,13 +65,13 @@ const Contact = () => {
   return (
     <>
       <div className="oceanBox">
-        <Image
+        {/* <Image
           id="ocean"
           src={ocean}
           bgColor="black"
           alt="detail of an ocean wave"
           duration={5000}
-        ></Image>
+        ></Image> */}
       </div>
       <div id="contactBox">
         <div id="contactTextBox">
@@ -117,7 +117,7 @@ const Contact = () => {
               cols="30"
             />
             <br />
-            <button type="submit" className="form-row">
+            <button type="submit" className="form-row sendBtn">
               <p>Send</p>
             </button>
             {errorMessage && (
