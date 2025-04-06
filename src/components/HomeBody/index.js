@@ -22,7 +22,7 @@ const HomeBody = () => {
           bgColor="var(--paper)"
           alt="code in many colors"
           duration={5000}
-          height={600}
+          height={450}
         ></Image>
       </div>
 
