@@ -1,9 +1,9 @@
 @media screen and (max-width: 1024px) {
   h2 {
-    font-size: 5svw;
+    font-size: 3svw;
   }
   nav ul li a {
-    font-size: 3svw;
+    font-size: 2svw;
   }
   .quotebox {
     height: 200px;
@@ -19,7 +19,6 @@
     flex-direction: column;
     justify-content: start;
     padding: 2em 4em 15em 4em;
-    background-color: rgb(23, 24, 25);
     align-items: normal;
   }
 
@@ -30,7 +29,6 @@
     width: 80svw;
     height: 70svh;
     margin: 1rem;
-    background-color: var(--deepGreen);
   }
 
   .projBox {
@@ -58,7 +56,6 @@
     flex-wrap: wrap;
     padding: 2rem;
     height: auto;
-    background-color: rgb(23, 24, 25);
   }
 
   #contactTextBox {
@@ -75,11 +72,11 @@
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 7svw;
+    font-size: 5svw;
   }
 
   h2 {
-    font-size: 5svw;
+    font-size: 4svw;
   }
   header h2 {
     font-size: 1.7svw;
@@ -89,8 +86,9 @@
     font-size: 1.8svw;
   }
   nav ul li a {
-    font-size: 4svw;
+    font-size: 2svw;
   }
+
   #ocean {
     height: 50svh;
   }
@@ -112,7 +110,6 @@
   .aboutbox {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(10, 20, 49);
     width: 100%;
     height: auto;
     justify-content: center;
@@ -135,7 +132,6 @@
     justify-content: left;
     padding: 2rem;
     padding-bottom: 6rem;
-    background-color: rgb(23, 24, 25);
     align-items: center;
   }
 
@@ -145,7 +141,6 @@
     width: 75svw;
     height: 80svh;
     margin: 1rem;
-    background-color: var(--deepGreen);
   }
 
   .proj-columns {
@@ -164,7 +159,6 @@
     flex-wrap: wrap;
     padding: 1rem;
     height: auto;
-    background-color: rgb(23, 24, 25);
   }
 
   #contactTextBox {
@@ -196,21 +190,21 @@
   }
 
   h1 {
-    font-size: 12svw;
+    font-size: 9svw;
     line-height: 1.1;
   }
 
   header h2 {
-    font-size: 2.7svw;
+    font-size: 2.9svw;
   }
 
   h2 {
-    font-size: 9svw;
+    font-size: 8svw;
   }
 
   header h4 {
     margin-bottom: 3rem;
-    font-size: 2.5svw;
+    font-size: 2svw;
   }
 
   nav ul {
@@ -218,14 +212,13 @@
   }
 
   nav ul li a {
-    padding: 7px;
-    font-size: 5.4svw;
+    padding: 12px;
+    font-size: 4svw;
   }
 
   .quotebox {
-    background-color: rgba(0, 0, 0, 0.895);
     width: 82svw;
-    height: 130px;
+    height: 145px;
     margin: 8%;
   }
 
@@ -274,7 +267,6 @@
     flex-wrap: wrap;
     padding: 0.5rem;
     height: auto;
-    background-color: rgb(23, 24, 25);
   }
 
   #contactTextBox {

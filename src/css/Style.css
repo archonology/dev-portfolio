@@ -173,7 +173,6 @@ button {
   flex-direction: row;
   justify-content: left;
   padding: 3rem;
-  /* background-color: var(--paper); */
   align-items: start;
 }
 
