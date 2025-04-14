@@ -8,4 +8,4 @@ see it deployed at https://www.meherdevs.com/
 
 ## Screenshot
 
-![Home](/src/images/portfolio.jpg)
+![Home](/src/images/portf2025.png)

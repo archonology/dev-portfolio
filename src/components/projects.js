@@ -5,7 +5,7 @@ import bakpak from "../images/BakPak2.jpg";
 import vpc from "../images/vpcBanner1.jpeg";
 import blog from "../images/blogrm.jpg";
 import wanderComma from "../images/wandercomma2.png";
-import portpic from "../images/portfolio.jpg";
+import portpic from "../images/portf2025.png";
 import clipzPic from "../images/clipzPic.png";
 import imgEffPic from "../images/imgEffectPic.png";
 import termFindPic from "../images/termFinder.png";

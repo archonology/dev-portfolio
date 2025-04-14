@@ -13,7 +13,8 @@ import vpcPic from "../../images/vpcPic.png";
 import regexGistPic from "../../images/regexGist.png";
 import ifEval from "../../pdfs/RMeher_310_InterfaceEvaluation_Jan2024.pdf";
 import ifEvalPic from "../../pdfs/ifEvalPic.png";
-
+import bjamPdf from "../../pdfs/CCWFC-Annual-Report-2016 copy.pdf";
+import bJamPic from "../../images/areportBjam.png";
 const writings = [
   {
     id: 2,
@@ -46,6 +47,14 @@ const writings = [
     desc: "GitHub gist for learning about regex and building your own regular expression.",
     pdf: "https://gist.github.com/archonology/467158f6d4becd1618d8ef6e1240af83",
     image: regexGistPic,
+  },
+  {
+    id: 14,
+    title: "Co-op Annual Report",
+    date: "Fall 2016",
+    desc: "During my time as a marketing manager for the Cook County Whole Foods Co-op in Grand Marais, MN (back then my surname was 'Schmidt'), I was the lead editor, writer, graphic designer, and photographer of the quarterly periodical, 'The Blueberry Jam'. This is the Annual Report issue from 2016.",
+    pdf: bjamPdf,
+    image: bJamPic,
   },
   {
     id: 8,
