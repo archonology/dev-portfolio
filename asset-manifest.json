@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.5f131a2d.css",
-    "main.js": "/static/js/main.7f6bf64d.js",
+    "main.js": "/static/js/main.33c3f012.js",
     "static/js/450.641f4e9a.chunk.js": "/static/js/450.641f4e9a.chunk.js",
-    "static/js/545.ba31a9ae.chunk.js": "/static/js/545.ba31a9ae.chunk.js",
-    "static/js/770.ddfd83ca.chunk.js": "/static/js/770.ddfd83ca.chunk.js",
+    "static/js/848.937e47f4.chunk.js": "/static/js/848.937e47f4.chunk.js",
+    "static/js/930.d8db7c13.chunk.js": "/static/js/930.d8db7c13.chunk.js",
     "static/js/453.de0be941.chunk.js": "/static/js/453.de0be941.chunk.js",
+    "static/media/CCWFC-Annual-Report-2016 copy.pdf": "/static/media/CCWFC-Annual-Report-2016 copy.b87055a18babc87dbd9a.pdf",
     "static/media/computer-program-coding-screen.jpg": "/static/media/computer-program-coding-screen.ffada8fa019880237304.jpg",
     "static/media/ocean.png": "/static/media/ocean.24c37a80e3bb7a528ab1.png",
+    "static/media/areportBjam.png": "/static/media/areportBjam.1cfa9a978a690d907c4d.png",
+    "static/media/portf2025.png": "/static/media/portf2025.1223c93ab71587ec5a13.png",
     "static/media/clipzPic.png": "/static/media/clipzPic.0ad0603bb61ed447b4e3.png",
     "static/media/reedBW.jpeg": "/static/media/reedBW.0691bd106de4f81c8a8a.jpeg",
     "static/media/Managing A WordPress Blog Manual.pdf": "/static/media/Managing A WordPress Blog Manual.be4051f3026c9b419d47.pdf",
@@ -20,7 +23,6 @@
     "static/media/reimaginingData.png": "/static/media/reimaginingData.e178072aa80fcb5d1de1.png",
     "static/media/lifeWithAi.png": "/static/media/lifeWithAi.4113887188d88aeee376.png",
     "static/media/vpcPic.png": "/static/media/vpcPic.4c5a5384f9fa909e976d.png",
-    "static/media/portfolio.jpg": "/static/media/portfolio.2363bca8c341d42f4589.jpg",
     "static/media/RMeher_310_InterfaceEvaluation_Jan2024.pdf": "/static/media/RMeher_310_InterfaceEvaluation_Jan2024.562f096bf5119eaa93ef.pdf",
     "static/media/BakPak2.jpg": "/static/media/BakPak2.4d4edca76f95498740fa.jpg",
     "static/media/Reimagining Information_RMeher_110_Report1_2024.pdf": "/static/media/Reimagining Information_RMeher_110_Report1_2024.bbeb00871c05b874f365.pdf",
@@ -38,14 +40,14 @@
     "static/media/imgEffectPic.png": "/static/media/imgEffectPic.c90ac35712ff6633f942.png",
     "index.html": "/index.html",
     "main.5f131a2d.css.map": "/static/css/main.5f131a2d.css.map",
-    "main.7f6bf64d.js.map": "/static/js/main.7f6bf64d.js.map",
+    "main.33c3f012.js.map": "/static/js/main.33c3f012.js.map",
     "450.641f4e9a.chunk.js.map": "/static/js/450.641f4e9a.chunk.js.map",
-    "545.ba31a9ae.chunk.js.map": "/static/js/545.ba31a9ae.chunk.js.map",
-    "770.ddfd83ca.chunk.js.map": "/static/js/770.ddfd83ca.chunk.js.map",
+    "848.937e47f4.chunk.js.map": "/static/js/848.937e47f4.chunk.js.map",
+    "930.d8db7c13.chunk.js.map": "/static/js/930.d8db7c13.chunk.js.map",
     "453.de0be941.chunk.js.map": "/static/js/453.de0be941.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f131a2d.css",
-    "static/js/main.7f6bf64d.js"
+    "static/js/main.33c3f012.js"
   ]
 }
