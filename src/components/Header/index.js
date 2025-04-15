@@ -45,7 +45,7 @@ export default function Header() {
     <>
       <header>
         <h1>REED MEHER</h1>
-        <h2>MeherDevs LLC. // Coding & Writing</h2>
+        <h2>MeherDevs LLC. // Writing & Coding</h2>
         <nav>
           <ul>
             <li>
@@ -60,20 +60,20 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#/portfolio"
-                onClick={handleClick2}
-                className={clickState2}
-              >
-                Coding
-              </a>
-            </li>
-            <li>
-              <a
                 href="#/writing"
                 onClick={handleClick3}
                 className={clickState3}
               >
                 Writing
+              </a>
+            </li>
+            <li>
+              <a
+                href="#/portfolio"
+                onClick={handleClick2}
+                className={clickState2}
+              >
+                Coding
               </a>
             </li>
             <li>
