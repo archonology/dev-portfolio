@@ -1,5 +1,20 @@
 const education = [
   {
+    id: 5,
+    award: "Technical Writing Master Class",
+    institution: "Udemy",
+    dates: "04/2025 - Present",
+    status: "in progress",
+    description: "A deep dive into technical writing foundations.",
+    gpa: "",
+    link: "https://www.udemy.com/course/tech-writers-master-class/",
+    linkTitle: "Program Home Page",
+    certificate: "",
+    certificateTitle: "See Certificate",
+    type: "Certificate",
+    image: "",
+  },
+  {
     id: 1,
     award: "Full Stack Angular Developer Certificate",
     institution: "Zero to Mastery",
@@ -17,22 +32,22 @@ const education = [
     image:
       "https://curator-assets.b-cdn.net/5471409d-fb56-475f-9de4-88472b8441b6/337054041.jpg?width=480&quality=75",
   },
-  // {
-  //   id: 2,
-  //   award: "Bachelor of Science, Information Science & Technology",
-  //   institution: "University of Wisconsin, Milwaukee",
-  //   dates: "01/2024 - present",
-  //   status: "current student",
-  //   description:
-  //     " Information Science foundations, UX/UI testing, WCAG 2 Accessibility Testing, Python coding, WordPress, technical writing, and web development.",
-  //   gpa: "",
-  //   link: "https://uwm.edu/informationstudies/academic-programs/information-science-and-technology/",
-  //   certificate: "",
-  //   linkTitle: "Program Home Page",
-  //   type: "Degree",
-  //   image:
-  //     "https://uwm.edu/wp-content/uploads/2021/10/aerial-uwmcampus-milwaukee-1500x650-1.jpg",
-  // },
+  {
+    id: 2,
+    award: "Information Science & Technology",
+    institution: "University of Wisconsin, Milwaukee",
+    dates: "01/2024 - 05/2024",
+    status: "current student",
+    description:
+      "Information Science foundations, UX/UI testing, WCAG 2 Accessibility Testing, Python coding, WordPress, technical writing, and web development.",
+    gpa: "3.92",
+    link: "https://uwm.edu/informationstudies/academic-programs/information-science-and-technology/",
+    certificate: "",
+    linkTitle: "Program Home Page",
+    type: "Post-Bach",
+    image:
+      "https://uwm.edu/wp-content/uploads/2021/10/aerial-uwmcampus-milwaukee-1500x650-1.jpg",
+  },
   {
     id: 3,
     award: "Full Stack Web Development Certificate",

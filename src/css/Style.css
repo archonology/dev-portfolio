@@ -7,9 +7,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-family: monospace;
   line-height: 1.2;
-  background-color: black;
-  background-color: var(--nightOcean);
-  color: var(--paper);
+  background-color: var(--paper);
+  color: var(--nightpaper);
   transition: 1s ease-in-out;
 }
 
