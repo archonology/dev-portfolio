@@ -28,27 +28,6 @@ const HomeBody = () => {
 
       <section className="aboutbox">
         <div id="abouttext">
-          {/* <p>
-            Coding demands knowing as much about people as it does about the
-            ever changing sea of programming languages, frameworks, and
-            libraries. It isn’t enough to be a wizard at optimization:
-            developers also need to be oriented around user experience. People
-            expect software to understand their needs, to be fluid, and to be
-            easy on their eyes and minds.
-          </p>
-          <br /> */}
-          {/* <p>
-            That is why <strong>Reed Meher</strong> is the kind of developer
-            you’re looking for. His most recent years have been a complete
-            immersion in <strong>JavaScript, Python, Angular, React</strong> and
-            the myriad of supporting libraries, tools, and technologies that
-            populate the ocean of web development. Yet Reed comes to the coding
-            world with a long background in writing, teaching English as a
-            foreign language, and social work, which has helped him become a
-            skilled <strong>technical writer</strong>, researcher, teammate, and
-            leader.
-          </p> */}
-          <br />
           <p>
             Reed is all about communication, creativity, tenacity, and the
             pursuit of solutions. He lives by the value that there is always
@@ -78,7 +57,9 @@ const HomeBody = () => {
             out all those years ago, and it is here still in the return.{" "}
           </p>
           <br />
-          <p>
+          <hr />
+          <br />
+          <p style={{ color: "var(--secondary)" }}>
             Check out Reed's blog and follow him on Github or LinkedIn:
             <span className="homeLinks" style={{}}>
               {" "}
