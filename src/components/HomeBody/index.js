@@ -36,26 +36,26 @@ const HomeBody = () => {
             precepts of technical writing.{" "}
           </p>
           <br />
-          <p>
-            As long as he can remember, Reed wanted to be a writer. But what
-            does a writer write? When he was young, it was all imagination. By
-            the time he was a young man, he desired experience: experience of
-            the world and experience of his place in it. As he sought that
-            experience, he crossed the globe. He studied in Norway. He taught in
-            South Korea. He crossed the USA by bus, rail, and car. From waiting
-            tables to fixing fiddles to marketing to social work to coding, he
-            experienced as much as he could. All the while, he wrote.
-          </p>
-          <br />
-          <p>
-            Life isn’t always a straight line, and Reed has always looked for
-            the crooked path, the hidden passage, and the stone unturned. Now,
-            he is seeking to put writing at the forefront and bring it out as
-            the central theme in his career. It may have been obscured in the
-            early years, but look close and you will see that the thread of
-            writing never really veered. Writing was the very reason Reed set
-            out all those years ago, and it is here still in the return.{" "}
-          </p>
+          // <p>
+          //   As long as he can remember, Reed wanted to be a writer. But what
+          //   does a writer write? When he was young, it was all imagination. By
+          //   the time he was a young man, he desired experience: experience of
+          //   the world and experience of his place in it. As he sought that
+          //   experience, he crossed the globe. He studied in Norway. He taught in
+          //   South Korea. He crossed the USA by bus, rail, and car. From waiting
+          //   tables to fixing fiddles to marketing to social work to coding, he
+          //   experienced as much as he could. All the while, he wrote.
+          // </p>
+          // <br />
+          // <p>
+          //   Life isn’t always a straight line, and Reed has always looked for
+          //   the crooked path, the hidden passage, and the stone unturned. Now,
+          //   he is seeking to put writing at the forefront and bring it out as
+          //   the central theme in his career. It may have been obscured in the
+          //   early years, but look close and you will see that the thread of
+          //   writing never really veered. Writing was the very reason Reed set
+          //   out all those years ago, and it is here still in the return.{" "}
+          // </p>
           <br />
           <hr />
           <br />
