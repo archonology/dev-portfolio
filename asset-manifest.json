@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.3ca3ab00.css",
-    "main.js": "/static/js/main.1c757006.js",
+    "main.js": "/static/js/main.6725aea2.js",
     "static/js/450.47747053.chunk.js": "/static/js/450.47747053.chunk.js",
     "static/js/848.57b508cc.chunk.js": "/static/js/848.57b508cc.chunk.js",
-    "static/js/930.a46c7be8.chunk.js": "/static/js/930.a46c7be8.chunk.js",
+    "static/js/625.9d80189c.chunk.js": "/static/js/625.9d80189c.chunk.js",
     "static/js/453.de0be941.chunk.js": "/static/js/453.de0be941.chunk.js",
     "static/media/CCWFC-Annual-Report-2016 copy.pdf": "/static/media/CCWFC-Annual-Report-2016 copy.b87055a18babc87dbd9a.pdf",
     "static/media/computer-program-coding-screen.jpg": "/static/media/computer-program-coding-screen.ffada8fa019880237304.jpg",
     "static/media/ocean.png": "/static/media/ocean.24c37a80e3bb7a528ab1.png",
     "static/media/areportBjam.png": "/static/media/areportBjam.1cfa9a978a690d907c4d.png",
     "static/media/portf2025.png": "/static/media/portf2025.1223c93ab71587ec5a13.png",
+    "static/media/GAL_Training_Hanbook_ReDux_2025.pdf": "/static/media/GAL_Training_Hanbook_ReDux_2025.ef15d60533027ce61271.pdf",
     "static/media/clipzPic.png": "/static/media/clipzPic.0ad0603bb61ed447b4e3.png",
     "static/media/reedBW.jpeg": "/static/media/reedBW.0691bd106de4f81c8a8a.jpeg",
     "static/media/Managing A WordPress Blog Manual.pdf": "/static/media/Managing A WordPress Blog Manual.be4051f3026c9b419d47.pdf",
@@ -33,6 +34,7 @@
     "static/media/wandercomma2.png": "/static/media/wandercomma2.3f4f7da924113e563277.png",
     "static/media/termFinder.png": "/static/media/termFinder.18879df64939d2aae9a7.png",
     "static/media/shorewoodSwim.png": "/static/media/shorewoodSwim.f4f6dffd630794e1d6ca.png",
+    "static/media/galTrainingPic.png": "/static/media/galTrainingPic.3d07981583faa3aa550b.png",
     "static/media/RMeher_Life With AI_Paper.pdf": "/static/media/RMeher_Life With AI_Paper.f9956560e5977951c275.pdf",
     "static/media/RMeher_310_heuristicEval_2024.pdf": "/static/media/RMeher_310_heuristicEval_2024.dec3aa6d30f480b8dcfd.pdf",
     "static/media/mathmatica.png": "/static/media/mathmatica.6f06fc81c78023533187.png",
@@ -40,14 +42,14 @@
     "static/media/imgEffectPic.png": "/static/media/imgEffectPic.c90ac35712ff6633f942.png",
     "index.html": "/index.html",
     "main.3ca3ab00.css.map": "/static/css/main.3ca3ab00.css.map",
-    "main.1c757006.js.map": "/static/js/main.1c757006.js.map",
+    "main.6725aea2.js.map": "/static/js/main.6725aea2.js.map",
     "450.47747053.chunk.js.map": "/static/js/450.47747053.chunk.js.map",
     "848.57b508cc.chunk.js.map": "/static/js/848.57b508cc.chunk.js.map",
-    "930.a46c7be8.chunk.js.map": "/static/js/930.a46c7be8.chunk.js.map",
+    "625.9d80189c.chunk.js.map": "/static/js/625.9d80189c.chunk.js.map",
     "453.de0be941.chunk.js.map": "/static/js/453.de0be941.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ca3ab00.css",
-    "static/js/main.1c757006.js"
+    "static/js/main.6725aea2.js"
   ]
 }
