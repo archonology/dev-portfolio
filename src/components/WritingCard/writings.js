@@ -15,7 +15,17 @@ import ifEval from "../../pdfs/RMeher_310_InterfaceEvaluation_Jan2024.pdf";
 import ifEvalPic from "../../pdfs/ifEvalPic.png";
 import bjamPdf from "../../pdfs/CCWFC-Annual-Report-2016 copy.pdf";
 import bJamPic from "../../images/areportBjam.png";
+import galTrain from "../../images/galTrainingPic.png";
+import galPdf from "../../pdfs/GAL_Training_Hanbook_ReDux_2025.pdf";
 const writings = [
+  {
+    id: 17,
+    title: "4th District Guardian ad Litem Training Handbook",
+    date: "May 2025 - June 2025",
+    desc: "Lead technical writer for a training manual to be used by court advocates. Worked with management and the legal team to create this manual and supporting curriculum for new guardians ad litem. Created in my role as a GAL supervisor for Minnesota's largest judicial district.",
+    pdf: galPdf,
+    image: galTrain,
+  },
   {
     id: 2,
     title: "Step-by-Step Guide to Managing a WordPress Blog",

@@ -1,15 +1,31 @@
 const education = [
   {
+    id: 6,
+    award: "BS/MS in Software Engineering",
+    institution: "Western Governors University",
+    dates: "06/2025 - Present",
+    status: "current student",
+    description:
+      "Accelerated competency-based degree program. The graduate will advance their knowledge and skills through a practical, real-world program based on sound principles of Software Engineering.This program revolves around the following primary themes: communication, technical competence, and strategic vision.",
+    gpa: "",
+    link: "https://www.wgu.edu/online-it-degrees/software-engineering-bachelors-program/accelerated.html",
+    certificate: "",
+    linkTitle: "Program Home Page",
+    type: "",
+    image: "",
+  },
+  {
     id: 5,
     award: "Technical Writing Master Class",
     institution: "Udemy",
-    dates: "04/2025 - Present",
+    dates: "04/2025 - 05/2025",
     status: "in progress",
     description: "A deep dive into technical writing foundations.",
     gpa: "",
     link: "https://www.udemy.com/course/tech-writers-master-class/",
     linkTitle: "Program Home Page",
-    certificate: "",
+    certificate:
+      "https://udemy-certificate.s3.amazonaws.com/pdf/UC-b33af12d-b124-4aa2-bb9c-353ba3d38693.pdf",
     certificateTitle: "See Certificate",
     type: "Certificate",
     image: "",
@@ -37,7 +53,7 @@ const education = [
     award: "Information Science & Technology",
     institution: "University of Wisconsin, Milwaukee",
     dates: "01/2024 - 05/2024",
-    status: "current student",
+    status: "",
     description:
       "Information Science foundations, UX/UI testing, WCAG 2 Accessibility Testing, Python coding, WordPress, technical writing, and web development.",
     gpa: "3.92",
@@ -73,8 +89,8 @@ const education = [
     dates: "08/2004 - 05/2004",
     status: "graduated",
     description:
-      "Editing, creative writing, research, world cultures, and design via a minor in Art.",
-    // gpa: "3.75",
+      "Editing, writing, and global perspectives. Graphic Design principles via a minor in Studio Art.",
+    gpa: "3.72",
     link: "https://morris.umn.edu/academics/english#tab-overview",
     linkTitle: "Visit Program Page",
     certificate: "",

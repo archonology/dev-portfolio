@@ -35,7 +35,7 @@ const HomeBody = () => {
             projects he has built with code and words he has written by the
             precepts of technical writing.{" "}
           </p>
-          <br />
+          {/* <br />
           // <p>
           //   As long as he can remember, Reed wanted to be a writer. But what
           //   does a writer write? When he was young, it was all imagination. By
@@ -55,7 +55,7 @@ const HomeBody = () => {
           //   early years, but look close and you will see that the thread of
           //   writing never really veered. Writing was the very reason Reed set
           //   out all those years ago, and it is here still in the return.{" "}
-          // </p>
+          // </p> */}
           <br />
           <hr />
           <br />
