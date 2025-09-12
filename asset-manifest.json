@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.3ca3ab00.css",
-    "main.js": "/static/js/main.153028cb.js",
-    "static/js/450.47747053.chunk.js": "/static/js/450.47747053.chunk.js",
-    "static/js/848.57b508cc.chunk.js": "/static/js/848.57b508cc.chunk.js",
+    "main.js": "/static/js/main.4a67cec9.js",
+    "static/js/450.f1d666f1.chunk.js": "/static/js/450.f1d666f1.chunk.js",
+    "static/js/150.2259ee3b.chunk.js": "/static/js/150.2259ee3b.chunk.js",
     "static/js/625.dbeb6fdc.chunk.js": "/static/js/625.dbeb6fdc.chunk.js",
     "static/js/453.de0be941.chunk.js": "/static/js/453.de0be941.chunk.js",
     "static/media/CCWFC-Annual-Report-2016 copy.pdf": "/static/media/CCWFC-Annual-Report-2016 copy.b87055a18babc87dbd9a.pdf",
@@ -12,8 +12,10 @@
     "static/media/GAL_Training_Hanbook_ReDux_2025.pdf": "/static/media/GAL_Training_Hanbook_ReDux_2025.37e17da9bd374d38771f.pdf",
     "static/media/areportBjam.png": "/static/media/areportBjam.1cfa9a978a690d907c4d.png",
     "static/media/portf2025.png": "/static/media/portf2025.1223c93ab71587ec5a13.png",
+    "static/media/mntour.png": "/static/media/mntour.c1420186dc645e759abf.png",
     "static/media/clipzPic.png": "/static/media/clipzPic.0ad0603bb61ed447b4e3.png",
     "static/media/reedBW.jpeg": "/static/media/reedBW.0691bd106de4f81c8a8a.jpeg",
+    "static/media/mathmatica2.png": "/static/media/mathmatica2.fdcc09d8344857e0f95e.png",
     "static/media/Managing A WordPress Blog Manual.pdf": "/static/media/Managing A WordPress Blog Manual.be4051f3026c9b419d47.pdf",
     "static/media/wpGuide.png": "/static/media/wpGuide.5c03e35c8a588916e3f2.png",
     "static/media/home-party-page.jpg": "/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
@@ -37,19 +39,18 @@
     "static/media/galTrainingPic.png": "/static/media/galTrainingPic.3d07981583faa3aa550b.png",
     "static/media/RMeher_Life With AI_Paper.pdf": "/static/media/RMeher_Life With AI_Paper.f9956560e5977951c275.pdf",
     "static/media/RMeher_310_heuristicEval_2024.pdf": "/static/media/RMeher_310_heuristicEval_2024.dec3aa6d30f480b8dcfd.pdf",
-    "static/media/mathmatica.png": "/static/media/mathmatica.6f06fc81c78023533187.png",
     "static/media/computes.jpeg": "/static/media/computes.efd08018560505758bae.jpeg",
     "static/media/imgEffectPic.png": "/static/media/imgEffectPic.c90ac35712ff6633f942.png",
     "index.html": "/index.html",
     "main.3ca3ab00.css.map": "/static/css/main.3ca3ab00.css.map",
-    "main.153028cb.js.map": "/static/js/main.153028cb.js.map",
-    "450.47747053.chunk.js.map": "/static/js/450.47747053.chunk.js.map",
-    "848.57b508cc.chunk.js.map": "/static/js/848.57b508cc.chunk.js.map",
+    "main.4a67cec9.js.map": "/static/js/main.4a67cec9.js.map",
+    "450.f1d666f1.chunk.js.map": "/static/js/450.f1d666f1.chunk.js.map",
+    "150.2259ee3b.chunk.js.map": "/static/js/150.2259ee3b.chunk.js.map",
     "625.dbeb6fdc.chunk.js.map": "/static/js/625.dbeb6fdc.chunk.js.map",
     "453.de0be941.chunk.js.map": "/static/js/453.de0be941.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ca3ab00.css",
-    "static/js/main.153028cb.js"
+    "static/js/main.4a67cec9.js"
   ]
 }
