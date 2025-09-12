@@ -9,14 +9,38 @@ import portpic from "../images/portf2025.png";
 import clipzPic from "../images/clipzPic.png";
 import imgEffPic from "../images/imgEffectPic.png";
 import termFindPic from "../images/termFinder.png";
-import mathmaticaPic from "../images/mathmatica.png";
+import mathmaticaPic from "../images/mathmatica2.png";
+import mnTourPic from "../images/mntour.png";
 const projects = [
+  {
+    id: 15,
+    title: "Mathmatica",
+    date: "Winter 2025",
+    description:
+      "My eldest daughter is in 4th grade. She told me she wanted to be the fastest in her class at solving multipication problems and wished she had a way she could practice beyond the worksheets she gets at school. For me, this sounded like the perfect coding challenge to spruce up on my web development essentials and a chance to inspire my kids with code. That is how Mathmatica came about.",
+    techStack: ["JavaScript", "CSS", "HTML", "Bootstrap", "GitHub"],
+    liveLink: "https://archonology.github.io/Mathmatica/",
+    repoLink: "https://github.com/archonology/Mathmatica",
+    image: mathmaticaPic,
+  },
+  {
+    id: 11,
+    title: "Minnesota Tourism",
+    date: "August 2025",
+    description:
+      "A responsive tourism website that populates real time weather and handles form submissions.",
+    techStack: ["JavaScript", "CSS", "HTML", "Web API"],
+    liveLink:
+      "https://d277-front-end-web-development-3d8257.gitlab.io/pages/stpaul.html",
+    // repoLink: "https://github.com/archonology/clipz-for-Gamers/",
+    image: mnTourPic,
+  },
   {
     id: 9,
     title: "Clipz For Gamers",
     date: "March 2024 - Present",
     description:
-      "Clipz has been a massive undertaking to implement many tools and get at every corner of Angular (pun intended). It allows users to create accounts, view gaming videos others have uploaded, and upload their own short gaming videos.",
+      "Allows users to create accounts, view gaming videos others have uploaded, and upload their own short gaming videos.",
     techStack: [
       "Angular",
       "TypeScript",
@@ -30,17 +54,6 @@ const projects = [
     liveLink: "https://clipz-for-gamers.vercel.app/",
     repoLink: "https://github.com/archonology/clipz-for-Gamers/",
     image: clipzPic,
-  },
-  {
-    id: 15,
-    title: "Mathmatica",
-    date: "Winter 2025",
-    description:
-      "My eldest daughter is in 4th grade. She told me she wanted to be the fastest in her class at solving multipication problems and wished she had a way she could practice beyond the worksheets she gets at school. For me, this sounded like the perfect coding challenge to spruce up on my web development essentials and a chance to inspire my kids with code. That is how Mathmatica came about.",
-    techStack: ["JavaScript", "CSS", "HTML", "Bootstrap", "GitHub"],
-    liveLink: "https://archonology.github.io/Mathmatica/",
-    repoLink: "https://github.com/archonology/Mathmatica",
-    image: mathmaticaPic,
   },
   {
     id: 10,
@@ -62,7 +75,7 @@ const projects = [
   },
   {
     id: 1,
-    title: "The Childwelfare Portal",
+    title: "The Child Welfare Portal",
     date: "January 2023 - Present",
     description: `Child welfare social workers rely on access to an sea of ever changing resources in their important work of supporting children and families. There is no centralized resource hub for their work, and what hubs there suffer from being out of date, static websites. It is essential that child welfare workers can find resources and learn from up to date sources. 
 
@@ -89,7 +102,7 @@ While in ongoing development, the CWP is fully functional and is being improved 
   },
   {
     id: 2,
-    title: "Prima-Materia",
+    title: "Prima Materia",
     date: "December 2022",
     description:
       "Reed was assistant-lead developer, backend designer, and implemented the third party fetch API functionality on this deckbuilding application. Users can search cards, create decks, manage a favorites list, and conduct random searches on the 'Mystery Card' page. Prima-materia was built by a team of four developers.",

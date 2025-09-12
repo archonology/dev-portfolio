@@ -55,7 +55,7 @@ const education = [
     dates: "01/2024 - 05/2024",
     status: "",
     description:
-      "Information Science foundations, UX/UI testing, WCAG 2 Accessibility Testing, Python coding, WordPress, technical writing, and web development.",
+      "Information Science foundations, UX/UI testing, WCAG 2 Accessibility Testing, Python coding, WordPress, technical writing, and web development 12 credits completed.",
     gpa: "3.92",
     link: "https://uwm.edu/informationstudies/academic-programs/information-science-and-technology/",
     certificate: "",
