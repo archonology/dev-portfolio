@@ -23,18 +23,18 @@ const projects = [
     repoLink: "https://github.com/archonology/Mathmatica",
     image: mathmaticaPic,
   },
-  {
-    id: 11,
-    title: "Minnesota Tourism",
-    date: "August 2025",
-    description:
-      "A responsive tourism website that populates real time weather and handles form submissions.",
-    techStack: ["JavaScript", "CSS", "HTML", "Web API"],
-    liveLink:
-      "https://d277-front-end-web-development-3d8257.gitlab.io/pages/stpaul.html",
-    // repoLink: "https://github.com/archonology/clipz-for-Gamers/",
-    image: mnTourPic,
-  },
+  // {
+  //   id: 11,
+  //   title: "Minnesota Tourism",
+  //   date: "August 2025",
+  //   description:
+  //     "A responsive tourism website that populates real time weather and handles form submissions.",
+  //   techStack: ["JavaScript", "CSS", "HTML", "Web API"],
+  //   liveLink:
+  //     "https://d277-front-end-web-development-3d8257.gitlab.io/pages/stpaul.html",
+  //   // repoLink: "https://github.com/archonology/clipz-for-Gamers/",
+  //   image: mnTourPic,
+  // },
   {
     id: 9,
     title: "Clipz For Gamers",
@@ -168,17 +168,17 @@ The website was completely redesign and launched with board approval in less tha
     liveLink: "https://www.violencepreventioncenter.org/",
     image: vpc,
   },
-  {
-    id: 5,
-    title: "Home Party",
-    date: "November 2022",
-    description:
-      "Home Party provides a way to save the real estate you're tracking, pair them with styles and furnishings, and share what you find with friends and family.",
-    techStack: ["MySQL", "Handlebars", "Express", "Sequelize", "EmailJS"],
-    liveLink: "https://home-party-app.herokuapp.com",
-    repoLink: "https://github.com/archonology/Home-Party",
-    image: homeParty,
-  },
+  // {
+  //   id: 5,
+  //   title: "Home Party",
+  //   date: "November 2022",
+  //   description:
+  //     "Home Party provides a way to save the real estate you're tracking, pair them with styles and furnishings, and share what you find with friends and family.",
+  //   techStack: ["MySQL", "Handlebars", "Express", "Sequelize", "EmailJS"],
+  //   liveLink: "https://home-party-app.herokuapp.com",
+  //   repoLink: "https://github.com/archonology/Home-Party",
+  //   image: homeParty,
+  // },
   {
     id: 6,
     title: "Reed's Blog",

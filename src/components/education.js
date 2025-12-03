@@ -1,14 +1,13 @@
 const education = [
   {
     id: 6,
-    award: "BS/MS in Software Engineering",
+    award: "BS/MS in Information Technology",
     institution: "Western Governors University",
     dates: "06/2025 - Present",
     status: "current student",
-    description:
-      "Accelerated competency-based degree program. The graduate will advance their knowledge and skills through a practical, real-world program based on sound principles of Software Engineering.This program revolves around the following primary themes: communication, technical competence, and strategic vision.",
+    description: "Accelerated competency-based degree program.",
     gpa: "",
-    link: "https://www.wgu.edu/online-it-degrees/software-engineering-bachelors-program/accelerated.html",
+    link: "https://www.wgu.edu/online-it-degrees/information-technology-management-masters-program.html",
     certificate: "",
     linkTitle: "Program Home Page",
     type: "",

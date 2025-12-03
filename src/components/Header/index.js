@@ -45,7 +45,7 @@ export default function Header() {
     <>
       <header>
         <h1>REED MEHER</h1>
-        <h2>MeherDevs LLC. // Writing & Coding</h2>
+        <h2>MeherDevs LLC. // Web & Writing Development</h2>
         <nav>
           <ul>
             <li>

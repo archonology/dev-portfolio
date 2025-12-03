@@ -29,11 +29,9 @@ const HomeBody = () => {
       <section className="aboutbox">
         <div id="abouttext">
           <p>
-            Reed is all about communication, creativity, tenacity, and the
-            pursuit of solutions. He lives by the value that there is always
-            more to learn and more to share. In this portfolio, you will find
-            projects he has built with code and words he has written by the
-            precepts of technical writing.{" "}
+            Reed is dedicated to communication, creativity, tenacity, and the
+            pursuit of innovative solutions. He lives by the value that there is
+            always more to learn and more to share.{" "}
           </p>
           {/* <br />
           // <p>
@@ -101,8 +99,8 @@ const HomeBody = () => {
             duration={5000}
           ></Image>
           <figcaption style={{ marginTop: "1rem" }}>
-            Reed is based in Minnesota with his wife, three daugthers, a big
-            golden dog, and a noisy tuxedo cat.
+            Reed is based in Saint Paul, MN with his wife, three daugthers, a
+            big golden dog, and a noisy tuxedo cat.
           </figcaption>
         </figure>
       </section>
