@@ -18,14 +18,14 @@ import bJamPic from "../../images/areportBjam.png";
 import galTrain from "../../images/galTrainingPic.png";
 import galPdf from "../../pdfs/GAL_Training_Hanbook_ReDux_2025.pdf";
 const writings = [
-  {
-    id: 17,
-    title: "4th District Guardian ad Litem Training Handbook",
-    date: "May 2025 - June 2025",
-    desc: "Lead technical writer for a training manual to be used by court advocates. Worked with management and the legal team to create this manual and supporting curriculum for new guardians ad litem. Created in my role as a GAL supervisor for Minnesota's largest judicial district.",
-    pdf: galPdf,
-    image: galTrain,
-  },
+  // {
+  //   id: 17,
+  //   title: "4th District Guardian ad Litem Training Handbook",
+  //   date: "May 2025 - June 2025",
+  //   desc: "Lead technical writer for a training manual to be used by court advocates. Worked with management and the legal team to create this manual and supporting curriculum for new guardians ad litem. Created in my role as a GAL supervisor for Minnesota's largest judicial district.",
+  //   pdf: galPdf,
+  //   image: galTrain,
+  // },
   {
     id: 2,
     title: "Step-by-Step Guide to Managing a WordPress Blog",
@@ -98,15 +98,15 @@ const writings = [
     pdf: heuristic,
     image: heurPic,
   },
-  {
-    id: 3,
-    title:
-      "Reimagining Information and the DIKW Pyramid for The Age of Plasticity",
-    date: "February 2024",
-    desc: "I believe that a more enlightened, elemental, and natural definition of the components of the DIKW pyramid could greatly help humanity as we navigate into ever more subtle realms of information, computer science, artificial intelligence, and the regions beyond.",
-    pdf: reImagine,
-    image: reimageinePic,
-  },
+  // {
+  //   id: 3,
+  //   title:
+  //     "Reimagining Information and the DIKW Pyramid for The Age of Plasticity",
+  //   date: "February 2024",
+  //   desc: "I believe that a more enlightened, elemental, and natural definition of the components of the DIKW pyramid could greatly help humanity as we navigate into ever more subtle realms of information, computer science, artificial intelligence, and the regions beyond.",
+  //   pdf: reImagine,
+  //   image: reimageinePic,
+  // },
 ];
 
 export default writings;
